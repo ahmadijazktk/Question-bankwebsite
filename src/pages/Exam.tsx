@@ -96,8 +96,14 @@ const Exam = () => {
         const transformed = questionsList.map((q: ApiQuestion): Question => {
           let imageSrc = undefined;
           if (q.image) {
-            const lower = q.image.toLowerCase();
-            imageSrc = imageBasenameToUrl[lower];
+            // Check if it's an absolute URL
+            if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
+              imageSrc = q.image;
+            } else {
+              // Otherwise try to map from local bundle
+              const lower = q.image.split('/').pop()?.toLowerCase() || "";
+              imageSrc = imageBasenameToUrl[lower];
+            }
           }
 
           return {
