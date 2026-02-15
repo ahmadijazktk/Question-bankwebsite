@@ -44,7 +44,7 @@ const Checkout = () => {
         if (response.success && response.data) {
           const plans = response.data.plans;
           const categoryPlans = plans[category];
-          
+
           if (categoryPlans && categoryPlans[plan]) {
             const categoryTitles: Record<string, string> = {
               "anatomic-clinical": "Anatomic and Clinical Pathology",
@@ -77,7 +77,7 @@ const Checkout = () => {
 
   const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!category || !plan) {
       toast({
         title: "Error",
@@ -149,8 +149,8 @@ const Checkout = () => {
     <div className="min-h-screen bg-muted/30">
       <div className="container mx-auto px-6 py-8">
         <div className="max-w-5xl mx-auto">
-          <Link 
-            to="/subscription" 
+          <Link
+            to="/subscription"
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-8"
           >
             <ArrowLeft className="h-4 w-4" />
@@ -160,11 +160,12 @@ const Checkout = () => {
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Left Column - Order Summary */}
             <div className="space-y-6">
+
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 bg-primary rounded flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold">V</span>
+                  <span className="text-primary-foreground font-bold">R</span>
                 </div>
-                <span className="font-semibold text-lg">Ventrad LLC</span>
+                <span className="font-semibold text-lg">RheumZoom</span>
               </div>
 
               <div>
@@ -276,8 +277,8 @@ const Checkout = () => {
                     <div className="space-y-2">
                       <Label>Card information</Label>
                       <div className="relative">
-                        <Input 
-                          placeholder="1234 1234 1234 1234" 
+                        <Input
+                          placeholder="1234 1234 1234 1234"
                           className="pr-32"
                         />
                         <div className="absolute right-3 top-1/2 -translate-y-1/2 flex gap-1">
@@ -288,13 +289,13 @@ const Checkout = () => {
                         </div>
                       </div>
                       <div className="grid grid-cols-2 gap-0 border border-border rounded-md overflow-hidden">
-                        <Input 
-                          placeholder="MM / YY" 
+                        <Input
+                          placeholder="MM / YY"
                           className="border-0 border-r rounded-none"
                         />
                         <div className="relative">
-                          <Input 
-                            placeholder="CVC" 
+                          <Input
+                            placeholder="CVC"
                             className="border-0 rounded-none pr-10"
                           />
                           <CreditCard className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -353,16 +354,16 @@ const Checkout = () => {
                       <Input placeholder="City" />
                       <Input placeholder="Postal code" />
                     </div>
-                    
+
                     <div className="space-y-2 pt-2">
                       <div className="relative">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                        <Input 
-                          placeholder="Search for your bank" 
+                        <Input
+                          placeholder="Search for your bank"
                           className="pl-10"
                         />
                       </div>
-                      
+
                       <div className="grid grid-cols-4 gap-3 pt-2">
                         {[
                           { name: "Chase", color: "bg-blue-600" },
@@ -382,11 +383,10 @@ const Checkout = () => {
                             key={bank.name}
                             type="button"
                             onClick={() => setSelectedBank(bank.name)}
-                            className={`flex flex-col items-center gap-2 p-3 rounded-lg border-2 transition-all hover:border-primary ${
-                              selectedBank === bank.name 
-                                ? "border-primary bg-primary/5" 
-                                : "border-border bg-card"
-                            }`}
+                            className={`flex flex-col items-center gap-2 p-3 rounded-lg border-2 transition-all hover:border-primary ${selectedBank === bank.name
+                              ? "border-primary bg-primary/5"
+                              : "border-border bg-card"
+                              }`}
                           >
                             <div className={`w-12 h-12 ${bank.color} rounded-lg flex items-center justify-center`}>
                               <Building2 className="h-6 w-6 text-white" />
@@ -402,13 +402,13 @@ const Checkout = () => {
                 )}
 
                 <div className="flex items-start gap-2">
-                  <Checkbox 
-                    id="saveInfo" 
+                  <Checkbox
+                    id="saveInfo"
                     checked={saveInfo}
                     onCheckedChange={(checked) => setSaveInfo(checked as boolean)}
                   />
                   <Label htmlFor="saveInfo" className="text-sm cursor-pointer">
-                    Save my information for faster checkout. Pay securely at Ventrad LLC and everywhere{" "}
+                    Save my information for faster checkout. Pay securely at RheumZoom and everywhere{" "}
                     <span className="text-primary hover:underline">Link</span> is accepted.
                   </Label>
                 </div>
@@ -418,7 +418,7 @@ const Checkout = () => {
                 </Button>
 
                 <p className="text-xs text-center text-muted-foreground">
-                  By subscribing, you authorize Ventrad LLC to charge you according to the terms until you cancel.
+                  By subscribing, you authorize RheumZoom to charge you according to the terms until you cancel.
                 </p>
 
                 <div className="flex justify-center gap-4 text-xs text-muted-foreground">

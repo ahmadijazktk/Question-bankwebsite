@@ -15,7 +15,7 @@ const router = express.Router();
 const createSubscriptionValidation = [
   body('category').isIn(['anatomic-clinical', 'anatomic', 'clinical', 'forensic', 'cytopathology'])
     .withMessage('Valid category is required'),
-  body('plan').isIn(['1m', '3m', '6m', '12m']).withMessage('Valid plan is required'),
+  body('plan').isIn(['1m', '3m', '12m']).withMessage('Valid plan is required'),
   body('paymentMethod').isIn(['card', 'cashapp', 'bank']).withMessage('Valid payment method is required')
 ];
 

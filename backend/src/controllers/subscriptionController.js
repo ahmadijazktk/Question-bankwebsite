@@ -3,48 +3,20 @@ import User from '../models/User.js';
 import { asyncHandler } from '../middlewares/asyncHandler.js';
 import { validationResult } from 'express-validator';
 
-// Pricing matrix
-const PRICING = {
-  'anatomic-clinical': {
-    '1m': 59.99,
-    '3m': 99.99,
-    '12m': 149.99
-  },
-  'anatomic': {
-    '1m': 59.99,
-    '3m': 99.99,
-    '12m': 149.99
-  },
-  'clinical': {
-    '1m': 59.99,
-    '3m': 99.99,
-    '12m': 149.99
-  },
-  'forensic': {
-    '1m': 59.99,
-    '3m': 99.99,
-    '12m': 149.99
-  },
-  'cytopathology': {
-    '1m': 59.99,
-    '3m': 99.99,
-    '12m': 149.99
-  }
-};
+import { PRICING, PLAN_DURATIONS } from '../config/pricing.js';
 
 /**
  * Calculate end date based on plan
  */
 const calculateEndDate = (startDate, plan) => {
-  const months = {
-    '1m': 1,
-    '3m': 3,
-    '6m': 6,
-    '12m': 12
-  };
-  
+  const months = PLAN_DURATIONS[plan];
+
+  if (!months) {
+    throw new Error('Invalid plan duration');
+  }
+
   const endDate = new Date(startDate);
-  endDate.setMonth(endDate.getMonth() + months[plan]);
+  endDate.setMonth(endDate.getMonth() + months);
   return endDate;
 };
 

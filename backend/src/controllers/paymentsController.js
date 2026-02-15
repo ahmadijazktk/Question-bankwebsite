@@ -3,6 +3,8 @@ import Subscription from '../models/Subscription.js';
 import User from '../models/User.js';
 import { asyncHandler } from '../middlewares/asyncHandler.js';
 
+import { PRICING, PLAN_DURATIONS } from '../config/pricing.js';
+
 let stripeClient;
 
 const getStripeClient = () => {
@@ -23,19 +25,15 @@ const getStripeClient = () => {
   return stripeClient;
 };
 
-// Pricing matrix mirrors subscriptionController
-const PRICING = {
-  'anatomic-clinical': { '1m': 159, '3m': 399, '6m': 699, '12m': 1199 },
-  'anatomic': { '1m': 99, '3m': 249, '6m': 449, '12m': 799 },
-  'clinical': { '1m': 89, '3m': 229, '6m': 399, '12m': 699 },
-  'forensic': { '1m': 69, '3m': 179, '6m': 299, '12m': 499 },
-  'cytopathology': { '1m': 59, '3m': 149, '6m': 259, '12m': 449 }
-};
-
 const calculateEndDate = (startDate, plan) => {
-  const months = { '1m': 1, '3m': 3, '6m': 6, '12m': 12 };
+  const months = PLAN_DURATIONS[plan];
+
+  if (!months) {
+    throw new Error('Invalid plan duration');
+  }
+
   const endDate = new Date(startDate);
-  endDate.setMonth(endDate.getMonth() + months[plan]);
+  endDate.setMonth(endDate.getMonth() + months);
   return endDate;
 };
 
@@ -48,7 +46,7 @@ export const createCheckoutSession = asyncHandler(async (req, res) => {
   }
 
   const priceUsd = PRICING[category][plan];
-  const amountCents = priceUsd * 100;
+  const amountCents = Math.round(priceUsd * 100);
 
   const successUrl = `${process.env.FRONTEND_URL}/subscription?status=success`;
   const cancelUrl = `${process.env.FRONTEND_URL}/checkout?status=cancel`;
@@ -61,7 +59,7 @@ export const createCheckoutSession = asyncHandler(async (req, res) => {
         price_data: {
           currency: 'usd',
           product_data: {
-            name: `PathDojo ${category} (${plan})`,
+            name: `RheumZoom ${category} (${plan})`,
             description: 'Subscription access for selected category and duration',
           },
           unit_amount: amountCents,
