@@ -261,35 +261,58 @@ const Exam = () => {
                     dangerouslySetInnerHTML={{ __html: resolveImageSources(question.text) }}
                   />
 
-                  <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer} disabled={showAnswer}>
-                    <div className="space-y-3">
-                      {question.options.map((option, idx) => {
-                        const letter = getOptionLetter(idx);
-                        const isSelected = selectedAnswer === option.text;
-                        const isCorrect = showAnswer && canViewAnswer && correctAnswer === option.text;
-                        const isWrong = showAnswer && canViewAnswer && isSelected && !isCorrect;
-
-                        return (
-                          <div key={option.text + idx}
-                            className={`flex items-start p-3 rounded-lg border transition-all ${isCorrect
-                              ? 'border-green-500 bg-green-50/50 dark:bg-green-900/20'
-                              : isWrong
-                                ? 'border-red-500 bg-red-50/50 dark:bg-red-900/20'
-                                : isSelected
-                                  ? 'border-primary bg-primary/5'
-                                  : 'border-border/60 hover:bg-muted/50'
-                              }`}
-                          >
-                            <RadioGroupItem value={option.text} id={option.text + idx} />
-                            <Label htmlFor={option.text + idx} className="cursor-pointer flex-1 ml-3 text-base font-normal leading-relaxed">
-                              <span className="font-semibold mr-2 opacity-70">{letter})</span>
-                              {option.text}
-                            </Label>
-                          </div>
-                        );
-                      })}
+                  {question.options.length === 1 ? (
+                    <div className="flex flex-col items-center justify-center p-8 border-2 border-dashed border-border rounded-xl bg-muted/20">
+                      <p className="text-muted-foreground mb-4 text-center">This is a flashcard-style question.</p>
+                      <Button
+                        onClick={() => {
+                          setSelectedAnswer(question.options[0].text);
+                          // We need to set state to trigger the "Show Answer" logic effectively or just call the handler directly if designed that way.
+                          // But handleShowAnswer depends on selectedAnswer being set. 
+                          // React state update is async, so we can't call handleShowAnswer immediately after setSelectedAnswer in the same closure easily without useEffect or a wrapper.
+                          // Actually, better to just let user click "Show Answer" below, or auto-submit?
+                          // The user flow: Click "I'm ready" -> Answer Revealed.
+                          // But our "Show Answer" button is below.
+                          // Let's just AUTO-SELECT the only option so the "Show Answer" button becomes active and meaningful.
+                          setSelectedAnswer(question.options[0].text);
+                        }}
+                        variant={selectedAnswer === question.options[0].text ? "default" : "outline"}
+                        className="w-full sm:w-auto"
+                      >
+                        {selectedAnswer ? "Ready to Reveal" : "I have the answer in mind"}
+                      </Button>
                     </div>
-                  </RadioGroup>
+                  ) : (
+                    <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer} disabled={showAnswer}>
+                      <div className="space-y-3">
+                        {question.options.map((option, idx) => {
+                          const letter = getOptionLetter(idx);
+                          const isSelected = selectedAnswer === option.text;
+                          const isCorrect = showAnswer && canViewAnswer && correctAnswer === option.text;
+                          const isWrong = showAnswer && canViewAnswer && isSelected && !isCorrect;
+
+                          return (
+                            <div key={option.text + idx}
+                              className={`flex items-start p-3 rounded-lg border transition-all ${isCorrect
+                                ? 'border-green-500 bg-green-50/50 dark:bg-green-900/20'
+                                : isWrong
+                                  ? 'border-red-500 bg-red-50/50 dark:bg-red-900/20'
+                                  : isSelected
+                                    ? 'border-primary bg-primary/5'
+                                    : 'border-border/60 hover:bg-muted/50'
+                                }`}
+                            >
+                              <RadioGroupItem value={option.text} id={option.text + idx} />
+                              <Label htmlFor={option.text + idx} className="cursor-pointer flex-1 ml-3 text-base font-normal leading-relaxed">
+                                <span className="font-semibold mr-2 opacity-70">{letter})</span>
+                                {option.text}
+                              </Label>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </RadioGroup>
+                  )}
 
                   <div className="mt-8">
                     {!showAnswer ? (

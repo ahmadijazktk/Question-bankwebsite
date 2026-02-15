@@ -32,9 +32,9 @@ const questionSchema = new mongoose.Schema({
     required: true,
     validate: {
       validator: function (options) {
-        return options.length >= 2 && options.some(opt => opt.isCorrect === true);
+        return options.length >= 1 && options.some(opt => opt.isCorrect === true);
       },
-      message: 'Question must have at least 2 options and one correct answer'
+      message: 'Question must have at least 1 option and one correct answer'
     }
   },
   summary: {
