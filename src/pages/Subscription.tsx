@@ -41,7 +41,7 @@ const Subscription = () => {
 
         if (plansRes.success && plansRes.data) {
           const plansData = plansRes.data.plans;
-          
+
           const categoryTitles: Record<string, string> = {
             "anatomic-clinical": "Vasculitides and Dermatology",
             "anatomic": "Histology essentials",
@@ -105,7 +105,7 @@ const Subscription = () => {
   const handleUpgrade = () => {
     const selectedCategory = Object.keys(selectedPlans)[0];
     const selectedPlan = selectedPlans[selectedCategory];
-    
+
     if (selectedCategory && selectedPlan) {
       const category = categories.find(c => c.id === selectedCategory);
       navigate(`/checkout?category=${encodeURIComponent(category?.id || '')}&plan=${selectedPlan}`);
@@ -124,7 +124,7 @@ const Subscription = () => {
               <SidebarTrigger />
             </div>
           </div>
-          
+
           <div className="p-8">
             <div className="grid lg:grid-cols-3 gap-8 mb-8">
               <div className="lg:col-span-2">
@@ -174,41 +174,41 @@ const Subscription = () => {
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {categories.map((category) => (
-                <Card key={category.id} className={category.featured ? "border-primary border-2" : ""}>
-                  <CardHeader>
-                    <CardTitle className="text-lg">{category.title}</CardTitle>
-                    <p className="text-sm text-muted-foreground">{category.questions}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-4">
-                      <div>
-                        <label className="text-sm font-medium mb-2 block">Select an option</label>
-                        <Select 
-                          value={selectedPlans[category.id]} 
-                          onValueChange={(value) => handlePlanSelect(category.id, value)}
-                        >
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select a plan:" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {Object.entries(category.plans).map(([key, plan]) => (
-                              <SelectItem key={key} value={key}>
-                                {plan.label} - ${plan.price}.00 USD/month
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
+                  <Card key={category.id} className={category.featured ? "border-primary border-2" : ""}>
+                    <CardHeader>
+                      <CardTitle className="text-lg">{category.title}</CardTitle>
+                      <p className="text-sm text-muted-foreground">{category.questions}</p>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="space-y-4">
+                        <div>
+                          <label className="text-sm font-medium mb-2 block">Select an option</label>
+                          <Select
+                            value={selectedPlans[category.id]}
+                            onValueChange={(value) => handlePlanSelect(category.id, value)}
+                          >
+                            <SelectTrigger>
+                              <SelectValue placeholder="Select a plan:" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              {Object.entries(category.plans).map(([key, plan]) => (
+                                <SelectItem key={key} value={key}>
+                                  {plan.label} - ${plan.price} USD
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
             )}
 
             <div className="mt-8 flex justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="px-12"
                 disabled={!hasSelectedPlan}
                 onClick={handleUpgrade}

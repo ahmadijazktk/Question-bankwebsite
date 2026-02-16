@@ -215,10 +215,9 @@ GET /api/subscriptions/plans
   "data": {
     "plans": {
       "anatomic-clinical": {
-        "1m": 159,
-        "3m": 399,
-        "6m": 699,
-        "12m": 1199
+        "1m": 59.99,
+        "3m": 99.99,
+        "12m": 149.99
       },
       ...
     }
