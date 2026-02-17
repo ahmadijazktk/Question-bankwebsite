@@ -277,23 +277,25 @@ const Exam = () => {
                   {question.options.length === 1 ? (
                     <div className="flex flex-col items-center justify-center p-8 border-2 border-dashed border-border rounded-xl bg-muted/20">
                       <p className="text-muted-foreground mb-4 text-center">This is a flashcard-style question.</p>
-                      <Button
-                        onClick={() => {
-                          setSelectedAnswer(question.options[0].text);
-                          // We need to set state to trigger the "Show Answer" logic effectively or just call the handler directly if designed that way.
-                          // But handleShowAnswer depends on selectedAnswer being set. 
-                          // React state update is async, so we can't call handleShowAnswer immediately after setSelectedAnswer in the same closure easily without useEffect or a wrapper.
-                          // Actually, better to just let user click "Show Answer" below, or auto-submit?
-                          // The user flow: Click "I'm ready" -> Answer Revealed.
-                          // But our "Show Answer" button is below.
-                          // Let's just AUTO-SELECT the only option so the "Show Answer" button becomes active and meaningful.
-                          setSelectedAnswer(question.options[0].text);
-                        }}
-                        variant={selectedAnswer === question.options[0].text ? "default" : "outline"}
-                        className="w-full sm:w-auto"
-                      >
-                        {selectedAnswer ? "Ready to Reveal" : "I have the answer in mind"}
-                      </Button>
+                      {!showAnswer ? (
+                        <Button
+                          onClick={() => {
+                            // Automatically select the only option and show it
+                            setSelectedAnswer(question.options[0].text);
+                            // We use a small timeout to ensure state is set before calling the handler
+                            setTimeout(() => handleShowAnswer(), 50);
+                          }}
+                          className="w-full sm:w-auto"
+                          size="lg"
+                          disabled={submitting}
+                        >
+                          {submitting ? "Revealing..." : "Reveal Answer"}
+                        </Button>
+                      ) : (
+                        <div className="text-primary font-bold flex items-center gap-2">
+                          <CheckCircle className="w-5 h-5" /> Answer Revealed
+                        </div>
+                      )}
                     </div>
                   ) : (
                     <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer} disabled={showAnswer}>
@@ -301,8 +303,8 @@ const Exam = () => {
                         {question.options.map((option, idx) => {
                           const letter = getOptionLetter(idx);
                           const isSelected = selectedAnswer === option.text;
-                          const isCorrect = showAnswer && canViewAnswer && correctAnswer === option.text;
-                          const isWrong = showAnswer && canViewAnswer && isSelected && !isCorrect;
+                          const isCorrect = showAnswer && isSubscribed && (correctAnswer === option.text);
+                          const isWrong = showAnswer && isSubscribed && isSelected && !isCorrect;
 
                           return (
                             <div key={option.text + idx}
@@ -328,22 +330,27 @@ const Exam = () => {
                   )}
 
                   <div className="mt-8">
-                    {!showAnswer ? (
+                    {/* Show Answer button only for Multiple Choice (options > 1) */}
+                    {!showAnswer && question.options.length > 1 && (
                       <div className="flex flex-col gap-4">
                         <Button onClick={handleShowAnswer} disabled={!selectedAnswer || submitting} className="w-full sm:w-auto" size="lg">
                           {submitting ? "Checking..." : "Show Answer"}
                         </Button>
                       </div>
-                    ) : (
+                    )}
+
+                    {showAnswer && (
                       <div className="animate-in fade-in zoom-in-95 duration-300">
                         {canViewAnswer ? (
                           <div className="space-y-6">
                             <div className="p-4 rounded-xl bg-muted/30 border border-border">
                               <div className="flex items-center gap-2 text-green-600 dark:text-green-400 font-bold text-lg mb-2">
-                                <CheckCircle className="w-5 h-5" /> Correct Answer
+                                <CheckCircle className="w-5 h-4" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
                               </div>
                               <div className="font-medium text-lg leading-snug">
-                                {correctOptionIndex !== -1 && <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>}
+                                {correctOptionIndex !== -1 && question.options.length > 1 && (
+                                  <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
+                                )}
                                 {correctAnswer}
                               </div>
                               {correctExplanation && (
