@@ -1,4 +1,5 @@
 import Question from '../models/Question.js';
+import User from '../models/User.js';
 import { asyncHandler } from '../middlewares/asyncHandler.js';
 import { validationResult } from 'express-validator';
 

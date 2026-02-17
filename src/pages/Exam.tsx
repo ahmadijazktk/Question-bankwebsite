@@ -81,7 +81,7 @@ const Exam = () => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [timeSpent, setTimeSpent] = useState(0);
-  const [isSubscribed] = useState(hasActiveSubscription());
+  const [isSubscribed, setIsSubscribed] = useState(hasActiveSubscription());
   const { toast } = useToast();
 
   const question = questions[currentQuestionIndex];
@@ -90,6 +90,13 @@ const Exam = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
+        // Refresh subscription status from server to catch recent payments
+        const profileResponse = await apiGet<any>("/auth/profile");
+        if (profileResponse.success && profileResponse.data?.user) {
+          localStorage.setItem('user', JSON.stringify(profileResponse.data.user));
+          setIsSubscribed(!!(profileResponse.data.user.subscriptionStatus?.isActive));
+        }
+
         const response = await apiGet<any>("/questions?limit=50");
         const questionsList = response.data?.questions || [];
 
@@ -155,8 +162,14 @@ const Exam = () => {
           question.options.find(opt => opt.isCorrect)?.text || null;
 
         setCorrectAnswer(correctAnswerText);
-        setCorrectExplanation(question.summary || response.data.attempt.explanation ||
-          question.options.find(opt => opt.isCorrect)?.explanation || null);
+
+        // Priority: option-specific explanation, then attempt explanation, then summary as a prefix/suffix
+        const mainExplanation = response.data.attempt.explanation ||
+          question.options.find(opt => opt.text === (response.data.attempt.correctAnswer || selectedAnswer))?.explanation ||
+          question.options.find(opt => opt.isCorrect)?.explanation || "";
+
+        const finalExplanation = mainExplanation + (question.summary ? `\n\n${question.summary}` : "");
+        setCorrectExplanation(finalExplanation || null);
 
         const selectedOption = question.options.find(opt => opt.text === selectedAnswer);
         setSelectedExplanation(selectedOption?.explanation || null);
