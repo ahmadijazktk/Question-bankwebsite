@@ -158,18 +158,37 @@ const Exam = () => {
       });
 
       if (response.success && response.data) {
-        const correctAnswerText = response.data.attempt.correctAnswer ||
-          question.options.find(opt => opt.isCorrect)?.text || null;
+        const attemptData = response.data.attempt;
+        const correctAnswerText = attemptData.correctAnswer ||
+          question.options.find(opt => opt.isCorrect)?.text || "N/A";
 
         setCorrectAnswer(correctAnswerText);
 
-        // Priority: option-specific explanation, then attempt explanation, then summary as a prefix/suffix
-        const mainExplanation = response.data.attempt.explanation ||
-          question.options.find(opt => opt.text === (response.data.attempt.correctAnswer || selectedAnswer))?.explanation ||
-          question.options.find(opt => opt.isCorrect)?.explanation || "";
+        // BUILD THE FULL EXPLANATION - MERGE ALL SOURCES
+        // 1. Get the primary explanation from the correct option
+        const correctOption = question.options.find(opt => opt.isCorrect) ||
+          question.options.find(opt => opt.text === attemptData.correctAnswer);
 
-        const finalExplanation = mainExplanation + (question.summary ? `\n\n${question.summary}` : "");
-        setCorrectExplanation(finalExplanation || null);
+        const optionExplanation = correctOption?.explanation || "";
+        const serverExplanation = attemptData.explanation || "";
+        const sourceSummary = question.summary || "";
+
+        // Merge them logically: Main Explanation + Details + Source
+        let finalExplanation = "";
+        if (serverExplanation) finalExplanation += serverExplanation;
+        if (optionExplanation && optionExplanation !== serverExplanation) {
+          finalExplanation += (finalExplanation ? "\n\n" : "") + optionExplanation;
+        }
+        if (sourceSummary) {
+          finalExplanation += (finalExplanation ? "\n\n" : "") + sourceSummary;
+        }
+
+        // Final fallback if everything is somehow empty
+        if (!finalExplanation.trim()) {
+          finalExplanation = "Detailed explanation available in the RheumZoom Anki Deck.";
+        }
+
+        setCorrectExplanation(finalExplanation);
 
         const selectedOption = question.options.find(opt => opt.text === selectedAnswer);
         setSelectedExplanation(selectedOption?.explanation || null);
