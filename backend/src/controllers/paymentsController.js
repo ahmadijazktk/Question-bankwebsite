@@ -37,6 +37,73 @@ const calculateEndDate = (startDate, plan) => {
   return endDate;
 };
 
+const activateSubscriptionForUser = async ({ userId, category, plan, price, stripeSessionId }) => {
+  console.log('🔄 ========== ACTIVATING SUBSCRIPTION ==========');
+  console.log('👤 User ID:', userId);
+  console.log('📦 Category:', category);
+  console.log('📅 Plan:', plan);
+  console.log('💰 Price:', price);
+  console.log('🔗 Stripe Session ID:', stripeSessionId);
+
+  const startDate = new Date();
+  const endDate = calculateEndDate(startDate, plan);
+  console.log('📅 Start Date:', startDate);
+  console.log('📅 End Date:', endDate);
+
+  // If we already created a subscription for this Stripe session, do nothing.
+  if (stripeSessionId) {
+    console.log('🔍 Checking for existing subscription with this session...');
+    const existing = await Subscription.findOne({
+      userId,
+      'paymentDetails.stripeSessionId': stripeSessionId,
+    });
+    if (existing) {
+      console.log('✅ Subscription already exists for this session:', existing._id);
+      return existing;
+    }
+    console.log('✅ No existing subscription found, proceeding...');
+  }
+
+  // Cancel existing actives
+  console.log('🚫 Cancelling existing active subscriptions...');
+  const cancelResult = await Subscription.updateMany({ userId, status: 'active' }, { status: 'cancelled' });
+  console.log('🚫 Cancelled', cancelResult.modifiedCount, 'subscriptions');
+
+  console.log('💾 Creating new subscription...');
+  const subscription = await Subscription.create({
+    userId,
+    category,
+    plan,
+    price: price ?? PRICING[category][plan],
+    status: 'active',
+    startDate,
+    endDate,
+    paymentMethod: 'card',
+    paymentDetails: stripeSessionId ? { stripeSessionId } : {},
+  });
+  console.log('✅ Subscription created:', subscription._id);
+
+  console.log('👤 Updating user subscription status...');
+  const userUpdate = await User.findByIdAndUpdate(userId, {
+    'subscriptionStatus.isActive': true,
+    'subscriptionStatus.category': category,
+    'subscriptionStatus.plan': plan,
+    'subscriptionStatus.startDate': startDate,
+    'subscriptionStatus.endDate': endDate,
+    'subscriptionStatus.autoRenew': false,
+  }, { new: true });
+
+  if (userUpdate) {
+    console.log('✅ User subscription status updated');
+    console.log('📊 User subscription status:', userUpdate.subscriptionStatus);
+  } else {
+    console.error('❌ Failed to update user subscription status');
+  }
+
+  console.log('🎉 ========== SUBSCRIPTION ACTIVATED ==========');
+  return subscription;
+};
+
 export const createCheckoutSession = asyncHandler(async (req, res) => {
   const { category, plan } = req.body;
   const stripe = getStripeClient();
@@ -48,7 +115,9 @@ export const createCheckoutSession = asyncHandler(async (req, res) => {
   const priceUsd = PRICING[category][plan];
   const amountCents = Math.round(priceUsd * 100);
 
-  const successUrl = `${process.env.FRONTEND_URL}/subscription?status=success`;
+  // Include the Stripe session id so the frontend can call confirm endpoint as a fallback
+  // (webhooks can be delayed/misconfigured in some environments).
+  const successUrl = `${process.env.FRONTEND_URL}/subscription?status=success&session_id={CHECKOUT_SESSION_ID}`;
   const cancelUrl = `${process.env.FRONTEND_URL}/checkout?status=cancel`;
 
   const session = await stripe.checkout.sessions.create({
@@ -77,6 +146,60 @@ export const createCheckoutSession = asyncHandler(async (req, res) => {
   });
 
   return res.json({ success: true, data: { url: session.url, sessionId: session.id } });
+});
+
+/**
+ * @route   POST /api/payments/confirm-checkout-session
+ * @desc    Confirm a Stripe checkout session and activate subscription (fallback if webhook not received)
+ */
+export const confirmCheckoutSession = asyncHandler(async (req, res) => {
+  const { sessionId } = req.body;
+  const stripe = getStripeClient();
+
+  if (!sessionId) {
+    return res.status(400).json({ success: false, message: 'sessionId is required' });
+  }
+
+  const session = await stripe.checkout.sessions.retrieve(sessionId);
+
+  // Only treat paid sessions as successful
+  if (session.payment_status !== 'paid') {
+    return res.status(400).json({
+      success: false,
+      message: `Checkout session not paid (status: ${session.payment_status})`,
+    });
+  }
+
+  const { userId, category, plan } = session.metadata || {};
+
+  // Ensure the session belongs to the authenticated user
+  if (!userId || String(userId) !== String(req.user._id)) {
+    return res.status(403).json({
+      success: false,
+      message: 'Session does not belong to authenticated user',
+    });
+  }
+
+  if (!category || !plan || !PRICING[category] || !PRICING[category][plan]) {
+    return res.status(400).json({ success: false, message: 'Invalid category or plan in session metadata' });
+  }
+
+  const priceCents = session.amount_total;
+  const price = priceCents ? Math.round(priceCents) / 100 : undefined;
+
+  const subscription = await activateSubscriptionForUser({
+    userId,
+    category,
+    plan,
+    price,
+    stripeSessionId: session.id,
+  });
+
+  return res.json({
+    success: true,
+    message: 'Subscription activated',
+    data: { subscription },
+  });
 });
 
 export const stripeWebhook = async (req, res) => {
@@ -108,31 +231,12 @@ export const stripeWebhook = async (req, res) => {
     const price = priceCents ? Math.round(priceCents) / 100 : undefined;
 
     if (userId && category && plan) {
-      const startDate = new Date();
-      const endDate = calculateEndDate(startDate, plan);
-
-      // Cancel existing actives
-      await Subscription.updateMany({ userId, status: 'active' }, { status: 'cancelled' });
-
-      const subscription = await Subscription.create({
+      await activateSubscriptionForUser({
         userId,
         category,
         plan,
-        price: price ?? PRICING[category][plan],
-        status: 'active',
-        startDate,
-        endDate,
-        paymentMethod: 'card',
-        paymentDetails: { stripeSessionId: session.id },
-      });
-
-      await User.findByIdAndUpdate(userId, {
-        'subscriptionStatus.isActive': true,
-        'subscriptionStatus.category': category,
-        'subscriptionStatus.plan': plan,
-        'subscriptionStatus.startDate': startDate,
-        'subscriptionStatus.endDate': endDate,
-        'subscriptionStatus.autoRenew': false,
+        price,
+        stripeSessionId: session.id,
       });
     }
   }

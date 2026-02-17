@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/AppSidebar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import medicalSymbol from "@/assets/medical.jpg";
-import { apiGet } from "@/lib/api";
+import { apiGet, apiPost } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
+import { saveAuthData } from "@/lib/auth";
 
 interface Plan {
   label: string;
@@ -24,6 +25,7 @@ interface Category {
 
 const Subscription = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const { toast } = useToast();
   const [billingPeriod, setBillingPeriod] = useState<"monthly" | "annual">("monthly");
   const [selectedPlans, setSelectedPlans] = useState<Record<string, string>>({});
@@ -94,6 +96,78 @@ const Subscription = () => {
 
     fetchData();
   }, [toast]);
+
+  useEffect(() => {
+    const status = searchParams.get("status");
+    if (status !== "success") return;
+
+    const sessionId = searchParams.get("session_id");
+
+    const refresh = async () => {
+      try {
+        const token = localStorage.getItem("token") || "";
+
+        if (sessionId) {
+          console.log("🔄 Confirming Stripe session:", sessionId);
+
+          toast({
+            title: "Processing your subscription...",
+            description: "Please wait while we activate your account.",
+          });
+
+          const confirmRes = await apiPost("/payments/confirm-checkout-session", { sessionId });
+          console.log("📦 Confirm response:", confirmRes);
+
+          if (!confirmRes.success) {
+            console.error("❌ Subscription confirmation failed:", confirmRes);
+            toast({
+              title: "Subscription Activation Pending",
+              description: "Your payment was successful. If your subscription doesn't activate in a few minutes, please refresh the page or contact support.",
+              variant: "default",
+            });
+          } else {
+            console.log("✅ Subscription confirmed successfully");
+            toast({
+              title: "🎉 Subscription Activated!",
+              description: "Your subscription is now active. Enjoy unlimited access to all questions!",
+            });
+          }
+        }
+
+        // Refresh user data
+        console.log("🔄 Refreshing user data...");
+        const meRes = await apiGet<{ user: any }>("/auth/me");
+        if (meRes.success && meRes.data?.user) {
+          saveAuthData(token, meRes.data.user);
+          console.log("✅ User data refreshed");
+        }
+
+        // Refresh subscription data
+        console.log("🔄 Refreshing subscription data...");
+        const subscriptionRes = await apiGet<{ subscription: any }>("/subscriptions/current");
+        if (subscriptionRes.success && subscriptionRes.data) {
+          setCurrentSubscription(subscriptionRes.data.subscription);
+          console.log("✅ Subscription data:", subscriptionRes.data.subscription);
+
+          if (subscriptionRes.data.subscription) {
+            toast({
+              title: "✅ All Set!",
+              description: "You can now access all premium features. Head to the Exam page to start learning!",
+            });
+          }
+        }
+      } catch (error: any) {
+        console.error("❌ Error confirming subscription:", error);
+        toast({
+          title: "Error",
+          description: error.message || "Failed to confirm subscription. Please refresh the page or contact support.",
+          variant: "destructive",
+        });
+      }
+    };
+
+    refresh();
+  }, [searchParams, toast]);
 
   const handlePlanSelect = (categoryId: string, planValue: string) => {
     setSelectedPlans(prev => ({
@@ -193,7 +267,7 @@ const Subscription = () => {
                             <SelectContent>
                               {Object.entries(category.plans).map(([key, plan]) => (
                                 <SelectItem key={key} value={key}>
-                                  {plan.label} - ${plan.price} USD
+                                  {plan.label} - ${plan.price.toFixed(2)} USD
                                 </SelectItem>
                               ))}
                             </SelectContent>

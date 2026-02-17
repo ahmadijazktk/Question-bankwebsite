@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticate } from '../middlewares/auth.js';
-import { createCheckoutSession } from '../controllers/paymentsController.js';
+import { createCheckoutSession, confirmCheckoutSession } from '../controllers/paymentsController.js';
 
 const router = express.Router();
 
@@ -8,6 +8,7 @@ const router = express.Router();
 router.use(authenticate);
 
 router.post('/create-checkout-session', createCheckoutSession);
+router.post('/confirm-checkout-session', confirmCheckoutSession);
 
 export default router;
 

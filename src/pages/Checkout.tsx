@@ -173,7 +173,7 @@ const Checkout = () => {
                   Subscribe to {planDetails.name}
                 </h1>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-bold">${planDetails.price}</span>
+                  <span className="text-4xl font-bold">${planDetails.price.toFixed(2)}</span>
                   <span className="text-muted-foreground">per {planDetails.period}</span>
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Checkout = () => {
                     <p className="font-medium">{planDetails.name}</p>
                     <p className="text-sm text-muted-foreground">Billed monthly</p>
                   </div>
-                  <span className="font-medium">${planDetails.price}</span>
+                  <span className="font-medium">${planDetails.price.toFixed(2)}</span>
                 </div>
 
                 <div className="border-t border-border pt-4">
@@ -203,7 +203,7 @@ const Checkout = () => {
                 <div className="border-t border-border pt-4">
                   <div className="flex justify-between text-lg font-bold">
                     <span>Total due today</span>
-                    <span>${planDetails.price}</span>
+                    <span>${planDetails.price.toFixed(2)}</span>
                   </div>
                 </div>
               </div>

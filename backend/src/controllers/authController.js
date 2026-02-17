@@ -69,24 +69,41 @@ export const login = asyncHandler(async (req, res) => {
 
   const { email, password } = req.body;
 
+  console.log('🔐 Login attempt for email:', email);
+
   // Find user
   const user = await User.findOne({ email });
   if (!user) {
+    console.log('❌ User not found:', email);
     return res.status(401).json({
       success: false,
       message: 'Invalid email or password'
     });
   }
+
+  console.log('✅ User found:', user._id);
 
   // Check password
-  const isMatch = await user.comparePassword(password);
-  if (!isMatch) {
-    return res.status(401).json({
+  try {
+    const isMatch = await user.comparePassword(password);
+    console.log('🔑 Password match result:', isMatch);
+    
+    if (!isMatch) {
+      console.log('❌ Password mismatch for user:', email);
+      return res.status(401).json({
+        success: false,
+        message: 'Invalid email or password'
+      });
+    }
+  } catch (error) {
+    console.error('❌ Error comparing password:', error);
+    return res.status(500).json({
       success: false,
-      message: 'Invalid email or password'
+      message: 'Error during authentication. Please try again.'
     });
   }
 
+  console.log('✅ Login successful for:', email);
   const token = generateToken(user._id);
 
   res.json({

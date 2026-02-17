@@ -58,25 +58,46 @@ const userSchema = new mongoose.Schema({
 });
 
 // Hash password before saving
-userSchema.pre('save', async function(next) {
+userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
-  
+
   try {
+    console.log('🔒 Hashing password for user:', this.email);
     const salt = await bcrypt.genSalt(10);
     this.password = await bcrypt.hash(this.password, salt);
+    console.log('✅ Password hashed successfully');
     next();
   } catch (error) {
+    console.error('❌ Error hashing password:', error);
     next(error);
   }
 });
 
 // Method to compare password
-userSchema.methods.comparePassword = async function(candidatePassword) {
-  return await bcrypt.compare(candidatePassword, this.password);
+userSchema.methods.comparePassword = async function (candidatePassword) {
+  try {
+    if (!candidatePassword) {
+      console.log('❌ No candidate password provided');
+      return false;
+    }
+
+    if (!this.password) {
+      console.log('❌ No stored password hash found');
+      return false;
+    }
+
+    console.log('🔍 Comparing passwords...');
+    const isMatch = await bcrypt.compare(candidatePassword, this.password);
+    console.log('🔑 Comparison result:', isMatch);
+    return isMatch;
+  } catch (error) {
+    console.error('❌ Error in comparePassword:', error);
+    return false;
+  }
 };
 
 // Remove password from JSON output
-userSchema.methods.toJSON = function() {
+userSchema.methods.toJSON = function () {
   const obj = this.toObject();
   delete obj.password;
   return obj;

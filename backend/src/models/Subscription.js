@@ -47,7 +47,8 @@ const subscriptionSchema = new mongoose.Schema({
   },
   paymentDetails: {
     last4: String,
-    bankName: String
+    bankName: String,
+    stripeSessionId: String
   }
 }, {
   timestamps: true

@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { ChevronLeft, ChevronRight, ZoomIn, CheckCircle } from "lucide-react";
 import { apiGet, apiPost } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
-import { hasActiveSubscription } from "@/lib/auth";
+import { saveAuthData, hasActiveSubscription } from "@/lib/auth";
 import { Link } from "react-router-dom";
 import {
   Dialog,
@@ -82,6 +82,7 @@ const Exam = () => {
   const [submitting, setSubmitting] = useState(false);
   const [timeSpent, setTimeSpent] = useState(0);
   const [isSubscribed, setIsSubscribed] = useState(hasActiveSubscription());
+  const [refreshing, setRefreshing] = useState(false);
   const { toast } = useToast();
 
   const question = questions[currentQuestionIndex];
@@ -94,26 +95,29 @@ const Exam = () => {
         const token = localStorage.getItem('token');
         if (token) {
           try {
-            // We do NOT use 'await' on the whole block to ensure questions load in parallel
-            const profileResponse = await apiGet<any>("/auth/me");
+            const [profileResponse, subRes] = await Promise.all([
+              apiGet<any>("/auth/me"),
+              apiGet<{ subscription: any }>("/subscriptions/current"),
+            ]);
+
             if (profileResponse.success && profileResponse.data?.user) {
-              localStorage.setItem('user', JSON.stringify(profileResponse.data.user));
-              setIsSubscribed(!!(profileResponse.data.user.subscriptionStatus?.isActive));
+              const user = profileResponse.data.user;
+              localStorage.setItem('user', JSON.stringify(user));
+
+              const active = !!(subRes.success && subRes.data?.subscription && new Date(subRes.data.subscription.endDate) > new Date());
+              setIsSubscribed(active || !!user.subscriptionStatus?.isActive);
             }
           } catch (authErr) {
             console.warn("Silent profile refresh failed:", authErr);
-            // Don't throw - just continue to loading questions
           }
-        } else {
-          setIsSubscribed(false);
         }
 
-        // 2. LOAD QUESTIONS (Increase limit to load the full bank for subscribers)
+        // 2. LOAD QUESTIONS
         const params = new URLSearchParams(window.location.search);
         const category = params.get("category");
         const categoryFilter = category ? `&category=${category}` : "";
 
-        console.log("Fetching questions with limit: 10000");
+        console.log("Fetching questions...");
         const response = await apiGet<any>(`/questions?limit=10000${categoryFilter}`);
         const questionsList = response.data?.questions || [];
 
@@ -163,6 +167,48 @@ const Exam = () => {
       setTimeSpent(prev => Math.floor((endTime - startTime) / 1000));
     };
   }, [currentQuestionIndex, question]);
+
+  const refreshSubscriptionStatus = async () => {
+    setRefreshing(true);
+    try {
+      console.log("🔄 Manually refreshing subscription status...");
+      const token = localStorage.getItem("token") || "";
+
+      const [meRes, subRes] = await Promise.all([
+        apiGet<{ user: any }>("/auth/me"),
+        apiGet<{ subscription: any }>("/subscriptions/current"),
+      ]);
+
+      if (meRes.success && meRes.data?.user) {
+        saveAuthData(token, meRes.data.user);
+      }
+
+      const active = !!(subRes.success && subRes.data?.subscription && new Date(subRes.data.subscription.endDate) > new Date());
+      setIsSubscribed(active);
+
+      if (active) {
+        toast({
+          title: "✅ Subscription Active!",
+          description: "You now have full access to all questions and answers!",
+        });
+      } else {
+        toast({
+          title: "No Active Subscription",
+          description: "Please purchase a subscription to unlock all features.",
+          variant: "default",
+        });
+      }
+    } catch (error: any) {
+      console.error("❌ Error refreshing subscription:", error);
+      toast({
+        title: "Error",
+        description: error.message || "Failed to refresh subscription status",
+        variant: "destructive",
+      });
+    } finally {
+      setRefreshing(false);
+    }
+  };
 
   const handleShowAnswer = async () => {
     if (!selectedAnswer || !question) return;
@@ -410,9 +456,20 @@ const Exam = () => {
                         ) : (
                           <div className="p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30 border border-indigo-100 dark:border-indigo-900 rounded-xl text-center space-y-4 shadow-sm">
                             <h3 className="font-bold text-lg text-indigo-950 dark:text-indigo-100">Want to see the correct answer?</h3>
-                            <Button asChild size="lg" className="bg-indigo-600 hover:bg-indigo-700">
-                              <Link to="/pricing">Upgrade to Premium</Link>
-                            </Button>
+                            <p className="text-sm text-muted-foreground">Just purchased a subscription? Click refresh below to update your access.</p>
+                            <div className="flex flex-col sm:flex-row gap-2 justify-center">
+                              <Button asChild size="lg" className="bg-indigo-600 hover:bg-indigo-700">
+                                <Link to="/pricing">Upgrade to Premium</Link>
+                              </Button>
+                              <Button
+                                onClick={refreshSubscriptionStatus}
+                                disabled={refreshing}
+                                variant="outline"
+                                size="lg"
+                              >
+                                {refreshing ? "Checking..." : "Refresh Subscription"}
+                              </Button>
+                            </div>
                           </div>
                         )}
                         <div className="mt-6 flex justify-between items-center">
