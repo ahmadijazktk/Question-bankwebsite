@@ -113,6 +113,7 @@ const Exam = () => {
         const category = params.get("category");
         const categoryFilter = category ? `&category=${category}` : "";
 
+        console.log("Fetching questions with limit: 10000");
         const response = await apiGet<any>(`/questions?limit=10000${categoryFilter}`);
         const questionsList = response.data?.questions || [];
 
