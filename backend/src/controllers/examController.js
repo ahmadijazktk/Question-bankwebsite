@@ -115,7 +115,15 @@ const updateUserProgress = async (userId, category, isCorrect, timeSpent) => {
   progress.totalStudyTime += timeSpent;
 
   // Update category stats
-  if (progress.categoryStats[category]) {
+  if (category) {
+    if (!progress.categoryStats) {
+      progress.categoryStats = {};
+    }
+
+    if (!progress.categoryStats[category]) {
+      progress.categoryStats[category] = { answered: 0, correct: 0 };
+    }
+
     progress.categoryStats[category].answered += 1;
     if (isCorrect) {
       progress.categoryStats[category].correct += 1;
