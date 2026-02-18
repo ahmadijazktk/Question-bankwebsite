@@ -16,31 +16,10 @@ export const getQuestions = asyncHandler(async (req, res) => {
 
   const skip = (parseInt(page) - 1) * parseInt(limit);
 
-  // Check subscription access if user is logged in
-  let hasAccess = false;
-  if (req.user) {
-    const user = await User.findById(req.user._id);
-    if (user && user.subscriptionStatus && user.subscriptionStatus.isActive) {
-      const { endDate } = user.subscriptionStatus;
-      if (endDate && new Date(endDate) > new Date()) {
-        hasAccess = true;
-      }
-    }
-  }
-
-  // If simple public fetch, just return list with correct answers hidden
-  // If we wanted to "Unlock" something specific for subscribers in the LIST view, we could.
-  // But usually, the "Unlock" happens on "Show Answer" or "Get Full Details".
-  // The user says: "must have access to the all questions". 
-  // This might mean REMOVE PAGINATION for subscribers? Or just enable the access.
-
-  // Let's stick to standard list fetch but ensure the `isCorrect` is definitely removed for security,
-  // unless we decide standard users can check answers client side (which allows cheating).
-  // Current logic: `.select('-options.isCorrect')` -> Answer checks must go to server.
-
+  // We always hide isCorrect in the list view for security. 
+  // Answers are checked via the /exam/answer endpoint.
   const questions = await Question.find(query)
-    .select(hasAccess ? '' : '-options.isCorrect') // Subscribers *could* get answers pre-loaded if we wanted, but safer to keep hiding
-    .select('-options.isCorrect') // Actually, let's always hide it in the list to prevent inspecting network tab
+    .select('-options.isCorrect')
     .skip(skip)
     .limit(parseInt(limit))
     .sort({ createdAt: -1 });
