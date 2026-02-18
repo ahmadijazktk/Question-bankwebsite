@@ -90,24 +90,25 @@ const Exam = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        // Refresh subscription status from server to catch recent payments
-        // We wrap this in its own try-catch so it doesn't break question fetching for guests
-        // Only attempt to refresh profile if we have a token
+        // 1. SILENT PROFILE REFRESH (Never blocks the page)
         const token = localStorage.getItem('token');
         if (token) {
           try {
+            // We do NOT use 'await' on the whole block to ensure questions load in parallel
             const profileResponse = await apiGet<any>("/auth/me");
             if (profileResponse.success && profileResponse.data?.user) {
               localStorage.setItem('user', JSON.stringify(profileResponse.data.user));
               setIsSubscribed(!!(profileResponse.data.user.subscriptionStatus?.isActive));
             }
-          } catch (authError) {
-            console.log("Auth session invalid, skipping refresh:", authError);
+          } catch (authErr) {
+            console.warn("Silent profile refresh failed:", authErr);
+            // Don't throw - just continue to loading questions
           }
         } else {
           setIsSubscribed(false);
         }
 
+        // 2. LOAD QUESTIONS (The main priority)
         const response = await apiGet<any>("/questions?limit=50");
         const questionsList = response.data?.questions || [];
 
