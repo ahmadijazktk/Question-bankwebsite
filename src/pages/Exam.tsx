@@ -333,8 +333,8 @@ const Exam = () => {
                         {question.options.map((option, idx) => {
                           const letter = getOptionLetter(idx);
                           const isSelected = selectedAnswer === option.text;
-                          const isCorrect = showAnswer && isSubscribed && (correctAnswer === option.text);
-                          const isWrong = showAnswer && isSubscribed && isSelected && !isCorrect;
+                          const isCorrect = showAnswer && canViewAnswer && (correctAnswer === option.text);
+                          const isWrong = showAnswer && canViewAnswer && isSelected && !isCorrect;
 
                           return (
                             <div key={option.text + idx}
