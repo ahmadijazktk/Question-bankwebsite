@@ -8,7 +8,7 @@ import { validationResult } from 'express-validator';
  * @desc    Get all questions with filters
  */
 export const getQuestions = asyncHandler(async (req, res) => {
-  const { category, difficulty, page = 1, limit = 50 } = req.query;
+  const { category, difficulty, page = 1, limit = 1000 } = req.query;
 
   const query = {};
   if (category) query.category = category;
