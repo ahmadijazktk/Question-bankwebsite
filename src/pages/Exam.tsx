@@ -175,6 +175,7 @@ const Exam = () => {
       });
 
       if (response.success && response.data) {
+        const attemptData = response.data.attempt;
         // CLEAN THE ANSWER TEXT (Hide "Show Answer" placeholders)
         let correctAnswerText = attemptData.correctAnswer ||
           question.options.find(opt => opt.isCorrect)?.text || "N/A";
