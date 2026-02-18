@@ -175,14 +175,17 @@ const Exam = () => {
       });
 
       if (response.success && response.data) {
-        const attemptData = response.data.attempt;
-        const correctAnswerText = attemptData.correctAnswer ||
+        // CLEAN THE ANSWER TEXT (Hide "Show Answer" placeholders)
+        let correctAnswerText = attemptData.correctAnswer ||
           question.options.find(opt => opt.isCorrect)?.text || "N/A";
+
+        if (correctAnswerText.toLowerCase() === "show answer" && question.options.length === 1) {
+          correctAnswerText = ""; // Hide it if it's just a placeholder for flashcards
+        }
 
         setCorrectAnswer(correctAnswerText);
 
         // BUILD THE FULL EXPLANATION - MERGE ALL SOURCES
-        // 1. Get the primary explanation from the correct option
         const correctOption = question.options.find(opt => opt.isCorrect) ||
           question.options.find(opt => opt.text === attemptData.correctAnswer);
 
@@ -190,19 +193,26 @@ const Exam = () => {
         const serverExplanation = attemptData.explanation || "";
         const sourceSummary = question.summary || "";
 
-        // Merge them logically: Main Explanation + Details + Source
+        // Merge them logically
         let finalExplanation = "";
-        if (serverExplanation) finalExplanation += serverExplanation;
-        if (optionExplanation && optionExplanation !== serverExplanation) {
+
+        // If the "Answer" was actually hidden in the explanation field, use it.
+        if (serverExplanation && serverExplanation.toLowerCase() !== "show answer") {
+          finalExplanation += serverExplanation;
+        }
+
+        if (optionExplanation && optionExplanation !== serverExplanation && optionExplanation.toLowerCase() !== "show answer") {
           finalExplanation += (finalExplanation ? "\n\n" : "") + optionExplanation;
         }
+
         if (sourceSummary) {
           finalExplanation += (finalExplanation ? "\n\n" : "") + sourceSummary;
         }
 
-        // Final fallback if everything is somehow empty
-        if (!finalExplanation.trim()) {
-          finalExplanation = "Detailed explanation available in the RheumZoom Anki Deck.";
+        // SMART FALLBACK: If we still have nothing but a "Show Answer" placeholder, 
+        // it means the medical reasoning is likely contained in the image or summary.
+        if (!finalExplanation.trim() || finalExplanation.toLowerCase() === "show answer") {
+          finalExplanation = "Review the associated medical chart/image for the detailed management protocol. Full details are synchronized with the RheumZoom Anki system.";
         }
 
         setCorrectExplanation(finalExplanation);
