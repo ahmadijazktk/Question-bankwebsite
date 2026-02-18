@@ -108,8 +108,12 @@ const Exam = () => {
           setIsSubscribed(false);
         }
 
-        // 2. LOAD QUESTIONS (The main priority)
-        const response = await apiGet<any>("/questions?limit=50");
+        // 2. LOAD QUESTIONS (Increase limit to load the full bank for subscribers)
+        const params = new URLSearchParams(window.location.search);
+        const category = params.get("category");
+        const categoryFilter = category ? `&category=${category}` : "";
+
+        const response = await apiGet<any>(`/questions?limit=10000${categoryFilter}`);
         const questionsList = response.data?.questions || [];
 
         const transformed = questionsList.map((q: ApiQuestion): Question => {
