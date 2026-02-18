@@ -91,10 +91,21 @@ const Exam = () => {
     const fetchQuestions = async () => {
       try {
         // Refresh subscription status from server to catch recent payments
-        const profileResponse = await apiGet<any>("/auth/profile");
-        if (profileResponse.success && profileResponse.data?.user) {
-          localStorage.setItem('user', JSON.stringify(profileResponse.data.user));
-          setIsSubscribed(!!(profileResponse.data.user.subscriptionStatus?.isActive));
+        // We wrap this in its own try-catch so it doesn't break question fetching for guests
+        // Only attempt to refresh profile if we have a token
+        const token = localStorage.getItem('token');
+        if (token) {
+          try {
+            const profileResponse = await apiGet<any>("/auth/me");
+            if (profileResponse.success && profileResponse.data?.user) {
+              localStorage.setItem('user', JSON.stringify(profileResponse.data.user));
+              setIsSubscribed(!!(profileResponse.data.user.subscriptionStatus?.isActive));
+            }
+          } catch (authError) {
+            console.log("Auth session invalid, skipping refresh:", authError);
+          }
+        } else {
+          setIsSubscribed(false);
         }
 
         const response = await apiGet<any>("/questions?limit=50");
