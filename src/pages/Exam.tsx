@@ -606,17 +606,17 @@ const Exam = () => {
                               </p>
                             </div>
                           ) : (
-                            <div className="flex flex-col gap-4 p-4 w-full">
+                            <div className={`p-4 w-full ${question.image2Src ? 'grid grid-cols-2 gap-4' : 'flex flex-col gap-4 items-center'}`}>
                               <img
                                 src={question.imageSrc}
                                 alt={question.imageAlt}
-                                className="w-full h-auto object-contain max-h-[500px]"
+                                className="w-full h-auto object-contain max-h-[300px] rounded-lg"
                               />
                               {question.image2Src && (
                                 <img
                                   src={question.image2Src}
                                   alt="Second diagram"
-                                  className="w-full h-auto object-contain max-h-[500px] border-t border-border pt-4"
+                                  className="w-full h-auto object-contain max-h-[300px] rounded-lg"
                                 />
                               )}
                             </div>
