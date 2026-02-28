@@ -61,6 +61,14 @@ const questionSchema = new mongoose.Schema({
   isFreeTrialQuestion: {
     type: Boolean,
     default: false
+  },
+  freeTrialOrder: {
+    type: Number,
+    index: true
+  },
+  showImageWithQuestion: {
+    type: Boolean,
+    default: false
   }
 }, {
   timestamps: true

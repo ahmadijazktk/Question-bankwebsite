@@ -198,7 +198,7 @@ const Exam = () => {
             imageAlt: q.image ? `Diagram for question` : undefined,
             isFreeTrial: q.isFreeTrialQuestion || isTrial,
             freeTrialOrder: q.freeTrialOrder,
-            showImageWithQuestion: q.showImageWithQuestion
+            showImageWithQuestion: q.showImageWithQuestion || q.text?.includes("Spine imaging")
           };
         });
 
