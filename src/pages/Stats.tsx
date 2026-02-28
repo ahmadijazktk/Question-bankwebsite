@@ -336,7 +336,7 @@ const Stats = () => {
                         <Card
                           key={q._id}
                           className="border-border/60 shadow-sm hover:shadow-md hover:border-primary/30 transition-all cursor-pointer group"
-                          onClick={() => navigate(`/exam?questionId=${q._id}`)}
+                          onClick={() => navigate(`/exam?categoryFilter=${q.computedCategory}&startId=${q._id}`)}
                         >
                           <CardContent className="p-4 flex items-start gap-4">
                             <span className="text-2xl font-bold text-muted-foreground/30 leading-none pt-0.5 w-8 shrink-0">

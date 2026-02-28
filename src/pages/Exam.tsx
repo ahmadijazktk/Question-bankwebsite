@@ -116,6 +116,26 @@ const Exam = () => {
         const params = new URLSearchParams(window.location.search);
         const category = params.get("category");
         const categoryFilter = category ? `&category=${category}` : "";
+        // categoryFilter = keyword-based category from Stats page
+        const catFilterId = params.get("categoryFilter");
+        const startId = params.get("startId");
+
+        // Keyword map matching Stats.tsx CATEGORIES
+        const CATEGORY_KEYWORDS: Record<string, string[]> = {
+          RA: ["rheumatoid", "RA ", "MTX", "methotrexate", "synovitis", "anti-CCP", "RF ", "felty", "DAS28", "ACR/EULAR", "erosion"],
+          SLE: ["lupus", "SLE", "nephritis", "anti-dsDNA", "anti-Smith", "ANA", "malar", "butterfly rash", "hydroxychloroquine", "HCQ", "discoid"],
+          PsA: ["psoriatic", "PsA", "psoriasis", "dactylitis", "enthesitis", "CASPAR", "nail pitting"],
+          Crystal: ["gout", "uric acid", "urate", "pseudogout", "CPPD", "tophi", "colchicine", "allopurinol", "febuxostat", "crystal", "MSU"],
+          Vasculitis: ["vasculitis", "GPA", "EGPA", "MPA", "giant cell", "GCA", "Takayasu", "ANCA", "Behcet", "PAN", "IgA vasculitis", "Henoch"],
+          Myositis: ["myositis", "dermatomyositis", "polymyositis", "IBM", "antisynthetase", "MDA5", "Jo-1", "ragged red", "myopathy", "CK ", "IIM"],
+          ILD: ["ILD", "interstitial lung", "pulmonary fibrosis", "RP-ILD", "NSIP", "UIP", "nintedanib", "pirfenidone", "6MWD", "SARD"],
+          SpA: ["ankylosing", "axial spondylo", "SpA", "HLA-B27", "sacroiliitis", "BASDAI", "reactive arthritis", "Reiter"],
+          Osteoporosis: ["osteoporosis", "DEXA", "bisphosphonate", "denosumab", "fracture", "T-score", "Z-score", "bone mineral"],
+          Medications: ["TNFi", "rituximab", "abatacept", "tocilizumab", "JAKi", "belimumab", "anifrolumab", "steroid", "glucocorticoid", "DMARDs", "biologics", "vaccine", "ACR guideline", "recommendation"],
+          Radiology: ["X-ray", "MRI", "CT ", "radiograph", "biopsy", "histopathology", "stain", "microscopy", "ultrasound", "shown here", "figure"],
+          Pregnancy: ["pregnant", "pregnancy", "contraception", "conception", "MMF", "teratogenic", "lactation", "breastfeed"],
+          Infectious: ["infection", "septic arthritis", "prosthetic joint", "lyme", "viral", "bacteria", "fever", "yellow fever", "HBV", "HCV"],
+        };
 
         console.log("Fetching questions...");
         const response = await apiGet<any>(`/questions?limit=10000${categoryFilter}`);
@@ -124,11 +144,9 @@ const Exam = () => {
         const transformed = questionsList.map((q: ApiQuestion): Question => {
           let imageSrc = undefined;
           if (q.image) {
-            // Check if it's an absolute URL
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
             } else {
-              // Otherwise try to map from local bundle
               const lower = q.image.split('/').pop()?.toLowerCase() || "";
               imageSrc = imageBasenameToUrl[lower] || `/${q.image}`;
             }
@@ -144,7 +162,23 @@ const Exam = () => {
             imageAlt: q.image ? `Diagram for question` : undefined
           };
         });
-        setQuestions(transformed);
+
+        // Apply keyword-based category filter if coming from Stats page
+        let finalQuestions = transformed;
+        if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
+          const keywords = CATEGORY_KEYWORDS[catFilterId];
+          finalQuestions = transformed.filter((q) =>
+            keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
+          );
+        }
+
+        setQuestions(finalQuestions);
+
+        // Jump to startId if provided
+        if (startId) {
+          const startIndex = finalQuestions.findIndex((q) => q._id === startId);
+          if (startIndex !== -1) setCurrentQuestionIndex(startIndex);
+        }
       } catch (error: any) {
         toast({
           title: "Error fetching questions",
@@ -331,14 +365,31 @@ const Exam = () => {
   const getOptionLetter = (index: number) => String.fromCharCode(65 + index);
   const correctOptionIndex = question.options.findIndex(opt => opt.text === correctAnswer);
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const catFilterId = urlParams.get("categoryFilter");
+  const categoryLabels: Record<string, string> = {
+    RA: "Rheumatoid Arthritis", SLE: "SLE / Lupus", PsA: "Psoriatic Arthritis",
+    Crystal: "Crystal Disease", Vasculitis: "Vasculitis", Myositis: "Myositis / IIM",
+    ILD: "ILD / Pulmonary", SpA: "Spondyloarthropathy", Osteoporosis: "Osteoporosis",
+    Medications: "Medications & Guidelines", Radiology: "Radiology / Histology",
+    Pregnancy: "Pregnancy & Contraception", Infectious: "Infectious / Other",
+  };
+
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full">
         <AppSidebar />
         <main className="flex-1 bg-background/50">
           <div className="border-b border-border bg-background">
-            <div className="flex items-center h-16 px-6">
+            <div className="flex items-center h-16 px-6 gap-3">
               <SidebarTrigger />
+              {catFilterId && categoryLabels[catFilterId] && (
+                <div className="flex items-center gap-2 text-sm">
+                  <span className="text-muted-foreground">Category:</span>
+                  <span className="font-semibold text-primary">{categoryLabels[catFilterId]}</span>
+                  <span className="text-muted-foreground text-xs">({questions.length} questions)</span>
+                </div>
+              )}
             </div>
           </div>
 
