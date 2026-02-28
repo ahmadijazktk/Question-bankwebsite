@@ -53,11 +53,11 @@ const Subscription = () => {
           };
 
           const questionCounts: Record<string, string> = {
-            "anatomic-clinical": "Over 1700 questions",
-            "anatomic": "Over 1050 questions",
-            "clinical": "Over 800 questions",
-            "forensic": "Over 300 questions",
-            "cytopathology": "Over 250 questions",
+            "anatomic-clinical": "Over 250 questions",
+            "anatomic": "Over 100 questions",
+            "clinical": "Over 100 questions",
+            "forensic": "Over 150 questions",
+            "cytopathology": "Over 50 questions",
           };
 
           const planLabels: Record<string, string> = {

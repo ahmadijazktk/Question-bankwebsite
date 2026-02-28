@@ -47,11 +47,11 @@ const Checkout = () => {
 
           if (categoryPlans && categoryPlans[plan]) {
             const categoryTitles: Record<string, string> = {
-              "anatomic-clinical": "Anatomic and Clinical Pathology",
-              "anatomic": "Anatomic Pathology",
-              "clinical": "Clinical Pathology",
-              "forensic": "Forensic Pathology",
-              "cytopathology": "Cytopathology",
+              "anatomic-clinical": "Vasculitides and Dermatology",
+              "anatomic": "Histology essentials",
+              "clinical": "Rheumatology radiology",
+              "forensic": "Management & medication guidelines",
+              "cytopathology": "Osteoporosis ( Per ACR guidelines )",
             };
 
             setPlanDetails({

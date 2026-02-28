@@ -94,6 +94,65 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:bg-card/80 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-indigo-500 to-purple-600;
+  }
+
+  .btn-premium {
+    @apply relative overflow-hidden transition-all duration-300 active:scale-95 hover:shadow-lg hover:shadow-primary/20 bg-primary text-primary-foreground;
+  }
+
+  .btn-premium::after {
+    content: '';
+    @apply absolute inset-0 bg-white/10 opacity-0 transition-opacity duration-300;
+  }
+
+  .btn-premium:hover::after {
+    @apply opacity-100;
+  }
+
+  .section-padding {
+    @apply py-24 px-6;
+  }
+
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+
+  @keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+
+  .mesh-bg {
+    background-color: hsla(222,47%,11%,1);
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(222,78%,46%,0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(260,78%,46%,0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(222,78%,46%,0.1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(260,78%,46%,0.1) 0px, transparent 50%);
+  }
+
+  .mesh-bg-light {
+    background-color: #ffffff;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(222,78%,46%,0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(260,78%,46%,0.08) 0px, transparent 50%),
+      radial-gradient(at 50% 50%, hsla(222,78%,46%,0.03) 0px, transparent 50%);
   }
 }

@@ -14,27 +14,27 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-primary border-b border-primary/20 backdrop-blur-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 dark:bg-slate-950/70 backdrop-blur-xl border-b border-border/40">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary-foreground rounded flex items-center justify-center font-bold text-primary text-xl">
+          <Link to="/" className="flex items-center gap-2 group">
+            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center font-bold text-white text-xl shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform">
               RZ
             </div>
-            <span className="text-xl font-bold text-primary-foreground">Rheumzoom™</span>
+            <span className="text-xl font-bold tracking-tight text-foreground">RheumZoom™</span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+          <div className="hidden md:flex items-center gap-8 font-medium">
+            <Link to="/" className="text-muted-foreground hover:text-primary transition-colors">
               Home
             </Link>
-            <Link to="/pricing" className="text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+            <Link to="/pricing" className="text-muted-foreground hover:text-primary transition-colors">
               Pricing
             </Link>
-            <Link to="/features" className="text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+            <Link to="/features" className="text-muted-foreground hover:text-primary transition-colors">
               Features
             </Link>
-            <Link to="/contact" className="text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+            <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
               Contact
             </Link>
           </div>
@@ -44,18 +44,20 @@ const Navbar = () => {
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="text-primary-foreground hover:bg-primary-foreground/10"
+              className="rounded-xl hover:bg-muted"
             >
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
             <div className="hidden md:flex items-center gap-4">
               <Link to="/auth">
-                <Button variant="ghost" className="text-primary-foreground hover:bg-primary-foreground/10">
+                <Button variant="ghost" className="rounded-xl font-semibold">
                   Sign In
                 </Button>
               </Link>
               <Link to="/auth?mode=signup">
-                <Button variant="secondary">Get started</Button>
+                <Button className="rounded-xl px-6 bg-primary font-semibold shadow-lg shadow-primary/20 transition-all hover:scale-105 active:scale-95">
+                  Get started
+                </Button>
               </Link>
             </div>
 
