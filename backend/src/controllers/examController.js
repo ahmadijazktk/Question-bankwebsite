@@ -50,10 +50,11 @@ export const submitAnswer = asyncHandler(async (req, res) => {
   const correctOption = question.options.find(opt => opt.isCorrect);
   const isCorrect = correctOption?.text === selectedAnswer;
 
+  let attempt = null;
   // Only save progress/attempts if user is logged in
   if (userId) {
     // Create exam attempt
-    const attempt = await ExamAttempt.create({
+    attempt = await ExamAttempt.create({
       userId,
       questionId,
       selectedAnswer,
@@ -70,7 +71,7 @@ export const submitAnswer = asyncHandler(async (req, res) => {
     message: 'Answer submitted successfully',
     data: {
       attempt: {
-        _id: userId ? attempt?._id : null,
+        _id: attempt?._id || null,
         isCorrect,
         correctAnswer: correctOption?.text,
         explanation: correctOption?.explanation
