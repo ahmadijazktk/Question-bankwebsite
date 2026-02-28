@@ -43,7 +43,7 @@ interface Question {
   imageAlt?: string;
 }
 
-// Collect available images and helpers to map one unique image per question
+// Collect available images and helpers to map one unique image per question 
 const imageModules = import.meta.glob([
   "/src/images/*.{png,jpg,jpeg,webp,svg}",
 ], { eager: true, as: "url" }) as Record<string, string>;
@@ -62,7 +62,7 @@ const resolveImageSources = (html: string): string => {
     const s = (src || "").trim();
     if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s)) return match;
     const base = s.split('/').pop()?.toLowerCase() || s.toLowerCase();
-    const mapped = imageBasenameToUrl[base];
+    const mapped = imageBasenameToUrl[base] || `/${s.split('/').pop()}`;
     if (mapped) {
       return `<img${pre}src="${mapped}"${post}>`;
     }
@@ -130,7 +130,7 @@ const Exam = () => {
             } else {
               // Otherwise try to map from local bundle
               const lower = q.image.split('/').pop()?.toLowerCase() || "";
-              imageSrc = imageBasenameToUrl[lower];
+              imageSrc = imageBasenameToUrl[lower] || `/${q.image}`;
             }
           }
 
@@ -359,7 +359,7 @@ const Exam = () => {
               </div>
             </div>
 
-            <div className={`grid ${question.imageSrc ? 'lg:grid-cols-2' : 'grid-cols-1'} gap-8 items-start`}>
+            <div className={`grid ${question.imageSrc && question.options.length > 1 ? 'lg:grid-cols-2' : 'grid-cols-1'} gap-8 items-start`}>
               <Card className="shadow-sm border-border">
                 <CardContent className="p-6">
                   <div
@@ -485,10 +485,22 @@ const Exam = () => {
               {question.imageSrc && (
                 <div className="sticky top-6">
                   <Dialog>
-                    <DialogTrigger asChild>
-                      <Card className="overflow-hidden border-border/80 shadow-md cursor-zoom-in">
-                        <CardContent className="p-0 flex items-center justify-center min-h-[300px]">
-                          <img src={question.imageSrc} alt={question.imageAlt} className="w-full h-auto object-contain max-h-[500px]" />
+                    <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1}>
+                      <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'cursor-default' : 'cursor-zoom-in'}`}>
+                        <CardContent className="relative p-0 flex items-center justify-center min-h-[300px]">
+                          <img
+                            src={question.imageSrc}
+                            alt={question.imageAlt}
+                            className={`w-full h-auto object-contain max-h-[500px] transition-all duration-500 ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'blur-xl opacity-40' : ''}`}
+                          />
+                          {!(showAnswer && canViewAnswer) && question.options.length === 1 && (
+                            <div className="absolute inset-0 flex items-center justify-center bg-background/10">
+                              <div className="bg-background/95 text-foreground px-6 py-3 rounded-full font-semibold shadow-lg border border-border flex items-center gap-2">
+                                <ZoomIn className="w-4 h-4" />
+                                {canViewAnswer ? "Reveal Answer to view image" : "Subscribe to view image"}
+                              </div>
+                            </div>
+                          )}
                         </CardContent>
                       </Card>
                     </DialogTrigger>
@@ -496,7 +508,9 @@ const Exam = () => {
                       <img src={question.imageSrc} alt="Zoomed" className="max-w-full max-h-full object-contain" />
                     </DialogContent>
                   </Dialog>
-                  <p className="text-center text-xs text-muted-foreground mt-2">Click image to enlarge</p>
+                  {showAnswer || question.options.length > 1 ? (
+                    <p className="text-center text-xs text-muted-foreground mt-2 animate-in fade-in">Click image to enlarge</p>
+                  ) : null}
                 </div>
               )}
             </div>
