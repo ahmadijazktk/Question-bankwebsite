@@ -24,7 +24,6 @@ const questionSchema = new mongoose.Schema({
   category: {
     type: String,
     required: [true, 'Category is required'],
-    enum: ['anatomic', 'clinical', 'forensic', 'cytopathology', 'anatomic-clinical'],
     index: true
   },
   options: {
@@ -53,6 +52,14 @@ const questionSchema = new mongoose.Schema({
   image: {
     type: String,
     trim: true
+  },
+  image2: {
+    type: String,
+    trim: true
+  },
+  isFreeTrialQuestion: {
+    type: Boolean,
+    default: false
   }
 }, {
   timestamps: true

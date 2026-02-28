@@ -1,5 +1,6 @@
 import ExamAttempt from '../models/ExamAttempt.js';
 import Question from '../models/Question.js';
+import User from '../models/User.js';
 import UserProgress from '../models/UserProgress.js';
 import { asyncHandler } from '../middlewares/asyncHandler.js';
 import { validationResult } from 'express-validator';
@@ -19,7 +20,7 @@ export const submitAnswer = asyncHandler(async (req, res) => {
   }
 
   const { questionId, selectedAnswer, timeSpent = 0 } = req.body;
-  const userId = req.user._id;
+  const userId = req.user?._id;
 
   // Get question to verify answer
   const question = await Question.findById(questionId);
@@ -30,21 +31,39 @@ export const submitAnswer = asyncHandler(async (req, res) => {
     });
   }
 
+  // CHECK PERMISSION
+  const isFreeTrialQuestion = !!question.isFreeTrialQuestion;
+
+  // If not a free trial question, user MUST be logged in AND have a subscription
+  if (!isFreeTrialQuestion) {
+    if (!req.user) {
+      return res.status(401).json({ success: false, message: 'Authentication required for this question' });
+    }
+
+    const user = await User.findById(req.user._id);
+    if (!user.subscriptionStatus?.isActive || new Date(user.subscriptionStatus.endDate) < new Date()) {
+      return res.status(403).json({ success: false, message: 'Active subscription required' });
+    }
+  }
+
   // Find correct answer
   const correctOption = question.options.find(opt => opt.isCorrect);
   const isCorrect = correctOption?.text === selectedAnswer;
 
-  // Create exam attempt
-  const attempt = await ExamAttempt.create({
-    userId,
-    questionId,
-    selectedAnswer,
-    isCorrect,
-    timeSpent
-  });
+  // Only save progress/attempts if user is logged in
+  if (userId) {
+    // Create exam attempt
+    const attempt = await ExamAttempt.create({
+      userId,
+      questionId,
+      selectedAnswer,
+      isCorrect,
+      timeSpent
+    });
 
-  // Update user progress
-  await updateUserProgress(userId, question.category, isCorrect, timeSpent);
+    // Update user progress
+    await updateUserProgress(userId, question.category, isCorrect, timeSpent);
+  }
 
   res.status(201).json({
     success: true,

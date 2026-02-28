@@ -48,15 +48,37 @@ export const authenticate = async (req, res, next) => {
 };
 
 /**
+ * Optional authentication middleware 
+ * Does not block if token is missing, but sets req.user if present
+ */
+export const optionalAuthenticate = async (req, res, next) => {
+  try {
+    const token = req.header('Authorization')?.replace('Bearer ', '');
+    if (!token) {
+      return next();
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const user = await User.findById(decoded.userId).select('-password');
+    if (user) {
+      req.user = user;
+    }
+    next();
+  } catch (error) {
+    next();
+  }
+};
+
+/**
  * Middleware to check if user has active subscription
  */
 export const requireSubscription = async (req, res, next) => {
   try {
     const user = await User.findById(req.user._id);
-    
-    if (!user.subscriptionStatus.isActive || 
-        !user.subscriptionStatus.endDate || 
-        new Date(user.subscriptionStatus.endDate) < new Date()) {
+
+    if (!user.subscriptionStatus.isActive ||
+      !user.subscriptionStatus.endDate ||
+      new Date(user.subscriptionStatus.endDate) < new Date()) {
       return res.status(403).json({
         success: false,
         message: 'Active subscription required'

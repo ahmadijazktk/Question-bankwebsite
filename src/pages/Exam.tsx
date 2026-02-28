@@ -158,8 +158,9 @@ const Exam = () => {
         };
 
         console.log("Fetching questions...");
-        // Fetch more for trial to ensure we get them
-        const response = await apiGet<any>(`/questions?limit=${isTrial ? 50 : 10000}${categoryFilter}`);
+        // Use the new backend filter for trial questions
+        const trialFilter = isTrial ? "&isFreeTrialQuestion=true" : "";
+        const response = await apiGet<any>(`/questions?limit=${isTrial ? 100 : 10000}${categoryFilter}${trialFilter}`);
         const questionsList = response.data?.questions || [];
 
         const transformed = questionsList.map((q: any): Question => {

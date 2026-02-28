@@ -7,6 +7,8 @@ import {
 import { authenticate } from '../middlewares/auth.js';
 import { requireSubscription } from '../middlewares/auth.js';
 
+import { optionalAuthenticate } from '../middlewares/auth.js';
+
 const router = express.Router();
 
 // Validation rules
@@ -16,12 +18,12 @@ const submitAnswerValidation = [
   body('timeSpent').optional().isNumeric().withMessage('Time spent must be a number')
 ];
 
-// All routes require authentication and subscription
-router.use(authenticate);
-router.use(requireSubscription);
+// Routes
+// POST /answer is flexible (handles free trial questions)
+router.post('/answer', optionalAuthenticate, submitAnswerValidation, submitAnswer);
 
-router.post('/answer', submitAnswerValidation, submitAnswer);
-router.get('/attempts', getAttempts);
+// GET /attempts is still protected
+router.get('/attempts', authenticate, getAttempts);
 
 export default router;
 
