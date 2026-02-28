@@ -68,7 +68,7 @@ const Auth = () => {
         <div className="text-center">
           <Link to="/" className="inline-flex items-center gap-2 mb-8">
             <div className="w-10 h-10 bg-primary rounded flex items-center justify-center font-bold text-primary-foreground text-xl">
-              Pd
+              RZ
             </div>
             <span className="text-xl font-bold text-foreground">Rheumzoom™</span>
           </Link>
