@@ -35,6 +35,10 @@ interface ApiQuestion {
   diagram?: boolean;
   summary?: string;
   image?: string;
+  image2?: string;
+  isFreeTrialQuestion?: boolean;
+  freeTrialOrder?: number;
+  showImageWithQuestion?: boolean;
 }
 
 interface Question {
@@ -47,6 +51,8 @@ interface Question {
   imageAlt?: string;
   image2Src?: string;
   isFreeTrial?: boolean;
+  freeTrialOrder?: number;
+  showImageWithQuestion?: boolean;
 }
 
 // Collect available images and helpers to map one unique image per question 
@@ -190,14 +196,17 @@ const Exam = () => {
             imageSrc: imageSrc,
             image2Src: image2Src,
             imageAlt: q.image ? `Diagram for question` : undefined,
-            isFreeTrial: q.isFreeTrialQuestion || isTrial // Fallback to isTrial if backend flag missing but we requested it
+            isFreeTrial: q.isFreeTrialQuestion || isTrial,
+            freeTrialOrder: q.freeTrialOrder,
+            showImageWithQuestion: q.showImageWithQuestion
           };
         });
 
         let finalQuestions = transformed;
 
-        // Backend already handles trial filtering, so we only need keyword filtering for non-trial mode
-        if (!isTrial && catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
+        if (isTrial) {
+          finalQuestions = [...transformed].sort((a, b) => (a.freeTrialOrder || 0) - (b.freeTrialOrder || 0));
+        } else if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
           const keywords = CATEGORY_KEYWORDS[catFilterId];
           finalQuestions = transformed.filter((q) =>
             keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
@@ -463,7 +472,7 @@ const Exam = () => {
               <Card className="shadow-sm border-border">
                 <CardContent className="p-6">
                   <div
-                    className="prose dark:prose-invert max-w-none mb-8 text-lg font-normal leading-relaxed text-foreground/90"
+                    className="prose dark:prose-invert max-w-none mb-8 text-lg font-normal leading-relaxed text-foreground/90 whitespace-pre-wrap"
                     dangerouslySetInnerHTML={{ __html: resolveImageSources(question.text) }}
                   />
 
@@ -585,10 +594,10 @@ const Exam = () => {
               {question.imageSrc && (
                 <div className="sticky top-6">
                   <Dialog>
-                    <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1}>
-                      <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'cursor-default' : 'cursor-zoom-in'}`}>
+                    <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1 && !question.showImageWithQuestion}>
+                      <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? 'cursor-default' : 'cursor-zoom-in'}`}>
                         <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[300px]">
-                          {!(showAnswer && canViewAnswer) && question.options.length === 1 ? (
+                          {!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? (
                             <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[300px]">
                               <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
                               <h3 className="font-semibold text-lg text-foreground/80 mb-2">Image Answer Hidden</h3>
@@ -615,11 +624,11 @@ const Exam = () => {
                         </CardContent>
                       </Card>
                     </DialogTrigger>
-                    <DialogContent className="max-w-5xl w-[95vw] h-[90vh] p-0 flex items-center justify-center bg-background/95">
+                    <DialogContent className="max-w-7xl w-[95vw] h-[90vh] p-0 flex items-center justify-center bg-background/95">
                       <div className="flex flex-col gap-4 overflow-auto p-8 w-full items-center">
-                        <img src={question.imageSrc} alt="Zoomed" className="max-w-full h-auto object-contain" />
+                        <img src={question.imageSrc} alt="Zoomed" className="w-full h-auto object-contain" />
                         {question.image2Src && (
-                          <img src={question.image2Src} alt="Zoomed 2" className="max-w-full h-auto object-contain border-t-2 border-border pt-8" />
+                          <img src={question.image2Src} alt="Zoomed 2" className="w-full h-auto object-contain border-t-2 border-border pt-8" />
                         )}
                       </div>
                     </DialogContent>

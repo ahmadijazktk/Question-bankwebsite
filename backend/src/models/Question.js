@@ -7,7 +7,8 @@ const optionSchema = new mongoose.Schema({
   },
   explanation: {
     type: String,
-    required: true
+    required: false,
+    default: ''
   },
   isCorrect: {
     type: Boolean,
