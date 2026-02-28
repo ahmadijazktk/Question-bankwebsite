@@ -204,15 +204,6 @@ const Exam = () => {
           );
         }
 
-        // Apply keyword-based category filter if coming from Stats page
-        let finalQuestions = transformed;
-        if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
-          const keywords = CATEGORY_KEYWORDS[catFilterId];
-          finalQuestions = transformed.filter((q) =>
-            keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
-          );
-        }
-
         setQuestions(finalQuestions);
 
         // Jump to startId if provided
