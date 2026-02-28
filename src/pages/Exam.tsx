@@ -488,18 +488,20 @@ const Exam = () => {
                     <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1}>
                       <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'cursor-default' : 'cursor-zoom-in'}`}>
                         <CardContent className="relative p-0 flex items-center justify-center min-h-[300px]">
-                          <img
-                            src={question.imageSrc}
-                            alt={question.imageAlt}
-                            className={`w-full h-auto object-contain max-h-[500px] transition-all duration-500 ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'blur-xl opacity-40' : ''}`}
-                          />
-                          {!(showAnswer && canViewAnswer) && question.options.length === 1 && (
-                            <div className="absolute inset-0 flex items-center justify-center bg-background/10">
-                              <div className="bg-background/95 text-foreground px-6 py-3 rounded-full font-semibold shadow-lg border border-border flex items-center gap-2">
-                                <ZoomIn className="w-4 h-4" />
-                                {canViewAnswer ? "Reveal Answer to view image" : "Subscribe to view image"}
-                              </div>
+                          {!(showAnswer && canViewAnswer) && question.options.length === 1 ? (
+                            <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[300px]">
+                              <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
+                              <h3 className="font-semibold text-lg text-foreground/80 mb-2">Image Answer Hidden</h3>
+                              <p className="text-sm text-muted-foreground max-w-[250px]">
+                                {canViewAnswer ? "Click 'Reveal Answer' on the left to view the image for this flashcard." : "Subscribe to view the image answer."}
+                              </p>
                             </div>
+                          ) : (
+                            <img
+                              src={question.imageSrc}
+                              alt={question.imageAlt}
+                              className="w-full h-auto object-contain max-h-[500px]"
+                            />
                           )}
                         </CardContent>
                       </Card>
