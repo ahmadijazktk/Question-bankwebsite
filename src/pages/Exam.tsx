@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/AppSidebar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { ChevronLeft, ChevronRight, ZoomIn, CheckCircle } from "lucide-react";
+import { ChevronLeft, ChevronRight, ZoomIn, CheckCircle, Search, Sparkles } from "lucide-react";
 import { apiGet, apiPost } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 import { saveAuthData, hasActiveSubscription } from "@/lib/auth";
@@ -14,7 +14,11 @@ import {
   Dialog,
   DialogContent,
   DialogTrigger,
+  DialogHeader,
+  DialogTitle,
 } from "@/components/ui/dialog";
+import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
 
 interface QuestionOption {
   text: string;
@@ -41,6 +45,8 @@ interface Question {
   diagram?: boolean;
   imageSrc?: string;
   imageAlt?: string;
+  image2Src?: string;
+  isFreeTrial?: boolean;
 }
 
 // Collect available images and helpers to map one unique image per question 
@@ -83,10 +89,24 @@ const Exam = () => {
   const [timeSpent, setTimeSpent] = useState(0);
   const [isSubscribed, setIsSubscribed] = useState(hasActiveSubscription());
   const [refreshing, setRefreshing] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [isFreeTrialMode, setIsFreeTrialMode] = useState(false);
+  const [showTrialEndDialog, setShowTrialEndDialog] = useState(false);
   const { toast } = useToast();
 
-  const question = questions[currentQuestionIndex];
-  const canViewAnswer = isSubscribed || currentQuestionIndex === 0;
+  const filteredQuestions = useMemo(() => {
+    if (!searchQuery) return questions;
+    const lower = searchQuery.toLowerCase();
+    return questions.filter(q => q.text.toLowerCase().includes(lower));
+  }, [questions, searchQuery]);
+
+  const question = filteredQuestions[currentQuestionIndex];
+  const canViewAnswer = isSubscribed || currentQuestionIndex === 0 || isFreeTrialMode;
+
+  useEffect(() => {
+    setCurrentQuestionIndex(0);
+    resetState();
+  }, [searchQuery]);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -116,11 +136,11 @@ const Exam = () => {
         const params = new URLSearchParams(window.location.search);
         const category = params.get("category");
         const categoryFilter = category ? `&category=${category}` : "";
-        // categoryFilter = keyword-based category from Stats page
         const catFilterId = params.get("categoryFilter");
         const startId = params.get("startId");
+        const isTrial = window.location.pathname === "/free-trial";
+        setIsFreeTrialMode(isTrial);
 
-        // Keyword map matching Stats.tsx CATEGORIES
         const CATEGORY_KEYWORDS: Record<string, string[]> = {
           RA: ["rheumatoid", "RA ", "MTX", "methotrexate", "synovitis", "anti-CCP", "RF ", "felty", "DAS28", "ACR/EULAR", "erosion"],
           SLE: ["lupus", "SLE", "nephritis", "anti-dsDNA", "anti-Smith", "ANA", "malar", "butterfly rash", "hydroxychloroquine", "HCQ", "discoid"],
@@ -138,11 +158,14 @@ const Exam = () => {
         };
 
         console.log("Fetching questions...");
-        const response = await apiGet<any>(`/questions?limit=10000${categoryFilter}`);
+        // Fetch more for trial to ensure we get them
+        const response = await apiGet<any>(`/questions?limit=${isTrial ? 50 : 10000}${categoryFilter}`);
         const questionsList = response.data?.questions || [];
 
-        const transformed = questionsList.map((q: ApiQuestion): Question => {
+        const transformed = questionsList.map((q: any): Question => {
           let imageSrc = undefined;
+          let image2Src = undefined;
+
           if (q.image) {
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
@@ -152,6 +175,11 @@ const Exam = () => {
             }
           }
 
+          if (q.image2) {
+            const lower2 = q.image2.split('/').pop()?.toLowerCase() || "";
+            image2Src = imageBasenameToUrl[lower2] || `/${q.image2}`;
+          }
+
           return {
             _id: q._id,
             text: q.text || "",
@@ -159,9 +187,22 @@ const Exam = () => {
             summary: q.summary,
             diagram: q.diagram,
             imageSrc: imageSrc,
-            imageAlt: q.image ? `Diagram for question` : undefined
+            image2Src: image2Src,
+            imageAlt: q.image ? `Diagram for question` : undefined,
+            isFreeTrial: q.isFreeTrialQuestion
           };
         });
+
+        let finalQuestions = transformed;
+
+        if (isTrial) {
+          finalQuestions = transformed.filter(q => q.isFreeTrial);
+        } else if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
+          const keywords = CATEGORY_KEYWORDS[catFilterId];
+          finalQuestions = transformed.filter((q) =>
+            keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
+          );
+        }
 
         // Apply keyword-based category filter if coming from Stats page
         let finalQuestions = transformed;
@@ -314,9 +355,11 @@ const Exam = () => {
   };
 
   const handleNext = () => {
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < filteredQuestions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       resetState();
+    } else if (isFreeTrialMode) {
+      setShowTrialEndDialog(true);
     }
   };
 
@@ -383,27 +426,41 @@ const Exam = () => {
           <div className="border-b border-border bg-background">
             <div className="flex items-center h-16 px-6 gap-3">
               <SidebarTrigger />
-              {catFilterId && categoryLabels[catFilterId] && (
+              {isFreeTrialMode ? (
+                <div className="flex items-center gap-2">
+                  <Badge className="bg-orange-500 hover:bg-orange-600">Free Trial</Badge>
+                  <span className="text-sm text-muted-foreground hidden sm:inline">20 Essential Questions</span>
+                </div>
+              ) : catFilterId && categoryLabels[catFilterId] ? (
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-muted-foreground">Category:</span>
                   <span className="font-semibold text-primary">{categoryLabels[catFilterId]}</span>
                   <span className="text-muted-foreground text-xs">({questions.length} questions)</span>
                 </div>
-              )}
+              ) : null}
+              <div className="flex-1 ml-4 relative max-w-md hidden md:block">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <Input
+                  placeholder="Search questions..."
+                  className="pl-9 bg-muted/50 border-none h-9"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+              </div>
             </div>
           </div>
 
           <div className="p-4 md:p-8 max-w-7xl mx-auto">
             <div className="mb-6 flex items-center justify-between">
               <p className="text-sm text-muted-foreground font-medium">
-                Question <span className="text-foreground">{currentQuestionIndex + 1}</span> of {questions.length}
+                Question <span className="text-foreground">{currentQuestionIndex + 1}</span> of {filteredQuestions.length}
               </p>
               <div className="flex gap-2">
                 <Button variant="outline" size="sm" onClick={handlePrevious} disabled={currentQuestionIndex === 0}>
                   <ChevronLeft className="h-4 w-4 mr-1" />
                   Previous
                 </Button>
-                <Button variant="outline" size="sm" onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1}>
+                <Button variant="outline" size="sm" onClick={handleNext} disabled={currentQuestionIndex === filteredQuestions.length - 1 && !isFreeTrialMode}>
                   Next
                   <ChevronRight className="h-4 w-4 ml-1" />
                 </Button>
@@ -538,7 +595,7 @@ const Exam = () => {
                   <Dialog>
                     <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1}>
                       <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 ? 'cursor-default' : 'cursor-zoom-in'}`}>
-                        <CardContent className="relative p-0 flex items-center justify-center min-h-[300px]">
+                        <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[300px]">
                           {!(showAnswer && canViewAnswer) && question.options.length === 1 ? (
                             <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[300px]">
                               <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
@@ -548,17 +605,31 @@ const Exam = () => {
                               </p>
                             </div>
                           ) : (
-                            <img
-                              src={question.imageSrc}
-                              alt={question.imageAlt}
-                              className="w-full h-auto object-contain max-h-[500px]"
-                            />
+                            <div className="flex flex-col gap-4 p-4 w-full">
+                              <img
+                                src={question.imageSrc}
+                                alt={question.imageAlt}
+                                className="w-full h-auto object-contain max-h-[500px]"
+                              />
+                              {question.image2Src && (
+                                <img
+                                  src={question.image2Src}
+                                  alt="Second diagram"
+                                  className="w-full h-auto object-contain max-h-[500px] border-t border-border pt-4"
+                                />
+                              )}
+                            </div>
                           )}
                         </CardContent>
                       </Card>
                     </DialogTrigger>
                     <DialogContent className="max-w-5xl w-[95vw] h-[90vh] p-0 flex items-center justify-center bg-background/95">
-                      <img src={question.imageSrc} alt="Zoomed" className="max-w-full max-h-full object-contain" />
+                      <div className="flex flex-col gap-4 overflow-auto p-8 w-full items-center">
+                        <img src={question.imageSrc} alt="Zoomed" className="max-w-full h-auto object-contain" />
+                        {question.image2Src && (
+                          <img src={question.image2Src} alt="Zoomed 2" className="max-w-full h-auto object-contain border-t-2 border-border pt-8" />
+                        )}
+                      </div>
                     </DialogContent>
                   </Dialog>
                   {showAnswer || question.options.length > 1 ? (
@@ -570,6 +641,34 @@ const Exam = () => {
           </div>
         </main>
       </div>
+
+      {/* Trial End Dialog */}
+      <Dialog open={showTrialEndDialog} onOpenChange={setShowTrialEndDialog}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold flex items-center gap-2">
+              <Sparkles className="w-6 h-6 text-orange-500" />
+              Trial Completed!
+            </DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4 py-4">
+            <p className="text-muted-foreground leading-relaxed">
+              You've completed all 20 free trial questions. We hope you found them helpful for your rheumatology boards!
+            </p>
+            <p className="font-semibold text-foreground">
+              Unlock the full bank of 600+ evidence-based questions and detailed ACR guideline explanations today.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+              <Link to="/pricing">Unlock 600+ Questions</Link>
+            </Button>
+            <Button variant="outline" onClick={() => setShowTrialEndDialog(false)}>
+              Back to Questions
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </SidebarProvider>
   );
 };

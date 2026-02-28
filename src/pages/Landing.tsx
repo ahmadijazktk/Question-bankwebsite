@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Clock, Database, Smartphone, ArrowRight } from "lucide-react";
+import { Clock, Database, Smartphone, ArrowRight, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import heroImage from "@/assets/heroimage.jpg";
 import icon1 from "@/assets/testimonial.png";
@@ -24,12 +24,20 @@ const Landing = () => {
                 Evidence-Based, Exam-Focused, Fellowship-Approved.
               </p>
 
-              <Link to="/auth?mode=signup">
-                <Button size="lg" className="text-lg px-8 py-6 group mt-4">
-                  Create account
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                <Link to="/auth?mode=signup">
+                  <Button size="lg" className="text-lg px-8 py-6 group w-full sm:w-auto">
+                    Create account
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+                <Link to="/free-trial">
+                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 group w-full sm:w-auto border-primary text-primary hover:bg-primary/5">
+                    Start Free Trial
+                    <Sparkles className="ml-2 h-5 w-5 text-orange-500 animate-pulse" />
+                  </Button>
+                </Link>
+              </div>
             </div>
             <div className="animate-fade-in">
               <img
