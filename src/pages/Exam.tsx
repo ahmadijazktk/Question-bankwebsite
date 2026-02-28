@@ -98,6 +98,7 @@ const Exam = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [isFreeTrialMode, setIsFreeTrialMode] = useState(false);
   const [showTrialEndDialog, setShowTrialEndDialog] = useState(false);
+  const [zoomedImageUrl, setZoomedImageUrl] = useState<string | null>(null);
   const { toast } = useToast();
 
   const filteredQuestions = useMemo(() => {
@@ -593,47 +594,58 @@ const Exam = () => {
 
               {question.imageSrc && (
                 <div className="sticky top-6">
-                  <Dialog>
-                    <DialogTrigger asChild disabled={!showAnswer && question.options.length === 1 && !question.showImageWithQuestion}>
-                      <Card className={`overflow-hidden border-border/80 shadow-md ${!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? 'cursor-default' : 'cursor-zoom-in'}`}>
-                        <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[300px]">
-                          {!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? (
-                            <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[300px]">
-                              <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
-                              <h3 className="font-semibold text-lg text-foreground/80 mb-2">Image Answer Hidden</h3>
-                              <p className="text-sm text-muted-foreground max-w-[250px]">
-                                {canViewAnswer ? "Click 'Reveal Answer' on the left to view the image for this flashcard." : "Subscribe to view the image answer."}
-                              </p>
-                            </div>
-                          ) : (
-                            <div className={`p-4 w-full ${question.image2Src ? 'grid grid-cols-2 gap-4' : 'flex flex-col gap-4 items-center'}`}>
+                  <Dialog open={!!zoomedImageUrl} onOpenChange={(open) => !open && setZoomedImageUrl(null)}>
+                    <Card className="overflow-hidden border-border/80 shadow-md">
+                      <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[300px]">
+                        {!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? (
+                          <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[300px]">
+                            <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
+                            <h3 className="font-semibold text-lg text-foreground/80 mb-2">Image Answer Hidden</h3>
+                            <p className="text-sm text-muted-foreground max-w-[250px]">
+                              {canViewAnswer ? "Click 'Reveal Answer' on the left to view the image for this flashcard." : "Subscribe to view the image answer."}
+                            </p>
+                          </div>
+                        ) : (
+                          <div className={`p-4 w-full ${question.image2Src ? 'grid grid-cols-2 gap-4' : 'flex flex-col gap-4 items-center'}`}>
+                            <div
+                              className="cursor-zoom-in transition-transform hover:scale-[1.02]"
+                              onClick={() => setZoomedImageUrl(question.imageSrc || null)}
+                            >
                               <img
                                 src={question.imageSrc}
                                 alt={question.imageAlt}
                                 className="w-full h-auto object-contain max-h-[300px] rounded-lg"
                               />
-                              {question.image2Src && (
+                            </div>
+                            {question.image2Src && (
+                              <div
+                                className="cursor-zoom-in transition-transform hover:scale-[1.02]"
+                                onClick={() => setZoomedImageUrl(question.image2Src || null)}
+                              >
                                 <img
                                   src={question.image2Src}
                                   alt="Second diagram"
                                   className="w-full h-auto object-contain max-h-[300px] rounded-lg"
                                 />
-                              )}
-                            </div>
-                          )}
-                        </CardContent>
-                      </Card>
-                    </DialogTrigger>
-                    <DialogContent className="max-w-7xl w-[95vw] h-[90vh] p-0 flex items-center justify-center bg-background/95">
-                      <div className="flex flex-col gap-4 overflow-auto p-8 w-full items-center">
-                        <img src={question.imageSrc} alt="Zoomed" className="w-full h-auto object-contain" />
-                        {question.image2Src && (
-                          <img src={question.image2Src} alt="Zoomed 2" className="w-full h-auto object-contain border-t-2 border-border pt-8" />
+                              </div>
+                            )}
+                          </div>
                         )}
-                      </div>
+                      </CardContent>
+                    </Card>
+                    <DialogContent className="max-w-4xl w-auto h-auto p-4 flex items-center justify-center bg-background/95">
+                      {zoomedImageUrl && (
+                        <div className="flex items-center justify-center w-full">
+                          <img
+                            src={zoomedImageUrl}
+                            alt="Zoomed"
+                            className="max-w-full h-auto object-contain max-h-[500px]"
+                          />
+                        </div>
+                      )}
                     </DialogContent>
                   </Dialog>
-                  {showAnswer || question.options.length > 1 ? (
+                  {(showAnswer && canViewAnswer) || (question.options.length > 1) ? (
                     <p className="text-center text-xs text-muted-foreground mt-2 animate-in fade-in">Click image to enlarge</p>
                   ) : null}
                 </div>
