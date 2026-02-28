@@ -138,7 +138,7 @@ const Exam = () => {
         const categoryFilter = category ? `&category=${category}` : "";
         const catFilterId = params.get("categoryFilter");
         const startId = params.get("startId");
-        const isTrial = window.location.pathname === "/free-trial";
+        const isTrial = window.location.pathname.includes("/free-trial");
         setIsFreeTrialMode(isTrial);
 
         const CATEGORY_KEYWORDS: Record<string, string[]> = {
@@ -157,10 +157,10 @@ const Exam = () => {
           Infectious: ["infection", "septic arthritis", "prosthetic joint", "lyme", "viral", "bacteria", "fever", "yellow fever", "HBV", "HCV"],
         };
 
-        console.log("Fetching questions...");
+        console.log(`Fetching questions (isTrial: ${isTrial})...`);
         // Use the new backend filter for trial questions
         const trialFilter = isTrial ? "&isFreeTrialQuestion=true" : "";
-        const response = await apiGet<any>(`/questions?limit=${isTrial ? 100 : 10000}${categoryFilter}${trialFilter}`);
+        const response = await apiGet<any>(`/questions?limit=${isTrial ? 1000 : 10000}${categoryFilter}${trialFilter}`);
         const questionsList = response.data?.questions || [];
 
         const transformed = questionsList.map((q: any): Question => {
@@ -190,21 +190,21 @@ const Exam = () => {
             imageSrc: imageSrc,
             image2Src: image2Src,
             imageAlt: q.image ? `Diagram for question` : undefined,
-            isFreeTrial: q.isFreeTrialQuestion
+            isFreeTrial: q.isFreeTrialQuestion || isTrial // Fallback to isTrial if backend flag missing but we requested it
           };
         });
 
         let finalQuestions = transformed;
 
-        if (isTrial) {
-          finalQuestions = transformed.filter(q => q.isFreeTrial);
-        } else if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
+        // Backend already handles trial filtering, so we only need keyword filtering for non-trial mode
+        if (!isTrial && catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
           const keywords = CATEGORY_KEYWORDS[catFilterId];
           finalQuestions = transformed.filter((q) =>
             keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
           );
         }
 
+        console.log(`Loaded ${finalQuestions.length} questions`);
         setQuestions(finalQuestions);
 
         // Jump to startId if provided
