@@ -11,19 +11,19 @@ const Landing = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in">
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-RheumZoom Digital Flashcards and Question Bank              </h1>
+                RheumZoom Digital Flashcards and Question Bank              </h1>
               <p className="text-xl text-muted-foreground ">
-                Guideline-Driven Content for Real-World and Exam Success.<br/>
+                Guideline-Driven Content for Real-World and Exam Success.<br />
                 Evidence-Based, Exam-Focused, Fellowship-Approved.
               </p>
-              
+
               <Link to="/auth?mode=signup">
                 <Button size="lg" className="text-lg px-8 py-6 group mt-4">
                   Create account
@@ -32,9 +32,9 @@ RheumZoom Digital Flashcards and Question Bank              </h1>
               </Link>
             </div>
             <div className="animate-fade-in">
-              <img 
-                src={heroImage} 
-                alt="Pathology microscope slide" 
+              <img
+                src={heroImage}
+                alt="Pathology microscope slide"
                 className="rounded-2xl shadow-2xl w-full"
               />
             </div>
@@ -52,8 +52,8 @@ RheumZoom Digital Flashcards and Question Bank              </h1>
               </div>
               <h3 className="text-xl font-semibold mb-3">Timed Tests & Helpful Tutorials</h3>
               <p className="text-muted-foreground">
-                Simulate the exam environment and practice with 1700+ RA, SLE, PsA, crystal disease, autoinflammatory conditions
- questions with detailed explanations.
+                Simulate the exam environment and practice with 600+ RA, SLE, PsA, crystal disease, autoinflammatory conditions
+                questions with detailed explanations.
               </p>
             </div>
 
@@ -63,8 +63,8 @@ RheumZoom Digital Flashcards and Question Bank              </h1>
               </div>
               <h3 className="text-xl font-semibold mb-3">Large QBank & Detailed Answers</h3>
               <p className="text-muted-foreground">
-                Practice with 1700+ RA, SLE, PsA, crystal disease, autoinflammatory conditions
- questions with detailed answers and explanations.
+                Practice with 600+ RA, SLE, PsA, crystal disease, autoinflammatory conditions
+                questions with detailed answers and explanations.
               </p>
             </div>
 
@@ -75,7 +75,7 @@ RheumZoom Digital Flashcards and Question Bank              </h1>
               <h3 className="text-xl font-semibold mb-3">Mobile Friendly & Portable Learning</h3>
               <p className="text-muted-foreground">
                 Every major point from current ACR guidelines is covered.
-This deck is designed to help you study smarter, retain faster, and walk into the boards prepared.
+                This deck is designed to help you study smarter, retain faster, and walk into the boards prepared.
               </p>
             </div>
           </div>
@@ -87,21 +87,21 @@ This deck is designed to help you study smarter, retain faster, and walk into th
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to start learning?</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            The flashcards are organized by high-yield topics, including: <br/>
+            The flashcards are organized by high-yield topics, including: <br />
 
-RA, SLE, PsA, crystal disease, autoinflammatory conditions<br/>
+            RA, SLE, PsA, crystal disease, autoinflammatory conditions,<br />
 
-Vasculitides
+            Vasculitides,
 
-Dermatology relevant to rheumatology
+            Dermatology relevant to rheumatology,
 
-Histology essentials
+            Histology essentials,
 
-Rheumatology radiology<br/>
+            Rheumatology radiology,<br />
 
-Management and medication guidelines
+            Management and medication guidelines,
 
-Osteoporosis (per ACR guidelines)
+            Osteoporosis (per ACR guidelines)
 
           </p>
           <Link to="/auth?mode=signup">
@@ -113,35 +113,35 @@ Osteoporosis (per ACR guidelines)
       </section>
 
       {/* Testimonials Section */}
-<section className="py-20 px-6 bg-muted/30">
-<h2 className="text-center py-2 text-4xl font-bold mb-6">Testimonials</h2>
+      <section className="py-20 px-6 bg-muted/30">
+        <h2 className="text-center py-2 text-4xl font-bold mb-6">Testimonials</h2>
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-card p-8 rounded-xl shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <img 
-                src={icon1} 
-                alt="Pathology microscope slide" 
-                className="rounded-2xl shadow-2xl w-full"
-              />
+                <img
+                  src={icon1}
+                  alt="Pathology microscope slide"
+                  className="rounded-2xl shadow-2xl w-full"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-3">-LM
-</h3>
+              </h3>
               <p className="text-muted-foreground">
-Hi RheumZoom. Just wanted to let you know I passed my boards, and I know using this deck was immensely helpful, so thank you              </p>
+                Hi RheumZoom. Just wanted to let you know I passed my boards, and I know using this deck was immensely helpful, so thank you              </p>
             </div>
 
             <div className="bg-card p-8 rounded-xl shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Database className="h-6 w-6 text-primary" />
-                <img 
-                src={icon2} 
-                alt="Pathology microscope slide" 
-                className="rounded-2xl shadow-2xl w-full"
-              />
+                <img
+                  src={icon2}
+                  alt="Pathology microscope slide"
+                  className="rounded-2xl shadow-2xl w-full"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-3">-AK
-</h3>
+              </h3>
               <p className="text-muted-foreground">
                 Hello, I just wanted to thank you for creating and sharing the rheumatology study cards. I found out today that I passed the boards, and your cards were a great help. Thank you!
               </p>
@@ -149,11 +149,11 @@ Hi RheumZoom. Just wanted to let you know I passed my boards, and I know using t
 
             <div className="bg-card p-8 rounded-xl shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-               <img 
-                src={icon3} 
-                alt="Pathology microscope slide" 
-                className="rounded-2xl shadow-2xl w-full"
-              />
+                <img
+                  src={icon3}
+                  alt="Pathology microscope slide"
+                  className="rounded-2xl shadow-2xl w-full"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-3">-SM</h3>
               <p className="text-muted-foreground">
@@ -163,16 +163,16 @@ Hi RheumZoom. Just wanted to let you know I passed my boards, and I know using t
           </div>
         </div>
       </section>
-   { /* About us section */}
-<section className="py-20 px-6 bg-muted/30">
-<h2 className="text-center py-2 text-4xl font-bold mb-10">About Us</h2>
+      { /* About us section */}
+      <section className="py-20 px-6 bg-muted/30">
+        <h2 className="text-center py-2 text-4xl font-bold mb-10">About Us</h2>
         <div className="container mx-auto">
           <div className="grid md:grid-cols-1 gap-5 align-middle">
             <div className="bg-card p-8 rounded-xl shadow-sm border border-border">
               <p className="text-muted-foreground text-center">
                 The Rheumatology Board Exam is notoriously difficult — no UWORLD, no true board-style book (beyond Rheum Secrets), and review courses that cost hundreds to thousands of dollars. Fellows and board test-takers deserve better.
-<br/>
-I’m a recent graduate from a respected rheumatology program who scored well on the boards and trained on the team that won 1st place at the ACR Knowledge Bowl. I built this digital flashcard deck and question bank tailored for passing the Rheumatology Board Certification Exam.
+                <br />
+                I’m a recent graduate from a respected rheumatology program who scored well on the boards and trained on the team that won 1st place at the ACR Knowledge Bowl. I built this digital flashcard deck and question bank tailored for passing the Rheumatology Board Certification Exam.
               </p>
             </div>
           </div>
