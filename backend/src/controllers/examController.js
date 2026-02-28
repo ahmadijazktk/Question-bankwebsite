@@ -70,7 +70,7 @@ export const submitAnswer = asyncHandler(async (req, res) => {
     message: 'Answer submitted successfully',
     data: {
       attempt: {
-        _id: attempt._id,
+        _id: userId ? attempt?._id : null,
         isCorrect,
         correctAnswer: correctOption?.text,
         explanation: correctOption?.explanation
