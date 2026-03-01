@@ -61,55 +61,70 @@ const Navbar = () => {
               </Link>
             </div>
 
-            {/* Mobile Menu */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild className="md:hidden">
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="text-primary-foreground hover:bg-primary-foreground/10"
+                  className="rounded-xl hover:bg-muted"
                 >
-                  <Menu className="h-5 w-5" />
+                  <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] bg-primary">
-                <div className="flex flex-col gap-6 mt-8">
+              <SheetContent side="right" className="w-[300px] border-l border-border/40 bg-background/95 backdrop-blur-2xl">
+                <div className="flex flex-col gap-6 mt-12 px-2">
                   <Link
                     to="/"
-                    className="text-primary-foreground hover:text-primary-foreground/80 transition-colors text-lg"
+                    className="text-foreground/80 hover:text-primary transition-colors text-xl font-bold tracking-tight"
                     onClick={() => setIsOpen(false)}
                   >
                     Home
                   </Link>
                   <Link
                     to="/pricing"
-                    className="text-primary-foreground hover:text-primary-foreground/80 transition-colors text-lg"
+                    className="text-foreground/80 hover:text-primary transition-colors text-xl font-bold tracking-tight"
                     onClick={() => setIsOpen(false)}
                   >
                     Pricing
                   </Link>
                   <Link
                     to="/features"
-                    className="text-primary-foreground hover:text-primary-foreground/80 transition-colors text-lg"
+                    className="text-foreground/80 hover:text-primary transition-colors text-xl font-bold tracking-tight"
                     onClick={() => setIsOpen(false)}
                   >
                     Features
                   </Link>
                   <Link
                     to="/contact"
-                    className="text-primary-foreground hover:text-primary-foreground/80 transition-colors text-lg"
+                    className="text-foreground/80 hover:text-primary transition-colors text-xl font-bold tracking-tight"
                     onClick={() => setIsOpen(false)}
                   >
                     Contact
                   </Link>
-                  <div className="pt-6 border-t border-primary-foreground/20 flex flex-col gap-4">
-                    <Link to="/auth" onClick={() => setIsOpen(false)}>
-                      <Button variant="ghost" className="w-full text-primary-foreground hover:bg-primary-foreground/10">
+                  <Link
+                    to="/terms"
+                    className="text-foreground/60 hover:text-primary transition-colors text-sm font-medium"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Terms of Service
+                  </Link>
+                  <Link
+                    to="/privacy"
+                    className="text-foreground/60 hover:text-primary transition-colors text-sm font-medium"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Privacy Policy
+                  </Link>
+                  <div className="pt-8 mt-4 border-t border-border/40 flex flex-col gap-4">
+                    <Link to="/auth" onClick={() => setIsOpen(false)} className="w-full">
+                      <Button variant="ghost" className="w-full h-14 rounded-2xl font-bold text-lg">
                         Sign In
                       </Button>
                     </Link>
-                    <Link to="/auth?mode=signup" onClick={() => setIsOpen(false)}>
-                      <Button variant="secondary" className="w-full">Get started</Button>
+                    <Link to="/auth?mode=signup" onClick={() => setIsOpen(false)} className="w-full">
+                      <Button className="btn-premium w-full h-14 rounded-2xl font-bold text-lg">
+                        Get started
+                      </Button>
                     </Link>
                   </div>
                 </div>

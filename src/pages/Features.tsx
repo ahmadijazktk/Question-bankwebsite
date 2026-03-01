@@ -1,104 +1,134 @@
 import Navbar from "@/components/Navbar";
-import { Card, CardContent } from "@/components/ui/card";
-import { BookOpen, Brain, LineChart, Trophy, Clock, Target } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { BookOpen, Brain, LineChart, Trophy, Clock, Target, CheckCircle2 } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
       icon: BookOpen,
-      title: "Comprehensive Question Bank",
-      description: "Access 50+ pathology questions covering all major topics and concepts"
+      title: "Comprehensive QBank",
+      description: "Access 600+ high-yield questions covering all major rheumatology board topics and concepts."
     },
     {
       icon: Brain,
-      title: "Detailed Explanations",
-      description: "Learn from in-depth explanations for every answer option to deepen your understanding"
+      title: "Deep Explanations",
+      description: "Learn from evidence-based, Guideline-driven explanations for every single answer option."
     },
     {
       icon: LineChart,
-      title: "Track Your Progress",
-      description: "Monitor your performance with detailed statistics and progress tracking"
+      title: "Performance Analytics",
+      description: "Monitor your strengths and weaknesses with detailed statistics and progress tracking."
     },
     {
       icon: Trophy,
-      title: "Multiple Subscription Tiers",
-      description: "Choose from Basic, Standard, or Premium plans to match your study needs"
+      title: "Award-Winning Method",
+      description: "Study using the same techniques that won 1st place at the ACR Knowledge Bowl."
     },
     {
       icon: Clock,
-      title: "Study at Your Pace",
-      description: "Navigate through questions one at a time with full control over your learning speed"
+      title: "Flexible Learning",
+      description: "Navigate through questions at your own pace with timed and untimed simulation modes."
     },
     {
       icon: Target,
-      title: "Visual Diagrams",
-      description: "Understand complex concepts with clear, illustrative diagrams"
+      title: "Radiology & Histology",
+      description: "Master the visual components of the exam with high-resolution clinical images and diagrams."
     }
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative overflow-hidden">
       <Navbar />
-      
-      <main className="container mx-auto px-4 py-16">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-8">
-            Powerful Features for Your Success
+
+      {/* Decorative Background */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 opacity-30 pointer-events-none">
+        <div className="absolute top-[10%] left-[-5%] w-[30%] h-[30%] bg-primary/20 rounded-full blur-[120px]" />
+        <div className="absolute bottom-[20%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 rounded-full blur-[100px]" />
+      </div>
+
+      <main className="container mx-auto px-6 py-24 sm:py-32">
+        <div className="text-center mb-16 sm:mb-24 animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
+            <Trophy className="h-4 w-4" />
+            <span>Success Engineered</span>
+          </div>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Everything You Need to <span className="text-gradient">Ace the Boards</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to master pathology and ace your exams
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Focused material tailored precisely for the Rheumatology certification and re-certification exams.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <Card key={index} className="border-2 hover:border-primary transition-colors">
-                <CardContent className="p-6">
-                  <div className="mb-4 inline-flex p-3 bg-primary/10 rounded-lg">
-                    <Icon className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
-                </CardContent>
-              </Card>
+              <div key={index} className="glass-card-hover p-8 rounded-[2rem] border border-white/10 group">
+                <div className="mb-6 inline-flex p-4 bg-primary/10 rounded-2xl group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300">
+                  <Icon className="h-8 w-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
+                <p className="text-muted-foreground leading-relaxed text-lg">{feature.description}</p>
+              </div>
             );
           })}
         </div>
 
-        <div className="mt-16 text-center">
-          <h2 className="text-3xl font-bold mb-8">See How It Works</h2>
-          <p className="text-muted-foreground mb-8">
-            This deck is designed to help you study smarter, retain faster, and walk into the boards prepared & experience our interactive learning platform
-          </p>
-          <Card className="max-w-4xl mx-auto">
-            <CardContent className="p-8">
-              <div className="space-y-6">
-                <div className="text-left">
-                  <h3 className="text-xl font-semibold mb-4">Interactive Learning Experience</h3>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Select your answer from multiple choice options</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Click "Show Answer" to reveal detailed explanations</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Navigate through questions with Previous/Next buttons</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Review summaries that tie all concepts together</span>
-                    </li>
-                  </ul>
+        <div className="mt-24 sm:mt-32">
+          <div className="glass-card p-8 sm:p-16 rounded-[3rem] border border-white/20 shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 p-12 opacity-5 pointer-events-none">
+              <Target className="h-48 w-48" />
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-8">
+                <h2 className="text-3xl sm:text-4xl font-bold">Interactive Board Simulation</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Designed to help you study smarter, retain faster, and walk into the boards prepared. Experience a platform built by someone who has been exactly where you are.
+                </p>
+
+                <div className="space-y-4">
+                  {[
+                    "Real-time answer feedback with high-yield teaching points",
+                    "Visual diagrams for complex radiographic and pathology findings",
+                    "ACR Guideline-driven content updated for 2026",
+                    "Flexible study modes: timed or un-timed"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4">
+                      <div className="h-6 w-6 rounded-full bg-green-500/20 flex items-center justify-center shrink-0">
+                        <CheckCircle2 className="h-3 w-3 text-green-500" />
+                      </div>
+                      <span className="font-medium">{item}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
-            </CardContent>
-          </Card>
+
+              <div className="bg-slate-900/50 dark:bg-black/50 p-8 rounded-3xl border border-white/10 shadow-inner">
+                <div className="space-y-6 text-white">
+                  <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                    <div className="font-bold uppercase tracking-wider text-xs opacity-50">Exam Practice Mode</div>
+                    <div className="h-2 w-2 rounded-full bg-red-500 animate-pulse" />
+                  </div>
+                  <div className="space-y-3">
+                    <div className="h-4 w-[90%] bg-white/20 rounded" />
+                    <div className="h-4 w-[70%] bg-white/20 rounded" />
+                  </div>
+                  <div className="grid gap-3 pt-4">
+                    {[1, 2, 3].map(i => (
+                      <div key={i} className="h-12 border border-white/10 rounded-xl bg-white/5 flex items-center px-4 text-sm opacity-60">
+                        Option {String.fromCharCode(64 + i)}...
+                      </div>
+                    ))}
+                  </div>
+                  <div className="pt-6">
+                    <Button className="w-full btn-premium rounded-xl h-14 font-bold text-lg">Check Answer</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
