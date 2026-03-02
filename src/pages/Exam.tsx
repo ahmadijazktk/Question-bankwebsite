@@ -617,9 +617,9 @@ const Exam = () => {
                                 className="w-full h-auto object-contain max-h-[300px] rounded-lg"
                               />
                             </div>
-                            {question.image2Src && (
+                            {question.image2Src && showAnswer && (
                               <div
-                                className="cursor-zoom-in transition-transform hover:scale-[1.02]"
+                                className="cursor-zoom-in transition-transform hover:scale-[1.02] animate-in fade-in zoom-in-95 duration-500"
                                 onClick={() => setZoomedImageUrl(question.image2Src || null)}
                               >
                                 <img

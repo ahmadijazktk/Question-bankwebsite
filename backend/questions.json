@@ -85,6 +85,73 @@
       }
     ],
     "summary": "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser."
+  },
+  {
+    "text": "What do you do?",
+    "category": "Medications",
+    "difficulty": "medium",
+    "diagram": true,
+    "image": "q_acr_vaccine_1.png",
+    "image2": "a_acr_vaccine_1.png",
+    "options": [
+      {
+        "text": "Show Answer",
+        "explanation": "Show Answer",
+        "isCorrect": true
+      }
+    ],
+    "summary": "ACR Guideline-driven content for live vaccines. Abatacept should be held for 1 dosing interval before and 4 weeks after live attenuated vaccines.",
+    "showImageWithQuestion": true
+  },
+  {
+    "text": "What do you do?",
+    "category": "Medications",
+    "difficulty": "medium",
+    "diagram": true,
+    "image": "q_non_live_vax_1.png",
+    "image2": "a_non_live_vax_1.png",
+    "options": [
+      {
+        "text": "Show Answer",
+        "explanation": "For patients on low dose glucocorticoids (Prednisone <= 10mg daily), both influenza and other non-live attenuated vaccinations should be given.",
+        "isCorrect": true
+      }
+    ],
+    "summary": "ACR Vaccination Recommendation for patients on low-dose steroids.",
+    "showImageWithQuestion": true
+  },
+  {
+    "text": "What do you do?",
+    "category": "Medications",
+    "difficulty": "medium",
+    "diagram": true,
+    "image": "q_non_live_vax_med_dose.png",
+    "image2": "a_non_live_vax_med_dose.png",
+    "options": [
+      {
+        "text": "Show Answer",
+        "explanation": "For patients on moderate dose glucocorticoids (Prednisone > 10mg and < 20mg daily), both influenza and other non-live attenuated vaccinations are conditionally recommended to be given.",
+        "isCorrect": true
+      }
+    ],
+    "summary": "ACR Vaccination Recommendation for patients on moderate-dose steroids.",
+    "showImageWithQuestion": true
+  },
+  {
+    "text": "What do you do?",
+    "category": "Medications",
+    "difficulty": "medium",
+    "diagram": true,
+    "image": "q_non_live_vax_high_dose.png",
+    "image2": "a_non_live_vax_high_dose.png",
+    "options": [
+      {
+        "text": "Show Answer",
+        "explanation": "For patients on high-dose glucocorticoids (Prednisone >= 20mg daily), the influenza vaccine is recommended to be given, but other non-live attenuated vaccinations should be deferred until the dose is tapered.",
+        "isCorrect": true
+      }
+    ],
+    "summary": "ACR Vaccination Recommendation for patients on high-dose steroids.",
+    "showImageWithQuestion": true
   }
 ]
-
