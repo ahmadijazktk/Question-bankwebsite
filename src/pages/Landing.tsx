@@ -33,8 +33,8 @@ const Landing = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">
-                Evidence-Based, Exam-Focused, Fellowship-Approved. <br className="hidden md:block" />
-                Guideline-Driven Content for Real-World Success.
+                Built for Boards.  <br className="hidden md:block" />
+                Trusted in Fellowship.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-8 sm:mt-10 max-w-md mx-auto lg:mx-0">
@@ -83,7 +83,7 @@ const Landing = () => {
           <div className="text-center mb-12 sm:mb-20 space-y-4">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Engineered for your Success</h2>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-              We provide the most focused study material to ensure you pass your boards the first time.
+              RheumZoom — the same high-yield resource trusted by rheumatology fellows — is now available as a full digital board prep platform with new tools for practice, tracking, and structured learning.
             </p>
           </div>
 
