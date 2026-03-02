@@ -11,7 +11,7 @@ const Features = () => {
     },
     {
       icon: Brain,
-      title: "Deep Explanations",
+      title: "Direct Explanations",
       description: "Learn from evidence-based, Guideline-driven explanations for every single answer option."
     },
     {
@@ -53,11 +53,10 @@ const Features = () => {
             <span>Success Engineered</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-            Everything You Need to <span className="text-gradient">Ace the Boards</span>
+            Built For  <span className="text-gradient">Boards</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Focused material tailored precisely for the Rheumatology certification and re-certification exams.
-          </p>
+            Focused learning for certification and recertification success.          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

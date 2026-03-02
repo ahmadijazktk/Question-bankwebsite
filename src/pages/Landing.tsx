@@ -72,18 +72,6 @@ const Landing = () => {
                   className="relative rounded-2xl sm:rounded-3xl shadow-2xl w-full border border-white/10"
                 />
               </div>
-              {/* Decorative Card */}
-              <div className="absolute -bottom-6 -left-6 sm:-bottom-10 sm:-left-10 glass-card p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-2xl animate-fade-in hidden xl:block border border-white/20">
-                <div className="flex items-center gap-4">
-                  <div className="p-2 sm:p-3 bg-green-500/20 rounded-lg sm:rounded-xl">
-                    <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-green-500" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-base sm:text-lg">98% Success Rate</div>
-                    <div className="text-xs sm:text-sm opacity-70">Among active users</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -102,14 +90,9 @@ const Landing = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
             {[
               {
-                icon: Clock,
-                title: "Timed Simulations",
-                desc: "Simulate the pressure of the real exam with our timed test environment and detailed analytics."
-              },
-              {
                 icon: Database,
                 title: "Evidence-Based QBank",
-                desc: "600+ questions covering RA, SLE, PsA, and more, all with deep medical explanations and references."
+                desc: "600+ board-focused questions across RA, SLE, PsA, ACR guidelines and more — built for quick, efficient studying and active recall."
               },
               {
                 icon: Smartphone,
@@ -160,30 +143,16 @@ const Landing = () => {
                   <Button size="lg" className="rounded-2xl px-10 h-14 sm:h-16 text-lg w-full sm:w-auto">Start Practicing</Button>
                 </Link>
               </div>
-              <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-8 sm:mt-0">
-                <div className="space-y-4 sm:space-y-6 pt-6 sm:pt-12">
-                  <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-                    <Database className="h-8 w-8 sm:h-10 sm:w-10 text-primary mb-3 sm:mb-4" />
-                    <div className="text-2xl sm:text-3xl font-bold">600+</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground font-medium">Flashcards</div>
-                  </div>
-                  <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-                    <Star className="h-8 w-8 sm:h-10 sm:w-10 text-orange-500 mb-3 sm:mb-4" />
-                    <div className="text-2xl sm:text-3xl font-bold">4.9/5</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground font-medium">User Rating</div>
-                  </div>
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-8 sm:mt-0 justify-center">
+                <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors flex-1">
+                  <Database className="h-8 w-8 sm:h-10 sm:w-10 text-primary mb-3 sm:mb-4" />
+                  <div className="text-2xl sm:text-3xl font-bold">600+</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground font-medium">Questions</div>
                 </div>
-                <div className="space-y-4 sm:space-y-6">
-                  <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-                    <Users className="h-8 w-8 sm:h-10 sm:w-10 text-indigo-500 mb-3 sm:mb-4" />
-                    <div className="text-2xl sm:text-3xl font-bold">1000+</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground font-medium">Active Fellows</div>
-                  </div>
-                  <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-                    <CheckCircle2 className="h-8 w-8 sm:h-10 sm:w-10 text-green-500 mb-3 sm:mb-4" />
-                    <div className="text-2xl sm:text-3xl font-bold">100%</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground font-medium">Focused Material</div>
-                  </div>
+                <div className="glass-card p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 shadow-xl sm:shadow-2xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors flex-1">
+                  <CheckCircle2 className="h-8 w-8 sm:h-10 sm:w-10 text-green-500 mb-3 sm:mb-4" />
+                  <div className="text-2xl sm:text-3xl font-bold">100%</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground font-medium">Focused Material</div>
                 </div>
               </div>
             </div>
@@ -197,9 +166,9 @@ const Landing = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12 sm:mb-20 space-y-4">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Hear from your Colleagues</h2>
-            <div className="flex justify-center gap-1">
+            {/* <div className="flex justify-center gap-1">
               {[1, 2, 3, 4, 5].map(i => <Star key={i} className="h-5 w-5 sm:h-6 sm:w-6 text-yellow-400 fill-yellow-400" />)}
-            </div>
+            </div> */}
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 sm:gap-8">

@@ -24,7 +24,7 @@ const Contact = () => {
 
     try {
       const response = await apiPost("/contact", formData);
-      
+
       if (response.success) {
         toast.success("Message sent successfully! We'll get back to you soon.");
         setFormData({ name: "", email: "", subject: "", message: "" });
@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -134,48 +134,6 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-
-            <Card className="border-2">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <Phone className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg mb-2">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (678) 438-5127</p>
-                    <p className="text-sm text-muted-foreground mt-1">Mon-Fri 9am-5pm EST</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* <Card className="border-2">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <MessageSquare className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg mb-2">Live Chat</h3>
-                    <p className="text-muted-foreground">Available Monday to Friday</p>
-                    <p className="text-sm text-muted-foreground mt-1">Average response time: 2 hours</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card> */}
-
-            {/* <Card className="bg-primary/5 border-primary/20">
-              <CardContent className="p-6">
-                <h3 className="font-semibold text-lg mb-2">Frequently Asked Questions</h3>
-                <p className="text-muted-foreground mb-4">
-                  Before reaching out, check if your question is already answered in our FAQ section.
-                </p>
-                <Button variant="outline" className="w-full">
-                  View FAQ
-                </Button>
-              </CardContent>
-            </Card> */}
           </div>
         </div>
       </main>
