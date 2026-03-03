@@ -633,16 +633,16 @@ const Exam = () => {
                         )}
                       </CardContent>
                     </Card>
-                    <DialogContent className="max-w-4xl w-auto h-auto p-4 flex items-center justify-center bg-background/95">
+                    <DialogContent className="max-w-fit p-0 border-none bg-transparent flex items-center justify-center">
                       {zoomedImageUrl && (
-                        <div className="flex items-center justify-center w-full">
-                          <img
-                            src={zoomedImageUrl}
-                            alt="Zoomed"
-                            className="object-contain rounded-md shadow-inner"
-                            style={{ height: '600px', width: '500px' }}
-                          />
-                        </div>
+                        <img
+                          src={zoomedImageUrl}
+                          alt="Zoomed"
+                          className="object-contain rounded-xl shadow-2xl"
+                          width="500"
+                          height="600"
+                          style={{ width: '500px', height: '600px' }}
+                        />
                       )}
                     </DialogContent>
                   </Dialog>
