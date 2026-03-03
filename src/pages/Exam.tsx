@@ -639,7 +639,8 @@ const Exam = () => {
                           <img
                             src={zoomedImageUrl}
                             alt="Zoomed"
-                            className="max-w-full h-auto object-contain max-h-[85vh]"
+                            className="object-contain rounded-md shadow-inner"
+                            style={{ height: '600px', width: '500px' }}
                           />
                         </div>
                       )}
