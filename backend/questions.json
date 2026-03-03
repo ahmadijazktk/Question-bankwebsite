@@ -153,5 +153,22 @@
     ],
     "summary": "ACR Vaccination Recommendation for patients on high-dose steroids.",
     "showImageWithQuestion": true
+  },
+  {
+    "text": "What do you do?",
+    "category": "Medications",
+    "difficulty": "medium",
+    "diagram": true,
+    "image": "q_hrt_rmd_1.png",
+    "image2": "a_hrt_rmd_1.png",
+    "showImageWithQuestion": true,
+    "options": [
+      {
+        "text": "Show Answer",
+        "explanation": "In women with RMD without SLE and without (+) aPL, suggest treating with HRT according to general postmenopausal population guidelines for patients with severe vasomotor symptoms and no other contraindications. (Strongly Recommend HRT if needed).",
+        "isCorrect": true
+      }
+    ],
+    "summary": "ACR Reproductive Health Guidelines for HRT in RMD patients."
   }
 ]
