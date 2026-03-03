@@ -14,11 +14,7 @@ const Features = () => {
       title: "Direct Explanations",
       description: "Learn from evidence-based, Guideline-driven explanations for every single answer option."
     },
-    {
-      icon: LineChart,
-      title: "Performance Analytics",
-      description: "Monitor your strengths and weaknesses with detailed statistics and progress tracking."
-    },
+
     {
       icon: Trophy,
       title: "Award-Winning Method",
@@ -27,7 +23,7 @@ const Features = () => {
     {
       icon: Clock,
       title: "Flexible Learning",
-      description: "Navigate through questions at your own pace with timed and untimed simulation modes."
+      description: "Navigate through questions at your own pace."
     },
     {
       icon: Target,
@@ -92,7 +88,7 @@ const Features = () => {
                     "Real-time answer feedback with high-yield teaching points",
                     "Visual diagrams for complex radiographic and pathology findings",
                     "ACR Guideline-driven content updated for 2026",
-                    "Flexible study modes: timed or un-timed"
+
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-4">
                       <div className="h-6 w-6 rounded-full bg-green-500/20 flex items-center justify-center shrink-0">

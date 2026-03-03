@@ -10,55 +10,39 @@ const Pricing = () => {
       name: "1 Month",
       price: "$59.99",
       period: "per month",
-      features: [
-        "Access to all question banks",
-        "Detailed explanations",
-        "Performance tracking",
-        "Mobile access",
-      ],
+
     },
     {
       name: "3 Months",
       price: "$99.99",
       period: "one-time",
       popular: true,
-      features: [
-        "Everything in 1 Month",
-        "Save 23%",
-        "Extended study time",
-        "Priority support",
-      ],
+
     },
     {
       name: "12 Months",
       price: "$149.99",
       period: "per year",
-      features: [
-        "Everything in 3 Months",
-        "Save 44%",
-        "Full year access",
-        "Exam preparation mode",
-      ],
+
     },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-4">Choose Your Plan</h1>
             <p className="text-xl text-muted-foreground">
-              Select the perfect plan for your pathology learning journey
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {plans.map((plan) => (
-              <Card 
-                key={plan.name} 
+              <Card
+                key={plan.name}
                 className={plan.popular ? "border-primary border-2 relative" : ""}
               >
                 {plan.popular && (
@@ -83,8 +67,8 @@ const Pricing = () => {
                     ))}
                   </ul>
                   <Link to="/auth?mode=signup">
-                    <Button 
-                      className="w-full" 
+                    <Button
+                      className="w-full"
                       variant={plan.popular ? "default" : "outline"}
                     >
                       Get Started
