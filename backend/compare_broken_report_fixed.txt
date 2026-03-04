@@ -1,0 +1,47 @@
+Q1:
+{
+  "_id": "69a362f0e212ad97bfa96a9a",
+  "text": "What does a muscle biopsy with HCQ toxicity look like?",
+  "category": "Free Trial",
+  "options": [
+    {
+      "text": "Show Answer",
+      "explanation": "Cytoplasmic vacuoles (Gomori trichrome stain)\nCurvilinear bodies and myeloid bodies (EM)\n\n*They may ask a question stem involving a patient taking HCQ who develops CHF symptoms....remember HCQ cardiotoxicity would also show the above histology*",
+      "isCorrect": true
+    }
+  ],
+  "diagram": false,
+  "difficulty": "medium",
+  "image": "hcq_toxicity_gomori.jpg",
+  "image2": "hcq_toxicity_em.jpg",
+  "isFreeTrialQuestion": true,
+  "freeTrialOrder": 13,
+  "showImageWithQuestion": false,
+  "createdAt": "2026-02-28T21:49:36.797Z",
+  "updatedAt": "2026-02-28T21:49:36.797Z",
+  "__v": 0
+}
+
+Q2:
+{
+  "_id": "69a611ce26d4e93901b3141e",
+  "text": "What do you do?",
+  "category": "Medications",
+  "options": [
+    {
+      "text": "Show Answer",
+      "explanation": "For patients on moderate dose glucocorticoids (Prednisone > 10mg and < 20mg daily), both influenza and other non-live attenuated vaccinations are conditionally recommended to be given.",
+      "isCorrect": true
+    }
+  ],
+  "summary": "ACR Vaccination Recommendation for patients on moderate-dose steroids.",
+  "diagram": true,
+  "difficulty": "medium",
+  "image": "q_non_live_vax_med_dose.png",
+  "image2": "a_non_live_vax_med_dose.png",
+  "isFreeTrialQuestion": false,
+  "showImageWithQuestion": true,
+  "createdAt": "2026-03-02T22:40:14.455Z",
+  "updatedAt": "2026-03-02T23:49:07.634Z",
+  "__v": 0
+}

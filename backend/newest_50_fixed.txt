@@ -1,0 +1,51 @@
+Checking newest 50 questions...
+1: ID: 69a7390a68cbe798abea80c5 | Trial: false | Order: undefined | Image: q_art_thrombotic_aps.png | Text: What do you do?
+2: ID: 69a7358ec1b40eee5c2e5157 | Trial: false | Order: undefined | Image: q_art_ob_aps.png | Text: What do you do?
+3: ID: 69a733a10672ca3fa1298ed5 | Trial: false | Order: undefined | Image: q_art_3.png | Text: What do you do?
+4: ID: 69a730136ee0d1f329e86192 | Trial: false | Order: undefined | Image: q_art_2.png | Text: What do you do?
+5: ID: 69a72bb183c9e00ec31827e1 | Trial: false | Order: undefined | Image: q_art_1.png | Text: What do you do?
+6: ID: 69a71eff76003482beac663b | Trial: false | Order: undefined | Image: q_thrombotic_aps_1.png | Text: What do you do?
+7: ID: 69a71b8d2a01b01eb29d29ed | Trial: false | Order: undefined | Image: q_ob_aps_1.png | Text: What do you do?
+8: ID: 69a718d5671e7986ddd1a4ae | Trial: false | Order: undefined | Image: q_pos_apl_no_aps_1.png | Text: What do you do?
+9: ID: 69a715080fb35692ccca2f06 | Trial: false | Order: undefined | Image: q_anti_ro_la_1.png | Text: What do you do?
+10: ID: 69a712282e6fbd797b121cfe | Trial: false | Order: undefined | Image: q_preg_plan_1.png | Text: What do you do?
+11: ID: 69a711a16109ba09b02aa5f7 | Trial: false | Order: undefined | Image: q_contraception_5.png | Text: What do you do?
+12: ID: 69a6fe350fd67d27c07d7fce | Trial: false | Order: undefined | Image: q_contraception_4.png | Text: What do you do?
+13: ID: 69a6fb282e57db246290df9b | Trial: false | Order: undefined | Image: q_contraception_3.png | Text: What do you do?
+14: ID: 69a6f98dd031ca66771afc7a | Trial: false | Order: undefined | Image: q_contraception_2.png | Text: What do you do?
+15: ID: 69a6f82c0a8d6d1ad1e3c5b2 | Trial: false | Order: undefined | Image: q_contraception_1.png | Text: What do you do?
+16: ID: 69a6f732666328361beb4e3a | Trial: false | Order: undefined | Image: q_hrt_rmd_4.png | Text: What do you do?
+17: ID: 69a6f5ddc1ec4092e0b2efe9 | Trial: false | Order: undefined | Image: q_hrt_rmd_3.png | Text: What do you do?
+18: ID: 69a6f0d6651f92b12ee9aa4d | Trial: false | Order: undefined | Image: q_hrt_rmd_2.png | Text: What do you do?
+19: ID: 69a6335a70149d955ec283f9 | Trial: false | Order: undefined | Image: q_hrt_rmd_1.png | Text: What do you do?
+20: ID: 69a61f96a32a51d2a2f7227c | Trial: false | Order: undefined | Image: q_non_live_vax_high_dose.png | Text: What do you do?
+21: ID: 69a611ce26d4e93901b3141e | Trial: false | Order: undefined | Image: q_non_live_vax_med_dose.png | Text: What do you do?
+22: ID: 69a60d60dc32a9d23bb5f288 | Trial: false | Order: undefined | Image: q_non_live_vax_1.png | Text: What do you do?
+23: ID: 69a60a2e219cfad6ec224b71 | Trial: false | Order: undefined | Image: q_acr_vaccine_1.png | Text: What do you do?
+24: ID: 69a363b4e212ad97bfa96f78 | Trial: false | Order: undefined | Image: question108_image.jpg | Text: What is shown here?
+25: ID: 69a363b4e212ad97bfa96f76 | Trial: false | Order: undefined | Image: hyperparathyroidism_hand.jpg | Text: What is shown here?
+26: ID: 69a363b4e212ad97bfa96f74 | Trial: false | Order: undefined | Image: null | Text: A 40 year old female with a known histor
+27: ID: 69a363b4e212ad97bfa96f72 | Trial: false | Order: undefined | Image: null | Text: A 35 year old woman with 5 year history 
+28: ID: 69a363b4e212ad97bfa96f70 | Trial: false | Order: undefined | Image: null | Text: A 28 year old woman with a 3 year histor
+29: ID: 69a363b3e212ad97bfa96f6e | Trial: false | Order: undefined | Image: null | Text: A 31 year old male with 4 year history o
+30: ID: 69a363b3e212ad97bfa96f6c | Trial: false | Order: undefined | Image: null | Text: A patient with SLE has new onset seizure
+31: ID: 69a363b3e212ad97bfa96f6a | Trial: false | Order: undefined | Image: null | Text: A 33 year old female with SLE has the fo
+32: ID: 69a363b3e212ad97bfa96f68 | Trial: false | Order: undefined | Image: null | Text: A 34 year old female patient is referred
+33: ID: 69a363b3e212ad97bfa96f66 | Trial: false | Order: undefined | Image: null | Text: What is the treatment choice for a patie
+34: ID: 69a363b3e212ad97bfa96f64 | Trial: false | Order: undefined | Image: null | Text: A 28 year old female with SLE has been s
+35: ID: 69a363b3e212ad97bfa96f62 | Trial: false | Order: undefined | Image: null | Text: A 28 year old female with SLE has been s
+36: ID: 69a363b3e212ad97bfa96f60 | Trial: false | Order: undefined | Image: null | Text: A 28 year old female with SLE has been s
+37: ID: 69a363b3e212ad97bfa96f5e | Trial: false | Order: undefined | Image: null | Text: A 28 year old female with SLE has been s
+38: ID: 69a363b2e212ad97bfa96f5c | Trial: false | Order: undefined | Image: null | Text: A 30 year old female with SLE (+anti-Smi
+39: ID: 69a363b2e212ad97bfa96f5a | Trial: false | Order: undefined | Image: null | Text: A 30 year old female with SLE (+anti-Smi
+40: ID: 69a363b2e212ad97bfa96f58 | Trial: false | Order: undefined | Image: null | Text: To minimize retinal toxicity, we conditi
+41: ID: 69a363b2e212ad97bfa96f56 | Trial: false | Order: undefined | Image: null | Text: A 25 year old female with known SLE has 
+42: ID: 69a363b2e212ad97bfa96f54 | Trial: false | Order: undefined | Image: null | Text: A 27 year old female with known SLE (+an
+43: ID: 69a363b2e212ad97bfa96f52 | Trial: false | Order: undefined | Image: null | Text: A patient has SLE and past Class IV and 
+44: ID: 69a363b2e212ad97bfa96f50 | Trial: false | Order: undefined | Image: null | Text: A patient with SLE and Class IV lupus ne
+45: ID: 69a363b2e212ad97bfa96f4e | Trial: false | Order: undefined | Image: null | Text: In regards to lupus nephritis with devel
+46: ID: 69a363b2e212ad97bfa96f4c | Trial: false | Order: undefined | Image: null | Text: A patient has newly diagnosed SLE with c
+47: ID: 69a363b2e212ad97bfa96f4a | Trial: false | Order: undefined | Image: null | Text: A patient with SLE and newly diagnosed C
+48: ID: 69a363b1e212ad97bfa96f48 | Trial: false | Order: undefined | Image: null | Text: A patient with SLE and newly diagnosed C
+49: ID: 69a363b1e212ad97bfa96f46 | Trial: false | Order: undefined | Image: null | Text: A patient with SLE and new onset Class I
+50: ID: 69a363b1e212ad97bfa96f44 | Trial: false | Order: undefined | Image: null | Text: A patient with SLE develops Class IV lup

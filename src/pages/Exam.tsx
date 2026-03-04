@@ -58,7 +58,7 @@ interface Question {
 // Collect available images and helpers to map one unique image per question 
 const imageModules = import.meta.glob([
   "/src/images/*.{png,jpg,jpeg,webp,svg}",
-], { eager: true, as: "url" }) as Record<string, string>;
+], { eager: true, as: "url" }) as Record<string, string>; // HMR trigger
 
 // Build a basename -> url index for resolving <img src> provided in question HTML
 const imageBasenameToUrl: Record<string, string> = Object.entries(imageModules).reduce((acc, [path, url]) => {
