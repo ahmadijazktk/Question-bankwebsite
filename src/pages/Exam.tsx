@@ -16,9 +16,11 @@ import {
   DialogTrigger,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
+import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 
 interface QuestionOption {
   text: string;
@@ -633,7 +635,13 @@ const Exam = () => {
                         )}
                       </CardContent>
                     </Card>
-                    <DialogContent className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-none bg-background/95 flex items-center justify-center overflow-hidden">
+                    <DialogContent aria-describedby="zoom-dialog-description" className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-none bg-background/95 flex items-center justify-center overflow-hidden">
+                      <VisuallyHidden.Root>
+                        <DialogTitle>Zoomed Image</DialogTitle>
+                        <DialogDescription id="zoom-dialog-description">
+                          A larger view of the selected question diagram or answer.
+                        </DialogDescription>
+                      </VisuallyHidden.Root>
                       {zoomedImageUrl && (
                         <img
                           src={zoomedImageUrl}
