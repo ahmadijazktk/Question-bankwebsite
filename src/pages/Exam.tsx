@@ -57,17 +57,22 @@ interface Question {
   showImageWithQuestion?: boolean;
 }
 
-// Collect available images and helpers to map one unique image per question 
-const imageModules = import.meta.glob([
-  "/src/images/*.{png,jpg,jpeg,webp,svg}",
-], { eager: true, as: "url" }) as Record<string, string>; // HMR trigger
+// Load all images from src/images/ into a basename->url map
+// Glob is relative to THIS file: src/pages/Exam.tsx, so ../images = src/images
+const imageModules = import.meta.glob("../images/*", { eager: true, query: "?url", import: "default" }) as Record<string, string>;
 
-// Build a basename -> url index for resolving <img src> provided in question HTML
-const imageBasenameToUrl: Record<string, string> = Object.entries(imageModules).reduce((acc, [path, url]) => {
-  const base = path.split('/').pop()?.toLowerCase() || "";
-  if (base) acc[base] = url;
-  return acc;
-}, {} as Record<string, string>);
+// Build a lowercase basename -> url index
+const imageBasenameToUrl: Record<string, string> = {};
+for (const [filePath, url] of Object.entries(imageModules)) {
+  const base = filePath.split('/').pop()?.toLowerCase() || "";
+  if (base && url) {
+    imageBasenameToUrl[base] = url;
+    const noExt = base.replace(/\.[^.]+$/, '');
+    imageBasenameToUrl[noExt] = url;
+  }
+}
+console.log(`[Exam] Image glob: ${Object.keys(imageModules).length} files loaded. Sample:`, Object.keys(imageBasenameToUrl).slice(0, 4));
+
 
 // Replace <img src="filename.png"> in HTML with the correct Vite URL using our map
 const resolveImageSources = (html: string): string => {
@@ -75,8 +80,8 @@ const resolveImageSources = (html: string): string => {
   return html.replace(/<img\b([^>]*?)\bsrc=(?:["']{1,2})([^"']+)["']{1,2}([^>]*)>/gi, (match, pre, src, post) => {
     const s = (src || "").trim();
     if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s)) return match;
-    const base = s.split('/').pop()?.toLowerCase() || s.toLowerCase();
-    const mapped = imageBasenameToUrl[base] || `/${s.split('/').pop()}`;
+    const base = s.split(/[\\/]/).pop()?.toLowerCase() || s.toLowerCase();
+    const mapped = imageBasenameToUrl[base] || imageBasenameToUrl[base.split('.')[0]] || `/images/${base}` || `/${s.split(/[\\/]/).pop()}`;
     if (mapped) {
       return `<img${pre}src="${mapped}"${post}>`;
     }
@@ -180,14 +185,18 @@ const Exam = () => {
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
             } else {
-              const lower = q.image.split('/').pop()?.toLowerCase() || "";
-              imageSrc = imageBasenameToUrl[lower] || `/${q.image}`;
+              const baseName = q.image.split(/[\\/]/).pop()?.toLowerCase() || "";
+              imageSrc = imageBasenameToUrl[baseName] || imageBasenameToUrl[baseName.split('.')[0]] || `/images/${baseName}` || `/${q.image}`;
             }
           }
 
           if (q.image2) {
-            const lower2 = q.image2.split('/').pop()?.toLowerCase() || "";
-            image2Src = imageBasenameToUrl[lower2] || `/${q.image2}`;
+            if (/^(https?:)?\/\//i.test(q.image2) || /^data:/i.test(q.image2)) {
+              image2Src = q.image2;
+            } else {
+              const baseName2 = q.image2.split(/[\\/]/).pop()?.toLowerCase() || "";
+              image2Src = imageBasenameToUrl[baseName2] || imageBasenameToUrl[baseName2.split('.')[0]] || `/images/${baseName2}` || `/${q.image2}`;
+            }
           }
 
           return {
@@ -547,23 +556,21 @@ const Exam = () => {
                     {showAnswer && (
                       <div className="animate-in fade-in zoom-in-95 duration-300">
                         {canViewAnswer ? (
-                          <div className="space-y-6">
-                            <div className="p-4 rounded-xl bg-muted/30 border border-border">
-                              <div className="flex items-center gap-2 text-green-600 dark:text-green-400 font-bold text-lg mb-2">
-                                <CheckCircle className="w-5 h-4" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
-                              </div>
-                              <div className="font-medium text-lg leading-snug">
-                                {correctOptionIndex !== -1 && question.options.length > 1 && (
-                                  <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
-                                )}
-                                {correctAnswer}
-                              </div>
-                              {correctExplanation && (
-                                <div className="mt-4 pt-4 border-t border-dashed border-border text-foreground/80 leading-relaxed whitespace-pre-wrap">
-                                  {correctExplanation}
-                                </div>
-                              )}
+                          <div className="p-4 rounded-xl bg-muted/30 border border-border">
+                            <div className="flex items-center gap-2 text-green-600 dark:text-green-400 font-bold text-lg mb-2">
+                              <CheckCircle className="w-5 h-4" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
                             </div>
+                            <div className="font-medium text-lg leading-snug">
+                              {correctOptionIndex !== -1 && question.options.length > 1 && (
+                                <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
+                              )}
+                              {correctAnswer}
+                            </div>
+                            {correctExplanation && (
+                              <div className="mt-4 pt-4 border-t border-dashed border-border text-foreground/80 leading-relaxed whitespace-pre-wrap">
+                                {correctExplanation}
+                              </div>
+                            )}
                           </div>
                         ) : (
                           <div className="p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30 border border-indigo-100 dark:border-indigo-900 rounded-xl text-center space-y-4 shadow-sm">
@@ -609,16 +616,19 @@ const Exam = () => {
                           </div>
                         ) : (
                           <div className={`p-4 w-full ${question.image2Src ? 'grid grid-cols-2 gap-4' : 'flex flex-col gap-4 items-center'}`}>
-                            <div
-                              className="cursor-zoom-in transition-transform hover:scale-[1.02]"
-                              onClick={() => setZoomedImageUrl(question.imageSrc || null)}
-                            >
-                              <img
-                                src={question.imageSrc}
-                                alt={question.imageAlt}
-                                className="w-full h-auto object-contain max-h-[530px] rounded-lg"
-                              />
-                            </div>
+                            {question.imageSrc && (
+                              <div
+                                className="cursor-zoom-in transition-transform hover:scale-[1.02]"
+                                onClick={() => setZoomedImageUrl(question.imageSrc || null)}
+                              >
+                                <img
+                                  src={question.imageSrc}
+                                  alt={question.imageAlt}
+                                  style={{ width: '1000px', height: 'auto', maxWidth: '100%' }}
+                                  className="object-contain rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 w-full"
+                                />
+                              </div>
+                            )}
                             {question.image2Src && showAnswer && (
                               <div
                                 className="cursor-zoom-in transition-transform hover:scale-[1.02] animate-in fade-in zoom-in-95 duration-500"
@@ -627,7 +637,8 @@ const Exam = () => {
                                 <img
                                   src={question.image2Src}
                                   alt="Second diagram"
-                                  className="w-full h-auto object-contain max-h-[530px] rounded-lg"
+                                  style={{ width: '1000px', height: 'auto', maxWidth: '100%' }}
+                                  className="object-contain rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 w-full"
                                 />
                               </div>
                             )}
@@ -637,9 +648,9 @@ const Exam = () => {
                     </Card>
                     <DialogContent aria-describedby="zoom-dialog-description" className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-none bg-background/95 flex items-center justify-center overflow-hidden">
                       <VisuallyHidden.Root>
-                        <DialogTitle>Zoomed Image</DialogTitle>
+                        <DialogTitle>Zoomed Image View</DialogTitle>
                         <DialogDescription id="zoom-dialog-description">
-                          A larger view of the selected question diagram or answer.
+                          A high resolution zoomed view of the medical diagram.
                         </DialogDescription>
                       </VisuallyHidden.Root>
                       {zoomedImageUrl && (
@@ -647,7 +658,7 @@ const Exam = () => {
                           src={zoomedImageUrl}
                           alt="Zoomed"
                           className="object-contain rounded-xl shadow-2xl"
-                          style={{ width: '90vw', height: '90vh' }}
+                          style={{ width: '1250px', height: '1250px', maxWidth: '95vw', maxHeight: '95vh' }}
                         />
                       )}
                     </DialogContent>
@@ -660,10 +671,10 @@ const Exam = () => {
             </div>
           </div>
         </main>
-      </div>
+      </div >
 
       {/* Trial End Dialog */}
-      <Dialog open={showTrialEndDialog} onOpenChange={setShowTrialEndDialog}>
+      < Dialog open={showTrialEndDialog} onOpenChange={setShowTrialEndDialog} >
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold flex items-center gap-2">
@@ -688,8 +699,8 @@ const Exam = () => {
             </Button>
           </div>
         </DialogContent>
-      </Dialog>
-    </SidebarProvider>
+      </Dialog >
+    </SidebarProvider >
   );
 };
 
