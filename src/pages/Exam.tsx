@@ -597,9 +597,9 @@ const Exam = () => {
                 <div className="sticky top-6">
                   <Dialog open={!!zoomedImageUrl} onOpenChange={(open) => !open && setZoomedImageUrl(null)}>
                     <Card className="overflow-hidden border-border/80 shadow-md">
-                      <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[480px]">
+                      <CardContent className="relative p-0 flex flex-col items-center justify-center min-h-[600px]">
                         {!(showAnswer && canViewAnswer) && question.options.length === 1 && !question.showImageWithQuestion ? (
-                          <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[480px]">
+                          <div className="flex flex-col items-center justify-center text-center p-8 bg-muted/20 w-full h-[600px]">
                             <ZoomIn className="w-12 h-12 text-muted-foreground mb-4 opacity-50" />
                             <h3 className="font-semibold text-lg text-foreground/80 mb-2">Image Answer Hidden</h3>
                             <p className="text-sm text-muted-foreground max-w-[250px]">
@@ -615,7 +615,7 @@ const Exam = () => {
                               <img
                                 src={question.imageSrc}
                                 alt={question.imageAlt}
-                                className="w-full h-auto object-contain max-h-[530px] rounded-lg"
+                                className="w-full h-auto object-contain max-h-[600px] rounded-lg"
                               />
                             </div>
                             {question.image2Src && showAnswer && (
@@ -626,7 +626,7 @@ const Exam = () => {
                                 <img
                                   src={question.image2Src}
                                   alt="Second diagram"
-                                  className="w-full h-auto object-contain max-h-[530px] rounded-lg"
+                                  className="w-full h-auto object-contain max-h-[600px] rounded-lg"
                                 />
                               </div>
                             )}
