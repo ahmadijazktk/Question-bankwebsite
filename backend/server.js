@@ -23,9 +23,25 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:8080';
 
+const allowedOrigins = [
+  FRONTEND_URL,
+  'http://localhost:8080',
+  'http://localhost:5173',
+  'https://study-bloom-medical.netlify.app',
+  'https://scholared.ca',
+  'https://www.scholared.ca'
+];
+
 // Middleware
 app.use(cors({
-  origin: FRONTEND_URL,
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
 // Stripe webhook must be registered BEFORE any body parsers on that route
