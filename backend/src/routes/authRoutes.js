@@ -5,7 +5,9 @@ import {
   login,
   getMe,
   updateProfile,
-  changePassword
+  changePassword,
+  forgotPassword,
+  resetPassword
 } from '../controllers/authController.js';
 import { authenticate } from '../middlewares/auth.js';
 
@@ -39,8 +41,7 @@ router.post('/login', loginValidation, login);
 router.get('/me', authenticate, getMe);
 router.put('/profile', authenticate, updateProfileValidation, updateProfile);
 router.put('/change-password', authenticate, changePasswordValidation, changePassword);
+router.post('/forgot-password', forgotPassword);
+router.post('/reset-password/:resetToken', resetPassword);
 
 export default router;
-
-
-

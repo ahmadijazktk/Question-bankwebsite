@@ -2,6 +2,7 @@ import User from '../models/User.js';
 import { generateToken } from '../utils/generateToken.js';
 import { asyncHandler } from '../middlewares/asyncHandler.js';
 import { validationResult } from 'express-validator';
+import crypto from 'crypto';
 
 /**
  * @route   POST /api/auth/register
@@ -87,7 +88,7 @@ export const login = asyncHandler(async (req, res) => {
   try {
     const isMatch = await user.comparePassword(password);
     console.log('🔑 Password match result:', isMatch);
-    
+
     if (!isMatch) {
       console.log('❌ Password mismatch for user:', email);
       return res.status(401).json({
@@ -212,6 +213,85 @@ export const changePassword = asyncHandler(async (req, res) => {
   res.json({
     success: true,
     message: 'Password changed successfully'
+  });
+});
+
+/**
+ * @route   POST /api/auth/forgot-password
+ * @desc    Send password reset email (simulated)
+ */
+export const forgotPassword = asyncHandler(async (req, res) => {
+  const { email } = req.body;
+
+  const user = await User.findOne({ email });
+
+  if (!user) {
+    return res.status(404).json({
+      success: false,
+      message: 'User not found'
+    });
+  }
+
+  // Get reset token
+  const resetToken = crypto.randomBytes(20).toString('hex');
+
+  // Set reset token and expiry
+  user.resetPasswordToken = crypto
+    .createHash('sha256')
+    .update(resetToken)
+    .digest('hex');
+
+  user.resetPasswordExpire = Date.now() + 30 * 60 * 1000; // 30 minutes
+
+  await user.save();
+
+  // In a real app, you would send an email here.
+  // For now, we'll return the token in the response (ONLY for development/simulation)
+  // or just say an email was sent.
+  console.log(`🔑 Reset token for ${email}: ${resetToken}`);
+
+  res.json({
+    success: true,
+    message: 'Reset link sent to email',
+    // In production, NEVER include the resetToken here.
+    // We include it now to make testing easier since we don't have an email service.
+    debugToken: resetToken
+  });
+});
+
+/**
+ * @route   POST /api/auth/reset-password/:resetToken
+ * @desc    Reset password
+ */
+export const resetPassword = asyncHandler(async (req, res) => {
+  // Get hashed token
+  const resetPasswordToken = crypto
+    .createHash('sha256')
+    .update(req.params.resetToken)
+    .digest('hex');
+
+  const user = await User.findOne({
+    resetPasswordToken,
+    resetPasswordExpire: { $gt: Date.now() }
+  });
+
+  if (!user) {
+    return res.status(400).json({
+      success: false,
+      message: 'Invalid or expired token'
+    });
+  }
+
+  // Set new password
+  user.password = req.body.password;
+  user.resetPasswordToken = undefined;
+  user.resetPasswordExpire = undefined;
+
+  await user.save();
+
+  res.json({
+    success: true,
+    message: 'Password reset successfully'
   });
 });
 
