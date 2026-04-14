@@ -10,26 +10,39 @@ import { getCurrentUser } from "@/lib/auth";
 
 const Dashboard = () => {
   const [subscription, setSubscription] = useState<any>(null);
+  const [user, setUser] = useState<any>(getCurrentUser());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchSubscription = async () => {
+    const fetchData = async () => {
       try {
-        const response = await apiGet<{ subscription: any }>("/subscriptions/current");
-        if (response.success && response.data) {
-          setSubscription(response.data.subscription);
+        // Fetch fresh user data to ensure name is correct and not cached wrongly
+        const userPromise = apiGet<{ user: any }>("/auth/me");
+        const subPromise = apiGet<{ subscription: any }>("/subscriptions/current");
+
+        const [userResponse, subResponse] = await Promise.allSettled([userPromise, subPromise]);
+
+        if (userResponse.status === "fulfilled" && userResponse.value.success && userResponse.value.data) {
+          const freshUser = userResponse.value.data.user;
+          setUser(freshUser);
+          // Sync with local storage
+          const token = localStorage.getItem("token");
+          if (token) localStorage.setItem("user", JSON.stringify(freshUser));
+        }
+
+        if (subResponse.status === "fulfilled" && subResponse.value.success && subResponse.value.data) {
+          setSubscription(subResponse.value.data.subscription);
         }
       } catch (error) {
-        // Subscription might not exist, that's okay
+        // Errors handled gracefully without breaking the dashboard
       } finally {
         setLoading(false);
       }
     };
 
-    fetchSubscription();
+    fetchData();
   }, []);
 
-  const user = getCurrentUser();
   const hasActiveSubscription = subscription && new Date(subscription.endDate) > new Date();
 
   return (
@@ -42,7 +55,7 @@ const Dashboard = () => {
               <SidebarTrigger />
             </div>
           </div>
-          
+
           <div className="p-8">
             <div className="mb-8">
               <h1 className="text-3xl font-bold mb-2">Dashboard</h1>
