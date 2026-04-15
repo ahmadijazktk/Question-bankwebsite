@@ -1,0 +1,26 @@
+﻿ALL What do you do? questions sorted by oldest to newest:
+1. ID: 69a363b4e212ad97bfa96f72 | QImg: null | AImg: undefined
+2. ID: 69a363b4e212ad97bfa96f74 | QImg: null | AImg: undefined
+3. ID: 69a60a2e219cfad6ec224b71 | QImg: q_acr_vaccine_1.png | AImg: a_acr_vaccine_1.png
+4. ID: 69a60d60dc32a9d23bb5f288 | QImg: q_non_live_vax_1.png | AImg: a_non_live_vax_1.png
+5. ID: 69a611ce26d4e93901b3141e | QImg: q_non_live_vax_med_dose.png | AImg: a_non_live_vax_med_dose.png
+6. ID: 69a61f96a32a51d2a2f7227c | QImg: q_non_live_vax_high_dose.png | AImg: a_non_live_vax_high_dose.png
+7. ID: 69a6335a70149d955ec283f9 | QImg: q_hrt_rmd_1.png | AImg: a_hrt_rmd_1.png
+8. ID: 69a6f0d6651f92b12ee9aa4d | QImg: q_hrt_rmd_2.png | AImg: a_hrt_rmd_2.png
+9. ID: 69a6f5ddc1ec4092e0b2efe9 | QImg: q_hrt_rmd_3.png | AImg: a_hrt_rmd_3.png
+10. ID: 69a6f732666328361beb4e3a | QImg: q_hrt_rmd_4.png | AImg: a_hrt_rmd_4.png
+11. ID: 69a6f82c0a8d6d1ad1e3c5b2 | QImg: q_contraception_1.png | AImg: a_contraception_1.png
+12. ID: 69a6f98dd031ca66771afc7a | QImg: q_contraception_2.png | AImg: a_contraception_2.png
+13. ID: 69a6fb282e57db246290df9b | QImg: q_contraception_3.png | AImg: a_contraception_3.png
+14. ID: 69a6fe350fd67d27c07d7fce | QImg: q_contraception_4.png | AImg: a_contraception_4.png
+15. ID: 69a711a16109ba09b02aa5f7 | QImg: q_contraception_5.png | AImg: a_contraception_5.png
+16. ID: 69a712282e6fbd797b121cfe | QImg: q_preg_plan_1.png | AImg: a_preg_plan_1.png
+17. ID: 69a715080fb35692ccca2f06 | QImg: q_anti_ro_la_1.png | AImg: a_anti_ro_la_1.png
+18. ID: 69a718d5671e7986ddd1a4ae | QImg: q_pos_apl_no_aps_1.png | AImg: a_pos_apl_no_aps_1.png
+19. ID: 69a71b8d2a01b01eb29d29ed | QImg: q_ob_aps_1.png | AImg: a_ob_aps_1.png
+20. ID: 69a71eff76003482beac663b | QImg: q_thrombotic_aps_1.png | AImg: a_thrombotic_aps_1.png
+21. ID: 69a72bb183c9e00ec31827e1 | QImg: q_art_1.png | AImg: a_art_1.png
+22. ID: 69a730136ee0d1f329e86192 | QImg: q_art_2.png | AImg: a_art_2.png
+23. ID: 69a733a10672ca3fa1298ed5 | QImg: q_art_3.png | AImg: a_art_3.png
+24. ID: 69a7358ec1b40eee5c2e5157 | QImg: q_art_ob_aps.png | AImg: a_art_ob_aps.png
+25. ID: 69a7390a68cbe798abea80c5 | QImg: q_art_thrombotic_aps.png | AImg: a_art_thrombotic_aps.png

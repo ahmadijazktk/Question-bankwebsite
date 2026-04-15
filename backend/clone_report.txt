@@ -1,0 +1,61 @@
+﻿Checking 10 recent 'What do you do?' questions.
+
+Question 1: ID: 69a8c6ce5dfe45eec677bfe7
+Image: q_non_live_vax_gc.png
+Image2: a_non_live_vax_gc.png
+Explanation: In female RMD patients with OB APS undergoing ART: (1) Proceeding with ART is conditionally recommended. (2) Prophylactic LMWH/UH is strongly recommended during ART procedures.
+Summary: ACR Pregnancy Guidelines for ART in OB APS: Proceed with ART (conditional recommendation) and use prophylactic anticoagulation during procedures (strong recommendation).
+
+Question 2: ID: 69a8c4187b2f91a1db352ae0
+Image: q_question_23.png
+Image2: a_question_23.png
+Explanation: Review the provided image.
+Summary: 
+
+Question 3: ID: 69a8c4187b2f91a1db352ade
+Image: q_question_22.png
+Image2: a_question_22.png
+Explanation: Review the provided image.
+Summary: 
+
+Question 4: ID: 69a733a10672ca3fa1298ed5
+Image: q_art_3.png
+Image2: a_art_3.png
+Explanation: In female RMD patients with Remission/Stable/Low Disease Activity and a Negative aPL Test, the recommendation is to proceed with Assisted Reproductive Technology (ART).
+Summary: Assisted Reproductive Technology (ART) in female RMD patients: If disease activity is low and aPL status is negative, ART can proceed as strongly recommended.
+
+Question 5: ID: 69a730136ee0d1f329e86192
+Image: q_art_2.png
+Image2: a_art_2.png
+Explanation: In female RMD patients with Remission/Stable/Low Disease Activity: (1) Strong recommendation to continue necessary immunosuppressive therapy (NOT CYC) through ovarian stimulation and oocyte retrieval for cryopreservation. (2) Strong recommendation to continue ONLY pregnancy-compatible meds.
+Summary: Assisted Reproductive Technology (ART) in female RMD patients with low disease activity: It is strongly recommended to continue necessary immunosuppressive treatments (except cyclophosphamide) and ensure only pregnancy-compatible medications are used during ovarian stimulation and retrieval.
+
+Question 6: ID: 69a72bb183c9e00ec31827e1
+Image: q_art_1.png
+Image2: a_art_1.png
+Explanation: In female RMD patients with Moderate/Severe Disease Activity, the strong recommendation is to DEFER Assisted Reproductive Technology (ART) until disease activity is low/stable.
+Summary: ACR Reproductive Health Guidelines for ART: For patients with moderate to severe disease activity, ART should be deferred to optimize pregnancy outcomes and reduce risks associated with high disease activity.
+
+Question 7: ID: 69a71eff76003482beac663b
+Image: q_thrombotic_aps_1.png
+Image2: a_thrombotic_aps_1.png
+Explanation: In RMD patients considering pregnancy who have Thrombotic APS: (1) Low dose aspirin PLUS THERAPEUTIC heparin is strongly recommended. (2) HCQ is strongly recommended.
+Summary: ACR Reproductive Health Guidelines: Pregnancy planning for Thrombotic APS involve low dose aspirin, therapeutic heparin, and HCQ.
+
+Question 8: ID: 69a71b8d2a01b01eb29d29ed
+Image: q_ob_aps_1.png
+Image2: a_ob_aps_1.png
+Explanation: In RMD patients considering pregnancy who have OB APS (Obstetric Antiphospholipid Syndrome): (1) Low dose aspirin PLUS PROPHYLACTIC heparin until 6-12 weeks postpartum is strongly recommended. (2) HCQ is strongly recommended. (3) There is a conditional recommendation AGAINST therapeutic heparin or IVIG. (4) There is a strong recommendation AGAINST prednisone.
+Summary: ACR Reproductive Health Guidelines: Pregnancy planning for OB APS involve low dose aspirin, prophylactic heparin, and HCQ, while avoiding therapeutic heparin, IVIG, or prednisone.
+
+Question 9: ID: 69a718d5671e7986ddd1a4ae
+Image: q_pos_apl_no_aps_1.png
+Image2: a_pos_apl_no_aps_1.png
+Explanation: In RMD patients considering pregnancy who have a positive aPL Test but no APS: (1) Low dose aspirin is conditionally recommended. (2) There is a conditional recommendation AGAINST the use of prophylactic heparin or HCQ in this scenario.
+Summary: ACR Reproductive Health Guidelines: Pregnancy planning for positive aPL (no APS) patients involves managing the risk with low dose aspirin while avoiding unnecessary heparin or HCQ prophylactic treatment.
+
+Question 10: ID: 69a715080fb35692ccca2f06
+Image: q_anti_ro_la_1.png
+Image2: a_anti_ro_la_1.png
+Explanation: For Anti-Ro/La (+) patients with no history of NLE: (1) HCQ is strongly recommended. (2) Serial fetal echo from week 16-27 is conditionally recommended. If abnormal fetal echo (1st or 2nd degree heart block), a brief course of DEXAMETHASONE is conditionally recommended. AGAINST Dexamethasone if 3rd degree block.
+Summary: ACR Reproductive Health Guidelines for Anti-Ro/La (+) patients considering pregnancy: Management includes HCQ and serial fetal echos to monitor for neonatal lupus erythematosus (NLE) and heart block.

@@ -1,0 +1,20 @@
+﻿
+ID: 69a363b3e212ad97bfa96f5e
+Text: A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. Her most recent blood work at the previous 3 visits showed neutropenia, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any symptoms and says she is feeling fine. What is your next best step?
+Explanation: Incorrect.
+Summary: 
+
+ID: 69a363b3e212ad97bfa96f60
+Text: A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. Her most recent blood work at the previous 3 visits showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any symptoms and says she is feeling fine. What is your next best step?
+Explanation: Incorrect.
+Summary: 
+
+ID: 69a363b3e212ad97bfa96f62
+Text: A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. She has been complaining or frequent epistaxis that is new to her. Her most recent blood work at the previous visit showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any other symptoms and says she is feeling fine. What is your next best step?
+Explanation: Incorrect.
+Summary: 
+
+ID: 69a363b3e212ad97bfa96f64
+Text: A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. She has been complaining of chest pain with exertion that is new to her. Her most recent blood work at the previous visit showed Hgb count of 8, but the remainder of her blood work has remained normal, including kidney function with urinalysis. A direct coombs test is positive. She denies any other symptoms and says she is feeling fine. What is your next best step?
+Explanation: Incorrect.
+Summary: 

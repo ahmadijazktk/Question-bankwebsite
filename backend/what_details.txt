@@ -1,0 +1,18 @@
+﻿
+ID: 69a8c6ce5dfe45eec677bfe7
+Text: What do you do?
+Image: q_non_live_vax_gc.png
+Image2: a_non_live_vax_gc.png
+Explanation: In female RMD patients with OB APS undergoing ART: (1) Proceeding with ART is conditionally recommended. (2) Prophylactic LMWH/UH is strongly recommended during ART procedures.
+
+ID: 69a8c4187b2f91a1db352ae0
+Text: What do you do?
+Image: q_question_23.png
+Image2: a_question_23.png
+Explanation: Review the provided image.
+
+ID: 69a8c4187b2f91a1db352ade
+Text: What do you do?
+Image: q_question_22.png
+Image2: a_question_22.png
+Explanation: Review the provided image.

@@ -1,0 +1,14 @@
+=== Opt 0: restart her prednisone but no more than 5mg daily ===
+Incorrect.
+
+=== Opt 1: start methotrexate ===
+Incorrect.
+
+=== Opt 2: start prednisone in combination with IVIG and/or rituximab ===
+According to ACR: " Thrombocytopenia: For symptomatic thrombocytopenia (i.e., active significant bleeding) attributed to SLE: …We  <strong>CONDITIONALLY RECOMMEND</strong>  initial glucocorticoid therapy with addition of IVIG and/or anti-CD20 therapy over the addition of conventional immunosuppressive agents."
+
+=== Opt 3: start azathioprine in combination with prednisone ===
+Incorrect.
+
+=== Opt 4: start prednisone in combination with belimumab ===
+Incorrect.

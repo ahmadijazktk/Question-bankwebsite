@@ -4,32 +4,23 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/AppSidebar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import medicalSymbol from "@/assets/medical.jpg";
 import { apiGet, apiPost } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 import { saveAuthData } from "@/lib/auth";
 
 interface Plan {
+  id: string;
   label: string;
   price: number;
-}
-
-interface Category {
-  id: string;
-  title: string;
-  questions: string;
-  featured: boolean;
-  plans: Record<string, Plan>;
 }
 
 const Subscription = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { toast } = useToast();
-  const [billingPeriod, setBillingPeriod] = useState<"monthly" | "annual">("monthly");
-  const [selectedPlans, setSelectedPlans] = useState<Record<string, string>>({});
-  const [categories, setCategories] = useState<Category[]>([]);
+
+  const [plans, setPlans] = useState<Plan[]>([]);
   const [currentSubscription, setCurrentSubscription] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
@@ -42,42 +33,30 @@ const Subscription = () => {
         ]);
 
         if (plansRes.success && plansRes.data) {
-          const plansData = plansRes.data.plans;
-
-          const categoryTitles: Record<string, string> = {
-            "anatomic-clinical": "Vasculitides and Dermatology",
-            "anatomic": "Histology essentials",
-            "clinical": "Rheumatology radiology",
-            "forensic": "Management & medication guidelines",
-            "cytopathology": "Osteoporosis ( Per ACR guidelines )",
-          };
-
-          const questionCounts: Record<string, string> = {
-            "anatomic-clinical": "Over 250 questions",
-            "anatomic": "Over 100 questions",
-            "clinical": "Over 100 questions",
-            "forensic": "Over 150 questions",
-            "cytopathology": "Over 50 questions",
-          };
+          // Flatten the plans into a unified list since category is just 'all-access'
+          const serverPlans = plansRes.data.plans['all-access'] || {};
 
           const planLabels: Record<string, string> = {
             "1m": "1 Month",
             "3m": "3 Months",
+            "6m": "6 Months",
             "12m": "12 Months",
           };
 
-          const cats: Category[] = Object.entries(plansData).map(([id, plans]) => ({
-            id,
-            title: categoryTitles[id] || id,
-            questions: questionCounts[id] || "Questions available",
-            featured: id === "anatomic-clinical",
-            plans: Object.entries(plans).reduce((acc, [key, price]) => {
-              acc[key] = { label: planLabels[key] || key, price };
-              return acc;
-            }, {} as Record<string, Plan>),
-          }));
+          const sortedPlanKeys = ["1m", "3m", "6m", "12m"];
+          const formattedPlans: Plan[] = [];
 
-          setCategories(cats);
+          sortedPlanKeys.forEach(key => {
+            if (serverPlans[key] !== undefined) {
+              formattedPlans.push({
+                id: key,
+                label: planLabels[key],
+                price: serverPlans[key]
+              });
+            }
+          });
+
+          setPlans(formattedPlans);
         }
 
         if (subscriptionRes.success && subscriptionRes.data) {
@@ -108,25 +87,20 @@ const Subscription = () => {
         const token = localStorage.getItem("token") || "";
 
         if (sessionId) {
-          console.log("🔄 Confirming Stripe session:", sessionId);
-
           toast({
             title: "Processing your subscription...",
             description: "Please wait while we activate your account.",
           });
 
           const confirmRes = await apiPost("/payments/confirm-checkout-session", { sessionId });
-          console.log("📦 Confirm response:", confirmRes);
 
           if (!confirmRes.success) {
-            console.error("❌ Subscription confirmation failed:", confirmRes);
             toast({
               title: "Subscription Activation Pending",
               description: "Your payment was successful. If your subscription doesn't activate in a few minutes, please refresh the page or contact support.",
               variant: "default",
             });
           } else {
-            console.log("✅ Subscription confirmed successfully");
             toast({
               title: "🎉 Subscription Activated!",
               description: "Your subscription is now active. Enjoy unlimited access to all questions!",
@@ -135,19 +109,15 @@ const Subscription = () => {
         }
 
         // Refresh user data
-        console.log("🔄 Refreshing user data...");
         const meRes = await apiGet<{ user: any }>("/auth/me");
         if (meRes.success && meRes.data?.user) {
           saveAuthData(token, meRes.data.user);
-          console.log("✅ User data refreshed");
         }
 
         // Refresh subscription data
-        console.log("🔄 Refreshing subscription data...");
         const subscriptionRes = await apiGet<{ subscription: any }>("/subscriptions/current");
         if (subscriptionRes.success && subscriptionRes.data) {
           setCurrentSubscription(subscriptionRes.data.subscription);
-          console.log("✅ Subscription data:", subscriptionRes.data.subscription);
 
           if (subscriptionRes.data.subscription) {
             toast({
@@ -157,7 +127,6 @@ const Subscription = () => {
           }
         }
       } catch (error: any) {
-        console.error("❌ Error confirming subscription:", error);
         toast({
           title: "Error",
           description: error.message || "Failed to confirm subscription. Please refresh the page or contact support.",
@@ -169,24 +138,9 @@ const Subscription = () => {
     refresh();
   }, [searchParams, toast]);
 
-  const handlePlanSelect = (categoryId: string, planValue: string) => {
-    setSelectedPlans(prev => ({
-      ...prev,
-      [categoryId]: planValue
-    }));
+  const handlePurchase = (planId: string) => {
+    navigate(`/checkout?category=all-access&plan=${planId}`);
   };
-
-  const handleUpgrade = () => {
-    const selectedCategory = Object.keys(selectedPlans)[0];
-    const selectedPlan = selectedPlans[selectedCategory];
-
-    if (selectedCategory && selectedPlan) {
-      const category = categories.find(c => c.id === selectedCategory);
-      navigate(`/checkout?category=${encodeURIComponent(category?.id || '')}&plan=${selectedPlan}`);
-    }
-  };
-
-  const hasSelectedPlan = Object.keys(selectedPlans).length > 0;
 
   return (
     <SidebarProvider>
@@ -202,94 +156,63 @@ const Subscription = () => {
           <div className="p-8">
             <div className="grid lg:grid-cols-3 gap-8 mb-8">
               <div className="lg:col-span-2">
-                <h1 className="text-3xl font-bold mb-4">My Subscription</h1>
+                <h1 className="text-3xl font-bold mb-4">Subscription Plan</h1>
+
+                <p className="text-xl mb-6">
+                  I would provide access to all questions, with the following prices:
+                </p>
+
                 {currentSubscription ? (
                   <div className="mb-4 p-4 bg-primary/10 rounded-lg">
                     <p className="text-lg font-semibold mb-2">Active Subscription</p>
                     <p className="text-muted-foreground">
-                      {currentSubscription.category} - {currentSubscription.plan} plan
+                      Access to all questions - {currentSubscription.plan} plan
                     </p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Expires: {new Date(currentSubscription.endDate).toLocaleDateString()}
                     </p>
                   </div>
-                ) : (
-                  <p className="text-lg mb-4">You're not currently subscribed to a plan.</p>
-                )}
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• Choose the plan that best fits your needs below, then click the Upgrade button.</li>
-                  <li>• The plan will <span className="italic">automatically cancel</span> at the end of the subscription time period.</li>
-                  <li>• You can optionally extend the subscription, or opt-in to automatically renew after the subscription is created.</li>
-                  <li>• The subscription can be delayed up to 6 months using the functionality below.</li>
-                </ul>
+                ) : null}
               </div>
               <div className="flex items-center justify-center">
-                <img src={medicalSymbol} alt="Medical symbol" className="w-64 h-64 object-contain" />
+                <img src={medicalSymbol} alt="Medical symbol" className="w-64 h-64 object-contain opacity-80" />
               </div>
-            </div>
-
-            <div className="mb-6 flex justify-center gap-2">
-              <Button
-                variant={billingPeriod === "monthly" ? "default" : "outline"}
-                onClick={() => setBillingPeriod("monthly")}
-              >
-                Monthly
-              </Button>
-              <Button
-                variant={billingPeriod === "annual" ? "default" : "outline"}
-                onClick={() => setBillingPeriod("annual")}
-              >
-                Annual
-              </Button>
             </div>
 
             {loading ? (
               <p className="text-muted-foreground">Loading subscription plans...</p>
             ) : (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {categories.map((category) => (
-                  <Card key={category.id} className={category.featured ? "border-primary border-2" : ""}>
-                    <CardHeader>
-                      <CardTitle className="text-lg">{category.title}</CardTitle>
-                      <p className="text-sm text-muted-foreground">{category.questions}</p>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="space-y-4">
-                        <div>
-                          <label className="text-sm font-medium mb-2 block">Select an option</label>
-                          <Select
-                            value={selectedPlans[category.id]}
-                            onValueChange={(value) => handlePlanSelect(category.id, value)}
-                          >
-                            <SelectTrigger>
-                              <SelectValue placeholder="Select a plan:" />
-                            </SelectTrigger>
-                            <SelectContent>
-                              {Object.entries(category.plans).map(([key, plan]) => (
-                                <SelectItem key={key} value={key}>
-                                  {plan.label} - ${plan.price.toFixed(2)} USD
-                                </SelectItem>
-                              ))}
-                            </SelectContent>
-                          </Select>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {plans.map((plan, index) => {
+                  const isPopular = plan.id === "6m" || plan.id === "12m"; // Highlight the longer ones usually
+                  return (
+                    <Card key={plan.id} className={`flex flex-col border-2 relative ${isPopular ? "border-primary shadow-lg" : "border-border"}`}>
+                      {isPopular && (
+                        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full text-center">
+                          Best Value
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
+                      )}
+                      <CardHeader className="text-center pt-8">
+                        <CardTitle className="text-2xl font-bold">{plan.label}</CardTitle>
+                      </CardHeader>
+                      <CardContent className="flex flex-col flex-grow items-center justify-center text-center gap-6">
+                        <div>
+                          <span className="text-4xl font-extrabold">${plan.price.toFixed(2)}</span>
+                        </div>
+                        <Button
+                          size="lg"
+                          className="w-full mt-4"
+                          variant={isPopular ? "default" : "outline"}
+                          onClick={() => handlePurchase(plan.id)}
+                        >
+                          {currentSubscription && currentSubscription.plan === plan.id ? "Renew Subscription" : "Buy Subscription"}
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
               </div>
             )}
-
-            <div className="mt-8 flex justify-center">
-              <Button
-                size="lg"
-                className="px-12"
-                disabled={!hasSelectedPlan}
-                onClick={handleUpgrade}
-              >
-                Upgrade Now
-              </Button>
-            </div>
           </div>
         </main>
       </div>

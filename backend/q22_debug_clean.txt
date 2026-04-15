@@ -1,0 +1,32 @@
+Total limit 50, found: 50
+
+--- Q20 ---
+ID: 69a61f96a32a51d2a2f7227c
+Text: What do you do?
+Img: q_non_live_vax_high_dose.png
+Img2: a_non_live_vax_high_dose.png
+
+--- Q21 ---
+ID: 69a611ce26d4e93901b3141e
+Text: What do you do?
+Img: q_non_live_vax_med_dose.png
+Img2: a_non_live_vax_med_dose.png
+
+--- Q22 ---
+ID: 69a60d60dc32a9d23bb5f288
+Text: What do you do?
+Img: q_non_live_vax_1.png
+Img2: a_non_live_vax_1.png
+
+--- Q23 ---
+ID: 69a60a2e219cfad6ec224b71
+Text: What do you do?
+Img: q_acr_vaccine_1.png
+Img2: a_acr_vaccine_1.png
+
+--- Q24 ---
+ID: 69a363b4e212ad97bfa96f78
+Text: What is shown here?
+Img: question108_image.jpg
+Img2: undefined
+

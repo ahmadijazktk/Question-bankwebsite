@@ -46,16 +46,8 @@ const Checkout = () => {
           const categoryPlans = plans[category];
 
           if (categoryPlans && categoryPlans[plan]) {
-            const categoryTitles: Record<string, string> = {
-              "anatomic-clinical": "Vasculitides and Dermatology",
-              "anatomic": "Histology essentials",
-              "clinical": "Rheumatology radiology",
-              "forensic": "Management & medication guidelines",
-              "cytopathology": "Osteoporosis ( Per ACR guidelines )",
-            };
-
             setPlanDetails({
-              name: categoryTitles[category] || category,
+              name: "Full Access",
               price: categoryPlans[plan],
               period: plan === "1m" ? "month" : `${plan.replace("m", "")} months`,
             });

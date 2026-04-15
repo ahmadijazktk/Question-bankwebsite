@@ -1,0 +1,11 @@
+﻿Connected to MongoDB
+
+Image Duplicate/Triplet (Size 2):
+Image: rp_ild_guidelines.jpg
+  1: ID: 69a362efe212ad97bfa96a8e | Text: According to the 2023 ACR guidelines for ILD, are  | Created: Sun Mar 01 2026 02:49:35 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363afe212ad97bfa96f24 | Text: According to the 2023 ACR guidelines for ILD, are  | Created: Sun Mar 01 2026 02:52:47 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Image Duplicate/Triplet (Size 2):
+Image: Hyperparathyroidism-MK-ann.jpg
+  1: ID: 69a36313e212ad97bfa96bc6 | Text: What are the xray findings of Hyperparathyroidism? | Created: Sun Mar 01 2026 02:50:11 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a3631ce212ad97bfa96bd6 | Text: How does hyperparathyroidism xray of hands differ  | Created: Sun Mar 01 2026 02:50:20 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)

@@ -1,0 +1,145 @@
+﻿
+--- [REGULAR] POSITION 1 ---
+ID: 69a8c6ce5dfe45eec677bfe7
+Text: What do you do?
+Image: q_non_live_vax_gc.png
+Image2: a_non_live_vax_gc.png
+Explanation: In female RMD patients with OB APS undergoing ART: (1) Proceeding with ART is conditionally recommended. (2) Prophylactic LMWH/UH is strongly recommended during ART procedures.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 2 ---
+ID: 69a8c4187b2f91a1db352ade
+Text: What do you do?
+Image: q_question_22.png
+Image2: a_question_22.png
+Explanation: Review the provided image.
+Category: Medications
+
+--- [REGULAR] POSITION 3 ---
+ID: 69a733a10672ca3fa1298ed5
+Text: What do you do?
+Image: q_art_3.png
+Image2: a_art_3.png
+Explanation: In female RMD patients with Remission/Stable/Low Disease Activity and a Negative aPL Test, the recommendation is to proceed with Assisted Reproductive Technology (ART).
+Category: Pregnancy
+
+--- [REGULAR] POSITION 4 ---
+ID: 69a730136ee0d1f329e86192
+Text: What do you do?
+Image: q_art_2.png
+Image2: a_art_2.png
+Explanation: In female RMD patients with Remission/Stable/Low Disease Activity: (1) Strong recommendation to continue necessary immunosuppressive therapy (NOT CYC) through ovarian stimulation and oocyte retrieval for cryopreservation. (2) Strong recommendation to continue ONLY pregnancy-compatible meds.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 5 ---
+ID: 69a72bb183c9e00ec31827e1
+Text: What do you do?
+Image: q_art_1.png
+Image2: a_art_1.png
+Explanation: In female RMD patients with Moderate/Severe Disease Activity, the strong recommendation is to DEFER Assisted Reproductive Technology (ART) until disease activity is low/stable.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 6 ---
+ID: 69a71eff76003482beac663b
+Text: What do you do?
+Image: q_thrombotic_aps_1.png
+Image2: a_thrombotic_aps_1.png
+Explanation: In RMD patients considering pregnancy who have Thrombotic APS: (1) Low dose aspirin PLUS THERAPEUTIC heparin is strongly recommended. (2) HCQ is strongly recommended.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 7 ---
+ID: 69a71b8d2a01b01eb29d29ed
+Text: What do you do?
+Image: q_ob_aps_1.png
+Image2: a_ob_aps_1.png
+Explanation: In RMD patients considering pregnancy who have OB APS (Obstetric Antiphospholipid Syndrome): (1) Low dose aspirin PLUS PROPHYLACTIC heparin until 6-12 weeks postpartum is strongly recommended. (2) HCQ is strongly recommended. (3) There is a conditional recommendation AGAINST therapeutic heparin or IVIG. (4) There is a strong recommendation AGAINST prednisone.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 8 ---
+ID: 69a718d5671e7986ddd1a4ae
+Text: What do you do?
+Image: q_pos_apl_no_aps_1.png
+Image2: a_pos_apl_no_aps_1.png
+Explanation: In RMD patients considering pregnancy who have a positive aPL Test but no APS: (1) Low dose aspirin is conditionally recommended. (2) There is a conditional recommendation AGAINST the use of prophylactic heparin or HCQ in this scenario.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 9 ---
+ID: 69a715080fb35692ccca2f06
+Text: What do you do?
+Image: q_anti_ro_la_1.png
+Image2: a_anti_ro_la_1.png
+Explanation: For Anti-Ro/La (+) patients with no history of NLE: (1) HCQ is strongly recommended. (2) Serial fetal echo from week 16-27 is conditionally recommended. If abnormal fetal echo (1st or 2nd degree heart block), a brief course of DEXAMETHASONE is conditionally recommended. AGAINST Dexamethasone if 3rd degree block.
+Category: Pregnancy
+
+--- [REGULAR] POSITION 10 ---
+ID: 69a712282e6fbd797b121cfe
+Text: What do you do?
+Image: q_preg_plan_1.png
+Image2: a_preg_plan_1.png
+Explanation: In RMD patients considering pregnancy who have HIGH disease activity, the strong recommendation is to TREAT to control disease & REASSESS when low disease activity before attempting pregnancy.
+Category: Pregnancy
+
+--- [TRIAL] ORDER 1 ---
+ID: 69a362efe212ad97bfa96a8e
+Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? 
+
+1. Methotrexate? [...] 
+2. Leflunomide? [...] 
+3. Azathioprine? [...] 
+4. TNFi? [...] 
+5. Abatacept? [...] 
+6. Tocilizumab? [...] 
+7. Nintedanib? [...] 
+8. Pirfenidone? [...] 
+9. PLEX? [...]
+Explanation: Methotrexate? AGAINST
+Leflunomide? AGAINST
+Azathioprine? AGAINST
+TNFi? AGAINST
+Abatacept? AGAINST
+Tocilizumab? AGAINST
+Nintedanib? AGAINST
+Pirfenidone? AGAINST
+PLEX? AGAINST
+
+Essentially, the treatment options for RP-ILD are:
+IV steroids, Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi
+
+***if patient has MDA5 RP-ILD, there is a conditional recommendation for "triple therapy", which is:
+IV steroids + 2 of the above options (Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi)
+
+--- [TRIAL] ORDER 2 ---
+ID: 69a362efe212ad97bfa96a90
+Text: For patients receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+Explanation: Bactrim daily for at least 6 months after last RTX dose
+
+--- [TRIAL] ORDER 3 ---
+ID: 69a362efe212ad97bfa96a92
+Text: What is the treatment for Lyme carditis?
+Explanation: -"suggest oral antibiotics over IV"....this is for outpatient (ACR 2020 guidelines)
+-if hospitalized, use IV ceftriaxone
+-if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor
+
+STRONG REC'D
+
+--- [TRIAL] ORDER 4 ---
+ID: 69a362efe212ad97bfa96a94
+Text: For GPA/MPA, is PLEX recommended?
+Explanation: No it is not.
+For active glomerulonephritis/alveolar hemorrhage, it is recommended AGAINST
+
+-from PEXIVAS trial
+-also from ACR
+
+--- [TRIAL] ORDER 5 ---
+ID: 69a362f0e212ad97bfa96a96
+Text: Describe HIDs
+Explanation: -Hyper IgD syndrome
+-form of HEREDITARY periodic fever syndrome
+-Autosomal Recessive
+-will occur in BABIES....in FRANCE, NETHERLANDS
+-triggered by VACCINES***
+
+-obviously elevated IgD
+-lasts 3-7 days***
+-TX: NSAIDs, Anakinra/Canakinumab

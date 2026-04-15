@@ -1,0 +1,37 @@
+﻿Connected to MongoDB
+No exact triplets (text + images) found.
+
+Checking for triplets with same text ONLY...
+
+Text Triplet Found (Size 3):
+Text: What is shown here?
+  1: ID: 69a363a6e212ad97bfa96ea2 | Image: ochronoticarthropathy.jpg | Created: Sun Mar 01 2026 02:52:38 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363b4e212ad97bfa96f76 | Image: hyperparathyroidism_hand.jpg | Created: Sun Mar 01 2026 02:52:52 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  3: ID: 69a363b4e212ad97bfa96f78 | Image: question108_image.jpg | Created: Sun Mar 01 2026 02:52:52 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Text Triplet Found (Size 24):
+Text: What do you do?
+  1: ID: 69a60a2e219cfad6ec224b71 | Image: q_vax_q1_v3.png | Created: Tue Mar 03 2026 03:07:42 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a60d60dc32a9d23bb5f288 | Image: q_vax_q2_v3.png | Created: Tue Mar 03 2026 03:21:20 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  3: ID: 69a6335a70149d955ec283f9 | Image: q_hrt_rmd_1.png | Created: Tue Mar 03 2026 06:03:22 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  4: ID: 69a6f0d6651f92b12ee9aa4d | Image: q_hrt_rmd_2.png | Created: Tue Mar 03 2026 19:31:50 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  5: ID: 69a6f5ddc1ec4092e0b2efe9 | Image: q_hrt_rmd_3.png | Created: Tue Mar 03 2026 19:53:17 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  6: ID: 69a6f732666328361beb4e3a | Image: q_hrt_rmd_4.png | Created: Tue Mar 03 2026 19:58:58 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  7: ID: 69a6f82c0a8d6d1ad1e3c5b2 | Image: q_contraception_1.png | Created: Tue Mar 03 2026 20:03:08 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  8: ID: 69a6f98dd031ca66771afc7a | Image: q_contraception_2.png | Created: Tue Mar 03 2026 20:09:01 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  9: ID: 69a6fb282e57db246290df9b | Image: q_contraception_3.png | Created: Tue Mar 03 2026 20:15:52 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  10: ID: 69a6fe350fd67d27c07d7fce | Image: q_contraception_4.png | Created: Tue Mar 03 2026 20:28:53 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  11: ID: 69a711a16109ba09b02aa5f7 | Image: q_contraception_5.png | Created: Tue Mar 03 2026 21:51:45 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  12: ID: 69a712282e6fbd797b121cfe | Image: q_preg_plan_1.png | Created: Tue Mar 03 2026 21:54:00 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  13: ID: 69a715080fb35692ccca2f06 | Image: q_anti_ro_la_1.png | Created: Tue Mar 03 2026 22:06:16 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  14: ID: 69a718d5671e7986ddd1a4ae | Image: q_pos_apl_no_aps_1.png | Created: Tue Mar 03 2026 22:22:29 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  15: ID: 69a71b8d2a01b01eb29d29ed | Image: q_ob_aps_1.png | Created: Tue Mar 03 2026 22:34:05 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  16: ID: 69a71eff76003482beac663b | Image: q_thrombotic_aps_1.png | Created: Tue Mar 03 2026 22:48:47 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  17: ID: 69a72bb183c9e00ec31827e1 | Image: q_art_1.png | Created: Tue Mar 03 2026 23:42:57 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  18: ID: 69a730136ee0d1f329e86192 | Image: q_art_2.png | Created: Wed Mar 04 2026 00:01:39 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  19: ID: 69a733a10672ca3fa1298ed5 | Image: q_art_3.png | Created: Wed Mar 04 2026 00:16:49 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  20: ID: 69a8c4187b2f91a1db352ade | Image: q_question_22.png | Created: Thu Mar 05 2026 04:43:49 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  21: ID: 69a8c4187b2f91a1db352ae0 | Image: q_question_23.png | Created: Thu Mar 05 2026 04:43:50 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  22: ID: 69a8c6ce5dfe45eec677bfe7 | Image: q_non_live_vax_gc.png | Created: Thu Mar 05 2026 04:57:02 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  23: ID: 69a8c9b75706857a8684b042 | Image: q_vax_q3_v3.png | Created: Tue Mar 03 2026 03:21:21 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  24: ID: 69a8c9b85706857a8684b044 | Image: q_vax_q4_v3.png | Created: Tue Mar 03 2026 03:21:22 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)

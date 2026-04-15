@@ -1,0 +1,33 @@
+﻿=== Verifying Question 34 ===
+Text: A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP. She was f...
+Explanation:
+"In people with SLE with stable controlled SLE on prednisone >5 mg/day: ...We <strong>STRONGLY RECOMMEND</strong> tapering the prednisone to a dose of Γëñ5 mg daily (and ideally to zero) within 6 months."
+<br/>
+"In people with SLE: ΓÇªWe <strong>STRONGLY RECOMMEND</strong> routine treatment with HCQ unless contraindicated."
+<br/>
+These are from the 2025 ACR Guideline for the Treatment of Systemic Lupus Erythematosus (SLE)
+
+=== Verifying Question 38 ===
+ID: 69a362f2e212ad97bfa96aae
+Text: A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis. She was started on weig...
+Explanation:
+1) do combination MMF, belimumab, and CNI (ie. voclosporin).
+2) add anti-CD20 (ie. RTX) to current regimen 
+3) referral for investigational therapy.
+<br/>
+" In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we <strong>CONDITIONALLY RECOMMEND</strong> treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR.....combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR.... referral for investigational therapy."
+
+ID: 69a363b2e212ad97bfa96f4c
+Text: A patient has newly diagnosed SLE with concomittant Class IV lupus nephritis. She was started on wei...
+Explanation:
+1) do combination MMF, belimumab, and CNI (ie. voclosporin).
+2) add anti-CD20 (ie. RTX) to current regimen 
+3) referral for investigational therapy.
+<br/>
+" In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we <strong>CONDITIONALLY RECOMMEND</strong> treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR.....combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR.... referral for investigational therapy."
+
+=== Verifying Question 53 ('STRONGLY') ===
+Text: True or False A 34 year old female with recently diagnosed SLE (stable on HCQ monotherapy) should ha...
+Explanation:
+"In people with SLE without known kidney disease, we <strong>STRONGLY RECOMMEND</strong> screening for proteinuria at least every 6-12 months ... OR when experiencing extra-renal flares.
+

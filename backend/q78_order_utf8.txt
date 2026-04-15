@@ -1,0 +1,61 @@
+﻿Total questions: 642
+
+Index 75 (Question 76):
+ID: 69a36300e212ad97bfa96b24
+Text: In Complex Regional Pain Syndrome, what treatment may assist with prevention after surgery?
+Image: null
+Image2: undefined
+
+Index 76 (Question 77):
+ID: 69a36301e212ad97bfa96b26
+Text: In a patient with SLE, which antibody is associated with development of erosive arthritis?
+Image: null
+Image2: undefined
+
+Index 77 (Question 78):
+ID: 69a36301e212ad97bfa96b28
+Text: In studies, is Upadacitinib + MTX superior to Humira + MTX?
+Image: null
+Image2: undefined
+
+Index 78 (Question 79):
+ID: 69a36302e212ad97bfa96b2a
+Text: What is treatment for borrelial lymphocytoma?
+Image: null
+Image2: undefined
+
+Index 79 (Question 80):
+ID: 69a36302e212ad97bfa96b2c
+Text: What is the most comm on type of panniculitis?
+Image: null
+Image2: undefined
+
+Index 80 (Question 81):
+ID: 69a36302e212ad97bfa96b2e
+Text: What feature of C-ANCA vasculitis is most associated with relapse?
+Image: null
+Image2: undefined
+
+Index 81 (Question 82):
+ID: 69a36302e212ad97bfa96b30
+Text: What is Poncet's disease?
+Image: null
+Image2: undefined
+
+Index 82 (Question 83):
+ID: 69a36302e212ad97bfa96b32
+Text: What would muscle biopsy of suspected McArdle disease show?
+Image: null
+Image2: undefined
+
+Index 83 (Question 84):
+ID: 69a36302e212ad97bfa96b34
+Text: What unique hematologic condition can occur in severe RA (and solid tumors, and SLE)? -not Felty's
+Image: null
+Image2: undefined
+
+Index 84 (Question 85):
+ID: 69a36302e212ad97bfa96b36
+Text: What is the most common cause of erythema nodosum in children?
+Image: null
+Image2: undefined

@@ -1,0 +1,15 @@
+﻿Q1: {
+  "text": "In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?",
+  "image": null,
+  "options": [
+    "Spiral CTA of chest.\n-not MRA of chest, because it lacks sensitivity to detect medium and small vessels, and venulitis. Also cannot comment on lung parenchyma."
+  ]
+}
+Q2: {
+  "text": "In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?",
+  "summary": "",
+  "image": null,
+  "options": [
+    "-not MRA of chest, because it lacks sensitivity to detect medium and small vessels, and venulitis. Also cannot comment on lung parenchyma."
+  ]
+}

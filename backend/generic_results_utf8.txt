@@ -1,0 +1,6 @@
+﻿Found 4 questions with generic explanations.
+
+ID: 69a8c4187b2f91a1db352ade | Text: What do you do? | Img: q_question_22.png | Expl: Review the provided image.
+ID: 69a8c4187b2f91a1db352ae0 | Text: What do you do? | Img: q_question_23.png | Expl: Review the provided image.
+ID: 69a8c9b75706857a8684b042 | Text: What do you do? | Img: q_vax_q3_v3.png | Expl: Review the provided image.
+ID: 69a8c9b85706857a8684b044 | Text: What do you do? | Img: q_vax_q4_v3.png | Expl: Review the provided image.

@@ -47,7 +47,8 @@ const userProgressSchema = new mongoose.Schema({
     clinical: categoryStatsSchema,
     forensic: categoryStatsSchema,
     cytopathology: categoryStatsSchema,
-    'anatomic-clinical': categoryStatsSchema
+    'anatomic-clinical': categoryStatsSchema,
+    'all-access': categoryStatsSchema
   },
   weeklyPerformance: [weeklyPerformanceSchema]
 }, {
@@ -55,7 +56,7 @@ const userProgressSchema = new mongoose.Schema({
 });
 
 // Method to update accuracy rate
-userProgressSchema.methods.updateAccuracyRate = function() {
+userProgressSchema.methods.updateAccuracyRate = function () {
   if (this.totalQuestionsAnswered > 0) {
     this.accuracyRate = Math.round(
       (this.totalCorrect / this.totalQuestionsAnswered) * 100
@@ -66,7 +67,7 @@ userProgressSchema.methods.updateAccuracyRate = function() {
 };
 
 // Method to get current week string
-userProgressSchema.statics.getCurrentWeek = function() {
+userProgressSchema.statics.getCurrentWeek = function () {
   const now = new Date();
   const startOfYear = new Date(now.getFullYear(), 0, 1);
   const pastDaysOfYear = (now - startOfYear) / 86400000;

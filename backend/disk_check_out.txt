@@ -1,0 +1,8 @@
+﻿Checking images on disk vs DB:
+
+Q1: image=q_acr_vaccine_1.png [EXISTS] | image2=a_acr_vaccine_1.png [EXISTS]
+Q2: image=q_non_live_vax_1.png [EXISTS] | image2=a_non_live_vax_1.png [EXISTS]
+Q3: image=q_non_live_vax_med_dose.png [EXISTS] | image2=a_non_live_vax_med_dose.png [EXISTS]
+Q4: image=q_non_live_vax_high_dose.png [EXISTS] | image2=a_non_live_vax_high_dose.png [EXISTS]
+Q5: image=q_hrt_rmd_1.png [EXISTS] | image2=a_hrt_rmd_1.png [EXISTS]
+Q6: image=q_hrt_rmd_2.png [EXISTS] | image2=a_hrt_rmd_2.png [EXISTS]

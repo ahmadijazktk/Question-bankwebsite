@@ -1,0 +1,44 @@
+﻿Connected to MongoDB
+Total questions: 652
+
+Duplicate Set 1:
+Key: For GPA/MPA, is PLEX recommended?|null|undefined...
+  1: ID: 69a362efe212ad97bfa96a94 | Created: Sun Mar 01 2026 02:49:35 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363a3e212ad97bfa96e6a | Created: Sun Mar 01 2026 02:52:35 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 2:
+Key: Describe HIDs|null|undefined...
+  1: ID: 69a362f0e212ad97bfa96a96 | Created: Sun Mar 01 2026 02:49:36 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36303e212ad97bfa96b46 | Created: Sun Mar 01 2026 02:49:55 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 3:
+Key: In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary art...
+  1: ID: 69a362f1e212ad97bfa96a9c | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a362f4e212ad97bfa96ac4 | Created: Sun Mar 01 2026 02:49:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 4:
+Key: A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?|null|undef...
+  1: ID: 69a362f1e212ad97bfa96aa0 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36321e212ad97bfa96c2e | Created: Sun Mar 01 2026 02:50:25 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 5:
+Key: What GYN disease are SLE patients at risk of getting (females)?|null|undefined...
+  1: ID: 69a362f1e212ad97bfa96aa4 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a3631be212ad97bfa96bd2 | Created: Sun Mar 01 2026 02:50:19 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 6:
+Key: Is Tacrolimus safe in pregnancy?|null|undefined...
+  1: ID: 69a362f1e212ad97bfa96aa8 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36393e212ad97bfa96d76 | Created: Sun Mar 01 2026 02:52:19 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 7:
+Key: What type of amyloidosis can occur in patients on HD (hemodialysis)?|null|undefined...
+  1: ID: 69a362f1e212ad97bfa96aaa | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36330e212ad97bfa96c7e | Created: Sun Mar 01 2026 02:50:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set 8:
+Key: What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulati...
+  1: ID: 69a362f2e212ad97bfa96ab4 | Created: Sun Mar 01 2026 02:49:38 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363a8e212ad97bfa96eba | Created: Sun Mar 01 2026 02:52:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Found 8 sets of duplicates.

@@ -10,12 +10,12 @@ const subscriptionSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ['anatomic-clinical', 'anatomic', 'clinical', 'forensic', 'cytopathology']
+    enum: ['anatomic-clinical', 'anatomic', 'clinical', 'forensic', 'cytopathology', 'all-access']
   },
   plan: {
     type: String,
     required: true,
-    enum: ['1m', '3m', '12m']
+    enum: ['1m', '3m', '6m', '12m']
   },
   price: {
     type: Number,
@@ -59,7 +59,7 @@ subscriptionSchema.index({ userId: 1, status: 1 });
 subscriptionSchema.index({ endDate: 1, status: 1 });
 
 // Method to check if subscription is active
-subscriptionSchema.methods.isActive = function() {
+subscriptionSchema.methods.isActive = function () {
   return this.status === 'active' && this.endDate > new Date();
 };
 

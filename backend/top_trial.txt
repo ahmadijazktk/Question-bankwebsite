@@ -1,0 +1,20 @@
+﻿Order: 1 | ID: 69a362efe212ad97bfa96a8e | Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st li
+Order: 2 | ID: 69a362efe212ad97bfa96a90 | Text: For patients receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+Order: 3 | ID: 69a362efe212ad97bfa96a92 | Text: What is the treatment for Lyme carditis?
+Order: 4 | ID: 69a362efe212ad97bfa96a94 | Text: For GPA/MPA, is PLEX recommended?
+Order: 5 | ID: 69a362f0e212ad97bfa96a96 | Text: Describe HIDs
+Order: 6 | ID: 69a362f0e212ad97bfa96a98 | Text: What is the treatment of lupus DAH?
+Order: 7 | ID: 69a362f1e212ad97bfa96aa6 | Text: What is shown here? (Spine imaging)
+Order: 8 | ID: 69a362f1e212ad97bfa96a9c | Text: In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary art
+Order: 9 | ID: 69a362f1e212ad97bfa96a9e | Text: If a patient has CKD stage 3 (or 4), and needs ULT, what is the 1st line treatment?
+Order: 10 | ID: 69a362f1e212ad97bfa96aa0 | Text: A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?
+Order: 11 | ID: 69a362f1e212ad97bfa96aa2 | Text: What is the treatment for AxSpa (ankylosing spondylitis) for someone initially on TNFi, had initial 
+Order: 12 | ID: 69a362f1e212ad97bfa96aa4 | Text: What GYN disease are SLE patients at risk of getting (females)?
+Order: 13 | ID: 69a362f0e212ad97bfa96a9a | Text: What does a muscle biopsy with HCQ toxicity look like?
+Order: 14 | ID: 69a362f1e212ad97bfa96aa8 | Text: Is Tacrolimus safe in pregnancy?
+Order: 15 | ID: 69a362f1e212ad97bfa96aaa | Text: What type of amyloidosis can occur in patients on HD (hemodialysis)?
+Order: 16 | ID: 69a362f1e212ad97bfa96aac | Text: A 28-year-old female with SLE has been stable on HCQ weight-based for many years. She has been off o
+Order: 17 | ID: 69a362f2e212ad97bfa96aae | Text: A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis. She was started on weig
+Order: 18 | ID: 69a362f2e212ad97bfa96ab0 | Text: Within the 2023 ACR ILD guidelines, which is/are the recommendations classified as 'STRONGLY'?
+Order: 19 | ID: 69a362f2e212ad97bfa96ab2 | Text: A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate dis
+Order: 20 | ID: 69a362f2e212ad97bfa96ab4 | Text: What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulati

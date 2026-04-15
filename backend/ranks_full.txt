@@ -1,0 +1,21 @@
+﻿Checking questions around rank 78...
+Rank 71: ID 69a362fde212ad97bfa96b1a | Image: null | Text: Which Th cell is mainly responsible for EGPA?
+Rank 72: ID 69a362fee212ad97bfa96b1c | Image: null | Text: What physical exam finding indicates history of JI
+Rank 73: ID 69a362fee212ad97bfa96b1e | Image: null | Text: Rheumatoid arthritis patient on TNFi develops unst
+Rank 74: ID 69a362fee212ad97bfa96b20 | Image: null | Text: Patient with very destructive foot/ankle arthritis
+Rank 75: ID 69a362ffe212ad97bfa96b22 | Image: null | Text: What is SONK? Describe the presentation.
+Rank 76: ID 69a36300e212ad97bfa96b24 | Image: null | Text: In Complex Regional Pain Syndrome, what treatment 
+Rank 77: ID 69a36301e212ad97bfa96b26 | Image: null | Text: In a patient with SLE, which antibody is associate
+Rank 78: ID 69a36301e212ad97bfa96b28 | Image: null | Text: In studies, is Upadacitinib + MTX superior to Humi
+Rank 79: ID 69a36302e212ad97bfa96b2a | Image: null | Text: What is treatment for borrelial lymphocytoma?
+Rank 80: ID 69a36302e212ad97bfa96b2c | Image: null | Text: What is the most comm on type of panniculitis?
+Rank 81: ID 69a36302e212ad97bfa96b2e | Image: null | Text: What feature of C-ANCA vasculitis is most associat
+Rank 82: ID 69a36302e212ad97bfa96b30 | Image: null | Text: What is Poncet's disease?
+Rank 83: ID 69a36302e212ad97bfa96b32 | Image: null | Text: What would muscle biopsy of suspected McArdle dise
+Rank 84: ID 69a36302e212ad97bfa96b34 | Image: null | Text: What unique hematologic condition can occur in sev
+Rank 85: ID 69a36302e212ad97bfa96b36 | Image: null | Text: What is the most common cause of erythema nodosum 
+Rank 86: ID 69a36303e212ad97bfa96b38 | Image: null | Text: What are the amplitude, duration, and recruitment 
+Rank 87: ID 69a36303e212ad97bfa96b3a | Image: null | Text: What skin disorder can be associated with APS?
+Rank 88: ID 69a36303e212ad97bfa96b3c | Image: null | Text: What drugs are known to cause ANCA vasculitis?
+Rank 89: ID 69a36303e212ad97bfa96b3e | Image: null | Text: Can SLE cause hearing loss?
+Rank 90: ID 69a36303e212ad97bfa96b40 | Image: null | Text: A female patient with rash that develops after pro

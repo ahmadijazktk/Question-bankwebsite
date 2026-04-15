@@ -1,0 +1,37 @@
+﻿Found 9 matching questions
+
+ID: 69a36387e212ad97bfa96d14
+Text: What is initial treatment for JIA polyarthritis?
+Opt 0 Expl: -IAGCs conditionally rec'd (Triamcinolone hexacetonide *** STRONGLY rec'd *** over triamcinolone acetonide) -Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease conditionally rec'd -Bridging with oral GCs (<3 months) during initiation of escalation with conditionally rec'd AGAINST in *low disease activity*
+
+ID: 69a36389e212ad97bfa96d16
+Text: What is treatment for JIA-sacroiliitis?
+Opt 0 Expl: -strongly rec'd AGAINST using MTX monotherapy
+
+ID: 69a36392e212ad97bfa96d66
+Text: What places a <40 year old adult at Moderate Risk for osteoporosis?
+Opt 0 Expl: OR Significant Bone loss over 1-2 years IN ADDITION TO, GC ΓëÑ 7.5mg/day for ΓëÑ 6 months TX: Conditionally rec'd oral BP, IV BP, DEN, PTH/PTHrP Conditionally rec'd AGAINST RAL, and ROM (due to potential harms except for those intolerant to other agents)
+
+ID: 69a36398e212ad97bfa96dc6
+Text: Is topical capsaicin cream rec'd, and if so, for which joints?
+Opt 0 Expl: -rec'd AGAINST for hand
+
+ID: 69a36398e212ad97bfa96dd2
+Text: Are non-tramadol opioids rec'd for OA?
+Opt 0 Expl: No, conditionally rec'd AGAINST
+
+ID: 69a36398e212ad97bfa96dd4
+Text: Is glucosamine rec'd for OA?
+Opt 0 Expl: No, STRONGLY rec'd AGAINST
+
+ID: 69a36399e212ad97bfa96dd8
+Text: Are intraarticular haluronic acid injection rec'd for OA?
+Opt 0 Expl: STRONGLY rec'd AGAINST for hip
+
+ID: 69a36399e212ad97bfa96dda
+Text: What is the starting steroid dose for PMR?
+Opt 0 Expl: -conditionally rec'd -*** STRONGLY rec'd AGAINST starting 30mg/day or more***
+
+ID: 69a3639ce212ad97bfa96dfc
+Text: A patient with SLE and LN currently on imuran, HCQ, and prednisone gets pregnant. Her medication reg
+Opt 0 Expl: -cannot add belimumab as ACR guidelines conditionally rec'd against at conception and during pregnancy.

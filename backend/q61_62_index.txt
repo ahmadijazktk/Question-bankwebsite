@@ -1,0 +1,15 @@
+﻿
+QUESTION 61:
+ID: 69a362fce212ad97bfa96b06
+Text: Can you use azathioprine/cyclosporine in combination with JAKi?
+Expl: -also cannot use Probenecid with JAKi
+
+QUESTION 62:
+ID: 69a362fce212ad97bfa96b08
+Text: Which features of AxSpa are associated with radiologic progression?
+Expl: -older age -smoking history***3rd -elevated inflammatory markers***2nd -syndesmophytes ***1st strongest
+
+QUESTION 63:
+ID: 69a362fce212ad97bfa96b0a
+Text: What factors place a child with JIA at highest risk for uveitis?
+Expl: Developing arthritis before age 7 Short disease duration (less than 4 years). In other words, recent onset of disease is EXTREMELY IMPORTANT to rule out uveitis. -***also, if photo of eye, look for irregular pupil which results from SYNECHIAE formation.....BIG RISK FACTOR for uveitic glacuoma*** -CARE 2020 q24!!!!!!!! ***+RF does NOT increase risk of uveitis in JIA

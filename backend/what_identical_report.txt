@@ -1,0 +1,11 @@
+﻿Checking 24 'What do you do?' questions.
+
+Duplicate Set (Size 2):
+Signature: Review the provided image.|
+  1: ID: 69a8c4187b2f91a1db352ade | Image: q_question_22.png | Created: Thu Mar 05 2026 04:43:49 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a8c4187b2f91a1db352ae0 | Image: q_question_23.png | Created: Thu Mar 05 2026 04:43:50 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Duplicate Set (Size 2):
+Signature: Review the provided image.|undefined
+  1: ID: 69a8c9b75706857a8684b042 | Image: q_vax_q3_v3.png | Created: Tue Mar 03 2026 03:21:21 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a8c9b85706857a8684b044 | Image: q_vax_q4_v3.png | Created: Tue Mar 03 2026 03:21:22 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)

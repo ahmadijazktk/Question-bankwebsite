@@ -1,0 +1,21 @@
+=== Trial Question 1 ===
+Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? 
+
+1. Methotrexate? [...] 
+2. Leflunomide? [...] 
+3. Azathioprine? [...] 
+4. TNFi? [...] 
+5. Abatacept? [...] 
+6. Tocilizumab? [...] 
+7. Nintedanib? [...] 
+8. Pirfenidone? [...] 
+9. PLEX? [...]
+Image: rp_ild_guidelines.jpg
+Image2: undefined
+Options count: 1
+
+=== Trial Question 2 ===
+Text: For patients receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+Image: null
+Image2: undefined
+Options count: 1

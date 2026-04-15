@@ -1,0 +1,91 @@
+﻿Found 10 trial questions.
+
+Order 1: ID: 69a362efe212ad97bfa96a8e
+Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? 
+
+1. Methotrexate? [...] 
+2. Leflunomide? [...] 
+3. Azathioprine? [...] 
+4. TNFi? [...] 
+5. Abatacept? [...] 
+6. Tocilizumab? [...] 
+7. Nintedanib? [...] 
+8. Pirfenidone? [...] 
+9. PLEX? [...]
+Image: rp_ild_guidelines.jpg
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 2: ID: 69a362efe212ad97bfa96a90
+Text: For patients receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 3: ID: 69a362efe212ad97bfa96a92
+Text: What is the treatment for Lyme carditis?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 4: ID: 69a362efe212ad97bfa96a94
+Text: For GPA/MPA, is PLEX recommended?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 5: ID: 69a362f0e212ad97bfa96a96
+Text: Describe HIDs
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 6: ID: 69a362f0e212ad97bfa96a98
+Text: What is the treatment of lupus DAH?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 7: ID: 69a362f1e212ad97bfa96aa6
+Text: What is shown here? (Spine imaging)
+Image: ochronosis_spine.jpg
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 8: ID: 69a362f1e212ad97bfa96a9c
+Text: In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 9: ID: 69a362f1e212ad97bfa96a9e
+Text: If a patient has CKD stage 3 (or 4), and needs ULT, what is the 1st line treatment?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined
+
+Order 10: ID: 69a362f1e212ad97bfa96aa0
+Text: A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?
+Image: null
+Category: Free Trial
+Options Count: 1
+First Option Text: Show Answer
+Summary: undefined

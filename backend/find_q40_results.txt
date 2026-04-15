@@ -1,0 +1,16 @@
+﻿Found 6 potential matches
+
+ID: 69a363b0e212ad97bfa96f36
+Text: In patients with ACTIVE/NEW ONSET/FLARE of Class III/IV or Class V lupus nephritis, what are the ACR recommendations regarding steroid induction/tapering?
+Opt 1 Expl: "We  <strong>CONDITIONALLY RECOMMEND</strong>  pulse intravenous glucocorticoids 250-1000 mg methylprednisolone daily x 1- 3 days, followed by oral glucocorticoid Γëñ0.5 mg/kg/day (maximum dose 40 mg/day) with taper to a target dose of Γëñ5mg/day by 6 months."
+
+ID: 69a363b1e212ad97bfa96f48
+Text: A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ and MMF. She recently moved across the country and is now establishing car
+Opt 1 Expl: Choice of 3rd drug (ie. belimumab or CNI) based on extra-renal symtoms (choose belimumab) vs. proteinuria (choose CNI such as voclosporin). *Could also consider switching MMF to low dose CYC (ELNT) plus belimumab "In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with or without Class V) lupus 
+
+ID: 69a363b2e212ad97bfa96f4a
+Text: A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ, MMF, and belimumab. She recently moved across the country and is now esta
+Opt 1 Expl: Change to an alternative TRIPLE therapy choice or Add anti-CD20 agent (ie. RTX) 
+<br/>
+"In people with any LN class with an inadequate renal response (i.e., have not achieved at least a partial renal response by 6-12 months) we <strong>CONDITIONALLY RECOMMEND</strong> escalation of treatment: 
+<br/>

@@ -1,0 +1,22 @@
+﻿Q1:
+ {
+  "text": "A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis. She was started on weight-based HCQ, then induction steroids, followed by MMF in combination with belimumab. She continued to have worsening renal disease ΓÇö her regimen was switched to MMF in combination with voclosporin. She is continuing to have moderate proteinuria and hematuria on routine labs. What are your next options for treatment, according to ACR?",
+  "options": [
+    {
+      "text": "Show Answer",
+      "explanation": "You have 3 choices, according to ACR:\n1) do combination MMF, belimumab, and CNI (ie. voclosporin).\n2) add anti-CD20 to current regimen\n3) referral for investigational therapy\n\n\"In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we  <strong>CONDITIONALLY RECOMMEND</strong>  treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR referral for investigational therapy.\"",
+      "isCorrect": true
+    }
+  ]
+}
+Q2:
+ {
+  "text": "Within the 2023 ACR ILD guidelines, which is/are the recommendations classified as 'STRONGLY'?",
+  "options": [
+    {
+      "text": "Show Answer",
+      "explanation": "There is only 1 \"STRONG\" recommendation, and it is \"<strong>STRONGLY RECOMMEND</strong> AGAINST.\"\n\n\"For people with SSc-ILD, we <strong>STRONGLY RECOMMEND</strong> against glucocorticoids as a first-line ILD treatment.\"",
+      "isCorrect": true
+    }
+  ]
+}

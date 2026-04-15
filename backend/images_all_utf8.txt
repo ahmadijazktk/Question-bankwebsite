@@ -1,0 +1,296 @@
+﻿Found 59 questions with images
+
+Match 1:
+ID: 69a362efe212ad97bfa96a8e
+Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st li...
+Image: rp_ild_guidelines.jpg
+
+Match 2:
+ID: 69a362f0e212ad97bfa96a9a
+Text: What does a muscle biopsy with HCQ toxicity look like?...
+Image: hcq_toxicity_gomori.jpg
+
+Match 3:
+ID: 69a362f1e212ad97bfa96aa6
+Text: What is shown here? (Spine imaging)...
+Image: ochronosis_spine.jpg
+
+Match 4:
+ID: 69a362f7e212ad97bfa96aea
+Text: Deep glabellar furrowing (aka Leonine facies) is typically seen in which scleroderma mimic?...
+Image: 1s.jpg
+
+Match 5:
+ID: 69a362f8e212ad97bfa96af4
+Text: What would histopath of IgG4 tissue show?...
+Image: https://www.researchgate.net/publication/273637921/figure/fig1/AS:613922252021782@1523381879436/Histology-of-the-lacrimal-glands-HE-staining-comparing-IgG4-related-MD-Case-MD2-with.png
+
+Match 6:
+ID: 69a362f8e212ad97bfa96af8
+Text: middle aged man/woman with popping/clicking of knee, and with pain. ***MEDIAL knee pain*** -MRI show...
+Image: MedialPlicaMRI-300x297.jpg
+
+Match 7:
+ID: 69a36304e212ad97bfa96b54
+Text: Dysfunction of what causes "too many toes" sign?...
+Image: https://www.researchgate.net/publication/276338750/figure/fig2/AS:669020059598852@1536518220158/This-figure-shows-too-many-toes-sign-in-right-side-When-looking-at-the-heel-from-the.png
+
+Match 8:
+ID: 69a36305e212ad97bfa96b5c
+Text: How do the PRES lesions appear on MRI (T2)?...
+Image: e0938ebcfe6835766dea1e494d76e0_big_gallery.jpg
+
+Match 9:
+ID: 69a36305e212ad97bfa96b68
+Text: What do lipid crystals look like on light microscopy?...
+Image: lipid_crystals.jpg
+
+Match 10:
+ID: 69a36307e212ad97bfa96b82
+Text: A patient with Hip pain, and the xray shows "beaking" on lateral side of femur means what?...
+Image: iaos-2-014-p006.jpg
+
+Match 11:
+ID: 69a36313e212ad97bfa96bc6
+Text: What are the xray findings of Hyperparathyroidism?...
+Image: Hyperparathyroidism-MK-ann.jpg
+
+Match 12:
+ID: 69a3631be212ad97bfa96bd0
+Text: What does a biopsy of s-IBM show?...
+Image: ibm_pathology.jpg
+
+Match 13:
+ID: 69a3631ce212ad97bfa96bd6
+Text: How does hyperparathyroidism xray of hands differ from thyroid acropachy?...
+Image: Hyperparathyroidism-MK-ann.jpg
+
+Match 14:
+ID: 69a36323e212ad97bfa96c48
+Text: What does hemochromatosis arthritis look like on histology?...
+Image: 8bbaca8e62d97ef4b31ba38c3500ea_big_gallery.jpg
+
+Match 15:
+ID: 69a36323e212ad97bfa96c50
+Text: Young boy, heavy, night time hip pain. Has pain throughout day. Walks with a limp. All labs are norm...
+Image: osteoid-osteoma-tibial-shaft-xray-radiograph.jpg
+
+Match 16:
+ID: 69a36377e212ad97bfa96ce8
+Text: What would a spine xray look like in a patient with Hyperparathyroidism?...
+Image: rugger-jersey-ct.jpg
+
+Match 17:
+ID: 69a36383e212ad97bfa96d0e
+Text: What physical exam finding indicates Thoracic outlet syndrome?...
+Image: cervical rib-arr.jpg
+
+Match 18:
+ID: 69a3639ae212ad97bfa96dec
+Text: What does a spiculated, periosteal reaction on a long bone (at metaphysis, near the end, but not AT ...
+Image: paste-f80f01fc9b10ef7fe00d86f21b552abca8907dd6.jpg
+
+Match 19:
+ID: 69a3639ce212ad97bfa96e04
+Text: What does a muscle biopsy with HCQ toxicity look like?...
+Image: paste-09d4c16534ea68b5e01254dcce6e9871825b3a35.jpg
+
+Match 20:
+ID: 69a3639ce212ad97bfa96e06
+Text: What does muscle biopsy of colchicine look like?...
+Image: F2.large.jpg
+
+Match 21:
+ID: 69a3639ce212ad97bfa96e08
+Text: What does muscle biopsy of steroid myopathy look like?...
+Image: 3-s2.0-B978012385157400628X-f00628-03-9780123851574.jpg
+
+Match 22:
+ID: 69a3639de212ad97bfa96e12
+Text: What does muscle biopsy of anti-synthetase syndrome show?...
+Image: muscleantisynthetaseCai01.jpg
+
+Match 23:
+ID: 69a3639de212ad97bfa96e18
+Text: Which type of myositis is associated with "angel wings" sign?...
+Image: https://www.jaad.org/cms/asset/b61c2fdd-8957-4481-a511-b930dd9d90af/gr1.jpg
+
+Match 24:
+ID: 69a3639ee212ad97bfa96e24
+Text: One way to tell difference between DISH vs. AxSpa on xray?...
+Image: https://media.springernature.com/lw685/springer-static/image/prt%3A978-3-540-35280-8%2F4/MediaObjects/978-3-540-35280-8_4_Part_Fig1-780_HTML.jpg
+
+Match 25:
+ID: 69a363a0e212ad97bfa96e4c
+Text: What does a "high riding humeral head" on shoulder xray typically mean?...
+Image: https://www.researchgate.net/publication/221768715/figure/fig8/AS:667203598819341@1536085142923/Radiograph-of-a-high-riding-humerus-in-a-patient-with-chronic-rotator-cuff-tear-Image.png
+
+Match 26:
+ID: 69a363a4e212ad97bfa96e7c
+Text: Identify the correct response:...
+Image: tmpuwhpv0ej.jpg
+
+Match 27:
+ID: 69a363a6e212ad97bfa96ea2
+Text: What is shown here?...
+Image: ochronoticarthropathy.jpg
+
+Match 28:
+ID: 69a363a6e212ad97bfa96ea4
+Text: What is this?...
+Image: F1.large.jpg
+
+Match 29:
+ID: 69a363a6e212ad97bfa96ea8
+Text: Describe what you see in each of the 4 histology images (Hint: skin)...
+Image: paste-fbf4f2c8e58187d1294a1f11acfaf6711866d4b6.jpg
+
+Match 30:
+ID: 69a363a7e212ad97bfa96eac
+Text: A 2-year-old female is admitted for a new stroke (this is her 2nd stroke). She has history of polyar...
+Image: https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00251-018-01101-w/MediaObjects/251_2018_1101_Fig1_HTML.jpg
+
+Match 31:
+ID: 69a363abe212ad97bfa96ee2
+Text: What would muscle histopathology show in a patient with IBM?...
+Image: cure-ibm-muscle-biopsy.jpg
+
+Match 32:
+ID: 69a363abe212ad97bfa96ee4
+Text: A patient shows you these hands below. She has trouble breathing and intermitent mild weakness in he...
+Image: F1.large-8cd6cdedb1c6e303966b888fb61fdbe225fd1b58.jpg
+
+Match 33:
+ID: 69a363ace212ad97bfa96ef0
+Text: Give or Defer?...
+Image: give_or_defer_vaccine_table.png
+
+Match 34:
+ID: 69a363ace212ad97bfa96ef2
+Text: How long?...
+Image: how_long_vaccine_table.png
+
+Match 35:
+ID: 69a363ade212ad97bfa96efc
+Text: What is the management for contraception?...
+Image: contraception_management.jpg
+
+Match 36:
+ID: 69a363ade212ad97bfa96f02
+Text: This figure from the ACR guidelines is asking if it is OK to treat postmenopausal population (women ...
+Image: Screen Shot 2024-01-01 at 4.53.18 PM.png
+
+Match 37:
+ID: 69a363ade212ad97bfa96f04
+Text: This figure from the ACR guidelines is asking for management during PREGNANCY in the following situa...
+Image: Screen Shot 2024-01-01 at 5.03.56 PM.png
+
+Match 38:
+ID: 69a363ade212ad97bfa96f06
+Text: What do "gout crystals" look like? What do "pseudogout crystals" look like?...
+Image: gout_vs_pseudogout.png
+
+Match 39:
+ID: 69a363afe212ad97bfa96f24
+Text: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st li...
+Image: rp_ild_guidelines.jpg
+
+Match 40:
+ID: 69a363afe212ad97bfa96f26
+Text: What does a muscle biopsy in a patient with suspected mitochondrial myopathy look like?...
+Image: ragged_red_fibers.jpg
+
+Match 41:
+ID: 69a363b4e212ad97bfa96f76
+Text: What is shown here?...
+Image: hyperparathyroidism_hand.jpg
+
+Match 42:
+ID: 69a60a2e219cfad6ec224b71
+Text: What do you do?...
+Image: q_vax_q1_v3.png
+
+Match 43:
+ID: 69a60d60dc32a9d23bb5f288
+Text: What do you do?...
+Image: q_vax_q2_v3.png
+
+Match 44:
+ID: 69a6335a70149d955ec283f9
+Text: What do you do?...
+Image: q_hrt_rmd_1.png
+
+Match 45:
+ID: 69a6f0d6651f92b12ee9aa4d
+Text: What do you do?...
+Image: q_hrt_rmd_2.png
+
+Match 46:
+ID: 69a6f5ddc1ec4092e0b2efe9
+Text: What do you do?...
+Image: q_hrt_rmd_3.png
+
+Match 47:
+ID: 69a6f732666328361beb4e3a
+Text: What do you do?...
+Image: q_hrt_rmd_4.png
+
+Match 48:
+ID: 69a6f82c0a8d6d1ad1e3c5b2
+Text: What do you do?...
+Image: q_contraception_1.png
+
+Match 49:
+ID: 69a6f98dd031ca66771afc7a
+Text: What do you do?...
+Image: q_contraception_2.png
+
+Match 50:
+ID: 69a6fb282e57db246290df9b
+Text: What do you do?...
+Image: q_contraception_3.png
+
+Match 51:
+ID: 69a6fe350fd67d27c07d7fce
+Text: What do you do?...
+Image: q_contraception_4.png
+
+Match 52:
+ID: 69a711a16109ba09b02aa5f7
+Text: What do you do?...
+Image: q_contraception_5.png
+
+Match 53:
+ID: 69a712282e6fbd797b121cfe
+Text: What do you do?...
+Image: q_preg_plan_1.png
+
+Match 54:
+ID: 69a715080fb35692ccca2f06
+Text: What do you do?...
+Image: q_anti_ro_la_1.png
+
+Match 55:
+ID: 69a718d5671e7986ddd1a4ae
+Text: What do you do?...
+Image: q_pos_apl_no_aps_1.png
+
+Match 56:
+ID: 69a71b8d2a01b01eb29d29ed
+Text: What do you do?...
+Image: q_ob_aps_1.png
+
+Match 57:
+ID: 69a71eff76003482beac663b
+Text: What do you do?...
+Image: q_thrombotic_aps_1.png
+
+Match 58:
+ID: 69a72bb183c9e00ec31827e1
+Text: What do you do?...
+Image: q_art_1.png
+
+Match 59:
+ID: 69a8c6ce5dfe45eec677bfe7
+Text: What do you do?...
+Image: q_non_live_vax_gc.png

@@ -1,0 +1,18 @@
+=== Opt 0: restart her prednisone but no more than 5mg daily ===
+Incorrect.
+
+=== Opt 1: start methotrexate ===
+Incorrect.
+
+=== Opt 2: start belimumab ===
+Incorrect.
+
+=== Opt 3: start azathioprine in combination with prednisone ===
+According to ACR: Thrombocytopenia: For chronic asymptomatic thrombocytopenia ( CONDITIONALLY RECOMMEND initiation of glucocorticoid with an additional therapy (MPAA, AZA, CNI, anti-CD 20 agents, belimumab, and/or IVIG) over observation or glucocorticoid monotherapy.
+
+Essentially, steroids plus any of the listed steroid sparing agents above.
+
+***MTX is not listed among them***
+
+=== Opt 4: observation ===
+Incorrect.

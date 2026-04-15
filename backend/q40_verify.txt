@@ -1,0 +1,7 @@
+﻿ID: 69a363b1e212ad97bfa96f48
+Text: A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ and MMF. She recently moved across the country and is now establishing care with you as her new rheumatologist. She was told by her previous rheumatologist regarding her lupus nephritis that "she is doing better, but still with some room for improvement." She is currently on HCQ, MMF, and prednisone 5mg daily. She asks you what else can be done. What should you do?
+Options[0] Expl: Choice of 3rd drug (ie. belimumab or CNI) based on extra-renal symtoms (choose belimumab) vs. proteinuria (choose CNI such as voclosporin). 
+<br/>
+*Could also consider switching MMF to low dose CYC (ELNT) plus belimumab 
+<br/>
+"In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with or without Class V) lupus nephritis who have undergone DUAL immunosuppressive therapy (glucocorticoids plus either CYC or MPAA) and achieved a partial renal response , we <strong>CONDITIONALLY RECOMMEND</strong> escalating therapy to a TRIPLE immunosuppressive regimen .ΓÇ¥

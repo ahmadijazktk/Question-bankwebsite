@@ -1,0 +1,30 @@
+﻿{
+  "text": "A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP. She was finally referred to a rheumatologist (you). Her main symptoms prior to being diagnosed were joint pain and rashes. Up until this point, she has been taking Tylenol for her joint pain, however her pain had not been adequately controlled so her PCP put her on oral prednisone 10mg daily which provided significant relief. You review her lab work and her CBC, CMP, UA, and inflammation markers have been normal since being on prednisone. Today she has no complaints and is happy with how she is doing currently still taking prednisone 10mg daily. You recheck her labwork and everything looks OK besides mild lymphopenia. What do you recommend to her?",
+  "options": [
+    {
+      "text": "can stay on prednisone 10mg daily since she is doing so well",
+      "explanation": "Incorrect.",
+      "isCorrect": false
+    },
+    {
+      "text": "increase prednisone to 15mg daily to address the lymphopenia",
+      "explanation": "Incorrect.",
+      "isCorrect": false
+    },
+    {
+      "text": "add hydroxychloroquine while staying on prednisone 10mg daily",
+      "explanation": "Incorrect.",
+      "isCorrect": false
+    },
+    {
+      "text": "add hydroxychloroquine and taper prednisone to 5mg daily",
+      "explanation": "\"In people with SLE with stable controlled SLE on prednisone >5 mg/day: ...We <strong>STRONGLY RECOMMEND</strong> tapering the prednisone to a dose of Γëñ5 mg daily (and ideally to zero) within 6 months.\"..... STRONG REC'D \"In people with SLE: ΓÇªWe <strong>STRONGLY RECOMMEND</strong> routine treatment with HCQ unless contraindicated.\"..... STRONG REC'D These are from the 2025 ACR Guideline for the Treatment of Systemic Lupus Erythematosus (SLE)",
+      "isCorrect": true
+    },
+    {
+      "text": "do not add hydroxychloroquine because she is sexually active, but taper prednisone to 5mg daily",
+      "explanation": "Incorrect.",
+      "isCorrect": false
+    }
+  ]
+}

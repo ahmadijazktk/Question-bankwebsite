@@ -1,0 +1,147 @@
+﻿
+Total "What do you do?" questions: 24
+
+Q1:
+  ID: 69a60a2e219cfad6ec224b71
+  image:  q_acr_vaccine_1.png
+  image2: a_acr_vaccine_1.png
+  createdAt: Tue Mar 03 2026 03:07:42 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q2:
+  ID: 69a60d60dc32a9d23bb5f288
+  image:  q_non_live_vax_1.png
+  image2: a_non_live_vax_1.png
+  createdAt: Tue Mar 03 2026 03:21:20 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q3:
+  ID: 69a8c9b75706857a8684b042
+  image:  q_non_live_vax_med_dose.png
+  image2: a_non_live_vax_med_dose.png
+  createdAt: Tue Mar 03 2026 03:21:21 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q4:
+  ID: 69a8c9b85706857a8684b044
+  image:  q_non_live_vax_high_dose.png
+  image2: a_non_live_vax_high_dose.png
+  createdAt: Tue Mar 03 2026 03:21:22 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q5:
+  ID: 69a6335a70149d955ec283f9
+  image:  q_hrt_rmd_1.png
+  image2: a_hrt_rmd_1.png
+  createdAt: Tue Mar 03 2026 06:03:22 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q6:
+  ID: 69a6f0d6651f92b12ee9aa4d
+  image:  q_hrt_rmd_2.png
+  image2: a_hrt_rmd_2.png
+  createdAt: Tue Mar 03 2026 19:31:50 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q7:
+  ID: 69a6f5ddc1ec4092e0b2efe9
+  image:  q_hrt_rmd_3.png
+  image2: a_hrt_rmd_3.png
+  createdAt: Tue Mar 03 2026 19:53:17 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q8:
+  ID: 69a6f732666328361beb4e3a
+  image:  q_hrt_rmd_4.png
+  image2: a_hrt_rmd_4.png
+  createdAt: Tue Mar 03 2026 19:58:58 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q9:
+  ID: 69a6f82c0a8d6d1ad1e3c5b2
+  image:  q_contraception_1.png
+  image2: a_contraception_1.png
+  createdAt: Tue Mar 03 2026 20:03:08 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q10:
+  ID: 69a6f98dd031ca66771afc7a
+  image:  q_contraception_2.png
+  image2: a_contraception_2.png
+  createdAt: Tue Mar 03 2026 20:09:01 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q11:
+  ID: 69a6fb282e57db246290df9b
+  image:  q_contraception_3.png
+  image2: a_contraception_3.png
+  createdAt: Tue Mar 03 2026 20:15:52 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q12:
+  ID: 69a6fe350fd67d27c07d7fce
+  image:  q_contraception_4.png
+  image2: a_contraception_4.png
+  createdAt: Tue Mar 03 2026 20:28:53 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q13:
+  ID: 69a711a16109ba09b02aa5f7
+  image:  q_contraception_5.png
+  image2: a_contraception_5.png
+  createdAt: Tue Mar 03 2026 21:51:45 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q14:
+  ID: 69a712282e6fbd797b121cfe
+  image:  q_preg_plan_1.png
+  image2: a_preg_plan_1.png
+  createdAt: Tue Mar 03 2026 21:54:00 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q15:
+  ID: 69a715080fb35692ccca2f06
+  image:  q_anti_ro_la_1.png
+  image2: a_anti_ro_la_1.png
+  createdAt: Tue Mar 03 2026 22:06:16 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q16:
+  ID: 69a718d5671e7986ddd1a4ae
+  image:  q_pos_apl_no_aps_1.png
+  image2: a_pos_apl_no_aps_1.png
+  createdAt: Tue Mar 03 2026 22:22:29 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q17:
+  ID: 69a71b8d2a01b01eb29d29ed
+  image:  q_ob_aps_1.png
+  image2: a_ob_aps_1.png
+  createdAt: Tue Mar 03 2026 22:34:05 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q18:
+  ID: 69a71eff76003482beac663b
+  image:  q_thrombotic_aps_1.png
+  image2: a_thrombotic_aps_1.png
+  createdAt: Tue Mar 03 2026 22:48:47 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q19:
+  ID: 69a72bb183c9e00ec31827e1
+  image:  q_art_1.png
+  image2: a_art_1.png
+  createdAt: Tue Mar 03 2026 23:42:57 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q20:
+  ID: 69a730136ee0d1f329e86192
+  image:  q_art_2.png
+  image2: a_art_2.png
+  createdAt: Wed Mar 04 2026 00:01:39 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q21:
+  ID: 69a733a10672ca3fa1298ed5
+  image:  q_art_3.png
+  image2: a_art_3.png
+  createdAt: Wed Mar 04 2026 00:16:49 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q22:
+  ID: 69a8c4187b2f91a1db352ade
+  image:  q_question_22.png
+  image2: a_question_22.png
+  createdAt: Thu Mar 05 2026 04:43:49 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q23:
+  ID: 69a8c4187b2f91a1db352ae0
+  image:  q_question_23.png
+  image2: a_question_23.png
+  createdAt: Thu Mar 05 2026 04:43:50 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Q24:
+  ID: 69a8c6ce5dfe45eec677bfe7
+  image:  q_non_live_vax_gc.png
+  image2: a_non_live_vax_gc.png
+  createdAt: Thu Mar 05 2026 04:57:02 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+

@@ -1,0 +1,43 @@
+﻿Checking 652 questions.
+
+No triplets found. Checking for pairs...
+
+Trial Duplicate Set:
+Key: For GPA/MPA, is PLEX recommended?|null
+  1: ID: 69a362efe212ad97bfa96a94 | Order: 4 | Created: Sun Mar 01 2026 02:49:35 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363a3e212ad97bfa96e6a | Order: undefined | Created: Sun Mar 01 2026 02:52:35 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: Describe HIDs|null
+  1: ID: 69a362f0e212ad97bfa96a96 | Order: 5 | Created: Sun Mar 01 2026 02:49:36 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36303e212ad97bfa96b46 | Order: undefined | Created: Sun Mar 01 2026 02:49:55 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary art
+  1: ID: 69a362f1e212ad97bfa96a9c | Order: 8 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a362f4e212ad97bfa96ac4 | Order: undefined | Created: Sun Mar 01 2026 02:49:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?|null
+  1: ID: 69a362f1e212ad97bfa96aa0 | Order: 10 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36321e212ad97bfa96c2e | Order: undefined | Created: Sun Mar 01 2026 02:50:25 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: What GYN disease are SLE patients at risk of getting (females)?|null
+  1: ID: 69a362f1e212ad97bfa96aa4 | Order: 12 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a3631be212ad97bfa96bd2 | Order: undefined | Created: Sun Mar 01 2026 02:50:19 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: Is Tacrolimus safe in pregnancy?|null
+  1: ID: 69a362f1e212ad97bfa96aa8 | Order: 14 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36393e212ad97bfa96d76 | Order: undefined | Created: Sun Mar 01 2026 02:52:19 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: What type of amyloidosis can occur in patients on HD (hemodialysis)?|null
+  1: ID: 69a362f1e212ad97bfa96aaa | Order: 15 | Created: Sun Mar 01 2026 02:49:37 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a36330e212ad97bfa96c7e | Order: undefined | Created: Sun Mar 01 2026 02:50:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+
+Trial Duplicate Set:
+Key: What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulati
+  1: ID: 69a362f2e212ad97bfa96ab4 | Order: 20 | Created: Sun Mar 01 2026 02:49:38 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)
+  2: ID: 69a363a8e212ad97bfa96eba | Order: undefined | Created: Sun Mar 01 2026 02:52:40 GMT+0500 (Giß╗¥ Chuß║⌐n Pakistan)

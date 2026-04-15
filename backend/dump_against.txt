@@ -1,0 +1,70 @@
+﻿Found 33 questions
+ID: 69a362efe212ad97bfa96a8e | Text: According to the 2023 ACR guidelines for ILD, are  | Expl: Methotrexate? AGAINST
+Leflunomide? AGAINST
+Azathioprine? AGAINST
+TNFi? AGAINST
+Abatacept? AGAINST
+Tocilizumab? AGAINST
+Nintedanib? AGAINST
+Pirfenidone? AGAINST
+PLEX? AGAINST
+
+Essentially, the treatment options for RP-ILD are:
+IV steroids, Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi
+
+***if patient has MDA5 RP-ILD, there is a conditional recommendation for "triple therapy", which is:
+IV steroids + 2 of the above options (Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi)
+ID: 69a362efe212ad97bfa96a94 | Text: For GPA/MPA, is PLEX recommended? | Expl: No it is not.
+For active glomerulonephritis/alveolar hemorrhage, it is recommended AGAINST
+
+-from PEXIVAS trial
+-also from ACR
+ID: 69a362f2e212ad97bfa96ab0 | Text: Within the 2023 ACR ILD guidelines, which is/are t | Expl: There is only 1 "STRONG" recommendation, and it is "<strong>STRONGLY RECOMMEND</strong> AGAINST."
+
+"For people with SSc-ILD, we <strong>STRONGLY RECOMMEND</strong> against glucocorticoids as a first-line ILD treatment."
+ID: 69a36307e212ad97bfa96b7e | Text: Physical exam finding of weakness of wrist and all | Expl: -aka "Saturday Night Palsy", from compression against the humerus
+ID: 69a36387e212ad97bfa96d14 | Text: What is initial treatment for JIA polyarthritis? | Expl: -IAGCs conditionally rec'd (Triamcinolone hexacetonide *** STRONGLY rec'd *** over triamcinolone acetonide) -Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease conditionally rec'd -Bridging with oral GCs (<3 months) during initiation of escalation with conditionally rec'd AGAINST in *low disease activity*
+ID: 69a36389e212ad97bfa96d16 | Text: What is treatment for JIA-sacroiliitis? | Expl: -strongly rec'd AGAINST using MTX monotherapy
+ID: 69a3638fe212ad97bfa96d38 | Text: What is MOA of denosumab? | Expl: -MAB against RANKL. RANKL + interaction with RANK = activation/migration/differention of osteoclasts.
+ID: 69a36391e212ad97bfa96d52 | Text: Which is/are the only rotator cuff muscle/tendon i | Expl: -it is the largest of the 4 -test via **Gerber's test aka Lift-off-Test** (dorsum on hand on back, push against resistance)
+ID: 69a36392e212ad97bfa96d66 | Text: What places a <40 year old adult at Moderate Risk  | Expl: OR Significant Bone loss over 1-2 years IN ADDITION TO, GC ΓëÑ 7.5mg/day for ΓëÑ 6 months TX: Conditionally rec'd oral BP, IV BP, DEN, PTH/PTHrP Conditionally rec'd AGAINST RAL, and ROM (due to potential harms except for those intolerant to other agents)
+ID: 69a36398e212ad97bfa96dc6 | Text: Is topical capsaicin cream rec'd, and if so, for w | Expl: -rec'd AGAINST for hand
+ID: 69a36398e212ad97bfa96dd2 | Text: Are non-tramadol opioids rec'd for OA? | Expl: No, conditionally rec'd AGAINST
+ID: 69a36398e212ad97bfa96dd4 | Text: Is glucosamine rec'd for OA? | Expl: No, STRONGLY rec'd AGAINST
+ID: 69a36399e212ad97bfa96dd8 | Text: Are intraarticular haluronic acid injection rec'd  | Expl: STRONGLY rec'd AGAINST for hip
+ID: 69a36399e212ad97bfa96dda | Text: What is the starting steroid dose for PMR? | Expl: -conditionally rec'd -*** STRONGLY rec'd AGAINST starting 30mg/day or more***
+ID: 69a3639ce212ad97bfa96dfc | Text: A patient with SLE and LN currently on imuran, HCQ | Expl: -cannot add belimumab as ACR guidelines conditionally rec'd against at conception and during pregnancy.
+ID: 69a363a3e212ad97bfa96e6a | Text: For GPA/MPA, is PLEX recommended? | Expl: For active glomerulonephritis/alveolar hemorrhage, it is recommended AGAINST -from PEXIVAS trial -also from ACR
+ID: 69a363a4e212ad97bfa96e7e | Text: What are 3 medications used to block IL-1Beta? | Expl: Canakinumab - classic MAB against IL-1B, LONG half-life Rilonacept - extracellular portion of IL-1R that is fused to Fc
+ID: 69a363ade212ad97bfa96f02 | Text: This figure from the ACR guidelines is asking if i | Expl: There is only x1 "<strong>STRONGLY RECOMMEND</strong>" and x1 "strongly against." The rest are all "conditionally", either for or against.
+ID: 69a363aee212ad97bfa96f0e | Text: For people with Systemic Autoimmune Rheumatic Dise | Expl: "For people with SARDs at increased risk of developing ILD, we  <strong>CONDITIONALLY RECOMMEND</strong>  against screening with 6MWD."
+ID: 69a363aee212ad97bfa96f10 | Text: For people with Systemic Autoimmune Rheumatic Dise | Expl: "For people with SARDs at increased risk of developing ILD, we  <strong>CONDITIONALLY RECOMMEND</strong>  against screening with chest radiography."
+ID: 69a363aee212ad97bfa96f12 | Text: For people with Systemic Autoimmune Rheumatic Dise | Expl: "For people with SARDs at increased risk of developing ILD, we  <strong>CONDITIONALLY RECOMMEND</strong>  against screening with 6MWD."
+ID: 69a363afe212ad97bfa96f1c | Text: A patient has SSc-ILD. Prior to any DMARD options, | Expl: "For people with SSc-ILD, we <strong style='color:#000;font-weight:900;'><strong>STRONGLY RECOMMEND</strong> AGAINST</strong> glucocorticoids as a first-line ILD treatment."
+ID: 69a363afe212ad97bfa96f1e | Text: Within the 2023 ACR ILD guidelines, which is/are t | Expl: "For people with SSc-ILD, we <strong style='color:#000;font-weight:900;'><strong>STRONGLY RECOMMEND</strong> AGAINST</strong> glucocorticoids as a first-line ILD treatment."
+ID: 69a363afe212ad97bfa96f24 | Text: According to the 2023 ACR guidelines for ILD, are  | Expl: According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?
+
+Methotrexate? AGAINST
+Leflunomide? AGAINST
+Azathioprine? AGAINST
+TNFi? AGAINST
+Abatacept? AGAINST
+Tocilizumab? AGAINST
+Nintedanib? AGAINST
+Pirfenidone? AGAINST
+PLEX? AGAINST
+
+Essentially, the treatment options for RP-ILD are:
+IV steroids, Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi
+
+***if patient has MDA5 RP-ILD, there is a conditional recommendation for "triple therapy", which is:
+IV steroids + 2 of the above options (Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi)
+ID: 69a363b3e212ad97bfa96f5e | Text: A 28 year old female with SLE has been stable on H | Expl: Incorrect. | Incorrect. | Incorrect. | Incorrect. | According to ACR: "Leukopenia: For asymptomatic neutropenia and/or lymphopenia (absolute counts  <strong>CONDITIONALLY RECOMMEND</strong>  against initiating immunosuppressive treatment (glucocorticoids, conventional or biologic immunosuppressants) in the absence of other lupus disease activity .
+ID: 69a6f5ddc1ec4092e0b2efe9 | Text: What do you do? | Expl: In women with APS (aPL+ and history of clot) who are NOT on anticoagulation: (1) AVOID HRT if current aPL titer is negative ( <strong>CONDITIONALLY RECOMMEND</strong>  against), and (2) AVOID HRT if current aPL titer is positive (<strong>STRONGLY RECOMMEND</strong> against).
+ID: 69a6f732666328361beb4e3a | Text: What do you do? | Expl: In women with APS (aPL+ and history of clot) who ARE on anticoagulation: AVOID HRT ( <strong>CONDITIONALLY RECOMMEND</strong>  against).
+ID: 69a6f98dd031ca66771afc7a | Text: What do you do? | Expl: In women with positive (+) aPL test: AVOID combined estrogen-progestin contraceptives (<strong>STRONGLY RECOMMEND</strong> against).
+ID: 69a6fe350fd67d27c07d7fce | Text: What do you do? | Expl: In women with SLE and Low disease activity: (1) All contraceptive methods are <strong>STRONGLY RECOMMEND</strong>ed. (2) IUDs or progestin implants are preferred over other hormonal contraceptives. (3) AVOID estrogen patch ( <strong>CONDITIONALLY RECOMMEND</strong> ed against).
+ID: 69a711a16109ba09b02aa5f7 | Text: What do you do? | Expl: In women with SLE and Mod-High disease activity: (1) IUDs, progestin implant, DMPA, or progestin-only pill are <strong>STRONGLY RECOMMEND</strong>ed OVER combined estrogen-progestin contraceptives. (2) AVOID estrogen patch ( <strong>CONDITIONALLY RECOMMEND</strong> ed against).
+ID: 69a715080fb35692ccca2f06 | Text: What do you do? | Expl: For Anti-Ro/La (+) patients with no history of NLE: (1) HCQ is <strong>STRONGLY RECOMMEND</strong>ed. (2) Serial fetal echo from week 16-27 is  <strong>CONDITIONALLY RECOMMEND</strong> ed. If abnormal fetal echo (1st or 2nd degree heart block), a brief course of DEXAMETHASONE is  <strong>CONDITIONALLY RECOMMEND</strong> ed. AGAINST Dexamethasone if 3rd degree block.
+ID: 69a718d5671e7986ddd1a4ae | Text: What do you do? | Expl: In RMD patients considering pregnancy who have a positive aPL Test but no APS: (1) Low dose aspirin is  <strong>CONDITIONALLY RECOMMEND</strong> ed. (2) There is a conditional recommendation AGAINST the use of prophylactic heparin or HCQ in this scenario.
+ID: 69a71b8d2a01b01eb29d29ed | Text: What do you do? | Expl: In RMD patients considering pregnancy who have OB APS (Obstetric Antiphospholipid Syndrome): (1) Low dose aspirin PLUS PROPHYLACTIC heparin until 6-12 weeks postpartum is <strong>STRONGLY RECOMMEND</strong>ed. (2) HCQ is <strong>STRONGLY RECOMMEND</strong>ed. (3) There is a conditional recommendation AGAINST therapeutic heparin or IVIG. (4) There is a strong recommendation AGAINST prednisone.

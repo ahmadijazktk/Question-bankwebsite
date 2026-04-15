@@ -1,0 +1,10 @@
+﻿Recent 1: ID: 69a8c6ce5dfe45eec677bfe7 | Text: What do you do? | Image: q_non_live_vax_gc.png | Image2: a_non_live_vax_gc.png
+Recent 2: ID: 69a733a10672ca3fa1298ed5 | Text: What do you do? | Image: q_art_3.png | Image2: a_art_3.png
+Recent 3: ID: 69a730136ee0d1f329e86192 | Text: What do you do? | Image: q_art_2.png | Image2: a_art_2.png
+Recent 4: ID: 69a72bb183c9e00ec31827e1 | Text: What do you do? | Image: q_art_1.png | Image2: a_art_1.png
+Recent 5: ID: 69a71eff76003482beac663b | Text: What do you do? | Image: q_thrombotic_aps_1.png | Image2: a_thrombotic_aps_1.png
+Recent 6: ID: 69a71b8d2a01b01eb29d29ed | Text: What do you do? | Image: q_ob_aps_1.png | Image2: a_ob_aps_1.png
+Recent 7: ID: 69a718d5671e7986ddd1a4ae | Text: What do you do? | Image: q_pos_apl_no_aps_1.png | Image2: a_pos_apl_no_aps_1.png
+Recent 8: ID: 69a715080fb35692ccca2f06 | Text: What do you do? | Image: q_anti_ro_la_1.png | Image2: a_anti_ro_la_1.png
+Recent 9: ID: 69a712282e6fbd797b121cfe | Text: What do you do? | Image: q_preg_plan_1.png | Image2: a_preg_plan_1.png
+Recent 10: ID: 69a711a16109ba09b02aa5f7 | Text: What do you do? | Image: q_contraception_5.png | Image2: a_contraception_5.png

@@ -32,7 +32,7 @@ const userSchema = new mongoose.Schema({
     },
     category: {
       type: String,
-      enum: ['anatomic-clinical', 'anatomic', 'clinical', 'forensic', 'cytopathology'],
+      enum: ['anatomic-clinical', 'anatomic', 'clinical', 'forensic', 'cytopathology', 'all-access'],
       default: null
     },
     plan: {

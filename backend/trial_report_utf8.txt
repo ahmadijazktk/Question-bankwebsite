@@ -1,0 +1,22 @@
+﻿Trial questions: 20
+Order: 1 | ID: 69a362efe212ad97bfa96a8e | Text: According to the 2023 ACR guid
+Order: 2 | ID: 69a362efe212ad97bfa96a90 | Text: For patients receiving RTX for
+Order: 3 | ID: 69a362efe212ad97bfa96a92 | Text: What is the treatment for Lyme
+Order: 4 | ID: 69a362efe212ad97bfa96a94 | Text: For GPA/MPA, is PLEX recommend
+Order: 5 | ID: 69a362f0e212ad97bfa96a96 | Text: Describe HIDs
+Order: 6 | ID: 69a362f0e212ad97bfa96a98 | Text: What is the treatment of lupus
+Order: 7 | ID: 69a362f1e212ad97bfa96aa6 | Text: What is shown here? (Spine ima
+Order: 8 | ID: 69a362f1e212ad97bfa96a9c | Text: In a patient with Behcets and 
+Order: 9 | ID: 69a362f1e212ad97bfa96a9e | Text: If a patient has CKD stage 3 (
+Order: 10 | ID: 69a362f1e212ad97bfa96aa0 | Text: A patient taking tofacitinib i
+Order: 11 | ID: 69a362f1e212ad97bfa96aa2 | Text: What is the treatment for AxSp
+Order: 12 | ID: 69a362f1e212ad97bfa96aa4 | Text: What GYN disease are SLE patie
+Order: 13 | ID: 69a362f0e212ad97bfa96a9a | Text: What does a muscle biopsy with
+Order: 14 | ID: 69a362f1e212ad97bfa96aa8 | Text: Is Tacrolimus safe in pregnanc
+Order: 15 | ID: 69a362f1e212ad97bfa96aaa | Text: What type of amyloidosis can o
+Order: 16 | ID: 69a362f1e212ad97bfa96aac | Text: A 28-year-old female with SLE 
+Order: 17 | ID: 69a362f2e212ad97bfa96aae | Text: A patient has newly diagnosed 
+Order: 18 | ID: 69a362f2e212ad97bfa96ab0 | Text: Within the 2023 ACR ILD guidel
+Order: 19 | ID: 69a362f2e212ad97bfa96ab2 | Text: A patient on Methotrexate mono
+Order: 20 | ID: 69a362f2e212ad97bfa96ab4 | Text: What is the gene involved with
+Trial questions with no order: 0
