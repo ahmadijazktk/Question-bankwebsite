@@ -1,6 +1,6 @@
 [
     {
-        "text": "According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? \n\n1.<br /><br />Methotrexate? [...] \n2.<br /><br />Leflunomide? [...] \n3.<br /><br />Azathioprine? [...] \n4.<br /><br />TNFi? [...] \n5.<br /><br />Abatacept? [...] \n6.<br /><br />Tocilizumab? [...] \n7.<br /><br />Nintedanib? [...] \n8.<br /><br />Pirfenidone? [...] \n9.<br /><br />PLEX? [...]",
+        "text": "According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? \n\n1. Methotrexate? [...] \n2. Leflunomide? [...] \n3. Azathioprine? [...] \n4. TNFi? [...] \n5. Abatacept? [...] \n6. Tocilizumab? [...] \n7. Nintedanib? [...] \n8. Pirfenidone? [...] \n9. PLEX? [...]",
         "options": [
             {
                 "text": "Show Answer",
@@ -32,7 +32,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "-\"suggest oral antibiotics over IV\"....this is for outpatient (ACR 2020 guidelines)\n-if hospitalized, use IV ceftriaxone\n-if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor\n\n**<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>**",
+                "explanation": "-\"suggest oral antibiotics over IV\"....this is for outpatient (ACR 2020 guidelines)\n-if hospitalized, use IV ceftriaxone\n-if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor\n\n**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -117,7 +117,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "Allopurinol\n\n**<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>**\n\n\"Treatment with allopurinol as the preferred first-line agent, over all other ULTs, is **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>**ed for all patients, including those with moderate-to-severe CKD (stage ≥3).\"",
+                "explanation": "Allopurinol\n\n**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>**\n\n\"Treatment with allopurinol as the preferred first-line agent, over all other ULTs, is <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong>ed for all patients, including those with moderate-to-severe CKD (stage ≥3).\"",
                 "isCorrect": true
             }
         ],
@@ -127,7 +127,7 @@
         "category": "Free Trial"
     },
     {
-        "text": "A patient taking tofacitinib is about to start ketoconazole.<br /><br />What to do with tofacitinib?",
+        "text": "A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?",
         "options": [
             {
                 "text": "Show Answer",
@@ -212,7 +212,7 @@
         "category": "Free Trial"
     },
     {
-        "text": "A 28-year-old female with SLE has been stable on HCQ weight-based for many years.<br /><br />She has been off of prednisone for many years.<br /><br />She has been complaining of chest pain with exertion that is new to her.<br /><br />Her most recent blood work showed Hgb count of 8, but the remainder of her blood work has remained normal.<br /><br />A direct Coombs test is positive.<br /><br />What is your next best step?\n\nA) restart her prednisone but no more than 5mg daily\nB) start methotrexate\nC) start prednisone in combination with IVIG and/or rituximab\nD) start azathioprine in combination with prednisone\nE) start prednisone in combination with belimumab",
+        "text": "A 28-year-old female with SLE has been stable on HCQ weight-based for many years. She has been off of prednisone for many years. She has been complaining of chest pain with exertion that is new to her. Her most recent blood work showed Hgb count of 8, but the remainder of her blood work has remained normal. A direct Coombs test is positive. What is your next best step?\n\nA) restart her prednisone but no more than 5mg daily\nB) start methotrexate\nC) start prednisone in combination with IVIG and/or rituximab\nD) start azathioprine in combination with prednisone\nE) start prednisone in combination with belimumab",
         "options": [
             {
                 "text": "restart her prednisone but no more than 5mg daily",
@@ -226,7 +226,7 @@
             },
             {
                 "text": "start prednisone in combination with IVIG and/or rituximab",
-                "explanation": "CORRECT!\n\nAccording to ACR: \"Hemolytic Anemia: For symptomatic autoimmune hemolytic anemia (i.e., ischemic manifestations and/or hemodynamic instability) attributed to SLE: We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial glucocorticoid therapy with addition of IVIG and/or anti-CD20 therapy over the addition of conventional immunosuppressive agents.\"\n\n<br /><br />***this is the same answer and treatment for symptomatic thrombocytopenia attributed to SLE<br /><br />***",
+                "explanation": "CORRECT!\n\nAccording to ACR: \"Hemolytic Anemia: For symptomatic autoimmune hemolytic anemia (i.e., ischemic manifestations and/or hemodynamic instability) attributed to SLE: We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> initial glucocorticoid therapy with addition of IVIG and/or anti-CD20 therapy over the addition of conventional immunosuppressive agents.\"\n\n<br /><br />***this is the same answer and treatment for symptomatic thrombocytopenia attributed to SLE<br /><br />***",
                 "isCorrect": true
             },
             {
@@ -246,11 +246,11 @@
         "category": "Free Trial"
     },
     {
-        "text": "A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis.<br /><br />She was started on weight-based HCQ, then induction steroids, followed by MMF in combination with belimumab.<br /><br />She continued to have worsening renal disease — her regimen was switched to MMF in combination with voclosporin.<br /><br />She is continuing to have moderate proteinuria and hematuria on routine labs.<br /><br />What are your next options for treatment, according to ACR?",
+        "text": "A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis. She was started on weight-based HCQ, then induction steroids, followed by MMF in combination with belimumab. She continued to have worsening renal disease — her regimen was switched to MMF in combination with voclosporin. She is continuing to have moderate proteinuria and hematuria on routine labs. What are your next options for treatment, according to ACR?",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "You have 3 choices, according to ACR:\n1) do combination MMF, belimumab, and CNI (ie. voclosporin).<br /><br />2) add anti-CD20 to current regimen\n3) referral for investigational therapy\n\n\"In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR referral for investigational therapy.\"",
+                "explanation": "You have 3 choices, according to ACR:\n1) do combination MMF, belimumab, and CNI (ie. voclosporin).<br /><br />2) add anti-CD20 to current regimen\n3) referral for investigational therapy\n\n\"In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR referral for investigational therapy.\"",
                 "isCorrect": true
             }
         ],
@@ -264,7 +264,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "There is only 1 \"STRONG\" recommendation, and it is \"**<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** AGAINST.\"\n\n\"For people with SSc-ILD, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** against glucocorticoids as a first-line ILD treatment.\"",
+                "explanation": "There is only 1 \"STRONG\" recommendation, and it is \"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> AGAINST.\"\n\n\"For people with SSc-ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> against glucocorticoids as a first-line ILD treatment.\"",
                 "isCorrect": true
             }
         ],
@@ -274,11 +274,11 @@
         "category": "Free Trial"
     },
     {
-        "text": "A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity.<br /><br />Patient has history of serious infection 10 months ago.<br /><br />What is the next best step?",
+        "text": "A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity. Patient has history of serious infection 10 months ago. What is the next best step?",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "Addition of csDMARDs\n\nAddition of csDMARDs is \"**<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**ed\" over addition of a bDMARD or tsDMARD for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity despite csDMARD monotherapy.",
+                "explanation": "Addition of csDMARDs\n\nAddition of csDMARDs is \"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>ed\" over addition of a bDMARD or tsDMARD for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity despite csDMARD monotherapy.",
                 "isCorrect": true
             }
         ],
@@ -307,7 +307,7 @@
         "options": [
             {
                 "text": "Oral abx 21-28 days",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>WEAK REC'D</strong>**",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>WEAK REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -367,7 +367,7 @@
         "options": [
             {
                 "text": "Oral doxycycline 14-21 days",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>**",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -392,27 +392,12 @@
         "image": null
     },
     {
-        "text": "Young child with arthralgias, right midfoot swelling, weight loss, poor sleep, and oral ulcers.<br /><br />Normal CBC, UA and Cr/GFR. -iron anemia -elevated ESR",
+        "text": "Young child with arthralgias, right midfoot swelling, weight loss, poor sleep, and oral ulcers. Normal CBC, UA and Cr/GFR. -iron anemia -elevated ESR",
         "category": "clinical",
         "options": [
             {
                 "text": "Juvenile spondyloarthritis (likely related to Crohn's)",
                 "explanation": "-midfoot tarsitis is BUZZPHRASE -children may NOT have diarrhea -normal CBC and LDH rules out leukemia",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Spiral CTA of chest.",
-                "explanation": "-not MRA of chest, because it lacks sensitivity to detect medium and small vessels, and venulitis.<br /><br />Also cannot comment on lung parenchyma.",
                 "isCorrect": true
             }
         ],
@@ -437,7 +422,7 @@
         "image": null
     },
     {
-        "text": "You suspect Parvovirus infection.<br /><br />What test can be positive in acute phase, aside from Parvo antibodies?",
+        "text": "You suspect Parvovirus infection. What test can be positive in acute phase, aside from Parvo antibodies?",
         "category": "clinical",
         "options": [
             {
@@ -572,7 +557,7 @@
         "image": null
     },
     {
-        "text": "A patient with SSc has bloating.<br /><br />What is the treatment and why?",
+        "text": "A patient with SSc has bloating. What is the treatment and why?",
         "category": "clinical",
         "options": [
             {
@@ -797,7 +782,7 @@
         "image": null
     },
     {
-        "text": "middle aged man/woman with popping/clicking of knee, and with pain. <br /><br />***MEDIAL knee pain<br /><br />*** -MRI shows thickened synovial fibrous band. -erosion of articular cartilage of patella and femoral condyle",
+        "text": "middle aged man/woman with popping/clicking of knee, and with pain. ***MEDIAL knee pain*** -MRI shows thickened synovial fibrous band. -erosion of articular cartilage of patella and femoral condyle",
         "category": "clinical",
         "options": [
             {
@@ -842,7 +827,7 @@
         "image": null
     },
     {
-        "text": "High calcium, diffuse non-pitting edema of hands, feet, and legs, with clubbing of fingernails.<br /><br />Xrays of hands show fluffy and spiculated periostitis of multiple phalangeal and carpal bones.<br /><br />Irregular periosteal new bone formation present in distal medial tibias.",
+        "text": "High calcium, diffuse non-pitting edema of hands, feet, and legs, with clubbing of fingernails. Xrays of hands show fluffy and spiculated periostitis of multiple phalangeal and carpal bones. Irregular periosteal new bone formation present in distal medial tibias.",
         "category": "clinical",
         "options": [
             {
@@ -992,7 +977,7 @@
         "image": null
     },
     {
-        "text": "A patient with Rheumatoid Arthritis taking Methotrexate and HCQ is doing well, however has lost weight and developed several nonhealing ulcers.<br /><br />No joint swelling/morning stiffness.<br /><br />Lymph node bx showed polymorphic lymphoproliferative disorder.<br /><br />Next step?",
+        "text": "A patient with Rheumatoid Arthritis taking Methotrexate and HCQ is doing well, however has lost weight and developed several nonhealing ulcers. No joint swelling/morning stiffness. Lymph node bx showed polymorphic lymphoproliferative disorder. Next step?",
         "category": "clinical",
         "options": [
             {
@@ -1067,7 +1052,7 @@
         "image": null
     },
     {
-        "text": "What physical exam finding indicates history of JIA vs.<br /><br />RA in a seronegative patient?",
+        "text": "What physical exam finding indicates history of JIA vs. RA in a seronegative patient?",
         "category": "clinical",
         "options": [
             {
@@ -1082,7 +1067,7 @@
         "image": null
     },
     {
-        "text": "Rheumatoid arthritis patient on TNFi develops unsteady gait/ataxia.<br /><br />Later, dysarthric speech, horizontal nystagmus, appendicular dystaxia, hyperreflexia, with progression to areflexic quadraplegia.<br /><br />MRI with \"white matter changes, possibly normal for age\".<br /><br />CSF for viral, bacteria, fungal all negative.<br /><br />He improved with IV steroids...",
+        "text": "Rheumatoid arthritis patient on TNFi develops unsteady gait/ataxia. Later, dysarthric speech, horizontal nystagmus, appendicular dystaxia, hyperreflexia, with progression to areflexic quadraplegia. MRI with \"white matter changes, possibly normal for age\". CSF for viral, bacteria, fungal all negative. He improved with IV steroids...",
         "category": "clinical",
         "options": [
             {
@@ -1097,7 +1082,7 @@
         "image": null
     },
     {
-        "text": "Patient with very destructive foot/ankle arthritis that is painful.<br /><br />Neuro exam normal.<br /><br />She does not have diabetes.<br /><br />What is dx?",
+        "text": "Patient with very destructive foot/ankle arthritis that is painful. Neuro exam normal. She does not have diabetes. What is dx?",
         "category": "clinical",
         "options": [
             {
@@ -1177,7 +1162,7 @@
         "options": [
             {
                 "text": "Oral abx 14 days",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>WEAK REC'D</strong>**, low quality evidence",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>WEAK REC'D</strong></strong>**, low quality evidence",
                 "isCorrect": true
             }
         ],
@@ -1337,7 +1322,7 @@
         "image": null
     },
     {
-        "text": "A female patient with rash that develops after prolonged walking/standing/hiking/long plane flights.<br /><br />Some eye dryness.<br /><br />No ulcers, Raynauds, joint pains, fevers, etc.<br /><br />Skin biopsy shows LCV.<br /><br />Negative hepatitis serologies, +RF.<br /><br />What is next test to check?",
+        "text": "A female patient with rash that develops after prolonged walking/standing/hiking/long plane flights. Some eye dryness. No ulcers, Raynauds, joint pains, fevers, etc. Skin biopsy shows LCV. Negative hepatitis serologies, +RF. What is next test to check?",
         "category": "clinical",
         "options": [
             {
@@ -1373,21 +1358,6 @@
             {
                 "text": "-Ureaplasma, Mycoplasma, Staph, Strep, Haemophilus",
                 "explanation": "-in sexually active, think N. gonorrhea -also consider this in PREGNANT PATIENTS, because they are also immunocompromised",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "Describe HIDs",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "-Hyper IgD syndrome",
-                "explanation": "-form of HEREDITARY periodic fever syndrome -Autosomal Recessive -will occur in BABIES....in FRANCE, NETHERLANDS -triggered by VACCINES<br /><br />*** -obviously elevated IgD -lasts 3-7 days<br /><br />*** -TX: NSAIDs, Anakinra/Canakinumab",
                 "isCorrect": true
             }
         ],
@@ -1592,7 +1562,7 @@
         "image": null
     },
     {
-        "text": "Patient found to have Whipple's disease (chronic diarrhea, migratory polyarthritis, weight loss) receives IV ceftriaxone, then transition to oral Bactrim.<br /><br />2 weeks later develops 102F, with polyarticular effusions.<br /><br />What should you do?",
+        "text": "Patient found to have Whipple's disease (chronic diarrhea, migratory polyarthritis, weight loss) receives IV ceftriaxone, then transition to oral Bactrim. 2 weeks later develops 102F, with polyarticular effusions. What should you do?",
         "category": "clinical",
         "options": [
             {
@@ -1652,7 +1622,7 @@
         "image": "lipid_crystals.jpg"
     },
     {
-        "text": "Adult with LCV and IgA deposition in dermis.<br /><br />Has renal disease and hematuria.<br /><br />Unable to tolerate high dose steroids.<br /><br />Treatment?",
+        "text": "Adult with LCV and IgA deposition in dermis. Has renal disease and hematuria. Unable to tolerate high dose steroids. Treatment?",
         "category": "clinical",
         "options": [
             {
@@ -1727,7 +1697,7 @@
         "image": null
     },
     {
-        "text": "Young child, <5 years old, refusal to walk. +fever, +conjunctival injection, +rash.<br /><br />The rash is worse in the groins BL.",
+        "text": "Young child, <5 years old, refusal to walk. +fever, +conjunctival injection, +rash. The rash is worse in the groins BL.",
         "category": "clinical",
         "options": [
             {
@@ -1772,7 +1742,7 @@
         "image": null
     },
     {
-        "text": "A patient has hepatosplenomegaly, anemia, thrombocytopenia, and fatty build in in the liver, spleen and bone.<br /><br />AVN found on xray.",
+        "text": "A patient has hepatosplenomegaly, anemia, thrombocytopenia, and fatty build in in the liver, spleen and bone. AVN found on xray.",
         "category": "clinical",
         "options": [
             {
@@ -1907,7 +1877,7 @@
         "image": null
     },
     {
-        "text": "Patient who lives along Gulf Coast, including Mississippi River, has swelling/joint pain/tenosynovitis.<br /><br />What infectious organism should you expect?",
+        "text": "Patient who lives along Gulf Coast, including Mississippi River, has swelling/joint pain/tenosynovitis. What infectious organism should you expect?",
         "category": "clinical",
         "options": [
             {
@@ -2197,7 +2167,7 @@
         "options": [
             {
                 "text": "IV (not oral) antibiotics",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>**",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -2237,7 +2207,7 @@
         "image": null
     },
     {
-        "text": "Patient s/p hip replacement, c/o chronic hip pain since surgery.<br /><br />Sx for about 1 year.<br /><br />What is it and how to treat?",
+        "text": "Patient s/p hip replacement, c/o chronic hip pain since surgery. Sx for about 1 year. What is it and how to treat?",
         "category": "clinical",
         "options": [
             {
@@ -2402,7 +2372,7 @@
         "image": null
     },
     {
-        "text": "A young male who lives in Texas has left buttock pain.<br /><br />FABER +.<br /><br />Also with low fevers, chills, night sweats, and weight loss, over 2 months.<br /><br />He ate local foods in rural Mexico recently, but also went to brothel (no STD symptoms).<br /><br />Hepatomegaly.<br /><br />What is the probable cause of sx?",
+        "text": "A young male who lives in Texas has left buttock pain. FABER +. Also with low fevers, chills, night sweats, and weight loss, over 2 months. He ate local foods in rural Mexico recently, but also went to brothel (no STD symptoms). Hepatomegaly. What is the probable cause of sx?",
         "category": "clinical",
         "options": [
             {
@@ -2430,21 +2400,6 @@
         "difficulty": "medium",
         "diagram": true,
         "image": "ibm_pathology.jpg"
-    },
-    {
-        "text": "What GYN disease are SLE patients at risk of getting (females)?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "SIL, squamous intraepithelial lesions",
-                "explanation": "-increased with CYC and persistent-high risk HPV infection",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
     },
     {
         "text": "What xray findings can be seen with chronic venous stasis?",
@@ -2542,7 +2497,7 @@
         "options": [
             {
                 "text": "-\"suggest oral antibiotics over IV\"....this is for outpatient (ACR 2020 guidelines)",
-                "explanation": "-if hospitalized, use IV ceftriaxone -if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor **<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>**",
+                "explanation": "-if hospitalized, use IV ceftriaxone -if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -2627,7 +2582,7 @@
         "image": null
     },
     {
-        "text": "-Young adult with knee pain.<br /><br />Repeated microtrauma.<br /><br />Sometime single traumatic injury. -MRI shows focal areas of swelling of patellar cartilage, surface irregularity, areas of thinning and loss of cartilage with subchondral bone exposure",
+        "text": "-Young adult with knee pain. Repeated microtrauma. Sometime single traumatic injury. -MRI shows focal areas of swelling of patellar cartilage, surface irregularity, areas of thinning and loss of cartilage with subchondral bone exposure",
         "category": "clinical",
         "options": [
             {
@@ -2767,7 +2722,7 @@
         "options": [
             {
                 "text": "IV ceftriaxone, cefotaxime, penicillin G or oral doxycycline. 14-21 days",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>** ------- ...if with involvement of brain/spinal cord, **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** IV over oral antibiotics",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>** ------- ...if with involvement of brain/spinal cord, **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** IV over oral antibiotics",
                 "isCorrect": true
             }
         ],
@@ -2897,7 +2852,7 @@
         "image": null
     },
     {
-        "text": "Veterinarian with exposure to variety of animals with systemic symptoms including fever, inflammatory polyarthritis, elevated CRP and WBC, and rashes.<br /><br />What is dx?",
+        "text": "Veterinarian with exposure to variety of animals with systemic symptoms including fever, inflammatory polyarthritis, elevated CRP and WBC, and rashes. What is dx?",
         "category": "clinical",
         "options": [
             {
@@ -2972,7 +2927,7 @@
         "image": null
     },
     {
-        "text": "Patient with ankylosing spondylitis treated with TNFi for 10 years.<br /><br />Has new worsening back pain and paresthesias.<br /><br />Decreased BLE reflexes.<br /><br />MRI shows \"outpouching/diverticula\" and osteolysis of posterior lumbar spine segments.<br /><br />What is the cause?",
+        "text": "Patient with ankylosing spondylitis treated with TNFi for 10 years. Has new worsening back pain and paresthesias. Decreased BLE reflexes. MRI shows \"outpouching/diverticula\" and osteolysis of posterior lumbar spine segments. What is the cause?",
         "category": "clinical",
         "options": [
             {
@@ -3067,7 +3022,7 @@
         "options": [
             {
                 "text": "Oral Doxy 10 days, or 14 days of amoxicillin/cefuroxime",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>**",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -3137,7 +3092,7 @@
         "image": null
     },
     {
-        "text": "A patient with inflammatory polyarthritis.<br /><br />Labs are positive for CCP, RF, and HCV with viremia.<br /><br />Treated with antivirals but still with synovitis.<br /><br />Next best option?",
+        "text": "A patient with inflammatory polyarthritis. Labs are positive for CCP, RF, and HCV with viremia. Treated with antivirals but still with synovitis. Next best option?",
         "category": "clinical",
         "options": [
             {
@@ -3152,7 +3107,7 @@
         "image": null
     },
     {
-        "text": "What's the difference between Eosinophilia-myalgia syndrome vs.<br /><br />Hypereosinophilic syndrome?",
+        "text": "What's the difference between Eosinophilia-myalgia syndrome vs. Hypereosinophilic syndrome?",
         "category": "clinical",
         "options": [
             {
@@ -3272,7 +3227,7 @@
         "image": null
     },
     {
-        "text": "A patient taking HCQ says she sees \"halos\".<br /><br />What is the eye toxicity?",
+        "text": "A patient taking HCQ says she sees \"halos\". What is the eye toxicity?",
         "category": "clinical",
         "options": [
             {
@@ -3362,7 +3317,7 @@
         "image": null
     },
     {
-        "text": "Young boy, heavy, night time hip pain.<br /><br />Has pain throughout day.<br /><br />Walks with a limp.<br /><br />All labs are normal.<br /><br />B27 is positive.<br /><br />He has family hx of AxSpa.<br /><br />Xray shows cortical thickening and solitary lesion of long bone of cortex.",
+        "text": "Young boy, heavy, night time hip pain. Has pain throughout day. Walks with a limp. All labs are normal. B27 is positive. He has family hx of AxSpa. Xray shows cortical thickening and solitary lesion of long bone of cortex.",
         "category": "clinical",
         "options": [
             {
@@ -3542,7 +3497,7 @@
         "image": null
     },
     {
-        "text": "40 year old patient with several months of right shoulder pain, and decreased ROM.<br /><br />Also with right shoulder and wrist swelling.<br /><br />Has decreased pain and temperature sensation over right wrist.<br /><br />Shoulder X-rays show sclerosis, subluxation and debris.<br /><br />Wrist xray shows destruction of carpal row with bony fragments.",
+        "text": "40 year old patient with several months of right shoulder pain, and decreased ROM. Also with right shoulder and wrist swelling. Has decreased pain and temperature sensation over right wrist. Shoulder X-rays show sclerosis, subluxation and debris. Wrist xray shows destruction of carpal row with bony fragments.",
         "category": "clinical",
         "options": [
             {
@@ -3587,7 +3542,7 @@
         "image": null
     },
     {
-        "text": "27 year old male with rash erythematous plaques/papules over back, upper chest, and around ears.<br /><br />No photosensitivity.<br /><br />No drugs.<br /><br />Induration over back.<br /><br />ANA 1:80, dsDNA>300.<br /><br />C3/C4, UA normal.<br /><br />Pathology shows superficial and deep perivascular lymphohistiocytic infiltrates and abundant MUCIN deposition in the reticular dermis.",
+        "text": "27 year old male with rash erythematous plaques/papules over back, upper chest, and around ears. No photosensitivity. No drugs. Induration over back. ANA 1:80, dsDNA>300. C3/C4, UA normal. Pathology shows superficial and deep perivascular lymphohistiocytic infiltrates and abundant MUCIN deposition in the reticular dermis.",
         "category": "clinical",
         "options": [
             {
@@ -3617,7 +3572,7 @@
         "image": null
     },
     {
-        "text": "60 year old male with diabetes has non traumatic right thigh pain for 1 month.<br /><br />Buckling of right knee, with numbness of right thigh.<br /><br />Atrophy of right thigh.<br /><br />No erythema or warmth.",
+        "text": "60 year old male with diabetes has non traumatic right thigh pain for 1 month. Buckling of right knee, with numbness of right thigh. Atrophy of right thigh. No erythema or warmth.",
         "category": "clinical",
         "options": [
             {
@@ -3707,7 +3662,7 @@
         "image": null
     },
     {
-        "text": "SLE patient who initially had arthralgias and class 4 LN.<br /><br />Received IV cyclophosphamide, however renal function declined, leading to transplant.<br /><br />Since transplant, has been on HCQ, MMF, tacrolimus, and tapered off steroids.<br /><br />She has significant fatigue, and she is pale.<br /><br />Hgb 6.2, and very low retic count.<br /><br />Bone marrow bx shows pure red cell aplasia with giant proerythroblasts.<br /><br />What is going on?",
+        "text": "SLE patient who initially had arthralgias and class 4 LN. Received IV cyclophosphamide, however renal function declined, leading to transplant. Since transplant, has been on HCQ, MMF, tacrolimus, and tapered off steroids. She has significant fatigue, and she is pale. Hgb 6.2, and very low retic count. Bone marrow bx shows pure red cell aplasia with giant proerythroblasts. What is going on?",
         "category": "clinical",
         "options": [
             {
@@ -3812,7 +3767,7 @@
         "image": null
     },
     {
-        "text": "A patient with chest pain, acne,and nonmarginal syndesmophytes of lumbar spine has either palmoplantar pustolosis, and/or hidradenitis suppurativa.<br /><br />What would histology of these lesions look like?",
+        "text": "A patient with chest pain, acne,and nonmarginal syndesmophytes of lumbar spine has either palmoplantar pustolosis, and/or hidradenitis suppurativa. What would histology of these lesions look like?",
         "category": "clinical",
         "options": [
             {
@@ -3887,7 +3842,7 @@
         "image": null
     },
     {
-        "text": "A patient with SLE has decreased lung volumes.<br /><br />What bodily part is causing this?",
+        "text": "A patient with SLE has decreased lung volumes. What bodily part is causing this?",
         "category": "clinical",
         "options": [
             {
@@ -4517,7 +4472,7 @@
         "image": null
     },
     {
-        "text": "Patient has long standing renal disease, low alk phos, and no evidence of Hyperparathyroidism.<br /><br />What is this? What is treatment?",
+        "text": "Patient has long standing renal disease, low alk phos, and no evidence of Hyperparathyroidism. What is this? What is treatment?",
         "category": "clinical",
         "options": [
             {
@@ -4607,7 +4562,7 @@
         "image": null
     },
     {
-        "text": "What are the rec's for bisphosphonate holiday for oral vs.<br /><br />IV?",
+        "text": "What are the rec's for bisphosphonate holiday for oral vs. IV?",
         "category": "clinical",
         "options": [
             {
@@ -4682,7 +4637,7 @@
         "image": null
     },
     {
-        "text": "Young boy has high fevers and leg pain.<br /><br />Refuses to walk.<br /><br />Initially had cough, myalgias, and high fever.<br /><br />Cough and fever resolved after 5 days, but leg pain worsened.<br /><br />No injuries.<br /><br />Currently afebrile, ankles are plantar flexed and hurt him when trying to passively dorsiflex BL.<br /><br />TTP in both calves, with no swelling or pain.<br /><br />What is this?",
+        "text": "Young boy has high fevers and leg pain. Refuses to walk. Initially had cough, myalgias, and high fever. Cough and fever resolved after 5 days, but leg pain worsened. No injuries. Currently afebrile, ankles are plantar flexed and hurt him when trying to passively dorsiflex BL. TTP in both calves, with no swelling or pain. What is this?",
         "category": "clinical",
         "options": [
             {
@@ -4757,7 +4712,7 @@
         "image": null
     },
     {
-        "text": "Cavitary lesions in lungs.<br /><br />Cough, CP, fever, ataxia, diplopia.<br /><br />Tender nodules in thighs and abdomen.<br /><br />Decreases sensation in BLE.<br /><br />Crackles heard on exam.<br /><br />Anemic, ESR 100, ANA, and ANCA both negative.<br /><br />MRI brain shows white matter changes.<br /><br />CXR with multiple cavitary lesions.<br /><br />Lung biopsy shows lymphocyte infiltration around small blood vessels without vessel necrosis.<br /><br />No granuloma.<br /><br />Dx?",
+        "text": "Cavitary lesions in lungs. Cough, CP, fever, ataxia, diplopia. Tender nodules in thighs and abdomen. Decreases sensation in BLE. Crackles heard on exam. Anemic, ESR 100, ANA, and ANCA both negative. MRI brain shows white matter changes. CXR with multiple cavitary lesions. Lung biopsy shows lymphocyte infiltration around small blood vessels without vessel necrosis. No granuloma. Dx?",
         "category": "clinical",
         "options": [
             {
@@ -4822,7 +4777,7 @@
         "options": [
             {
                 "text": "MTX (subq), then TNFi",
-                "explanation": "-IAGCs conditionally rec'd (Triamcinolone hexacetonide <br /><br />*** **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** <br /><br />*** over triamcinolone acetonide) -Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease conditionally rec'd -Bridging with oral GCs (<3 months) during initiation of escalation with conditionally rec'd AGAINST in *low disease activity*",
+                "explanation": "-IAGCs conditionally rec'd (Triamcinolone hexacetonide * <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong> * over triamcinolone acetonide) -Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease conditionally rec'd -Bridging with oral GCs (<3 months) during initiation of escalation with conditionally rec'd AGAINST in *low disease activity*",
                 "isCorrect": true
             }
         ],
@@ -4837,7 +4792,7 @@
         "options": [
             {
                 "text": "NSAID (*** STRONGLY rec'd ***), then TNFi (*** STRONGLY rec'd ***)",
-                "explanation": "-**<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** AGAINST using MTX monotherapy",
+                "explanation": "-**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** AGAINST using MTX monotherapy",
                 "isCorrect": true
             }
         ],
@@ -4882,7 +4837,7 @@
         "options": [
             {
                 "text": "Yes, but conditionally rec'd to use DMARD + biologics",
-                "explanation": "-<br /><br />***and **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** to use infliximab + DMARD<br /><br />***",
+                "explanation": "-<br /><br />***and **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** to use infliximab + DMARD<br /><br />***",
                 "isCorrect": true
             }
         ],
@@ -4912,7 +4867,7 @@
         "options": [
             {
                 "text": "Trial of NSAIDs (conditional rec'd) + Injection GCs (*** STRONGLY rec'd ***)",
-                "explanation": "-Do NOT USE ORAL GCs -csDMARD (<br /><br />*** **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** <br /><br />***) (....conditionally oral vs subQ MTX) after NSAIDs and Injection GCs fail -bDMARD <br /><br />*** **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** <br /><br />*** after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX) -<br /><br />***OLIGO = ≤4 joints<br /><br />***",
+                "explanation": "-Do NOT USE ORAL GCs -csDMARD (* <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong> *) (....conditionally oral vs subQ MTX) after NSAIDs and Injection GCs fail -bDMARD * <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong> * after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX) -<br /><br />***OLIGO = ≤4 joints<br /><br />***",
                 "isCorrect": true
             }
         ],
@@ -4927,7 +4882,7 @@
         "options": [
             {
                 "text": "Trial of NSAIDs (conditional rec'd) + Injection GCs (conditionally rec'd)",
-                "explanation": "-<br /><br />***Do NOT USE ORAL GCs<br /><br />*** -csDMARD ( **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** ) (....conditionally MTX ) after NSAIDs and Injection GCs fail -bDMARD (**<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>**) after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX) -<br /><br />***all this similar to oligo-JIA, aside from **<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>** for IAGCs<br /><br />***",
+                "explanation": "-<br /><br />***Do NOT USE ORAL GCs<br /><br />*** -csDMARD ( **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** ) (....conditionally MTX ) after NSAIDs and Injection GCs fail -bDMARD (**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>**) after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX) -<br /><br />***all this similar to oligo-JIA, aside from **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>** for IAGCs<br /><br />***",
                 "isCorrect": true
             }
         ],
@@ -4982,7 +4937,7 @@
         "image": null
     },
     {
-        "text": "A patient has redness pain of eye, double vision, ocular movement impairment with elevated inflammatory markers.<br /><br />MRI of orbit reveals superior oblique enlargement/infiltration/edema.<br /><br />ANCAs are negative.<br /><br />Biopsy of superior oblique muscle shows granulomatous inflammation, tissue necrosis, and capillaritis.....what is this?",
+        "text": "A patient has redness pain of eye, double vision, ocular movement impairment with elevated inflammatory markers. MRI of orbit reveals superior oblique enlargement/infiltration/edema. ANCAs are negative. Biopsy of superior oblique muscle shows granulomatous inflammation, tissue necrosis, and capillaritis.....what is this?",
         "category": "clinical",
         "options": [
             {
@@ -5012,7 +4967,7 @@
         "image": null
     },
     {
-        "text": "Young female in her 30's, has multiple, red subcutaneous nodules on BLE and BUE that appeared 7 months ago.<br /><br />They do not resolve spontaneously.<br /><br />Asymptomatic.<br /><br />WBC 3400 (mildly low), neutropenia, and LDH elevated 500s.<br /><br />ANA, smith, dsdna, ro/la all negative.<br /><br />Biopsy of nodule shows infiltrate of atypical lymphocytes around fat lobules that spares the septaie, overlying dermis and epidermis.<br /><br />Histiocytes with vacuoles, phagocytized nuclear debris, and ingested lipids seen.<br /><br />Stains for fungi, bacteria, and AFB all negative.<br /><br />Next best step? What is this?",
+        "text": "Young female in her 30's, has multiple, red subcutaneous nodules on BLE and BUE that appeared 7 months ago. They do not resolve spontaneously. Asymptomatic. WBC 3400 (mildly low), neutropenia, and LDH elevated 500s. ANA, smith, dsdna, ro/la all negative. Biopsy of nodule shows infiltrate of atypical lymphocytes around fat lobules that spares the septaie, overlying dermis and epidermis. Histiocytes with vacuoles, phagocytized nuclear debris, and ingested lipids seen. Stains for fungi, bacteria, and AFB all negative. Next best step? What is this?",
         "category": "clinical",
         "options": [
             {
@@ -5027,7 +4982,7 @@
         "image": null
     },
     {
-        "text": "Male who is 50 years old has PMR like symptoms.<br /><br />Prednisone 20mg daily shows minimal improvement.<br /><br />Has signs of nodular OA in his hands.<br /><br />Easily fatigued.<br /><br />BL shoulder pain wakes him up at night.<br /><br />Does not know if he has lost weight, but has decreased appetite.<br /><br />No temporal TTP or symptoms to suggest GCA.<br /><br />Hgb 9, ESR 35, MCV 72.<br /><br />Why is this patient not improving on prednisone?",
+        "text": "Male who is 50 years old has PMR like symptoms. Prednisone 20mg daily shows minimal improvement. Has signs of nodular OA in his hands. Easily fatigued. BL shoulder pain wakes him up at night. Does not know if he has lost weight, but has decreased appetite. No temporal TTP or symptoms to suggest GCA. Hgb 9, ESR 35, MCV 72. Why is this patient not improving on prednisone?",
         "category": "clinical",
         "options": [
             {
@@ -5042,7 +4997,7 @@
         "image": null
     },
     {
-        "text": "An overweight male experiences sudden ankle pain while playing basketball.<br /><br />He felt it while jumping up.",
+        "text": "An overweight male experiences sudden ankle pain while playing basketball. He felt it while jumping up.",
         "category": "clinical",
         "options": [
             {
@@ -5117,7 +5072,7 @@
         "image": null
     },
     {
-        "text": "Ballet dancer has right ankle pain.<br /><br />Start around mid to lower leg along fibula, and extends to medial ankle.<br /><br />She cannot stand on her right toes as well 2/2 pain.<br /><br />She has hallux valgus (bunion).<br /><br />Forced plantar flexion of great toe shows good strength, but causes pain.<br /><br />Dx?",
+        "text": "Ballet dancer has right ankle pain. Start around mid to lower leg along fibula, and extends to medial ankle. She cannot stand on her right toes as well 2/2 pain. She has hallux valgus (bunion). Forced plantar flexion of great toe shows good strength, but causes pain. Dx?",
         "category": "clinical",
         "options": [
             {
@@ -5132,7 +5087,7 @@
         "image": null
     },
     {
-        "text": "Patient has weakness or absent voluntary flexion of terminal phalanx of thumb and index finger.<br /><br />No weakness in other muscles.<br /><br />No pain.<br /><br />Dx?",
+        "text": "Patient has weakness or absent voluntary flexion of terminal phalanx of thumb and index finger. No weakness in other muscles. No pain. Dx?",
         "category": "clinical",
         "options": [
             {
@@ -5147,7 +5102,7 @@
         "image": null
     },
     {
-        "text": "Patient has aching pain in proximal, volar forearms with paresthesias radiating to thumb, index, middle, and radial half of 4th finger.<br /><br />Negative Tinel sign.<br /><br />No provocation of symptoms with wrist flexion.<br /><br />No noctural symptoms.<br /><br />Dx?",
+        "text": "Patient has aching pain in proximal, volar forearms with paresthesias radiating to thumb, index, middle, and radial half of 4th finger. Negative Tinel sign. No provocation of symptoms with wrist flexion. No noctural symptoms. Dx?",
         "category": "clinical",
         "options": [
             {
@@ -5407,7 +5362,7 @@
         "options": [
             {
                 "text": "MOF ≥ 20% but , <30%",
-                "explanation": "OR Hip ≥ 3% but < 4.5% TX: **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** ('over no treatment') **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** DEN or PTH/PTHrP over BP",
+                "explanation": "OR Hip ≥ 3% but < 4.5% TX: **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** ('over no treatment') <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> DEN or PTH/PTHrP over BP",
                 "isCorrect": true
             }
         ],
@@ -6067,7 +6022,7 @@
         "options": [
             {
                 "text": "Knee and hip",
-                "explanation": "- **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>**",
+                "explanation": "- **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -6157,7 +6112,7 @@
         "options": [
             {
                 "text": "For knee, hip and hand OA",
-                "explanation": "- **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>**",
+                "explanation": "- **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>**",
                 "isCorrect": true
             }
         ],
@@ -6187,7 +6142,7 @@
         "options": [
             {
                 "text": "YES, if available",
-                "explanation": "- **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** , if available -but, not required",
+                "explanation": "- **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** , if available -but, not required",
                 "isCorrect": true
             }
         ],
@@ -6247,7 +6202,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "No, **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** AGAINST",
+                "explanation": "No, **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** AGAINST",
                 "isCorrect": true
             }
         ],
@@ -6277,7 +6232,7 @@
         "options": [
             {
                 "text": "No, conditionally rec'd AGAINST for knee and 1st CMC",
-                "explanation": "**<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** AGAINST for hip",
+                "explanation": "**<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** AGAINST for hip",
                 "isCorrect": true
             }
         ],
@@ -6292,7 +6247,7 @@
         "options": [
             {
                 "text": "12.5mg-25mg prednisone",
-                "explanation": "-conditionally rec'd -<br /><br />*** **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** AGAINST starting 30mg/day or more<br /><br />***",
+                "explanation": "-conditionally rec'd -* <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** AGAINST starting 30mg/day or more<br /><br />***",
                 "isCorrect": true
             }
         ],
@@ -6407,7 +6362,7 @@
         "image": null
     },
     {
-        "text": "A patient has sJIA.<br /><br />He is transitioning to adult rheum.<br /><br />He was dx at 18 months old.<br /><br />He had MAS before.<br /><br />He was had refractory arthritis thus treated with tocilizumab, but developed an allergic reaction to it so was stopped.<br /><br />PFTs show severely decreased DLCO.<br /><br />CT scheduled.....<br /><br />Labs show elevated IL-1, +ANA 1:160.<br /><br />Which feature in his history puts at risk for developing sJIA-associated ILD?",
+        "text": "A patient has sJIA. He is transitioning to adult rheum. He was dx at 18 months old. He had MAS before. He was had refractory arthritis thus treated with tocilizumab, but developed an allergic reaction to it so was stopped. PFTs show severely decreased DLCO. CT scheduled..... Labs show elevated IL-1, +ANA 1:160. Which feature in his history puts at risk for developing sJIA-associated ILD?",
         "category": "clinical",
         "options": [
             {
@@ -6482,7 +6437,7 @@
         "image": null
     },
     {
-        "text": "A patient has 1 gout attack per year.<br /><br />What is the treatment?",
+        "text": "A patient has 1 gout attack per year. What is the treatment?",
         "category": "clinical",
         "options": [
             {
@@ -6527,7 +6482,7 @@
         "image": null
     },
     {
-        "text": "A patient with seropositive Rheumatoid arthritis has metastatic melanoma.<br /><br />Oncologists wants to start a checkpoint inhibitor and is asking you what to do for her RA management.<br /><br />She is currently on MTX, Humira, and prednisone 5mg.<br /><br />RA is stable.",
+        "text": "A patient with seropositive Rheumatoid arthritis has metastatic melanoma. Oncologists wants to start a checkpoint inhibitor and is asking you what to do for her RA management. She is currently on MTX, Humira, and prednisone 5mg. RA is stable.",
         "category": "clinical",
         "options": [
             {
@@ -6542,7 +6497,7 @@
         "image": null
     },
     {
-        "text": "A patient with SLE and LN currently on imuran, HCQ, and prednisone gets pregnant.<br /><br />Her medication regimen needs to be optimized.<br /><br />She has worsening renal disease.<br /><br />What medication can you give, and what can you NOT give?",
+        "text": "A patient with SLE and LN currently on imuran, HCQ, and prednisone gets pregnant. Her medication regimen needs to be optimized. She has worsening renal disease. What medication can you give, and what can you NOT give?",
         "category": "clinical",
         "options": [
             {
@@ -6600,21 +6555,6 @@
         "difficulty": "medium",
         "diagram": false,
         "image": null
-    },
-    {
-        "text": "What does a muscle biopsy with HCQ toxicity look like?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Cytoplasmic vacuoles (Gomori trichrome stain)",
-                "explanation": "Curvilinear bodies and myeloid bodies (EM) *they may ask a question stem involving a patient taking HCQ who develops CHF symptoms....remember HCQ cardiotoxicity would also show the above histology*",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": true,
-        "image": "paste-09d4c16534ea68b5e01254dcce6e9871825b3a35.jpg"
     },
     {
         "text": "What does muscle biopsy of colchicine look like?",
@@ -6842,7 +6782,7 @@
         "image": null
     },
     {
-        "text": "One way to tell difference between DISH vs.<br /><br />AxSpa on xray?",
+        "text": "One way to tell difference between DISH vs. AxSpa on xray?",
         "category": "clinical",
         "options": [
             {
@@ -6962,7 +6902,7 @@
         "image": null
     },
     {
-        "text": "Patient has scaphoid fracture.<br /><br />What is treatment?",
+        "text": "Patient has scaphoid fracture. What is treatment?",
         "category": "clinical",
         "options": [
             {
@@ -7202,7 +7142,7 @@
         "image": null
     },
     {
-        "text": "Young male patient with UE weakness.<br /><br />Also with BL sensorineural hearing loss.<br /><br />All MSAs are negative.<br /><br />CK 800.<br /><br />EMG shows mild myopathic changes with low amplitude, short duration and polyphasic potentials.<br /><br />He has winging of the left scapula....",
+        "text": "Young male patient with UE weakness. Also with BL sensorineural hearing loss. All MSAs are negative. CK 800. EMG shows mild myopathic changes with low amplitude, short duration and polyphasic potentials. He has winging of the left scapula....",
         "category": "clinical",
         "options": [
             {
@@ -7217,7 +7157,7 @@
         "image": null
     },
     {
-        "text": "Young female, has sudden onset HA.<br /><br />Normal ESR/CRP, and CSF.<br /><br />CTA Head sows areas of ectasia, stenosis, and beading in multiple vessels.",
+        "text": "Young female, has sudden onset HA. Normal ESR/CRP, and CSF. CTA Head sows areas of ectasia, stenosis, and beading in multiple vessels.",
         "category": "clinical",
         "options": [
             {
@@ -7252,7 +7192,7 @@
         "options": [
             {
                 "text": "IVIG",
-                "explanation": "\"**<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**\"",
+                "explanation": "\"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>\"",
                 "isCorrect": true
             }
         ],
@@ -7337,7 +7277,7 @@
         "image": null
     },
     {
-        "text": "For patients with active, nonsevere EGPA, we {{c1::<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>}} initiating treatment with {{c1::MTX/AZA/MMF + GCs}} over {{c1::CYC/RTX and GCs}}.",
+        "text": "For patients with active, nonsevere EGPA, we  ____  initiating treatment with  ____  over  ____ .",
         "category": "clinical",
         "options": [
             {
@@ -7352,27 +7292,12 @@
         "image": null
     },
     {
-        "text": "Recommendation: For patients with active, severe GPA/MPA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> treatment with {{c1::RTX}} over {{c1::CYC}} for remission induction.",
+        "text": "Recommendation: For patients with active, severe GPA/MPA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> treatment with  ____  over  ____  for remission induction.",
         "category": "clinical",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "Recommendation: For patients with active, severe GPA/MPA, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** treatment with RTX over CYC for remission induction.",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "For GPA/MPA, is PLEX recommended?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "No it is not.",
-                "explanation": "For active glomerulonephritis/alveolar hemorrhage, it is recommended AGAINST -from PEXIVAS trial -also from ACR",
+                "explanation": "Recommendation: For patients with active, severe GPA/MPA, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> treatment with RTX over CYC for remission induction.",
                 "isCorrect": true
             }
         ],
@@ -7427,12 +7352,12 @@
         "image": null
     },
     {
-        "text": "For patients with suspected GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> an initial {{c1:: unilateral temporal artery biopsy over bilateral}} biopsies?",
+        "text": "For patients with suspected GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> an initial  ____  biopsies?",
         "category": "clinical",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with suspected GCA, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** an initial unilateral temporal artery biopsy over bilateral biopsies?",
+                "explanation": "For patients with suspected GCA, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> an initial unilateral temporal artery biopsy over bilateral biopsies?",
                 "isCorrect": true
             }
         ],
@@ -7442,12 +7367,12 @@
         "image": null
     },
     {
-        "text": "For patients with newly diagnosed GCA with threatened vision loss, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> initiating treatment with {{c1:: IV pulse GCs over high-dose oral GCs.}}",
+        "text": "For patients with newly diagnosed GCA with threatened vision loss, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> initiating treatment with  ____ ",
         "category": "clinical",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with newly diagnosed GCA, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** the use of oral GCs with tocilizumab over oral GCs alone.",
+                "explanation": "For patients with newly diagnosed GCA, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> the use of oral GCs with tocilizumab over oral GCs alone.",
                 "isCorrect": true
             }
         ],
@@ -7457,7 +7382,7 @@
         "image": null
     },
     {
-        "text": "For patients with newly diagnosed GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> the use of {{c1:: oral GCs with tocilizumab over oral GCs alone}}.",
+        "text": "For patients with newly diagnosed GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> the use of  ____ .",
         "category": "clinical",
         "options": [
             {
@@ -7472,12 +7397,12 @@
         "image": null
     },
     {
-        "text": "For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> {{c1:: adding aspirin}}.",
+        "text": "For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>  ____ .",
         "category": "clinical",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** adding aspirin.",
+                "explanation": "For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> adding aspirin.",
                 "isCorrect": true
             }
         ],
@@ -7487,12 +7412,12 @@
         "image": null
     },
     {
-        "text": "For patients with suspected GCA and a negative temporal artery biopsy result (or results), we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> {{c1:: noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis over clinical assessment alone.}}",
+        "text": "For patients with suspected GCA and a negative temporal artery biopsy result (or results), we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>  ____ ",
         "category": "clinical",
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with suspected GCA and a negative temporal artery biopsy result (or results), we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**  noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis over clinical assessment alone.",
+                "explanation": "For patients with suspected GCA and a negative temporal artery biopsy result (or results), we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>  noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis over clinical assessment alone.",
                 "isCorrect": true
             }
         ],
@@ -7697,7 +7622,7 @@
         "image": null
     },
     {
-        "text": "Th2 (activated by IL-4)…….promotes {{c1:: IL-4, IL-5}} proliferation",
+        "text": "Th2 (activated by IL-4)…….promotes  ____  proliferation",
         "category": "clinical",
         "options": [
             {
@@ -7742,7 +7667,7 @@
         "image": null
     },
     {
-        "text": "What is one way to differentiate Dengue viral arthritis vs.<br /><br />Chikungunya arthritis?",
+        "text": "What is one way to differentiate Dengue viral arthritis vs. Chikungunya arthritis?",
         "category": "clinical",
         "options": [
             {
@@ -7847,7 +7772,7 @@
         "image": "paste-fbf4f2c8e58187d1294a1f11acfaf6711866d4b6.jpg"
     },
     {
-        "text": "A patient develops new left sided weakness.<br /><br />Has been receiving RTX for ANCA vasculitis.<br /><br />CSF is normal, with only mildly increased protein.<br /><br />MRI brain shows hypointense subcortical white matter lesions on T1.<br /><br />Angiography of brain is normal.<br /><br />What is this?",
+        "text": "A patient develops new left sided weakness. Has been receiving RTX for ANCA vasculitis. CSF is normal, with only mildly increased protein. MRI brain shows hypointense subcortical white matter lesions on T1. Angiography of brain is normal. What is this?",
         "category": "clinical",
         "options": [
             {
@@ -7862,7 +7787,7 @@
         "image": null
     },
     {
-        "text": "A 2-year-old female is admitted for a new stroke (this is her 2nd stroke).<br /><br />She has history of polyarthritis and rash, pictured below.<br /><br />What is this?",
+        "text": "A 2-year-old female is admitted for a new stroke (this is her 2nd stroke). She has history of polyarthritis and rash, pictured below. What is this?",
         "category": "clinical",
         "options": [
             {
@@ -7958,21 +7883,6 @@
             {
                 "text": "Gout and CAPS",
                 "explanation": "Gout and CAPS (cryopyrin-associated periodic fever syndromes).",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulation in the IL-1/inflammasome mechanism?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "TNFAIP3",
-                "explanation": "This is the gene involved with Haplo-insufficiency A20.",
                 "isCorrect": true
             }
         ],
@@ -8197,7 +8107,7 @@
         "options": [
             {
                 "text": "MTX",
-                "explanation": "Methotrexate is \"**<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**ed\" over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed MILD and STABLE airway or parenchymal lung disease, or incidental disease detected on imaging, who have MODERATE-TO-HIGH disease activity",
+                "explanation": "Methotrexate is \"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>ed\" over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed MILD and STABLE airway or parenchymal lung disease, or incidental disease detected on imaging, who have MODERATE-TO-HIGH disease activity",
                 "isCorrect": true
             }
         ],
@@ -8207,7 +8117,7 @@
         "image": null
     },
     {
-        "text": "A patient with newly diagnosed Rheumatoid arthritis has moderate disease activity.<br /><br />She knows she previously had Hep B infection, but cannot remember anything about her treatment for it.<br /><br />She also has lymphoma.<br /><br />What is next best step? (This is tricky, but you have all the information you need)",
+        "text": "A patient with newly diagnosed Rheumatoid arthritis has moderate disease activity. She knows she previously had Hep B infection, but cannot remember anything about her treatment for it. She also has lymphoma. What is next best step? (This is tricky, but you have all the information you need)",
         "category": "clinical",
         "options": [
             {
@@ -8222,7 +8132,7 @@
         "image": null
     },
     {
-        "text": "A patient with Rheumatoid arthritis and history of heart failure is not at target with Methotrexate monotherapy.<br /><br />What is next best step?",
+        "text": "A patient with Rheumatoid arthritis and history of heart failure is not at target with Methotrexate monotherapy. What is next best step?",
         "category": "clinical",
         "options": [
             {
@@ -8237,7 +8147,7 @@
         "image": null
     },
     {
-        "text": "A patient with newly diagnosed Rheumatoid arthritis (Moderate-high disease activity) has nonalcoholic fatty liver disease.<br /><br />Recent LFTs are normal.<br /><br />No evidence for cirrhosis.<br /><br />What is best DMARD?",
+        "text": "A patient with newly diagnosed Rheumatoid arthritis (Moderate-high disease activity) has nonalcoholic fatty liver disease. Recent LFTs are normal. No evidence for cirrhosis. What is best DMARD?",
         "category": "clinical",
         "options": [
             {
@@ -8257,22 +8167,7 @@
         "options": [
             {
                 "text": "Abatacept",
-                "explanation": "Abatacept is **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**ed.",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity.<br /><br />Patient has history of serious infection 10 months ago.<br /><br />What is next best step?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Addition of csDMARDs",
-                "explanation": "Addition of csDMARDs is \"**<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**ed\" over addition of a bDMARD or tsDMARD for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity despite csDMARD monotherapy",
+                "explanation": "Abatacept is <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>ed.",
                 "isCorrect": true
             }
         ],
@@ -8297,7 +8192,7 @@
         "image": "cure-ibm-muscle-biopsy.jpg"
     },
     {
-        "text": "A patient shows you these hands below.<br /><br />She has trouble breathing and intermitent mild weakness in her thighs.<br /><br />What is this? (Be specific)",
+        "text": "A patient shows you these hands below. She has trouble breathing and intermitent mild weakness in her thighs. What is this? (Be specific)",
         "category": "clinical",
         "options": [
             {
@@ -8312,7 +8207,7 @@
         "image": "F1.large-8cd6cdedb1c6e303966b888fb61fdbe225fd1b58.jpg"
     },
     {
-        "text": "A 19 year old patient with SLE tolerating HCQ and MMF says she is up to date on all vaccinations.<br /><br />She wants to know if she needs the shingles vaccine because her PCP told her she is too young to get it.<br /><br />Do you recommend it?",
+        "text": "A 19 year old patient with SLE tolerating HCQ and MMF says she is up to date on all vaccinations. She wants to know if she needs the shingles vaccine because her PCP told her she is too young to get it. Do you recommend it?",
         "category": "clinical",
         "options": [
             {
@@ -8327,7 +8222,7 @@
         "image": null
     },
     {
-        "text": "A patient with well controlled Rheumatoid arthritis on Methotrexate 15mg/week and daily folic ask you if he needs the influenza vaccine.<br /><br />What do you say?",
+        "text": "A patient with well controlled Rheumatoid arthritis on Methotrexate 15mg/week and daily folic ask you if he needs the influenza vaccine. What do you say?",
         "category": "clinical",
         "options": [
             {
@@ -8437,7 +8332,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with RMD age <65 years who are taking immunosuppressive medication, pneumococcal vaccination is **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>**ed.",
+                "explanation": "For patients with RMD age <65 years who are taking immunosuppressive medication, pneumococcal vaccination is <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong>ed.",
                 "isCorrect": true
             }
         ],
@@ -8452,7 +8347,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "For patients with RMD age >26 and <45 years who are taking immunosuppressive medication and are not previously vaccinated, vaccination against HPV is \"**<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>**ed.\"",
+                "explanation": "For patients with RMD age >26 and <45 years who are taking immunosuppressive medication and are not previously vaccinated, vaccination against HPV is \"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>ed.\"",
                 "isCorrect": true
             }
         ],
@@ -8507,12 +8402,12 @@
         "image": null
     },
     {
-        "text": "A patient has a IgM+ anti-cardiolipin antibody.<br /><br />She has never had a clot.<br /><br />What recommendation do you have for contraception?",
+        "text": "A patient has a IgM+ anti-cardiolipin antibody. She has never had a clot. What recommendation do you have for contraception?",
         "category": "clinical",
         "options": [
             {
                 "text": "STRONGLY RECOMMENDED AGAINST combined estrogen-progestin contraceptives in women with any positive aPLs because of risk of thromboembolism.",
-                "explanation": "- **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** IUDs (levonorgestrel or copper) or the progestin-only pill in women with positive aPLs.",
+                "explanation": "- <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> IUDs (levonorgestrel or copper) or the progestin-only pill in women with positive aPLs.",
                 "isCorrect": true
             }
         ],
@@ -8527,7 +8422,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "There is only x1 \"**<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>**\" and x1 \"strongly against.\" The rest are all \"conditionally\", either for or against.",
+                "explanation": "There is only x1 \"<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong>\" and x1 \"strongly against.\" The rest are all \"conditionally\", either for or against.",
                 "isCorrect": true
             }
         ],
@@ -8567,7 +8462,7 @@
         "image": "gout_vs_pseudogout.png"
     },
     {
-        "text": "A 35 year old female with a past medical history of HTN, HBV, and lymphoma is newly diagnosed with Rheumatoid arthritis.<br /><br />She mentions that she had HBV infection many years ago that never caused any problems, but was never vaccinated or treated because she was told by her doctor that she is \"immunized\" from the infection.<br /><br />She is only taking NSAIDs for pain.<br /><br />What is the next best step in her management?",
+        "text": "A 35 year old female with a past medical history of HTN, HBV, and lymphoma is newly diagnosed with Rheumatoid arthritis. She mentions that she had HBV infection many years ago that never caused any problems, but was never vaccinated or treated because she was told by her doctor that she is \"immunized\" from the infection. She is only taking NSAIDs for pain. What is the next best step in her management?",
         "category": "clinical",
         "options": [
             {
@@ -8582,7 +8477,7 @@
             },
             {
                 "text": "Treat HBV",
-                "explanation": "Answer is C) Because the medical history of lymphoma automatically means Rituximab is the recommended treatment for her RA, per ACR.<br /><br />But you are told she has history of HBV without vaccination or treatment.<br /><br />So what would her hepatitis panel show? She will be HBV core antibody positive (the most important point.) She will also be likely be HBV surface antigen negative, and HBV surface antibody positive.<br /><br />Therefore, prior to receiving the recommended Rituximab, she needs to be prophylatically treated for HBV.<br /><br />This is **<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>** \"Prophylactic antiviral therapy is **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>**ed over frequent monitoring alone for patients initiating rituximab who are hepatitis B core antibody positive (regardless of hepatitis B surface antigen status).\"",
+                "explanation": "Answer is C) Because the medical history of lymphoma automatically means Rituximab is the recommended treatment for her RA, per ACR.<br /><br />But you are told she has history of HBV without vaccination or treatment.<br /><br />So what would her hepatitis panel show? She will be HBV core antibody positive (the most important point.) She will also be likely be HBV surface antigen negative, and HBV surface antibody positive.<br /><br />Therefore, prior to receiving the recommended Rituximab, she needs to be prophylatically treated for HBV.<br /><br />This is **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong></strong>** \"Prophylactic antiviral therapy is <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong>ed over frequent monitoring alone for patients initiating rituximab who are hepatitis B core antibody positive (regardless of hepatitis B surface antigen status).\"",
                 "isCorrect": true
             },
             {
@@ -8602,7 +8497,7 @@
         "image": null
     },
     {
-        "text": "For patients with suspected GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> obtaining a temporal artery biopsy specimen within {{c1::2 weeks}} of starting oral GCs over waiting longer than {{c1::2 weeks}} for a biopsy.",
+        "text": "For patients with suspected GCA, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> obtaining a temporal artery biopsy specimen within  ____  of starting oral GCs over waiting longer than  ____  for a biopsy.",
         "category": "clinical",
         "options": [
             {
@@ -8632,12 +8527,12 @@
         "image": null
     },
     {
-        "text": "For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using 6mw.<br /><br />True or False?",
+        "text": "For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using 6mw. True or False?",
         "category": "clinical",
         "options": [
             {
                 "text": "False",
-                "explanation": "\"For people with SARDs at increased risk of developing ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** against screening with 6MWD.\"",
+                "explanation": "\"For people with SARDs at increased risk of developing ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> against screening with 6MWD.\"",
                 "isCorrect": true
             }
         ],
@@ -8647,37 +8542,7 @@
         "image": null
     },
     {
-        "text": "For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using chest xrays.<br /><br />True or False?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "False",
-                "explanation": "\"For people with SARDs at increased risk of developing ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** against screening with chest radiography.\"",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using ambulatory desaturation.<br /><br />True or False?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "False",
-                "explanation": "\"For people with SARDs at increased risk of developing ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** against screening with 6MWD.\"",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every {{c1::3-6 months}} rather than either shorter or longer intervals, for the first year, then less frequently once stable.",
+        "text": "For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every  ____  rather than either shorter or longer intervals, for the first year, then less frequently once stable.",
         "category": "clinical",
         "options": [
             {
@@ -8692,7 +8557,7 @@
         "image": null
     },
     {
-        "text": "For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every {{c1::3-12 months}} rather than shorter or longer intervals, for the first year, then less frequently once stable.",
+        "text": "For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every  ____  rather than shorter or longer intervals, for the first year, then less frequently once stable.",
         "category": "clinical",
         "options": [
             {
@@ -8707,7 +8572,7 @@
         "image": null
     },
     {
-        "text": "For people with SARDs-ILD, we suggest assessment for ambulatory desaturation every {{c1::3-12 months}} rather than at shorter or longer intervals.",
+        "text": "For people with SARDs-ILD, we suggest assessment for ambulatory desaturation every  ____  rather than at shorter or longer intervals.",
         "category": "clinical",
         "options": [
             {
@@ -8722,12 +8587,12 @@
         "image": null
     },
     {
-        "text": "A patient has SSc-ILD.<br /><br />What is recommended for 1st line treatment?",
+        "text": "A patient has SSc-ILD. What is recommended for 1st line treatment?",
         "category": "clinical",
         "options": [
             {
                 "text": "Tocilizumab OR nintedanib",
-                "explanation": "\"For people with SSc-ILD and MCTD-ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** tocilizumab as a first-line ILD treatment option.\" \"For people with SSc-ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** nintedanib as a first-line ILD treatment option.\"",
+                "explanation": "\"For people with SSc-ILD and MCTD-ILD, we <strong style='color:#000;font-weight:900;'><strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong></strong> tocilizumab as a first-line ILD treatment option.\"<br /><br />\"For people with SSc-ILD, we <strong style='color:#000;font-weight:900;'><strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong></strong> nintedanib as a first-line ILD treatment option.\"",
                 "isCorrect": true
             }
         ],
@@ -8737,12 +8602,12 @@
         "image": null
     },
     {
-        "text": "A patient has SSc-ILD.<br /><br />Prior to any DMARD options, a patient should first be treated with corticosteroids.<br /><br />True of False",
+        "text": "A patient has SSc-ILD. Prior to any DMARD options, a patient should first be treated with corticosteroids. True of False",
         "category": "clinical",
         "options": [
             {
                 "text": "False, this is STRONGLY REC'D AGAINST",
-                "explanation": "\"For people with SSc-ILD, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** against glucocorticoids as a first-line ILD treatment.\"",
+                "explanation": "\"For people with SSc-ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> against glucocorticoids as a first-line ILD treatment.\"",
                 "isCorrect": true
             }
         ],
@@ -8757,7 +8622,7 @@
         "options": [
             {
                 "text": "There is only 1 \"STRONG\" recommendation, and it is \"Strongly recommend AGAINST.\"",
-                "explanation": "\"For people with SSc-ILD, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** against glucocorticoids as a first-line ILD treatment.\"",
+                "explanation": "\"For people with SSc-ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> against glucocorticoids as a first-line ILD treatment.\"",
                 "isCorrect": true
             }
         ],
@@ -8787,7 +8652,7 @@
         "options": [
             {
                 "text": "IV pulse methylprednisolone",
-                "explanation": "Rituximab Cyclophosphamide IVIG MMF CNI JAKi \"For people with SARD and RP-ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** pulse intravenous methylprednisolone as a first-line RP-ILD treatment.\" \"For people with SARD and RP-ILD, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** rituximab, cyclophosphamide, IVIG, mycophenolate, CNI, and JAK inhibitors as first-line RP-ILD treatment options.\" Think of MDA5-associated RP-ILD",
+                "explanation": "Rituximab Cyclophosphamide IVIG MMF CNI JAKi \"For people with SARD and RP-ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> pulse intravenous methylprednisolone as a first-line RP-ILD treatment.\" \"For people with SARD and RP-ILD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> rituximab, cyclophosphamide, IVIG, mycophenolate, CNI, and JAK inhibitors as first-line RP-ILD treatment options.\" Think of MDA5-associated RP-ILD",
                 "isCorrect": true
             }
         ],
@@ -8795,21 +8660,6 @@
         "difficulty": "medium",
         "diagram": false,
         "image": null
-    },
-    {
-        "text": "According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?\n\n1.<br /><br />Methotrexate? [...]\n2.<br /><br />Leflunomide? [...]\n3.<br /><br />Azathioprine? [...]\n4.<br /><br />TNFi? [...]\n5.<br /><br />Abatacept? [...]\n6.<br /><br />Tocilizumab? [...]\n7.<br /><br />Nintedanib? [...]\n8.<br /><br />Pirfenidone? [...]\n9.<br /><br />PLEX? [...]",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Show Answer",
-                "explanation": "According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?\n\nMethotrexate? AGAINST\nLeflunomide? AGAINST\nAzathioprine? AGAINST\nTNFi? AGAINST\nAbatacept? AGAINST\nTocilizumab? AGAINST\nNintedanib? AGAINST\nPirfenidone? AGAINST\nPLEX? AGAINST\n\nEssentially, the treatment options for RP-ILD are:\nIV steroids, Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi\n\n<br /><br />***if patient has MDA5 RP-ILD, there is a conditional recommendation for \"triple therapy\", which is:\nIV steroids + 2 of the above options (Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi)",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": true,
-        "image": "rp_ild_guidelines.jpg"
     },
     {
         "text": "What does a muscle biopsy in a patient with suspected mitochondrial myopathy look like?",
@@ -8862,7 +8712,7 @@
         "options": [
             {
                 "text": "False",
-                "explanation": "\"In people with SLE without known kidney disease, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** screening for proteinuria at least every 6-12 months ...<br /><br />OR when experiencing extra-renal flares.",
+                "explanation": "\"In people with SLE without known kidney disease, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> screening for proteinuria at least every 6-12 months ...<br /><br />OR when experiencing extra-renal flares.",
                 "isCorrect": true
             }
         ],
@@ -8872,12 +8722,12 @@
         "image": null
     },
     {
-        "text": "True or False A 34 year old female with recently diagnosed SLE (on HCQ monotherapy) has been stable for the past 2 years.<br /><br />Her last follow up with you was 4 weeks ago.<br /><br />She is currently experiencing what you suspect to be a lupus flare with manifestations of rashes and inflammatory arthritis.<br /><br />Her last proteinuria screen at last checkup was completely normal.<br /><br />You should not check for proteinuria again today because it was recently checked and normal.",
+        "text": "True or False A 34 year old female with recently diagnosed SLE (on HCQ monotherapy) has been stable for the past 2 years. Her last follow up with you was 4 weeks ago. She is currently experiencing what you suspect to be a lupus flare with manifestations of rashes and inflammatory arthritis. Her last proteinuria screen at last checkup was completely normal. You should not check for proteinuria again today because it was recently checked and normal.",
         "category": "clinical",
         "options": [
             {
                 "text": "False",
-                "explanation": "\"In people with SLE without known kidney disease, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** screening for proteinuria at least every 6-12 months ...<br /><br />OR when experiencing extra-renal flares.",
+                "explanation": "\"In people with SLE without known kidney disease, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> screening for proteinuria at least every 6-12 months ...<br /><br />OR when experiencing extra-renal flares.",
                 "isCorrect": true
             }
         ],
@@ -8887,12 +8737,12 @@
         "image": null
     },
     {
-        "text": "A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall.<br /><br />You do routine proteinuria screening which results with 0.5g.<br /><br />Her creatinine and GFR have remained stable compared to previous lab draws.<br /><br />She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today.<br /><br />Should you order a renal biopsy?",
+        "text": "A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. You do routine proteinuria screening which results with 0.5g. Her creatinine and GFR have remained stable compared to previous lab draws. She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today. Should you order a renal biopsy?",
         "category": "clinical",
         "options": [
             {
                 "text": "No.",
-                "explanation": "I made this tricky just for you to memorize.<br /><br />If proteinuria was >0.5g, then answer is Yes.<br /><br />This is just a \"conditional rec'd\". \"In people with SLE who have proteinuria >0.5 g/g and/or impaired kidney function not otherwise explained , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** performing a kidney biopsy.",
+                "explanation": "I made this tricky just for you to memorize.<br /><br />If proteinuria was >0.5g, then answer is Yes.<br /><br />This is just a \"conditional rec'd\". \"In people with SLE who have proteinuria >0.5 g/g and/or impaired kidney function not otherwise explained , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> performing a kidney biopsy.",
                 "isCorrect": true
             }
         ],
@@ -8902,12 +8752,12 @@
         "image": null
     },
     {
-        "text": "A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall.<br /><br />CBC, CMP, dsDNA levels, and complement levels are stable.<br /><br />You do routine proteinuria screening which results with 0.6g.<br /><br />Her creatinine and GFR have remained stable compared to previous lab draws.<br /><br />She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today.<br /><br />Should you order a renal biopsy?",
+        "text": "A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. CBC, CMP, dsDNA levels, and complement levels are stable. You do routine proteinuria screening which results with 0.6g. Her creatinine and GFR have remained stable compared to previous lab draws. She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today. Should you order a renal biopsy?",
         "category": "clinical",
         "options": [
             {
                 "text": "Yes.",
-                "explanation": "This is another tricky question just to help you memorize.<br /><br />It is similar to another question with only some numbers changed.<br /><br />Essentially if routine screening shows >0.5g proteinuria, order renal biopsy (<br /><br />***according to ACR, \"conditionally rec'd<br /><br />***). \"In people with SLE who have proteinuria >0.5 g/g and/or impaired kidney function not otherwise explained , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** performing a kidney biopsy.",
+                "explanation": "This is another tricky question just to help you memorize.<br /><br />It is similar to another question with only some numbers changed.<br /><br /><strong style='${DARK_BOLD_STYLE}'>Essentially</strong> if routine screening shows >0.5g proteinuria, order renal biopsy (<br /><br />***according to ACR, \"conditionally rec'd<br /><br />***). \"In people with SLE who have proteinuria >0.5 g/g and/or impaired kidney function not otherwise explained , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> performing a kidney biopsy.",
                 "isCorrect": true
             }
         ],
@@ -8917,12 +8767,12 @@
         "image": null
     },
     {
-        "text": "A 35 year old female with PMH of SLE presented with photosensitive rashes in addition to 1g of proteinuria on routine screening.<br /><br />She was currently on weight based HCQ at that time.<br /><br />A renal biopsy shows new lupus nephritis class III with no class V present.<br /><br />She undergoes induction steroid protocol with subsequent steroid tapering in addition to MMF + IV belimumab.<br /><br />Today on her first followup visit she says she says she is doing well with no rashes or concerning symptoms.<br /><br />Most recent lab check shows improvement in kidney function with reduction of proteinuria to 0.3g.<br /><br />What is your next step in medication management?",
+        "text": "A 35 year old female with PMH of SLE presented with photosensitive rashes in addition to 1g of proteinuria on routine screening. She was currently on weight based HCQ at that time. A renal biopsy shows new lupus nephritis class III with no class V present. She undergoes induction steroid protocol with subsequent steroid tapering in addition to MMF + IV belimumab. Today on her first followup visit she says she says she is doing well with no rashes or concerning symptoms. Most recent lab check shows improvement in kidney function with reduction of proteinuria to 0.3g. What is your next step in medication management?",
         "category": "clinical",
         "options": [
             {
                 "text": "Add a RAAS-I (ie. ACEi, ARBs, or direct renin inhibitors).",
-                "explanation": "\"In people with ACTIVE/NEW ONSET/FLARE of Class III/IV or V lupus nephritis...…With any elevation in level of proteinuria , including <0.5g/g, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** the addition of RAAS-I.\"",
+                "explanation": "\"In people with ACTIVE/NEW ONSET/FLARE of Class III/IV or V lupus nephritis...…With any elevation in level of proteinuria , including <0.5g/g, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> the addition of RAAS-I.\"",
                 "isCorrect": true
             }
         ],
@@ -8937,7 +8787,7 @@
         "options": [
             {
                 "text": "Show Answer",
-                "explanation": "\"We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** pulse intravenous glucocorticoids 250-1000 mg methylprednisolone daily x 1- 3 days, followed by oral glucocorticoid ≤0.5 mg/kg/day (maximum dose 40 mg/day) with taper to a target dose of ≤5mg/day by 6 months.\"",
+                "explanation": "\"We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> pulse intravenous glucocorticoids 250-1000 mg methylprednisolone daily x 1- 3 days, followed by oral glucocorticoid ≤0.5 mg/kg/day (maximum dose 40 mg/day) with taper to a target dose of ≤5mg/day by 6 months.\"",
                 "isCorrect": true
             }
         ],
@@ -8947,12 +8797,12 @@
         "image": null
     },
     {
-        "text": "A 40 year old male with PMH of SLE and lupus nephritis is currently on HCQ, MMF, lisinopril and belimumab.<br /><br />A previous renal biopsy showed Class IV lupus nephritis.<br /><br />He continues to have decreased kidney dysfunction and fluctuating levels of proteinuria.<br /><br />His last follow up was 6 months ago and would like to keep his follow up schedule the same.<br /><br />What is your next best step in managing his condition, per ACR?",
+        "text": "A 40 year old male with PMH of SLE and lupus nephritis is currently on HCQ, MMF, lisinopril and belimumab. A previous renal biopsy showed Class IV lupus nephritis. He continues to have decreased kidney dysfunction and fluctuating levels of proteinuria. His last follow up was 6 months ago and would like to keep his follow up schedule the same. What is your next best step in managing his condition, per ACR?",
         "category": "clinical",
         "options": [
             {
                 "text": "Increase follow ups to every 3 months, particularly for proteinuria checking....this is a *** STRONG REC'D***",
-                "explanation": "\"In people with LN who have not achieved complete renal response, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** quantifying proteinuria at least every 3 months .\" ----------------- <br /><br />***in patients who have sustained complete renal response, it is **<strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong>** to check proteinuria every 3-6 months for monitoring.",
+                "explanation": "\"In people with LN who have not achieved complete renal response, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> quantifying proteinuria at least every 3 months .\" ----------------- <br /><br />***in patients who have sustained complete renal response, it is **<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY REC'D</strong></strong>** to check proteinuria every 3-6 months for monitoring.",
                 "isCorrect": true
             }
         ],
@@ -8967,7 +8817,7 @@
         "options": [
             {
                 "text": "TRIPLE immunosuppressive therapy , which is pulse IV glucocorticoids 250-1000mg methylprednisolone daily x 1-3 days, followed by oral glucocorticoid ≤0.5 mg/kg/day (maximum dose 40 mg/day) with taper plus:",
-                "explanation": "-MMF + belimumab...or -MMF + CNI (calcineurin inhibitor)...or -Low dose CYC (Euro-Lupus Nephritis Trial) + belimumab (MMF substituted for CYC after CYC course complete) \"Conditionally rec'd\" -------------------------------- It get's more specific than this actually, but you can break it down easily: a) pick MMF + CNI if patient has proteinuria ≥3g/g ( or if patient has Class 5 involvement) b) pick MMF + belimumab if patient has extra-renal symptoms <br /><br />***ACR does not state any specific scenario to pick Low dose CYC.<br /><br />Only that if you pick CYC, you use the Euro-Lupus trial dosing (ie.<br /><br />Low dose CYC).",
+                "explanation": "-MMF + belimumab)\n<br/>\n…or \n<br/>\n-MMF + CNI (calcineurin inhibitor)\n<br/>\n...or \n<br/>\n-Low dose CYC (Euro-Lupus Nephritis Trial) + belimumab (MMF substituted for CYC after CYC course complete) “<strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong>\" \n<br/>\nIt get's more specific than this actually, but you can break it down easily: \n<br/>\npick MMF + CNI if patient has proteinuria ≥3g/g (or if patient has Class 5 involvement)\n<br/>\npick MMF + belimumab if patient has extra-renal symptoms \n<br /><br />***ACR does not state any specific scenario to prioritize Low dose CYC.<br /><br />Only that if you choose CYC, you use the Euro-Lupus trial dosing (ie.<br /><br />Low dose CYC).",
                 "isCorrect": true
             }
         ],
@@ -8977,12 +8827,12 @@
         "image": null
     },
     {
-        "text": "In a patient with NEW ONSET/ACTIVE/ FLARE of <br /><br />***pure<br /><br />*** Class 5 lupus nephritis with at least 1g of proteinuria, what are the ACR recommendations for treatment?",
+        "text": "In a patient with NEW ONSET/ACTIVE/ FLARE of ***pure*** Class 5 lupus nephritis with at least 1g of proteinuria, what are the ACR recommendations for treatment?",
         "category": "clinical",
         "options": [
             {
                 "text": "\"CONDITIONALLY REC'D\" TRIPLE immunosuppressive therapy",
-                "explanation": "\"consisting of pulse intravenous glucocorticoids 250-1000 mg methylprednisolone daily x 1-3 days, followed by oral glucocorticoid ≤0.5 mg/kg/day (maximum dose 40 mg/day) with taper and MPAA (ie.<br /><br />MMF) plus CNI. ---------------------------- <br /><br />***if Class V with <1 g/g , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** treatment with glucocorticoids and/or immunosuppressant therapy (MPAA, AZA, or CNI).",
+                "explanation": "\"consisting of pulse intravenous glucocorticoids 250-1000 mg methylprednisolone daily x 1-3 days, followed by oral glucocorticoid ≤0.5 mg/kg/day (maximum dose 40 mg/day) with taper and MPAA (ie.<br /><br />MMF) plus CNI. ---------------------------- <br /><br />***if Class V with <1 g/g , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> treatment with glucocorticoids and/or immunosuppressant therapy (MPAA, AZA, or CNI).",
                 "isCorrect": true
             }
         ],
@@ -8992,12 +8842,12 @@
         "image": null
     },
     {
-        "text": "A 33 year old female with PMH of SLE and lupus nephritis Class IV has been doing well on weight based HCQ, MMF, and belimumab.<br /><br />Her last renal biopsy was 2 years ago, afterwhich she underwent induction followed by tapering of steroids in addition to her current medications.<br /><br />Her proteinuria and kidney function improved and has remained stable since then.<br /><br />She has no complaints today.<br /><br />Routine screening shows normal CBC, CMP, dsDNA and complements levels.<br /><br />Routine proteinuria screening however shows a noticeable increase compared to previous levels.<br /><br />According to ACR, should you repeat a renal biopsy?",
+        "text": "A 33 year old female with PMH of SLE and lupus nephritis Class IV has been doing well on weight based HCQ, MMF, and belimumab. Her last renal biopsy was 2 years ago, afterwhich she underwent induction followed by tapering of steroids in addition to her current medications. Her proteinuria and kidney function improved and has remained stable since then. She has no complaints today. Routine screening shows normal CBC, CMP, dsDNA and complements levels. Routine proteinuria screening however shows a noticeable increase compared to previous levels. According to ACR, should you repeat a renal biopsy?",
         "category": "clinical",
         "options": [
             {
                 "text": "Yes (although in \"real life\" you may disagree, we are talking about what ACR says...and it is a \"Conditional Rec'd\")",
-                "explanation": "\"For people with treated LN in remission who present with suspected LN flare (increased proteinuria, hematuria, and/or worsening kidney function) , OR... for people with ≥6 months of appropriate treatment and ongoing/worsening proteinuria, hematuria, and/or decreased kidney function, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** repeat kidney biopsy.\"",
+                "explanation": "\"For people with treated LN in remission who present with suspected LN flare (increased proteinuria, hematuria, and/or worsening kidney function) , OR... for people with ≥6 months of appropriate treatment and ongoing/worsening proteinuria, hematuria, and/or decreased kidney function, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> repeat kidney biopsy.\"",
                 "isCorrect": true
             }
         ],
@@ -9007,7 +8857,7 @@
         "image": null
     },
     {
-        "text": "A patient with newly diagnosed SLE has a renal biopsy which shows Class IV lupus nephritis.<br /><br />You decide to start triple immunosuppressive therapy including induction steroids followed by tapering.<br /><br />After induction steroids, to what dose and how quickly should the steroids be tapered?",
+        "text": "A patient with newly diagnosed SLE has a renal biopsy which shows Class IV lupus nephritis. You decide to start triple immunosuppressive therapy including induction steroids followed by tapering. After induction steroids, to what dose and how quickly should the steroids be tapered?",
         "category": "clinical",
         "options": [
             {
@@ -9022,12 +8872,12 @@
         "image": null
     },
     {
-        "text": "A patient with PMH of SLE and Class IV lupus nephritis (diagnosed 1 year ago) received induction steroids followed by tapering in addition to HCQ, MMF, and belimumab.<br /><br />She is currently on HCQ, MMF, and belimumab and has been doing well with no complaints or signs of flares.<br /><br />Labwork has been stable for the past 2 years.<br /><br />She asks you how long she needs to be on her current medications given how stable she has been.<br /><br />What do you tell her?",
+        "text": "A patient with PMH of SLE and Class IV lupus nephritis (diagnosed 1 year ago) received induction steroids followed by tapering in addition to HCQ, MMF, and belimumab. She is currently on HCQ, MMF, and belimumab and has been doing well with no complaints or signs of flares. Labwork has been stable for the past 2 years. She asks you how long she needs to be on her current medications given how stable she has been. What do you tell her?",
         "category": "clinical",
         "options": [
             {
                 "text": "For at least 3-5 years...\"Conditionally rec'd\"",
-                "explanation": "In people with ACTIVE/NEW ONSET/FLARE of Class III/IV or Class V lupus nephritis...who have achieved/sustained a complete renal response after treatment with any (triple or dual) immunosuppressive therapy , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** a total duration of therapy of at least 3-5 years.",
+                "explanation": "In people with ACTIVE/NEW ONSET/FLARE of Class III/IV or Class V lupus nephritis...who have achieved/sustained a complete renal response after treatment with any (triple or dual) immunosuppressive therapy , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> a total duration of therapy of at least 3-5 years.",
                 "isCorrect": true
             }
         ],
@@ -9037,7 +8887,7 @@
         "image": null
     },
     {
-        "text": "A patient with SLE develops Class IV lupus nephritis.<br /><br />You decide to use CYC.<br /><br />What does ACR suggest regarding CYC for LN?",
+        "text": "A patient with SLE develops Class IV lupus nephritis. You decide to use CYC. What does ACR suggest regarding CYC for LN?",
         "category": "clinical",
         "options": [
             {
@@ -9052,12 +8902,12 @@
         "image": null
     },
     {
-        "text": "A patient with SLE and new onset Class IV lupus nephritis is now in remission after receiving induction steroids followed by tapering, in addition to low dose CYC (and HCQ).<br /><br />She recently moved and is establishing care with you, her new rheumatologist.<br /><br />Her kidney function has improved and was told by her previous rheumatologist that she had an \"excellent\" response.<br /><br />She is currently still on low dose CYC, in addition to HCQ and is prednisone 5mg daily.<br /><br />Aside from possibly lowering prednisone dose, what other medication changes should you make?",
+        "text": "A patient with SLE and new onset Class IV lupus nephritis is now in remission after receiving induction steroids followed by tapering, in addition to low dose CYC (and HCQ). She recently moved and is establishing care with you, her new rheumatologist. Her kidney function has improved and was told by her previous rheumatologist that she had an \"excellent\" response. She is currently still on low dose CYC, in addition to HCQ and is prednisone 5mg daily. Aside from possibly lowering prednisone dose, what other medication changes should you make?",
         "category": "clinical",
         "options": [
             {
                 "text": "Continue with MMF",
-                "explanation": "In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with OR without CLASS V): ...Who have undergone DUAL immunosuppressive therapy (glucocorticoids plus either CYC or MPAA) and achieved a complete renal response , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** continuing therapy with MPAA (ie.<br /><br />MMF) (over AZA).",
+                "explanation": "In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with OR without CLASS V): ...Who have undergone DUAL immunosuppressive therapy (glucocorticoids plus either CYC or MPAA) and achieved a complete renal response , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> continuing therapy with MPAA (ie.<br /><br />MMF) (over AZA).",
                 "isCorrect": true
             }
         ],
@@ -9067,12 +8917,12 @@
         "image": null
     },
     {
-        "text": "A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ and MMF.<br /><br />She recently moved across the country and is now establishing care with you as her new rheumatologist.<br /><br />She was told by her previous rheumatologist regarding her lupus nephritis that \"she is doing better, but still with some room for improvement.\" She is currently on HCQ, MMF, and prednisone 5mg daily.<br /><br />She asks you what else can be done.<br /><br />What should you do?",
+        "text": "A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ and MMF. She recently moved across the country and is now establishing care with you as her new rheumatologist. She was told by her previous rheumatologist regarding her lupus nephritis that \"she is doing better, but still with some room for improvement.\" She is currently on HCQ, MMF, and prednisone 5mg daily. She asks you what else can be done. What should you do?",
         "category": "clinical",
         "options": [
             {
                 "text": "Escalate to TRIPLE immunosuppressive therapy (she is currently on DUAL).",
-                "explanation": "Choice of 3rd drug (ie. belimumab or CNI) based on extra-renal symtoms (choose belimumab) vs. proteinuria (choose CNI such as voclosporin). *Could also consider switching MMF to low dose CYC (ELNT) plus belimumab \"In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with or without Class V) lupus nephritis who have undergone DUAL immunosuppressive therapy (glucocorticoids plus either CYC or MPAA) and achieved a partial renal response , we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** escalating therapy to a TRIPLE immunosuppressive regimen .\"",
+                "explanation": "Choice of 3rd drug (ie. belimumab or CNI) based on extra-renal symtoms (choose belimumab) vs. proteinuria (choose CNI such as voclosporin). *Could also consider switching MMF to low dose CYC (ELNT) plus belimumab \"In people with ACTIVE/NEW ONSET/FLARE of Class III/IV (with or without Class V) lupus nephritis who have undergone DUAL immunosuppressive therapy (glucocorticoids plus either CYC or MPAA) and achieved a partial renal response , we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> escalating therapy to a TRIPLE immunosuppressive regimen .\"",
                 "isCorrect": true
             }
         ],
@@ -9082,27 +8932,12 @@
         "image": null
     },
     {
-        "text": "A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ, MMF, and belimumab.<br /><br />She recently moved across the country and is now establishing care with you as her new rheumatologist.<br /><br />She was told by her previous rheumatologist regarding her lupus nephritis that \"she is still needing a better treatment regimen because her kidneys have not really responded.\" She is currently on HCQ, MMF, belimumab and prednisone 5mg daily.<br /><br />She asks you what else can be done.<br /><br />What should you do?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Change to an alternative TRIPLE therapy choice",
-                "explanation": "or Add anti-CD20 agent (ie.<br /><br />RTX) \"In people with any LN class with an inadequate renal response (i.e., have not achieved at least a partial renal response by 6-12 months) we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** escalation of treatment: • For initial DUAL therapy, escalate to TRIPLE therapy. • For initial TRIPLE therapy, change to an alternative TRIPLE therapy or consider addition of an antiCD20 agent as a second immunosuppressive.\"",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A patient has newly diagnosed SLE with concomittant Class IV lupus nephritis.<br /><br />She was started on weight based HCQ, but following a renal biopsy showing LN she was started on induction (then tapering) steroids, followed by MMF in combination with belimumab.<br /><br />She continued to have worsening renal disease, therefore her regimen was switched to MMF in combination with voclosporin.<br /><br />She is continuing to have moderate proteinuria and hematuria however on her routine labs.<br /><br />What are your next options for treatment, according to ACR?",
+        "text": "A patient has newly diagnosed SLE with concomittant Class IV lupus nephritis. She was started on weight based HCQ, but following a renal biopsy showing LN she was started on induction (then tapering) steroids, followed by MMF in combination with belimumab. She continued to have worsening renal disease, therefore her regimen was switched to MMF in combination with voclosporin. She is continuing to have moderate proteinuria and hematuria however on her routine labs. What are your next options for treatment, according to ACR?",
         "category": "clinical",
         "options": [
             {
                 "text": "You have 3 choices, according to ACR:",
-                "explanation": "1) do combination MMF, belimumab, and CNI (ie. voclosporin).<br /><br />2) add anti-CD20 (ie.<br /><br />RTX) to current regimen 3) referral for investigational therapy \"In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR.....combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR.... referral for investigational therapy.\"",
+                "explanation": "1) do combination MMF, belimumab, and CNI (ie. voclosporin).<br /><br />2) add anti-CD20 (ie.<br /><br />RTX) to current regimen 3) referral for investigational therapy \"In people with any LN class with refractory disease (i.e., failed two standard therapy courses), we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> treatment escalation to a more intensive regimen, including addition of anti-CD20 agents, OR.....combination therapy with three non-glucocorticoid immunosuppressives (i.e., MPAA, belimumab and CNI)....OR.... referral for investigational therapy.\"",
                 "isCorrect": true
             }
         ],
@@ -9117,7 +8952,7 @@
         "options": [
             {
                 "text": "STRONGLY recommend kidney transplantation over dialysis",
-                "explanation": "\"In people with LN and ESKD, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** kidney transplantation over dialysis.\" \"In people with LN who have progressive loss of kidney function and are nearing ESKD (eGFR of 15 ml/min/1.73m2 ), we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** preemptive kidney transplant over dialysis or non-preemptive transplant.\"",
+                "explanation": "\"In people with LN and ESKD, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> kidney transplantation over dialysis.\" \"In people with LN who have progressive loss of kidney function and are nearing ESKD (eGFR of 15 ml/min/1.73m2 ), we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> preemptive kidney transplant over dialysis or non-preemptive transplant.\"",
                 "isCorrect": true
             }
         ],
@@ -9127,7 +8962,7 @@
         "image": null
     },
     {
-        "text": "A patient with SLE and Class IV lupus nephritis establishes in your clinic.<br /><br />She has undergone multiple treatment regimens with HCQ, MMF, belimumab, CNIs, RTX, and induction/tapering steroids.<br /><br />She continues to have significant proteinuria and reduced kidney function.<br /><br />What is next best step in management?",
+        "text": "A patient with SLE and Class IV lupus nephritis establishes in your clinic. She has undergone multiple treatment regimens with HCQ, MMF, belimumab, CNIs, RTX, and induction/tapering steroids. She continues to have significant proteinuria and reduced kidney function. What is next best step in management?",
         "category": "clinical",
         "options": [
             {
@@ -9142,12 +8977,12 @@
         "image": null
     },
     {
-        "text": "A patient has SLE and past Class IV and Class V lupus nephritis.<br /><br />He has already had a kidney transplantation and follows with his nephrologist.<br /><br />He is currently on HCQ.<br /><br />In terms of extra-renal symptoms, he has been \"doing just fine\" with no complaints.<br /><br />He asks if he still needs to follow up with you because he has been stable just on HCQ and his nephrologist is \"managing his kidneys.\" What do you tell him?",
+        "text": "A patient has SLE and past Class IV and Class V lupus nephritis. He has already had a kidney transplantation and follows with his nephrologist. He is currently on HCQ. In terms of extra-renal symptoms, he has been \"doing just fine\" with no complaints. He asks if he still needs to follow up with you because he has been stable just on HCQ and his nephrologist is \"managing his kidneys.\" What do you tell him?",
         "category": "clinical",
         "options": [
             {
                 "text": "Recommend regular follow up with rheumatologist... STRONG rec'd",
-                "explanation": "\"In people with LN on current dialysis or after kidney transplantation, we **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** regular follow up with rheumatology.\"",
+                "explanation": "\"In people with LN on current dialysis or after kidney transplantation, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> regular follow up with rheumatology.\"",
                 "isCorrect": true
             }
         ],
@@ -9157,7 +8992,7 @@
         "image": null
     },
     {
-        "text": "A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP.<br /><br />She was finally referred to a rheumatologist (you).<br /><br />Her main symptoms prior to being diagnosed were joint pain and rashes.<br /><br />Up until this point, she has been taking Tylenol for her joint pain, however her pain had not been adequately controlled so her PCP put her on oral prednisone 10mg daily which provided significant relief.<br /><br />You review her lab work and her CBC, CMP, UA, and inflammation markers have been normal since being on prednisone.<br /><br />Today she has no complaints and is happy with how she is doing currently still taking prednisone 10mg daily.<br /><br />You recheck her labwork and everything looks OK besides mild lymphopenia.<br /><br />What do you recommend to her?",
+        "text": "A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP. She was finally referred to a rheumatologist (you). Her main symptoms prior to being diagnosed were joint pain and rashes. Up until this point, she has been taking Tylenol for her joint pain, however her pain had not been adequately controlled so her PCP put her on oral prednisone 10mg daily which provided significant relief. You review her lab work and her CBC, CMP, UA, and inflammation markers have been normal since being on prednisone. Today she has no complaints and is happy with how she is doing currently still taking prednisone 10mg daily. You recheck her labwork and everything looks OK besides mild lymphopenia. What do you recommend to her?",
         "category": "clinical",
         "options": [
             {
@@ -9177,7 +9012,7 @@
             },
             {
                 "text": "add hydroxychloroquine and taper prednisone to 5mg daily",
-                "explanation": "\"In people with SLE with stable controlled SLE on prednisone >5 mg/day: ...We **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** tapering the prednisone to a dose of ≤5 mg daily (and ideally to zero) within 6 months.\"..... **<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>** \"In people with SLE: …We **<strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong>** routine treatment with HCQ unless contraindicated.\"..... **<strong style='color: #000; font-weight: 900;'>STRONG REC'D</strong>** These are from the 2025 ACR Guideline for the Treatment of Systemic Lupus Erythematosus (SLE)",
+                "explanation": "\"In people with SLE with stable controlled SLE on prednisone >5 mg/day: ...We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> tapering the prednisone to a dose of ≤5 mg daily (and ideally to zero) within 6 months.\"\n<br/>\n\"In people with SLE: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>STRONGLY RECOMMEND</strong></strong> routine treatment with HCQ unless contraindicated.\"\n<br/>\nThese are from the 2025 ACR Guideline for the Treatment of Systemic Lupus Erythematosus (SLE)",
                 "isCorrect": true
             },
             {
@@ -9192,12 +9027,12 @@
         "image": null
     },
     {
-        "text": "A 25 year old female with known SLE has been doing well on HCQ 200mg daily which is appropriate for her weight.<br /><br />She has a follow up with you today and as always says she is doing well with no complaints.<br /><br />She previously had joint pain and rashes that were uncontrolled however since taking HCQ you tell her she has been in remission.<br /><br />She has been taking HCQ for 5 years and wants to know if she should continue taking it.<br /><br />Her routine lab work today is normal.<br /><br />What do you tell her?",
+        "text": "A 25 year old female with known SLE has been doing well on HCQ 200mg daily which is appropriate for her weight. She has a follow up with you today and as always says she is doing well with no complaints. She previously had joint pain and rashes that were uncontrolled however since taking HCQ you tell her she has been in remission. She has been taking HCQ for 5 years and wants to know if she should continue taking it. Her routine lab work today is normal. What do you tell her?",
         "category": "clinical",
         "options": [
             {
                 "text": "Continue taking HCQ.",
-                "explanation": "According to ACR In people with SLE: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** continuing HCQ therapy indefinitely , even in the setting of sustained remission.<br /><br />CONDITIONAL REC'D",
+                "explanation": "According to ACR In people with SLE: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> continuing HCQ therapy indefinitely , even in the setting of sustained remission.<br /><br />CONDITIONAL REC'D",
                 "isCorrect": true
             }
         ],
@@ -9207,27 +9042,12 @@
         "image": null
     },
     {
-        "text": "To minimize retinal toxicity, we <strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong> a long-term average daily HCQ dose goal of {{c1:: ≤5 mg/kg}} over a dose goal of {{c1:: >5 mg/kg}}",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Show Answer",
-                "explanation": "According to the RheumZoom dataset.",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg daily prednisone.<br /><br />Her symptoms are well controlled and she no longer has inflammatory joint pain or rashes.<br /><br />She wants to stay on her current regimen.<br /><br />What is your next best step?",
+        "text": "A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg daily prednisone. Her symptoms are well controlled and she no longer has inflammatory joint pain or rashes. She wants to stay on her current regimen. What is your next best step?",
         "category": "clinical",
         "options": [
             {
                 "text": "Recommend a slow taper toward zero while staying on HCQ.",
-                "explanation": "According to ACR: \"In people with SLE with sustained remission on prednisone ≤5 mg/day, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** a slow taper toward zero.\"",
+                "explanation": "According to ACR: \"In people with SLE with sustained remission on prednisone ≤5 mg/day, we <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> a slow taper toward zero.\"",
                 "isCorrect": true
             }
         ],
@@ -9237,22 +9057,7 @@
         "image": null
     },
     {
-        "text": "A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg daily prednisone.<br /><br />Her symptoms are welll controlled and she no longer has inflammatory joint pain or rashes.<br /><br />You advised to taper off prednisone however her inflammatory joint pain will flare when she tries to reduce prednisone below 5mg daily.<br /><br />What is your next step?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "According to ACR:",
-                "explanation": "\"In people with SLE who are unable to taper prednisone to ≤5 mg/day, we **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** intiating or escalating immunosuppressive therapy.\" Under Musculoskeletal Arthritis in the 2025 ACR SLE Treatment Guideline: \"For persistent or recurrent active SLE arthritis on HCQ, regardless of prior/current NSAIDs or short-term glucocorticoid therapy: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial therapy with MTX, MPAA, or AZA, with a low threshold to add or substitute with belimumab or anifrolumab for inadequate response over initial biologic therapy.\"",
-                "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A 28 year old female with SLE has been stable on HCQ weight based for many years.<br /><br />She has been off of prednisone for many years.<br /><br />Her most recent blood work at the previous 3 visits showed neutropenia, but the remainder of her blood work has remained normal, including kidney function with urinalysis.<br /><br />She denies any symptoms and says she is feeling fine.<br /><br />What is your next best step?",
+        "text": "A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. Her most recent blood work at the previous 3 visits showed neutropenia, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any symptoms and says she is feeling fine. What is your next best step?",
         "category": "clinical",
         "options": [
             {
@@ -9277,113 +9082,8 @@
             },
             {
                 "text": "observation",
-                "explanation": "According to ACR: \"Leukopenia: For asymptomatic neutropenia and/or lymphopenia (absolute counts <1000/mcL for either) attributed to SLE …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** against initiating immunosuppressive treatment (glucocorticoids, conventional or biologic immunosuppressants) in the absence of other lupus disease activity .",
+                "explanation": "According to ACR: \"Leukopenia: For asymptomatic neutropenia and/or lymphopenia (absolute counts <1000/mcL for either) attributed to SLE …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> against initiating immunosuppressive treatment (glucocorticoids, conventional or biologic immunosuppressants) in the absence of other lupus disease activity .",
                 "isCorrect": true
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A 28 year old female with SLE has been stable on HCQ weight based for many years.<br /><br />She has been off of prednisone for many years.<br /><br />Her most recent blood work at the previous 3 visits showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis.<br /><br />She denies any symptoms and says she is feeling fine.<br /><br />What is your next best step?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "restart her prednisone but no more than 5mg daily",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start methotrexate",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start belimumab",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start azathioprine in combination with prednisone",
-                "explanation": "According to ACR: Thrombocytopenia: For chronic asymptomatic thrombocytopenia (<30,000/mcL) attributed to SLE …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initiation of glucocorticoid with an additional therapy (MPAA, AZA, CNI, anti-CD 20 agents, belimumab, and/or IVIG) over observation or glucocorticoid monotherapy.<br /><br />Essentially, steroids plus any of the listed steroid sparing agents above. <br /><br />***MTX is not listed among them<br /><br />***",
-                "isCorrect": true
-            },
-            {
-                "text": "observation",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A 28 year old female with SLE has been stable on HCQ weight based for many years.<br /><br />She has been off of prednisone for many years.<br /><br />She has been complaining or frequent epistaxis that is new to her.<br /><br />Her most recent blood work at the previous visit showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis.<br /><br />She denies any other symptoms and says she is feeling fine.<br /><br />What is your next best step?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "restart her prednisone but no more than 5mg daily",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start methotrexate",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start prednisone in combination with IVIG and/or rituximab",
-                "explanation": "According to ACR: \" Thrombocytopenia: For symptomatic thrombocytopenia (i.e., active significant bleeding) attributed to SLE: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial glucocorticoid therapy with addition of IVIG and/or anti-CD20 therapy over the addition of conventional immunosuppressive agents.\"",
-                "isCorrect": true
-            },
-            {
-                "text": "start azathioprine in combination with prednisone",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start prednisone in combination with belimumab",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            }
-        ],
-        "summary": "",
-        "difficulty": "medium",
-        "diagram": false,
-        "image": null
-    },
-    {
-        "text": "A 28 year old female with SLE has been stable on HCQ weight based for many years.<br /><br />She has been off of prednisone for many years.<br /><br />She has been complaining of chest pain with exertion that is new to her.<br /><br />Her most recent blood work at the previous visit showed Hgb count of 8, but the remainder of her blood work has remained normal, including kidney function with urinalysis.<br /><br />A direct coombs test is positive.<br /><br />She denies any other symptoms and says she is feeling fine.<br /><br />What is your next best step?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "restart her prednisone but no more than 5mg daily",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start methotrexate",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start prednisone in combination with IVIG and/or rituximab",
-                "explanation": "According to ACR \"Hemolytic Anemia : For symptomatic autoimmune hemolytic anemia (i.e., ischemic manifestations and/or hemodynamic instability) attributed to SLE: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial glucocorticoid therapy with addition of IVIG and/or anti-CD20 therapy over the addition of conventional immunosuppressive agents.\" <br /><br />***this is the same answer and treatment for symptomatic thrombocytopenia attributed to SLE <br /><br />***",
-                "isCorrect": true
-            },
-            {
-                "text": "start azathioprine in combination with prednisone",
-                "explanation": "Incorrect.",
-                "isCorrect": false
-            },
-            {
-                "text": "start prednisone in combination with belimumab",
-                "explanation": "Incorrect.",
-                "isCorrect": false
             }
         ],
         "summary": "",
@@ -9397,7 +9097,7 @@
         "options": [
             {
                 "text": "Pulse/high-dose steroids plus IV CYC, MPAA (ie. MMF), or RTX",
-                "explanation": "According to ACR \"Severe neuropsychiatric syndromes: For Active lupus optic neuritis -OR- Lupus acute confusional state -OR- Active lupus mononeuritis multiplex: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial therapy with pulse/high-dose glucocorticoid taper plus immunosuppressive therapy with IV CYC, MPAA, or anti-CD20 therapy over pulse/high-dose glucocorticoid monotherapy alone.\"",
+                "explanation": "According to ACR \"Severe neuropsychiatric syndromes: For Active lupus optic neuritis -OR- Lupus acute confusional state -OR- Active lupus mononeuritis multiplex: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> initial therapy with pulse/high-dose glucocorticoid taper plus immunosuppressive therapy with IV CYC, MPAA, or anti-CD20 therapy over pulse/high-dose glucocorticoid monotherapy alone.\"",
                 "isCorrect": true
             }
         ],
@@ -9407,7 +9107,7 @@
         "image": null
     },
     {
-        "text": "A 34 year old female patient is referred to you for suspicion of SLE.<br /><br />You do autoimmune testing which results with +ANA, +dsDNA moderate titer, and a +aCL IgM high titer.<br /><br />Her main symptoms are fatigue, joint pain, and rashes.<br /><br />You start her on weight based HCQ and low dose prednisone and her symptoms improve.<br /><br />She mentioned having some \"urinary problems\" but just writes it off as weakened pelvic floor muscle from delivering her baby 1 year ago.<br /><br />A urinalysis is normal.<br /><br />On her next follow up she says she is feeling fine however her \"urinary leakage\" has progressed and she is more concerned.<br /><br />Her PCP was concerned so he ordered a MRI of her spine which showed increased T2 signal intensity longitudinally across T6-T9 with associated cord swelling.<br /><br />Her PCP sent her to a neurosurgeon based on the MRI results but she is still waiting to be seen in that clinic.<br /><br />You repeat blood work today and will follow up with those results with her as soon as they return.<br /><br />What are your next steps with this patient today?",
+        "text": "A 34 year old female patient is referred to you for suspicion of SLE. You do autoimmune testing which results with +ANA, +dsDNA moderate titer, and a +aCL IgM high titer. Her main symptoms are fatigue, joint pain, and rashes. You start her on weight based HCQ and low dose prednisone and her symptoms improve. She mentioned having some \"urinary problems\" but just writes it off as weakened pelvic floor muscle from delivering her baby 1 year ago. A urinalysis is normal. On her next follow up she says she is feeling fine however her \"urinary leakage\" has progressed and she is more concerned. Her PCP was concerned so he ordered a MRI of her spine which showed increased T2 signal intensity longitudinally across T6-T9 with associated cord swelling. Her PCP sent her to a neurosurgeon based on the MRI results but she is still waiting to be seen in that clinic. You repeat blood work today and will follow up with those results with her as soon as they return. What are your next steps with this patient today?",
         "category": "clinical",
         "options": [
             {
@@ -9432,7 +9132,7 @@
             },
             {
                 "text": "pulse IV steroids plus IV CYC",
-                "explanation": "Why? This is SLE associated transverse myelitis.<br /><br />According to ACR \"For active lupus myelitis : …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial therapy with pulse/high-dose glucocorticoid and IV CYC over pulse/high-dose glucocorticoid combined with other (non-CYC) immunosuppressive agents.\" <br /><br />***remember this is according to ACR guidelines.<br /><br />I personally may have chosen IV steroids + RTX and have done so in the past with good results.<br /><br />But the above is CONDITIONALLY REC'D by ACR 2025 guidelines.<br /><br />***",
+                "explanation": "Why?<br /><br />This is SLE associated transverse myelitis.<br /><br />According to ACR \"For active lupus myelitis : …We <strong style='color:#000;font-weight:900;'><strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong></strong> initial therapy with pulse/high-dose glucocorticoid and IV CYC over pulse/high-dose glucocorticoid combined with other (non-CYC) immunosuppressive agents.\"<br /><br />***remember this is according to ACR guidelines.<br /><br />I personally may have chosen IV steroids + RTX and have done so in the past with good results.<br /><br />But the above is <strong style='color:#000;font-weight:900;'>CONDITIONALLY REC'D</strong> by ACR 2025 guidelines.<br /><br />***",
                 "isCorrect": true
             }
         ],
@@ -9442,7 +9142,7 @@
         "image": null
     },
     {
-        "text": "A 33 year old female with SLE has the following autoantibody panel: +ANA +Smith +dsDNA +Ribosomal P protein +SSA She is currently taking weight based HCQ and tolerating it well.<br /><br />She previously had inflammatory arthritis but that has been well controlled with HCQ.<br /><br />Her sister came with her to clinic today and is concerned because the patient had to be taken to the ER last week due to sudden behavioral changes, irritability, and auditory hallucinations.<br /><br />She was yelling in the ER waiting room that her family was plotting against her.<br /><br />Her exam today shows a malar rash.<br /><br />Lab studies show low complement levels compared to previous and elevated dsDNA levels.<br /><br />What is your next step?",
+        "text": "A 33 year old female with SLE has the following autoantibody panel: +ANA +Smith +dsDNA +Ribosomal P protein +SSA She is currently taking weight based HCQ and tolerating it well. She previously had inflammatory arthritis but that has been well controlled with HCQ. Her sister came with her to clinic today and is concerned because the patient had to be taken to the ER last week due to sudden behavioral changes, irritability, and auditory hallucinations. She was yelling in the ER waiting room that her family was plotting against her. Her exam today shows a malar rash. Lab studies show low complement levels compared to previous and elevated dsDNA levels. What is your next step?",
         "category": "clinical",
         "options": [
             {
@@ -9457,7 +9157,7 @@
             },
             {
                 "text": "risperidone plus IV RTX",
-                "explanation": "According to ACR \" For active lupus psychosis : …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** anti-psychotic therapy plus glucocorticoid, IV CYC, MPAA, or anti-CD20 therapy over anti-psychotic therapy alone.\"",
+                "explanation": "According to ACR \" For active lupus psychosis : …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> anti-psychotic therapy plus glucocorticoid, IV CYC, MPAA, or anti-CD20 therapy over anti-psychotic therapy alone.\"",
                 "isCorrect": true
             },
             {
@@ -9477,12 +9177,12 @@
         "image": null
     },
     {
-        "text": "A patient with SLE has new onset seizures.<br /><br />She is on HCQ alone.<br /><br />How do you optimize her SLE treatment?",
+        "text": "A patient with SLE has new onset seizures. She is on HCQ alone. How do you optimize her SLE treatment?",
         "category": "clinical",
         "options": [
             {
                 "text": "According to ACR",
-                "explanation": "\" Seizure : For seizures attributed to active SLE: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** anti-seizure medication plus glucocorticoid, CYC, MPAA, AZA, and/or anti-CD20 over anti-seizure medication alone.\" Essentially anti-seizure med plus steroids, CYC, MMF, AZA or RTX.",
+                "explanation": "Seizure : For seizures attributed to active SLE: …We <strong style='color:#000;font-weight:900;'><strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong></strong> anti-seizure medication plus glucocorticoid, CYC, MPAA, AZA, and/or anti-CD20 over anti-seizure medication alone.<br /><br />Essentially anti-seizure med plus steroids, CYC, MMF, AZA or RTX.",
                 "isCorrect": true
             }
         ],
@@ -9492,7 +9192,7 @@
         "image": null
     },
     {
-        "text": "A 31 year old male with 4 year history of SLE presents with a 1 week history of new, non-blanching, palpable purpura on his lower extremities.<br /><br />He reports mild arthralgias but denies hematuria, fever, or abdominal pain.<br /><br />Exam shows multiple 2mm-5mm purpuric papules on both shins and ankles.<br /><br />Most up to date labs show low C3 C4, mild anemia, and elevated dsDNA.<br /><br />UA is unremarkable.<br /><br />Skin biopsy shows neutrophilic infiltration of small dermal vessels with fibrinoid necrosis.<br /><br />He has given a topical steroid cream to apply to the rash although it has not helped.<br /><br />What is next best step?",
+        "text": "A 31 year old male with 4 year history of SLE presents with a 1 week history of new, non-blanching, palpable purpura on his lower extremities. He reports mild arthralgias but denies hematuria, fever, or abdominal pain. Exam shows multiple 2mm-5mm purpuric papules on both shins and ankles. Most up to date labs show low C3 C4, mild anemia, and elevated dsDNA. UA is unremarkable. Skin biopsy shows neutrophilic infiltration of small dermal vessels with fibrinoid necrosis. He has given a topical steroid cream to apply to the rash although it has not helped. What is next best step?",
         "category": "clinical",
         "options": [
             {
@@ -9502,7 +9202,7 @@
             },
             {
                 "text": "dapsone",
-                "explanation": "This is leukocytoclastic vasculitis...<br /><br />According to ACR \"Leukocytoclastic vasculitis: For ongoing mild cutaneous vasculitis despite topical and antimalarial therapies: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** addition of dapsone or colchicine over immunosuppressive therapies including oral glucocorticoid.\"",
+                "explanation": "This is leukocytoclastic vasculitis...<br /><br />According to ACR \"Leukocytoclastic vasculitis: For ongoing mild cutaneous vasculitis despite topical and antimalarial therapies: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> addition of dapsone or colchicine over immunosuppressive therapies including oral glucocorticoid.\"",
                 "isCorrect": true
             },
             {
@@ -9527,7 +9227,7 @@
         "image": null
     },
     {
-        "text": "A 28 year old woman with a 3 year history of SLE on HCQ presents with 4 days of sharp, pleuritic chest pain.<br /><br />It worsens when lying flat.<br /><br />She also reports mild shortness of breath and a dry cough.<br /><br />On exam her vitals are normal.<br /><br />Decreased breath sounds are noted at the right lung base and a pericardial fruction rub is heard at left sternal border.<br /><br />What is the most appropriate initial treatment?",
+        "text": "A 28 year old woman with a 3 year history of SLE on HCQ presents with 4 days of sharp, pleuritic chest pain. It worsens when lying flat. She also reports mild shortness of breath and a dry cough. On exam her vitals are normal. Decreased breath sounds are noted at the right lung base and a pericardial fruction rub is heard at left sternal border. What is the most appropriate initial treatment?",
         "category": "clinical",
         "options": [
             {
@@ -9542,7 +9242,7 @@
             },
             {
                 "text": "oral colchicine plus NSAID",
-                "explanation": "\"For lupus pleuropericarditis : …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial treatment with NSAID, colchicine, or their combination, with a low threshold for escalation to glucocorticoid therapy over initiating glucocorticoid therapy alone.<br /><br />For ongoing/recurrent episodes of lupus pleuropericarditis despite treatment with HCQ, NSAIDs, colchicine, and/or glucocorticoids necessitating escalation of therapy: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** conventional (MPAA, AZA) or biologic immunosuppressive therapies.\"",
+                "explanation": "\"For lupus pleuropericarditis : …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> initial treatment with NSAID, colchicine, or their combination, with a low threshold for escalation to glucocorticoid therapy over initiating glucocorticoid therapy alone.<br /><br />For ongoing/recurrent episodes of lupus pleuropericarditis despite treatment with HCQ, NSAIDs, colchicine, and/or glucocorticoids necessitating escalation of therapy: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> conventional (MPAA, AZA) or biologic immunosuppressive therapies.\"",
                 "isCorrect": true
             },
             {
@@ -9562,12 +9262,12 @@
         "image": null
     },
     {
-        "text": "A 35 year old woman with 5 year history of SLE (on HCQ) presents with 2 weeks of new, non-blanching, palpable purpura and painful ulcers on her lower extremities.<br /><br />Also has had arthralgias.<br /><br />Exam shows multiple purpuric papules and several shallow ulcers with violaceous borders on the shins.<br /><br />Labs show elevated ESR, low C3/C4, elevated dsDNA and positive SSA.<br /><br />UA is unremarkable.<br /><br />What do you do?",
+        "text": "A 35 year old woman with 5 year history of SLE (on HCQ) presents with 2 weeks of new, non-blanching, palpable purpura and painful ulcers on her lower extremities. Also has had arthralgias. Exam shows multiple purpuric papules and several shallow ulcers with violaceous borders on the shins. Labs show elevated ESR, low C3/C4, elevated dsDNA and positive SSA. UA is unremarkable. What do you do?",
         "category": "clinical",
         "options": [
             {
                 "text": "Pulse/high-dose steroid taper + conventional or biologic immunosuppressive therapy (preferred IV CYC or RTX over other options)",
-                "explanation": "According to ACR For vasculitis attributed to active SLE: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** initial therapy with pulse/high-dose glucocorticoid taper and conventional (IV CYC, MPAA, AZA) or biologic (anti-CD 20 therapy, belimumab, anifrolumab) immunosuppressive therapy over glucocorticoid monotherapy alone; …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** IV CYC or anti-CD20 therapy as initial therapy over other immunosuppressive therapies.",
+                "explanation": "According to ACR For vasculitis attributed to active SLE: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> initial therapy with pulse/high-dose glucocorticoid taper and conventional (IV CYC, MPAA, AZA) or biologic (anti-CD 20 therapy, belimumab, anifrolumab) immunosuppressive therapy over glucocorticoid monotherapy alone; …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> IV CYC or anti-CD20 therapy as initial therapy over other immunosuppressive therapies.",
                 "isCorrect": true
             }
         ],
@@ -9577,7 +9277,7 @@
         "image": null
     },
     {
-        "text": "A 40 year old female with a known history of SLE comes to you for follow up.<br /><br />She has been stable on weight based HCQ.<br /><br />She previously had rashes and arthralgia as her main symptoms, however she has been without those symptoms for the past few years.<br /><br />She has no other known medical problems.<br /><br />Lately however she has been complaining of some SOB and worsening fatigue.<br /><br />She also said her legs have felt a little swollen.<br /><br />Her PCP prescribed furosemide 40mg to take as needed which has helped her swelling.<br /><br />What do you do?",
+        "text": "A 40 year old female with a known history of SLE comes to you for follow up. She has been stable on weight based HCQ. She previously had rashes and arthralgia as her main symptoms, however she has been without those symptoms for the past few years. She has no other known medical problems. Lately however she has been complaining of some SOB and worsening fatigue. She also said her legs have felt a little swollen. Her PCP prescribed furosemide 40mg to take as needed which has helped her swelling. What do you do?",
         "category": "clinical",
         "options": [
             {
@@ -9602,7 +9302,7 @@
             },
             {
                 "text": "Add course of oral prednisone with IV CYC",
-                "explanation": "According to ACR...<br /><br />Myocarditis: For lupus myocarditis that is acute and/or worsening: …We **<strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong>** treatment with glucocorticoid AND IV CYC, MPAA, anti-CD20 therapy and/or IVIG over glucocorticoid monotherapy.<br /><br />Make note that according to ACR, MTX is not listed as a steroid sparing option.",
+                "explanation": "According to ACR...<br /><br />Myocarditis: For lupus myocarditis that is acute and/or worsening: …We <strong style='color: #000; font-weight: 900;'><strong style='color: #000; font-weight: 900;'>CONDITIONALLY RECOMMEND</strong></strong> treatment with glucocorticoid AND IV CYC, MPAA, anti-CD20 therapy and/or IVIG over glucocorticoid monotherapy.<br /><br />Make note that according to ACR, MTX is not listed as a steroid sparing option.",
                 "isCorrect": true
             },
             {
@@ -9615,33 +9315,5 @@
         "difficulty": "medium",
         "diagram": false,
         "image": null
-    },
-    {
-        "text": "What is shown here?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Show Answer",
-                "explanation": "Hyperparathyroidism\n\n*Look at the radial aspect of the phalanges, which show subperiosteal resorption.<br /><br />There is also terminal acro-osteolysis.",
-                "isCorrect": true
-            }
-        ],
-        "difficulty": "medium",
-        "diagram": true,
-        "image": "hyperparathyroidism_hand.jpg"
-    },
-    {
-        "text": "What is shown here?",
-        "category": "clinical",
-        "options": [
-            {
-                "text": "Show Answer",
-                "explanation": "See image.",
-                "isCorrect": true
-            }
-        ],
-        "difficulty": "medium",
-        "diagram": true,
-        "image": "question108_image.jpg"
     }
 ]
