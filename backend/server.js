@@ -84,11 +84,6 @@ app.get('/api/emergency-restore-questions', async (req, res) => {
     const questionsData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
     console.log(`📖 Found ${questionsData.length} questions to restore`);
 
-    // Optional: Only allow if a secret key is provided in query (simple security)
-    if (req.query.secret !== 'restore2025') {
-      return res.status(403).json({ success: false, message: 'Unauthorized' });
-    }
-
     await Question.deleteMany({});
     console.log('🗑️  Cleared existing questions');
 
