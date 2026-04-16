@@ -27,10 +27,7 @@ const Subscription = () => {
 
   const features = [
     "Unlimited access to all questions",
-    "Detailed clinical explanations",
-    "High-resolution image zoom",
-    "Personal progress tracking",
-    "New questions added monthly"
+    "High-resolution image zoom"
   ];
 
   useEffect(() => {
@@ -183,7 +180,7 @@ const Subscription = () => {
                     <Card
                       key={plan.id}
                       className={`relative flex flex-col transition-all duration-300 hover:scale-105 hover:shadow-2xl border-2 overflow-hidden ${isPopular ? "border-primary ring-4 ring-primary/10" :
-                          isBestValue ? "border-amber-400" : "border-slate-200"
+                        isBestValue ? "border-amber-400" : "border-slate-200"
                         }`}
                     >
                       {isPopular && (
@@ -223,8 +220,8 @@ const Subscription = () => {
                         <Button
                           size="lg"
                           className={`w-full py-6 rounded-xl font-bold text-base transition-all duration-300 ${isPopular ? "bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20" :
-                              isBestValue ? "bg-amber-400 hover:bg-amber-500 text-amber-950 border-none shadow-lg shadow-amber-400/20" :
-                                "bg-white border-2 border-slate-200 text-slate-900 hover:bg-slate-50"
+                            isBestValue ? "bg-amber-400 hover:bg-amber-500 text-amber-950 border-none shadow-lg shadow-amber-400/20" :
+                              "bg-white border-2 border-slate-200 text-slate-900 hover:bg-slate-50"
                             }`}
                           onClick={() => handlePurchase(plan.id)}
                         >
