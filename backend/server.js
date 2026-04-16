@@ -12,6 +12,13 @@ import contactRoutes from './src/routes/contactRoutes.js';
 import paymentRoutes from './src/routes/paymentRoutes.js';
 import { stripeWebhook } from './src/controllers/paymentsController.js';
 import { receivePabblyWebhook } from './src/controllers/pabblyWebhookController.js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import Question from './src/models/Question.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Load environment variables
 dotenv.config();
@@ -62,6 +69,41 @@ app.get('/api/health', (req, res) => {
     message: 'Server is running',
     timestamp: new Date().toISOString()
   });
+});
+
+// EMERGENCY RESTORATION ROUTE
+// This allows seeding the database directly from the server to bypass local DNS issues
+app.get('/api/emergency-restore-questions', async (req, res) => {
+  try {
+    console.log('🔄 Starting Emergency Restoration...');
+    const jsonPath = path.join(__dirname, 'rheumzoom_mongodb_format.json');
+    if (!fs.existsSync(jsonPath)) {
+      return res.status(404).json({ success: false, message: 'Source file not found on server' });
+    }
+
+    const questionsData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    console.log(`📖 Found ${questionsData.length} questions to restore`);
+
+    // Optional: Only allow if a secret key is provided in query (simple security)
+    if (req.query.secret !== 'restore2025') {
+      return res.status(403).json({ success: false, message: 'Unauthorized' });
+    }
+
+    await Question.deleteMany({});
+    console.log('🗑️  Cleared existing questions');
+
+    await Question.insertMany(questionsData);
+    console.log('✅ Restoration successful');
+
+    res.json({
+      success: true,
+      message: `Successfully restored ${questionsData.length} questions with all formatting fixes!`,
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    console.error('❌ Restoration Error:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
 });
 
 // Routes
