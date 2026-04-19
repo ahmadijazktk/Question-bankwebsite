@@ -482,33 +482,39 @@ const Exam = () => {
               <Card className="shadow-sm border-border">
                 <CardContent className="p-6">
                   <div className={question.options.length === 1 ? "flashcard-container" : ""}>
-                    <div
-                      className={`prose dark:prose-invert max-w-none text-lg font-normal leading-relaxed text-foreground/90 anki-content ${question.options.length === 1 ? "flashcard-content text-2xl font-medium" : "mb-8"}`}
-                      dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
-                    />
+                    {question.options.length === 1 ? (
+                      <div className="flashcard-content">
+                        <div
+                          className="flashcard-question"
+                          dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
+                        />
+                        {!showAnswer ? (
+                          <div className="pt-6">
+                            <Button
+                              onClick={() => {
+                                setSelectedAnswer(question.options[0].text);
+                                setTimeout(() => handleShowAnswer(), 50);
+                              }}
+                              className="px-10 py-7 text-lg rounded-2xl shadow-xl hover:shadow-primary/20 transition-all duration-300 transform hover:-translate-y-1"
+                              size="lg"
+                              disabled={submitting}
+                            >
+                              {submitting ? "Revealing..." : "Reveal Answer"}
+                            </Button>
+                          </div>
+                        ) : (
+                          <div className="text-primary/70 font-bold flex items-center gap-3 text-xs uppercase tracking-[0.2em] animate-in fade-in slide-in-from-bottom-2">
+                            <CheckCircle className="w-5 h-5" /> Answer revealed
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <div
+                        className="prose dark:prose-invert max-w-none text-lg font-normal leading-relaxed text-foreground/90 anki-content mb-8"
+                        dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
+                      />
+                    )}
                   </div>
-
-                  {question.options.length === 1 && (
-                    <div className="flex flex-col items-center justify-center p-4 mt-4">
-                      {!showAnswer ? (
-                        <Button
-                          onClick={() => {
-                            setSelectedAnswer(question.options[0].text);
-                            setTimeout(() => handleShowAnswer(), 50);
-                          }}
-                          className="w-full sm:w-auto btn-premium"
-                          size="lg"
-                          disabled={submitting}
-                        >
-                          {submitting ? "Revealing..." : "Reveal Answer"}
-                        </Button>
-                      ) : (
-                        <div className="text-primary/70 font-medium flex items-center gap-2 text-sm uppercase tracking-widest animate-in fade-in slide-in-from-bottom-2">
-                          <CheckCircle className="w-4 h-4" /> Answer revealed
-                        </div>
-                      )}
-                    </div>
-                  )}
                   {question.options.length > 1 && (
                     <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer} disabled={showAnswer}>
                       <div className="space-y-3">
@@ -567,27 +573,29 @@ const Exam = () => {
                       <div className="animate-in fade-in zoom-in-95 duration-300">
                         {canViewAnswer ? (
                           <div className="space-y-6">
-                            <div className={`p-6 rounded-2xl ${question.options.length === 1 ? 'border-2 border-primary/20 bg-primary/5 shadow-inner' : 'bg-muted/30 border border-border'}`}>
-                              <div className="flex items-center gap-2 text-primary font-bold text-lg mb-4 uppercase tracking-tight">
-                                <Sparkles className="w-5 h-5" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
-                              </div>
-                              <div className={`font-semibold leading-snug ${question.options.length === 1 ? 'text-2xl text-center' : 'text-lg'}`}>
-                                {correctOptionIndex !== -1 && question.options.length > 1 && (
-                                  <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
+                            <div className="reveal-container">
+                              <div className="reveal-card">
+                                <div className="reveal-label">
+                                  <Sparkles className="w-5 h-5" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
+                                </div>
+                                <div className={`font-semibold leading-relaxed ${question.options.length === 1 ? 'text-2xl' : 'text-lg'}`}>
+                                  {correctOptionIndex !== -1 && question.options.length > 1 && (
+                                    <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
+                                  )}
+                                  <div
+                                    className="anki-content inline-block text-left"
+                                    dangerouslySetInnerHTML={{
+                                      __html: resolveAnkiHtml(correctAnswer || "")
+                                    }}
+                                  />
+                                </div>
+                                {correctExplanation && correctExplanation !== correctAnswer && (
+                                  <div
+                                    className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 text-slate-600 dark:text-slate-400 leading-relaxed anki-content"
+                                    dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(correctExplanation) }}
+                                  />
                                 )}
-                                <div
-                                  className="anki-content inline-block text-left"
-                                  dangerouslySetInnerHTML={{
-                                    __html: resolveAnkiHtml(correctAnswer || "")
-                                  }}
-                                />
                               </div>
-                              {correctExplanation && correctExplanation !== correctAnswer && (
-                                <div
-                                  className={`mt-6 pt-6 border-t border-dashed border-primary/20 text-foreground/90 leading-relaxed anki-content ${question.options.length === 1 ? 'text-xl' : ''}`}
-                                  dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(correctExplanation) }}
-                                />
-                              )}
                             </div>
                           </div>
                         ) : (
