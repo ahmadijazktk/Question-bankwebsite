@@ -504,7 +504,7 @@ const Exam = () => {
                         </Button>
                       ) : (
                         <div className="text-primary/70 font-medium flex items-center gap-2 text-sm uppercase tracking-widest animate-in fade-in slide-in-from-bottom-2">
-                          <CheckCircle className="w-4 h-4" /> Answer Selected
+                          <CheckCircle className="w-4 h-4" /> Answer revealed
                         </div>
                       )}
                     </div>
@@ -569,7 +569,7 @@ const Exam = () => {
                           <div className="space-y-6">
                             <div className={`p-6 rounded-2xl ${question.options.length === 1 ? 'border-2 border-primary/20 bg-primary/5 shadow-inner' : 'bg-muted/30 border border-border'}`}>
                               <div className="flex items-center gap-2 text-primary font-bold text-lg mb-4 uppercase tracking-tight">
-                                <Sparkles className="w-5 h-5" /> {question.options.length === 1 ? "The Verdict" : "Correct Answer"}
+                                <Sparkles className="w-5 h-5" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
                               </div>
                               <div className={`font-semibold leading-snug ${question.options.length === 1 ? 'text-2xl text-center' : 'text-lg'}`}>
                                 {correctOptionIndex !== -1 && question.options.length > 1 && (
