@@ -201,30 +201,10 @@ All colors MUST be HSL.
 
   /* Premium Flashcard Container */
   .flashcard-container {
-    @apply max-w-2xl mx-auto my-12 p-0 border-none bg-white dark:bg-slate-950 rounded-3xl transition-all duration-500 overflow-hidden;
-    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.1);
+    @apply min-h-[300px] flex flex-col items-center justify-center p-10 bg-gradient-to-b from-card to-muted/10 rounded-2xl border border-border/50 shadow-sm transition-all duration-500;
   }
 
   .flashcard-content {
-    @apply p-10 sm:p-14 flex flex-col items-center justify-center space-y-10;
-  }
-
-  .flashcard-question {
-    @apply text-slate-900 dark:text-slate-100 font-medium leading-[1.5] tracking-tight;
-    font-size: clamp(1.25rem, 5vw, 1.875rem);
-    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  }
-
-  /* Reveal Box Styling */
-  .reveal-container {
-    @apply mt-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-700;
-  }
-
-  .reveal-card {
-    @apply rounded-3xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 p-10 space-y-6;
-  }
-
-  .reveal-label {
-    @apply flex items-center gap-3 text-primary font-bold text-sm uppercase tracking-[0.2em] mb-4;
+    @apply w-full text-center space-y-4;
   }
 }
