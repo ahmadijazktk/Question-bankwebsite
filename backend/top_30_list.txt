@@ -1,0 +1,30 @@
+1: 69e141bb92ef514155fdbda9 | A 33 year old female with SLE has the following autoantibody panel: +ANA +Smith +dsDNA +Ribosomal P 
+2: 69e141bb92ef514155fdbdad | A 35 year old woman with 5 year history of SLE (on HCQ) presents with 2 weeks of new, non-blanching,
+3: 69e141bb92ef514155fdbdaa | A patient with SLE has new onset seizures. She is on HCQ alone. How do you optimize her SLE treatmen
+4: 69e141bb92ef514155fdbdae | A 40 year old female with a known history of SLE comes to you for follow up. She has been stable on 
+5: 69e141bb92ef514155fdbdab | A 31 year old male with 4 year history of SLE presents with a 1 week history of new, non-blanching, 
+6: 69e141bb92ef514155fdbdac | A 28 year old woman with a 3 year history of SLE on HCQ presents with 4 days of sharp, pleuritic che
+7: 69e141bb92ef514155fdbda7 | What is the treatment choice for a patient with SLE and active lupus optic neuritis OR lupus acute c
+8: 69e141bb92ef514155fdbda6 | A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off o
+9: 69e141bb92ef514155fdbda4 | A 25 year old female with known SLE has been doing well on HCQ 200mg daily which is appropriate for 
+10: 69e141bb92ef514155fdbda0 | In regards to lupus nephritis with development of end-stage kidney disease, what are the recommendat
+11: 69e141bb92ef514155fdbda3 | A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP. She was f
+12: 69e141bb92ef514155fdbd9f | A patient has newly diagnosed SLE with concomittant Class IV lupus nephritis. She was started on wei
+13: 69e141bb92ef514155fdbd9d | A patient with SLE and new onset Class IV lupus nephritis is now in remission after receiving induct
+14: 69e141bb92ef514155fdbda8 | A 34 year old female patient is referred to you for suspicion of SLE. You do autoimmune testing whic
+15: 69e141bb92ef514155fdbda5 | A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg
+16: 69e141bb92ef514155fdbda1 | A patient with SLE and Class IV lupus nephritis establishes in your clinic. She has undergone multip
+17: 69e141bb92ef514155fdbda2 | A patient has SLE and past Class IV and Class V lupus nephritis. He has already had a kidney transpl
+18: 69e141bb92ef514155fdbd9e | A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tap
+19: 69e141bb92ef514155fdbd98 | In a patient with NEW ONSET/ACTIVE/ FLARE of ***pure*** Class 5 lupus nephritis with at least 1g of 
+20: 69e141bb92ef514155fdbd99 | A 33 year old female with PMH of SLE and lupus nephritis Class IV has been doing well on weight base
+21: 69e141bb92ef514155fdbd9a | A patient with newly diagnosed SLE has a renal biopsy which shows Class IV lupus nephritis. You deci
+22: 69e141bb92ef514155fdbd9b | A patient with PMH of SLE and Class IV lupus nephritis (diagnosed 1 year ago) received induction ste
+23: 69e141bb92ef514155fdbd96 | A 40 year old male with PMH of SLE and lupus nephritis is currently on HCQ, MMF, lisinopril and beli
+24: 69e141bb92ef514155fdbd97 | In a patient with new onset Class IV (without concomittant Class V) lupus nephritis, with is/are the
+25: 69e141bb92ef514155fdbd95 | In patients with ACTIVE/NEW ONSET/FLARE of Class III/IV or Class V lupus nephritis, what are the ACR
+26: 69e141bb92ef514155fdbd92 | A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. You d
+27: 69e141bb92ef514155fdbd93 | A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. CBC, 
+28: 69e141bb92ef514155fdbd91 | True or False A 34 year old female with recently diagnosed SLE (on HCQ monotherapy) has been stable 
+29: 69e141bb92ef514155fdbd9c | A patient with SLE develops Class IV lupus nephritis. You decide to use CYC. What does ACR suggest r
+30: 69e141bb92ef514155fdbd94 | A 35 year old female with PMH of SLE presented with photosensitive rashes in addition to 1g of prote

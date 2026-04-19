@@ -39,6 +39,7 @@ interface ApiQuestion {
   isFreeTrialQuestion?: boolean;
   freeTrialOrder?: number;
   showImageWithQuestion?: boolean;
+  tags?: string[];
 }
 
 interface Question {
@@ -53,6 +54,7 @@ interface Question {
   isFreeTrial?: boolean;
   freeTrialOrder?: number;
   showImageWithQuestion?: boolean;
+  tags?: string[];
 }
 
 // Collect available images and helpers to map one unique image per question 
@@ -68,17 +70,25 @@ const imageBasenameToUrl: Record<string, string> = Object.entries(imageModules).
 }, {} as Record<string, string>);
 
 // Replace <img src="filename.png"> in HTML with the correct Vite URL using our map
-const resolveImageSources = (html: string): string => {
-  if (!html) return html;
+const resolveAnkiHtml = (html: string): string => {
+  if (!html) return "";
+  // rule 6: All images must load from /collection.media/
+  // rule 1: Do not escape or modify except for the src path as required by rule 6
   return html.replace(/<img\b([^>]*?)\bsrc=(?:["']{1,2})([^"']+)["']{1,2}([^>]*)>/gi, (match, pre, src, post) => {
     const s = (src || "").trim();
-    if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s)) return match;
-    const base = s.split('/').pop()?.toLowerCase() || s.toLowerCase();
-    const mapped = imageBasenameToUrl[base] || `/${s.split('/').pop()}`;
-    if (mapped) {
-      return `<img${pre}src="${mapped}"${post}>`;
+    // If it's already an absolute URL or data URI, we keep it as is, 
+    // but the rule says "All images must load from /collection.media/" 
+    // In Anki context, this usually means local media files.
+    if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s) || s.startsWith('/')) {
+      // However, if it starts with /images/ (from old imports), we fix it
+      if (s.startsWith('/images/')) {
+        const base = s.split('/').pop() || s;
+        return `<img${pre}src="/collection.media/${base}"${post}>`;
+      }
+      return match;
     }
-    return match;
+    const base = s.split('/').pop() || s;
+    return `<img${pre}src="/collection.media/${base}"${post}>`;
   });
 };
 
@@ -178,14 +188,18 @@ const Exam = () => {
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
             } else {
-              const lower = q.image.split('/').pop()?.toLowerCase() || "";
-              imageSrc = imageBasenameToUrl[lower] || `/${q.image}`;
+              const base = q.image.split('/').pop() || q.image;
+              imageSrc = `/collection.media/${base}`;
             }
           }
 
           if (q.image2) {
-            const lower2 = q.image2.split('/').pop()?.toLowerCase() || "";
-            image2Src = imageBasenameToUrl[lower2] || `/${q.image2}`;
+            if (/^(https?:)?\/\//i.test(q.image2) || /^data:/i.test(q.image2)) {
+              image2Src = q.image2;
+            } else {
+              const base2 = q.image2.split('/').pop() || q.image2;
+              image2Src = `/collection.media/${base2}`;
+            }
           }
 
           return {
@@ -199,7 +213,8 @@ const Exam = () => {
             imageAlt: q.image ? `Diagram for question` : undefined,
             isFreeTrial: q.isFreeTrialQuestion || isTrial,
             freeTrialOrder: q.freeTrialOrder,
-            showImageWithQuestion: q.showImageWithQuestion || q.text?.includes("Spine imaging")
+            showImageWithQuestion: q.showImageWithQuestion || q.text?.includes("Spine imaging"),
+            tags: q.tags || []
           };
         });
 
@@ -333,13 +348,7 @@ const Exam = () => {
           finalExplanation += (finalExplanation ? "\n\n" : "") + sourceSummary;
         }
 
-        // SMART FALLBACK: If we still have nothing but a "Show Answer" placeholder, 
-        // it means the medical reasoning is likely contained in the image or summary.
-        if (!finalExplanation.trim() || finalExplanation.toLowerCase() === "show answer") {
-          finalExplanation = "Review the associated medical chart/image for the detailed management protocol. Full details are synchronized with the RheumZoom Anki system.";
-        }
-
-        setCorrectExplanation(finalExplanation);
+        setCorrectExplanation(finalExplanation || optionExplanation || serverExplanation || "");
 
         const selectedOption = question.options.find(opt => opt.text === selectedAnswer);
         setSelectedExplanation(selectedOption?.explanation || null);
@@ -473,8 +482,8 @@ const Exam = () => {
               <Card className="shadow-sm border-border">
                 <CardContent className="p-6">
                   <div
-                    className="prose dark:prose-invert max-w-none mb-8 text-lg font-normal leading-relaxed text-foreground/90 whitespace-pre-wrap"
-                    dangerouslySetInnerHTML={{ __html: resolveImageSources(question.text) }}
+                    className="prose dark:prose-invert max-w-none mb-8 text-lg font-normal leading-relaxed text-foreground/90 anki-content"
+                    dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
                   />
 
                   {question.options.length === 1 ? (
@@ -523,13 +532,25 @@ const Exam = () => {
                               <RadioGroupItem value={option.text} id={option.text + idx} />
                               <Label htmlFor={option.text + idx} className="cursor-pointer flex-1 ml-3 text-base font-normal leading-relaxed">
                                 <span className="font-semibold mr-2 opacity-70">{letter})</span>
-                                {option.text}
+                                <span
+                                  dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(option.text) }}
+                                />
                               </Label>
                             </div>
                           );
                         })}
                       </div>
                     </RadioGroup>
+                  )}
+
+                  {question.tags && question.tags.length > 0 && (
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      {question.tags.map((tag, i) => (
+                        <Badge key={i} variant="outline" className="text-[10px] opacity-60 font-normal uppercase tracking-wider bg-muted/30">
+                          <span dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(tag) }} />
+                        </Badge>
+                      ))}
+                    </div>
                   )}
 
                   <div className="mt-8">
@@ -554,12 +575,17 @@ const Exam = () => {
                                 {correctOptionIndex !== -1 && question.options.length > 1 && (
                                   <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
                                 )}
-                                {correctAnswer}
-                              </div>
-                              {correctExplanation && (
                                 <div
-                                  className="mt-4 pt-4 border-t border-dashed border-border text-foreground/80 leading-relaxed"
-                                  dangerouslySetInnerHTML={{ __html: correctExplanation.replace(/\n/g, '<br />') }}
+                                  className="anki-content"
+                                  dangerouslySetInnerHTML={{
+                                    __html: resolveAnkiHtml(correctAnswer || "")
+                                  }}
+                                />
+                              </div>
+                              {correctExplanation && correctExplanation !== correctAnswer && (
+                                <div
+                                  className="mt-4 pt-4 border-t border-dashed border-border text-foreground/80 leading-relaxed anki-content"
+                                  dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(correctExplanation) }}
                                 />
                               )}
                             </div>
