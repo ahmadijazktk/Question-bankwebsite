@@ -12,27 +12,33 @@ const QuestionSchema = new mongoose.Schema({}, { strict: false });
 const Question = mongoose.models.Question || mongoose.model('Question', QuestionSchema);
 
 async function purge() {
-    try {
-        console.log("Connecting to DB for PURGE...");
-        await mongoose.connect(process.env.MONGO_URI, {
-            serverSelectionTimeoutMS: 60000,
-            connectTimeoutMS: 60000
-        });
+    const uris = [
+        process.env.MONGO_URI,
+        'mongodb://localhost:27017/studybloom'
+    ];
 
-        const count = await Question.countDocuments({});
-        console.log(`Current question count: ${count}`);
+    for (const uri of uris) {
+        if (!uri) continue;
+        console.log(`\n--- Attempting Purge on: ${uri.substring(0, 30)}... ---`);
+        try {
+            const conn = await mongoose.connect(uri, {
+                serverSelectionTimeoutMS: 5000, // FAST FAIL
+            });
 
-        if (count === 0) {
-            console.log("No questions to delete.");
-        } else {
-            console.log(`Deleting ${count} questions...`);
-            const result = await Question.deleteMany({});
-            console.log(`Successfully deleted ${result.deletedCount} questions.`);
+            const count = await Question.countDocuments({});
+            console.log(`Current question count: ${count}`);
+
+            if (count > 0) {
+                const result = await Question.deleteMany({});
+                console.log(`✅ Successfully deleted ${result.deletedCount} questions.`);
+            } else {
+                console.log("No questions to delete.");
+            }
+
+            await mongoose.disconnect();
+        } catch (err) {
+            console.error(`❌ Failed to purge this DB: ${err.message}`);
         }
-
-        await mongoose.disconnect();
-    } catch (err) {
-        console.error("PURGE FAILED:", err.message);
     }
 }
 purge();

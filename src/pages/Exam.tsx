@@ -481,35 +481,35 @@ const Exam = () => {
             <div className={`grid ${question.imageSrc && question.options.length > 1 ? 'lg:grid-cols-2' : 'grid-cols-1'} gap-8 items-start`}>
               <Card className="shadow-sm border-border">
                 <CardContent className="p-6">
-                  <div
-                    className="prose dark:prose-invert max-w-none mb-8 text-lg font-normal leading-relaxed text-foreground/90 anki-content"
-                    dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
-                  />
+                  <div className={question.options.length === 1 ? "flashcard-container" : ""}>
+                    <div
+                      className={`prose dark:prose-invert max-w-none text-lg font-normal leading-relaxed text-foreground/90 anki-content ${question.options.length === 1 ? "flashcard-content text-2xl font-medium" : "mb-8"}`}
+                      dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(question.text) }}
+                    />
+                  </div>
 
-                  {question.options.length === 1 ? (
-                    <div className="flex flex-col items-center justify-center p-8 border-2 border-dashed border-border rounded-xl bg-muted/20">
-                      <p className="text-muted-foreground mb-4 text-center">This is a flashcard-style question.</p>
+                  {question.options.length === 1 && (
+                    <div className="flex flex-col items-center justify-center p-4 mt-4">
                       {!showAnswer ? (
                         <Button
                           onClick={() => {
-                            // Automatically select the only option and show it
                             setSelectedAnswer(question.options[0].text);
-                            // We use a small timeout to ensure state is set before calling the handler
                             setTimeout(() => handleShowAnswer(), 50);
                           }}
-                          className="w-full sm:w-auto"
+                          className="w-full sm:w-auto btn-premium"
                           size="lg"
                           disabled={submitting}
                         >
                           {submitting ? "Revealing..." : "Reveal Answer"}
                         </Button>
                       ) : (
-                        <div className="text-primary font-bold flex items-center gap-2">
-                          <CheckCircle className="w-5 h-5" /> Answer Revealed
+                        <div className="text-primary/70 font-medium flex items-center gap-2 text-sm uppercase tracking-widest animate-in fade-in slide-in-from-bottom-2">
+                          <CheckCircle className="w-4 h-4" /> Answer Selected
                         </div>
                       )}
                     </div>
-                  ) : (
+                  )}
+                  {question.options.length > 1 && (
                     <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer} disabled={showAnswer}>
                       <div className="space-y-3">
                         {question.options.map((option, idx) => {
@@ -567,16 +567,16 @@ const Exam = () => {
                       <div className="animate-in fade-in zoom-in-95 duration-300">
                         {canViewAnswer ? (
                           <div className="space-y-6">
-                            <div className="p-4 rounded-xl bg-muted/30 border border-border">
-                              <div className="flex items-center gap-2 text-green-600 dark:text-green-400 font-bold text-lg mb-2">
-                                <CheckCircle className="w-5 h-4" /> {question.options.length === 1 ? "The Answer" : "Correct Answer"}
+                            <div className={`p-6 rounded-2xl ${question.options.length === 1 ? 'border-2 border-primary/20 bg-primary/5 shadow-inner' : 'bg-muted/30 border border-border'}`}>
+                              <div className="flex items-center gap-2 text-primary font-bold text-lg mb-4 uppercase tracking-tight">
+                                <Sparkles className="w-5 h-5" /> {question.options.length === 1 ? "The Verdict" : "Correct Answer"}
                               </div>
-                              <div className="font-medium text-lg leading-snug">
+                              <div className={`font-semibold leading-snug ${question.options.length === 1 ? 'text-2xl text-center' : 'text-lg'}`}>
                                 {correctOptionIndex !== -1 && question.options.length > 1 && (
                                   <span className="font-bold mr-1">{getOptionLetter(correctOptionIndex)})</span>
                                 )}
                                 <div
-                                  className="anki-content"
+                                  className="anki-content inline-block text-left"
                                   dangerouslySetInnerHTML={{
                                     __html: resolveAnkiHtml(correctAnswer || "")
                                   }}
@@ -584,7 +584,7 @@ const Exam = () => {
                               </div>
                               {correctExplanation && correctExplanation !== correctAnswer && (
                                 <div
-                                  className="mt-4 pt-4 border-t border-dashed border-border text-foreground/80 leading-relaxed anki-content"
+                                  className={`mt-6 pt-6 border-t border-dashed border-primary/20 text-foreground/90 leading-relaxed anki-content ${question.options.length === 1 ? 'text-xl' : ''}`}
                                   dangerouslySetInnerHTML={{ __html: resolveAnkiHtml(correctExplanation) }}
                                 />
                               )}

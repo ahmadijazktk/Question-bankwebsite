@@ -76,7 +76,7 @@ All colors MUST be HSL.
     --border: 222 30% 25%;
     --input: 222 30% 25%;
     --ring: 222 78% 56%;
-    
+
     --sidebar-background: 222 40% 12%;
     --sidebar-foreground: 0 0% 90%;
     --sidebar-primary: 222 78% 56%;
@@ -134,42 +134,57 @@ All colors MUST be HSL.
   }
 
   @keyframes floating {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-15px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
   }
 
   .mesh-bg {
-    background-color: hsla(222,47%,11%,1);
-    background-image: 
-      radial-gradient(at 0% 0%, hsla(222,78%,46%,0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 0%, hsla(260,78%,46%,0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 100%, hsla(222,78%,46%,0.1) 0px, transparent 50%),
-      radial-gradient(at 0% 100%, hsla(260,78%,46%,0.1) 0px, transparent 50%);
+    background-color: hsla(222, 47%, 11%, 1);
+    background-image:
+      radial-gradient(at 0% 0%, hsla(222, 78%, 46%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(260, 78%, 46%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(222, 78%, 46%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(260, 78%, 46%, 0.1) 0px, transparent 50%);
   }
 
   .mesh-bg-light {
     background-color: #ffffff;
-    background-image: 
-      radial-gradient(at 0% 0%, hsla(222,78%,46%,0.08) 0px, transparent 50%),
-      radial-gradient(at 100% 0%, hsla(260,78%,46%,0.08) 0px, transparent 50%),
-      radial-gradient(at 50% 50%, hsla(222,78%,46%,0.03) 0px, transparent 50%);
+    background-image:
+      radial-gradient(at 0% 0%, hsla(222, 78%, 46%, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(260, 78%, 46%, 0.08) 0px, transparent 50%),
+      radial-gradient(at 50% 50%, hsla(222, 78%, 46%, 0.03) 0px, transparent 50%);
   }
 
   /* Anki Content Styles */
+  .anki-content {
+    @apply text-foreground/90 leading-relaxed;
+    font-size: 1.125rem;
+  }
+
   .anki-content img {
-    @apply max-w-full h-auto rounded-lg shadow-sm my-4;
+    @apply max-w-full h-auto rounded-xl shadow-lg my-6 border border-border/50;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .anki-content b, .anki-content strong {
-    @apply font-bold text-foreground;
+  .anki-content b,
+  .anki-content strong {
+    @apply font-bold text-primary dark:text-primary;
   }
 
-  .anki-content ul, .anki-content ol {
-    @apply my-4 pl-6;
+  .anki-content ul,
+  .anki-content ol {
+    @apply my-6 pl-8 space-y-2;
   }
 
   .anki-content ul {
@@ -179,5 +194,17 @@ All colors MUST be HSL.
   .anki-content ol {
     @apply list-decimal;
   }
-}
 
+  .anki-content br {
+    @apply mb-2 block content-[''];
+  }
+
+  /* Premium Flashcard Container */
+  .flashcard-container {
+    @apply min-h-[300px] flex flex-col items-center justify-center p-10 bg-gradient-to-b from-card to-muted/10 rounded-2xl border border-border/50 shadow-sm transition-all duration-500;
+  }
+
+  .flashcard-content {
+    @apply w-full text-center space-y-4;
+  }
+}
