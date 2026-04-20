@@ -73,30 +73,81 @@ app.get('/api/health', (req, res) => {
 
 // EMERGENCY RESTORATION ROUTE
 // This allows seeding the database directly from the server to bypass local DNS issues
-app.get('/api/emergency-restore-questions', async (req, res) => {
+app.get('/api/emergency-import-anki', async (req, res) => {
   try {
-    console.log('🔄 Starting Emergency Restoration...');
-    const jsonPath = path.join(__dirname, 'rheumzoom_mongodb_format.json');
-    if (!fs.existsSync(jsonPath)) {
-      return res.status(404).json({ success: false, message: 'Source file not found on server' });
+    console.log('🔄 Starting Emergency Anki Import from server...');
+    const txtPath = path.join(__dirname, '..', 'updatedquestion.txt');
+    if (!fs.existsSync(txtPath)) {
+      return res.status(404).json({ success: false, message: 'Source file not found on server at ' + txtPath });
     }
-
-    const questionsData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-    console.log(`📖 Found ${questionsData.length} questions to restore`);
 
     await Question.deleteMany({});
     console.log('🗑️  Cleared existing questions');
 
-    await Question.insertMany(questionsData);
-    console.log('✅ Restoration successful');
+    const content = fs.readFileSync(txtPath, 'utf8');
+    const lines = content.split('\n');
+
+    let importedCount = 0;
+    const questionsBatch = [];
+
+    for (let line of lines) {
+      line = line.trim();
+      if (!line || line.startsWith('#')) continue;
+
+      const parts = line.split('\t');
+      const rawQuestion = parts[0];
+      const rawAnswer = parts[1];
+
+      const nonEmptyParts = parts.filter(p => p.trim().length > 0);
+      const rawTags = (nonEmptyParts.length > 2) ? nonEmptyParts[nonEmptyParts.length - 1] : 'AnkiImport';
+
+      if (!rawQuestion || !rawAnswer) continue;
+
+      const processHtml = (html) => {
+        if (!html) return '';
+        let normalized = html.replace(/src="([^"]+)"/gi, (match, src) => {
+          if (src.includes('/') && !src.startsWith('/images/')) return match;
+          const base = src.split('/').pop() || src;
+          return `src="/collection.media/${base}"`;
+        });
+        return normalized;
+      };
+
+      const questionText = processHtml(rawQuestion);
+      const answerText = processHtml(rawAnswer);
+      const tagArray = rawTags.split(' ').map(t => t.trim()).filter(t => t);
+      const primaryCategory = tagArray[0] || 'Uncategorized';
+
+      const isImageOcclusion = /^[a-f0-9-]{20,}/i.test(questionText);
+      const displayQuestion = isImageOcclusion ? "What is the missing part in this figure?" : questionText;
+
+      questionsBatch.push({
+        text: displayQuestion,
+        category: primaryCategory,
+        options: [{
+          text: answerText,
+          explanation: answerText,
+          isCorrect: true
+        }],
+        tags: tagArray,
+        createdAt: new Date()
+      });
+      importedCount++;
+    }
+
+    if (questionsBatch.length > 0) {
+      await Question.insertMany(questionsBatch);
+    }
+
+    console.log(`✅ Successfully re-imported ${questionsBatch.length} questions.`);
 
     res.json({
       success: true,
-      message: `Successfully restored ${questionsData.length} questions with all formatting fixes!`,
+      message: `Successfully imported ${questionsBatch.length} questions from Anki format!`,
       timestamp: new Date().toISOString()
     });
   } catch (error) {
-    console.error('❌ Restoration Error:', error);
+    console.error('❌ Import Error:', error);
     res.status(500).json({ success: false, error: error.message });
   }
 });
