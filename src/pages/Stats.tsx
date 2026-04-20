@@ -25,7 +25,8 @@ const CATEGORIES = [
     label: "Rheumatoid Arthritis",
     color: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300",
     borderColor: "border-blue-300 dark:border-blue-700",
-    keywords: ["rheumatoid", "RA ", "MTX", "methotrexate", "synovitis", "anti-CCP", "RF ", "felty", "DAS28", "ACR/EULAR", "erosion"],
+    keywords: ["rheumatoid", "RA ", "MTX", "methotrexate", "synovitis", "anti-CCP", "RF ", "felty", "DAS28", "ACR/EULAR", "erosion", "shared epitope", "HLA-DRB1"],
+    tags: ["RA"],
   },
   {
     id: "SLE",
@@ -33,6 +34,7 @@ const CATEGORIES = [
     color: "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300",
     borderColor: "border-purple-300 dark:border-purple-700",
     keywords: ["lupus", "SLE", "nephritis", "anti-dsDNA", "anti-Smith", "ANA", "malar", "butterfly rash", "hydroxychloroquine", "HCQ", "discoid"],
+    tags: ["SLE"],
   },
   {
     id: "PsA",
@@ -40,6 +42,7 @@ const CATEGORIES = [
     color: "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300",
     borderColor: "border-orange-300 dark:border-orange-700",
     keywords: ["psoriatic", "PsA", "psoriasis", "dactylitis", "enthesitis", "CASPAR", "nail pitting"],
+    tags: ["PsA"],
   },
   {
     id: "Crystal",
@@ -47,13 +50,15 @@ const CATEGORIES = [
     color: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300",
     borderColor: "border-yellow-300 dark:border-yellow-700",
     keywords: ["gout", "uric acid", "urate", "pseudogout", "CPPD", "tophi", "colchicine", "allopurinol", "febuxostat", "crystal", "MSU"],
+    tags: ["Crystal"],
   },
   {
     id: "Vasculitis",
     label: "Vasculitis",
     color: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300",
     borderColor: "border-red-300 dark:border-red-700",
-    keywords: ["vasculitis", "GPA", "EGPA", "MPA", "giant cell", "GCA", "Takayasu", "ANCA", "Behcet", "PAN", "IgA vasculitis", "Henoch"],
+    keywords: ["vasculitis", "GPA", "EGPA", "MPA", "giant cell", "GCA", "temporal artery", "Takayasu", "ANCA", "Behcet", "PAN", "IgA vasculitis", "Henoch", "remission induction", "biopsy specimen"],
+    tags: ["Vasculitis", "GCA", "Behcets", "Polychondritis"],
   },
   {
     id: "Myositis",
@@ -61,60 +66,81 @@ const CATEGORIES = [
     color: "bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-300",
     borderColor: "border-pink-300 dark:border-pink-700",
     keywords: ["myositis", "dermatomyositis", "polymyositis", "IBM", "antisynthetase", "MDA5", "Jo-1", "ragged red", "myopathy", "CK ", "IIM"],
+    tags: ["Myositis"],
   },
   {
     id: "ILD",
     label: "ILD / Pulmonary",
     color: "bg-teal-100 text-teal-800 dark:bg-teal-900/30 dark:text-teal-300",
     borderColor: "border-teal-300 dark:border-teal-700",
-    keywords: ["ILD", "interstitial lung", "pulmonary fibrosis", "RP-ILD", "NSIP", "UIP", "nintedanib", "pirfenidone", "6MWD", "SARD"],
+    keywords: ["ILD", "interstitial lung", "pulmonary fibrosis", "RP-ILD", "NSIP", "UIP", "nintedanib", "pirfenidone", "6MWD", "SARD", "ambulatory desaturation", "PFTs for monitoring"],
+    tags: ["ILD"],
   },
   {
     id: "SpA",
     label: "Spondyloarthropathy",
     color: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300",
     borderColor: "border-indigo-300 dark:border-indigo-700",
-    keywords: ["ankylosing", "axial spondylo", "SpA", "HLA-B27", "sacroiliitis", "BASDAI", "reactive arthritis", "Reiter"],
+    keywords: ["ankylosing", "axial spondylo", "SpA", "HLA-B27", "sacroiliitis", "BASDAI", "reactive arthritis", "Reiter", "spondyloarthritis", "tarsitis"],
+    tags: ["SpA", "Pediatrics"],
   },
   {
     id: "Osteoporosis",
     label: "Osteoporosis / Bone",
     color: "bg-stone-100 text-stone-800 dark:bg-stone-900/30 dark:text-stone-300",
     borderColor: "border-stone-300 dark:border-stone-700",
-    keywords: ["osteoporosis", "DEXA", "bisphosphonate", "denosumab", "fracture", "T-score", "Z-score", "bone mineral"],
+    keywords: ["osteoporosis", "DEXA", "bisphosphonate", "denosumab", "fracture", "T-score", "Z-score", "bone mineral", "osteomalacia", "phosphate", "FGF23", "HPP"],
+    tags: ["MetabolicBone", "Osteoporosis"],
   },
   {
     id: "Medications",
     label: "Medications & Guidelines",
     color: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300",
     borderColor: "border-green-300 dark:border-green-700",
-    keywords: ["TNFi", "rituximab", "abatacept", "tocilizumab", "JAKi", "belimumab", "anifrolumab", "steroid", "glucocorticoid", "DMARDs", "biologics", "vaccine", "ACR guideline", "recommendation"],
+    keywords: ["TNFi", "rituximab", "abatacept", "tocilizumab", "JAKi", "belimumab", "anifrolumab", "steroid", "glucocorticoid", "DMARDs", "biologics", "vaccine", "ACR guideline", "recommendation", "HCQ dose", "retinal toxicity"],
+    tags: ["Toxicity", "Medications", "Immunology"],
   },
   {
     id: "Radiology",
     label: "Radiology / Histology",
     color: "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-300",
     borderColor: "border-cyan-300 dark:border-cyan-700",
-    keywords: ["X-ray", "MRI", "CT ", "radiograph", "biopsy", "histopathology", "stain", "microscopy", "ultrasound", "shown here", "figure"],
+    keywords: ["X-ray", "MRI", "CT ", "radiograph", "biopsy", "histopathology", "stain", "microscopy", "ultrasound", "shown here", "figure", "panniculitis", "adipose", "septal", "lobular"],
+    tags: ["Radiology", "panniculitis"],
   },
   {
     id: "Pregnancy",
     label: "Pregnancy & Contraception",
     color: "bg-rose-100 text-rose-800 dark:bg-rose-900/30 dark:text-rose-300",
     borderColor: "border-rose-300 dark:border-rose-700",
-    keywords: ["pregnant", "pregnancy", "contraception", "conception", "MMF", "teratogenic", "lactation", "breastfeed"],
+    keywords: ["pregnant", "pregnancy", "contraception", "conception", "teratogenic", "lactation", "breastfeed"],
+    tags: ["Pregnancy"],
   },
   {
     id: "Infectious",
     label: "Infectious / Other",
     color: "bg-lime-100 text-lime-800 dark:bg-lime-900/30 dark:text-lime-300",
     borderColor: "border-lime-300 dark:border-lime-700",
-    keywords: ["infection", "septic arthritis", "prosthetic joint", "lyme", "viral", "bacteria", "fever", "yellow fever", "HBV", "HCV"],
+    keywords: ["infection", "septic arthritis", "prosthetic joint", "lyme", "Lyme", "viral", "bacteria", "fever", "HBV", "HCV", "Parvovirus", "Bell's palsy", "doxycycline", "acrodermatitis", "PJP", "Bactrim", "Loeys-Dietz", "TGFBR", "Fabry", "alpha-galactosidase", "Piriformis", "Freiburg", "thyroid", "CK "],
+    tags: ["Lyme", "Infection", "Genetics", "PhysicalExam", "Endocrine"],
   },
 ];
 
-// Assign a category id to a question based on keyword matching
-const assignCategory = (text: string): string => {
+// Assign a category id to a question based on DB category tag OR keyword matching
+const assignCategory = (text: string, dbCategory?: string): string => {
+  // First try: match by DB-stored category tag
+  if (dbCategory) {
+    for (const cat of CATEGORIES) {
+      if (cat.tags && cat.tags.map(t => t.toLowerCase()).includes(dbCategory.toLowerCase())) {
+        return cat.id;
+      }
+    }
+    // If dbCategory itself matches a category id directly
+    if (CATEGORIES.find(c => c.id.toLowerCase() === dbCategory.toLowerCase())) {
+      return CATEGORIES.find(c => c.id.toLowerCase() === dbCategory.toLowerCase())!.id;
+    }
+  }
+  // Second try: keyword matching on question text
   const lower = text.toLowerCase();
   for (const cat of CATEGORIES) {
     if (cat.keywords.some((kw) => lower.includes(kw.toLowerCase()))) {
@@ -155,7 +181,7 @@ const Stats = () => {
   // Categorize questions
   const categorized = allQuestions.map((q) => ({
     ...q,
-    computedCategory: assignCategory(q.text),
+    computedCategory: assignCategory(q.text, q.category),
   }));
 
   const categoryCounts: Record<string, number> = {};
