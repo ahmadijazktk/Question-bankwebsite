@@ -170,12 +170,18 @@ app.use('/api/stats', statsRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/payments', paymentRoutes);
 
-// 404 handler
-app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    message: 'Route not found'
-  });
+app.get('/api/debug-files', (req, res) => {
+  try {
+    const rootDir = path.join(__dirname, '..');
+    const files = fs.readdirSync(rootDir);
+    res.json({
+      __dirname,
+      rootDir,
+      files
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 // Error handler (must be last)
