@@ -152,7 +152,6 @@ app.get('/api/emergency-import-anki', async (req, res) => {
     res.json({
       success: true,
       message: `Successfully imported ${questionsBatch.length} questions from Anki format!`,
-      debug,
       timestamp: new Date().toISOString()
     });
   } catch (error) {
@@ -170,18 +169,12 @@ app.use('/api/stats', statsRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/payments', paymentRoutes);
 
-app.get('/api/debug-files', (req, res) => {
-  try {
-    const rootDir = path.join(__dirname, '..');
-    const files = fs.readdirSync(rootDir);
-    res.json({
-      __dirname,
-      rootDir,
-      files
-    });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+// 404 handler
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    message: 'Route not found'
+  });
 });
 
 // Error handler (must be last)
