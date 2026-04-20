@@ -144,11 +144,6 @@ app.get('/api/emergency-import-anki', async (req, res) => {
     res.json({
       success: true,
       message: `Successfully imported ${questionsBatch.length} questions from Anki format!`,
-      debug: {
-        totalLines: lines.length,
-        importedCount: importedCount,
-        questionsInBatch: questionsBatch.length
-      },
       timestamp: new Date().toISOString()
     });
   } catch (error) {
