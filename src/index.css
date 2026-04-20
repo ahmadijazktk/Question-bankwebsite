@@ -201,10 +201,10 @@ All colors MUST be HSL.
 
   /* Premium Flashcard Container */
   .flashcard-container {
-    @apply min-h-[300px] flex flex-col items-center justify-center p-10 bg-gradient-to-b from-card to-muted/10 rounded-2xl border border-border/50 shadow-sm transition-all duration-500;
+    @apply min-h-[300px] flex flex-col p-10 bg-gradient-to-b from-card to-muted/10 rounded-2xl border border-border/50 shadow-sm transition-all duration-500;
   }
 
   .flashcard-content {
-    @apply w-full text-center space-y-4;
+    @apply w-full text-left space-y-4;
   }
 }

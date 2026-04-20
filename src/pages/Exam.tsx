@@ -222,12 +222,8 @@ const Exam = () => {
 
         if (isTrial) {
           finalQuestions = [...transformed].sort((a, b) => (a.freeTrialOrder || 0) - (b.freeTrialOrder || 0));
-        } else if (catFilterId && CATEGORY_KEYWORDS[catFilterId]) {
-          const keywords = CATEGORY_KEYWORDS[catFilterId];
-          finalQuestions = transformed.filter((q) =>
-            keywords.some((kw) => q.text.toLowerCase().includes(kw.toLowerCase()))
-          );
         }
+        // Note: catFilterId from Stats just sets the startId, all questions still load
 
         console.log(`Loaded ${finalQuestions.length} questions`);
         setQuestions(finalQuestions);
