@@ -85,23 +85,27 @@ app.get('/api/emergency-import-anki', async (req, res) => {
     console.log('🗑️  Cleared existing questions');
 
     const content = fs.readFileSync(txtPath, 'utf8');
-    const lines = content.split('\n');
+    const lines = content.split(/\r?\n/);
 
     let importedCount = 0;
     const questionsBatch = [];
+    const debug = [];
 
-    for (let line of lines) {
-      line = line.trim();
-      if (!line || line.startsWith('#')) continue;
+    for (let i = 0; i < lines.length; i++) {
+      let line = lines[i].trim();
+      if (!line || line.startsWith('#')) {
+        debug.push(`Line ${i + 1}: Skipped (Comment or Empty)`);
+        continue;
+      }
 
       const parts = line.split('\t');
       const rawQuestion = parts[0];
       const rawAnswer = parts[1];
 
-      const nonEmptyParts = parts.filter(p => p.trim().length > 0);
-      const rawTags = (nonEmptyParts.length > 2) ? nonEmptyParts[nonEmptyParts.length - 1] : 'AnkiImport';
-
-      if (!rawQuestion || !rawAnswer) continue;
+      if (!rawQuestion || !rawAnswer) {
+        debug.push(`Line ${i + 1}: Skipped (Missing Q or A). Parts length: ${parts.length}`);
+        continue;
+      }
 
       const processHtml = (html) => {
         if (!html) return '';
@@ -115,6 +119,9 @@ app.get('/api/emergency-import-anki', async (req, res) => {
 
       const questionText = processHtml(rawQuestion);
       const answerText = processHtml(rawAnswer);
+
+      const nonEmptyParts = parts.filter(p => p.trim().length > 0);
+      const rawTags = (nonEmptyParts.length > 2) ? nonEmptyParts[nonEmptyParts.length - 1] : 'AnkiImport';
       const tagArray = rawTags.split(' ').map(t => t.trim()).filter(t => t);
       const primaryCategory = tagArray[0] || 'Uncategorized';
 
@@ -133,6 +140,7 @@ app.get('/api/emergency-import-anki', async (req, res) => {
         createdAt: new Date()
       });
       importedCount++;
+      debug.push(`Line ${i + 1}: Processed (${questionText.substring(0, 10)}...)`);
     }
 
     if (questionsBatch.length > 0) {
@@ -144,6 +152,7 @@ app.get('/api/emergency-import-anki', async (req, res) => {
     res.json({
       success: true,
       message: `Successfully imported ${questionsBatch.length} questions from Anki format!`,
+      debug,
       timestamp: new Date().toISOString()
     });
   } catch (error) {
