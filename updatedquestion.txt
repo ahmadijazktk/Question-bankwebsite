@@ -206,3 +206,98 @@ What is the best test if suspecting oncogenic osteomalacia?	<b>Octreotide scinti
 What is the most common manifestation of TNFi induced vasculitis?	<b>Cutaneous lesions</b><br>-not GN, pulmonary hemorrhage, or neuropathy	Medications
 A patient taking HCQ says she sees "halos". What is the eye toxicity?	<b>Corneal deposits, which are reversible after stopping HCQ</b><br>-loss of red light perception is early<br>-retinopathy occurs later. With central patchy area of depigmentation of macula. Symptoms include drop out of letters from words when reading, photophobia, blurry vision, flashing lights.	Medications
 What is the most common neuro complication of sarcoidosis?	<b>Cranial neuropathy</b><br>-ie. facial numbness/weakness	Other
+What mediator linked to obesity has been shown as having a key role in development of osteoarthritis?	<b>Adipokines</b>	Osteoarthritis
+What is the most common cause of recurrent rhabdomyolysis in adults and children?	<b>CPT II deficiency</b><br>-2nd most, McArdle's disease<br>Care 2012, q1	ILD
+If suspecting a metabolic myopathy, when should the muscle biopsy be done?	<b>Not at the time of disease activity. Later, when muscle fibers are mature and enzyme levels are reliable</b>	Other
+T or F, erythema nodosum has panniculitis in the septa and lobules.	<b>False, only septal</b>	Other
+What disease is associated with Stiff Person syndrome?	<b>Type 1 DM</b><br>-hyperlordosis of L spine<br>-woody muscle ridigity	Other
+What CNS vasculitis mimic can be diagnosed by multiple, random, skin biopsies?	<b>Intra-vascular large cell lymphoma (ILCL)</b><br>-aka, malignant angioendotheliomatosis<br>-brain biopsy may show "vessel lumens filled with cellular infiltrate"<br>-also, elevated LDH, ESR, Beta2, and IL-2r. Bone marrow biopsy can be negative<br>-closely mimics CNS vasculitis, but does not improve with steroids/immunotherapy? (Care 2011, q13)	Vasculitis
+What type of arthralgia/arthritis is most commonly seen in Relapsing Polychondritis?	<b>Parasternal joint arthritis, about 70% of cases</b><br>-sternoclavicular, constochondral, and manuriosternal<br>-non erosive<br><br>***need to suspect VEXAS in male patients with RP***	RA
+What disease has alteration of osteoclastic bone resorption and thickening of cortical and lamellar bone?	<b>Osteopetrosis</b><br>-underlying MOA is failure of normal osteoclastic bone resorption<br>-osteoclast proton pump deficiency	RA
+How to tell difference between multiple myeloma and sarcoidosis?	<b>MM will not have elevated Vit D like sarcoidosis can</b>	Immunology
+What effect does cyclosporine have on the kidneys, including histologically?	<b>Acute toxicity, which is reversible - reduced renal blood flow, GFR, and increased renal vascular resistance</b><br><br>Chronic toxicity, shows striped fibrosis and ARTERIOLAR HYALINOSIS	Medications
+Best imaging to check for cerebral venous thrombosis in a patient with Behcets syndrome?	<b>MRV</b><br>-MRI can be normal in some cases	RA
+What tendon is typically injured with LATERAL ankle pain?	<b>Peroneal tendon</b><br><br>-medial ankle injuries usually Tibialis Posterior Tendon<br>-Tarsal Tunnel Syndrome is also Medial ankle pain + paresthesiae.	RA
+Aside from labs, what is the definitive way to diagnose Macrophage Activating Syndrome?	<b>Bone marrow biopsy</b>	Immunology
+What is the mutation in osteogenesis imperfecta?	<b>COL1A1 gene</b><br>-mutation in type 1 collagen alpha-1 and alpha-2 chains mRNA<br>-***FYI, COL2A1 is Stickler Syndrome	Other
+40 year old patient with several months of right shoulder pain, and decreased ROM. Also with right shoulder and wrist swelling. Has decreased pain and temperature sensation over right wrist. Shoulder X-rays show sclerosis, subluxation and debris. Wrist xray shows destruction of carpal row with bony fragments.	<b>Syringomyelia</b><br>-example of neuropathic joint<br>-cavitary lesion within C spine, typically causing cape-like shoulder distribution of loss of pain/temperature<br>-neuropathic joint occurs in 25% of cases....shoulder being the most common site (~80%)<br>-xray shoulder: humeral head resorption, osseous debris, sclerosis, swelling	RA
+What autonomic disorder can exist with in patients with Sjogren's?	<b>Dysfunction of muscarinic receptors</b><br>-M3 receptors are present in lacrimal/salivary glands and involved in ACETYLCHOLINE<br>-can cause bladder irritability, constipation, low BP, dilated pupils, and autonomic dysfunction related to CHOLINERGIC NEUROPATHY<br>-***anti-M3 antibodies can exist too!!!!***	Other
+What antibody is associated with Stiff Person syndrome?	<b>anti-GAD, glutamic acid decarboxylase</b><br>-if Stiff person + hx of breast cancer = anti-amphiphysin	Other
+27 year old male with rash erythematous plaques/papules over back, upper chest, and around ears. No photosensitivity. No drugs. Induration over back. ANA 1:80, dsDNA>300. C3/C4, UA normal. Pathology shows superficial and deep perivascular lymphohistiocytic infiltrates and abundant MUCIN deposition in the reticular dermis.	<b>Lupus tumidus</b><br>-MUCIN deposition in papillary/reticular dermis is key. No dermo/epidermal (interface) involvement	SLE
+Does meralgia paresthetica cause deficits in sensory, motor, or both?	<b>Only sensory. And lateral upper leg.</b><br>-from Lateral femoral cutaneous nerve	RA
+60 year old male with diabetes has non traumatic right thigh pain for 1 month. Buckling of right knee, with numbness of right thigh. Atrophy of right thigh. No erythema or warmth.	<b>Diabetic amyotrophy (ie. polyradiculopathy)</b><br>-normal ESR/CRP<br>-TX: gabapentin, pregabalin. Can use IVIG too, but this will not treat the pain.<br>-EMG/NCV typically shows long motor unit action potential and fibrillations potentials, reduced muscle action potentials, prolonged F wave latencies<br><br>-muscle infarction, on the other hand, will be erythematous, swollen, and very very tender	RA
+Which OSM (oral small molecule) has been shown to work for enthesitis in PsA (psoriatic arthritis)?	<b>Apremilast</b><br>-the only one (per ACR guidelines)	RA
+What is conditionally rec'd as first line in a diabetic patient who is treatment naive for PsA (psoriatic arthritis)?	<b>OSM (oral small molecule), except for MTX</b>	RA
+What is first-line option for treatment naive patient with active PsA (psoriatic arthritis)?	<b>TNFi</b><br>-can consider OSM in patients with comorbidities, non-severe PsA disease, or who do not want biologics<br><br>-"Conditional rec'd"	Medications
+If IgA transglutaminase is negative in a patient you strongly suspect has celiac's disease, what should you test next?	<b>Check for IgA deficiency</b><br>-15x more common in patients with celiac, therefore IgA transglutaminase could be negative in these people.	RA
+What disease has what's known as "raccoon eyes"?	<b>Amyloidosis</b><br>-purpura around eyes<br>-can be precipitated by valsalva maneuver	RA
+What type of amyloidosis can occur in patients on HD (hemodialysis)?	<b>Beta-2 microglobulin</b>	Other
+SLE patient who initially had arthralgias and class 4 LN. Received IV cyclophosphamide, however renal function declined, leading to transplant. Since transplant, has been on HCQ, MMF, tacrolimus, and tapered off steroids. She has significant fatigue, and she is pale. Hgb 6.2, and very low retic count. Bone marrow bx shows pure red cell aplasia with giant proerythroblasts. What is going on?	<b>Giant erythroblasts = Parvovirus B19 infection!!!</b><br>-this is typically transient, HOWEVER, in immunocompromised patients like this, IgM antibodies do NOT develop and are impaired. Viremia can persist and PRCA can be sustained.<br>-testing for parvo IgG and IgM not reliable in these patients<br>-TREATMENT: IVIG	SLE
+What marker can be used as a prognostic marker in SLE-LN?	<b>Anti-C1q,</b><br>Care 2022, q51	SLE
+How does Bosentan work?	<b>BLOCKS vascular SMOOTH MUSCLE cell ENDOTHELIN RECEPTORS</b><br>-thus inhibiting vasoconstriction<br>-aka, it is non-selective endothelin receptor ANTAGONIST	Other
+How does Epoprostenol work?	<b>Mimics action of Prostacyclin release from endothelial cells, promoting vasodilation</b>	Other
+How does sildenafil work?	<b>Blocks cyclic GMP, which increases NO release to cause vasodilation</b>	ILD
+In a patient with SLE rash, ANA positive, and normal C3/C4 during flares...what does this suggest?	<b>Coexistent complement deficiency, check C1q</b><br>-also, consider checking CH50<br>-cutaneous lupus is the major feature of lupus associated with C1q deficiency	SLE
+In a young female with AxSpa (ankylosing spondylitis), which feature typically means they will respond well to TNFi?	<b>Young age</b><br>-good responders also in: males, short disease duration, +HLAB27, high ESR/CRP	Medications
+A patient with chest pain, acne,and nonmarginal syndesmophytes of lumbar spine has either palmoplantar pustolosis, and/or hidradenitis suppurativa. What would histology of these lesions look like?	<b>NEUTROPHILIC (not lymphocytic) pseudoabscesses on biopsy</b><br>-this is SAPHO syndrome<br>-bowel inflammation associated with SAPHO	RA
+What is treatment of lupus hemolytic anemia?	<b>Pulse steroids, IVIG (acutely), then RTX</b>	SLE
+What is treatment of lupus DAH?	<b>CYC (cyclosphosphamide)</b>	SLE
+What gene in Black people is associated with high prevalence of ESRD from LN?	<b>APOL1 genotype</b><br>-mutation from resistance to Trypanosoma rhodesiense (sleeping sickness)	SLE
+What hematologic malignancy associated with SLE?	<b>Non-Hodgkin's lymphoma (ie. Diffuse Large B cell Lymphoma)</b><br>-remember increased risk with CYC (cyclophosphamide) and steroid use	SLE
+A patient with SLE has decreased lung volumes. What bodily part is causing this?	<b>Diaphragm</b><br>-"shrinking lung"	SLE
+In patients with SLE, what PFT value will lead you to suspect DAH?	<b>Increased DLCO (>100%), due to blood in alveoli</b>	SLE
+What is MOA of MMF?	<b>inhibits Inosine monophosphate dehydrogenase</b><br>-REVERSIBLE inhibitor of rate limiting step<br>-selective efficacy upon stimulated LYMPHOCYTES<br>-consider MYFORTIC in patients with GI side effects<br><br>Qustion:<br>Describe the NIH protocol for CYC in LN.	RA
+Describe the Euro Lupus trial	<b>Recommends Low dose IV CYC (x6 doses of 500mg every 2 weeks....total 3g).</b>	SLE
+What is diagnostic criteria for Catastrophic APS?	<b>Definition: needs ≥3 organs, systems of tissues</b><br><br>-development of manifestations simultaneously or in LESS THAN 1 WEEK<br>-confirmed histopathology of SMALL VESSEL OCCLUSION in at least 1 organ/tissue<br>-confirmation of aPL x2 (12 weeks apart)	Other
+What is treatment for Catastrophic APS?	<b>Anticoag (usually IV heparin) + HIGH dose steroids</b><br>-then IVIG/PLEX<br>     -then RTX or Eculizumab	Medications
+In patients with SLE and +APS labs, but no history of clot, what is the treatment recommendation?	<b>ASA 81mg daily</b>	SLE
+What is treatment recommendation for a patient with APS (has history of clot with positive APS antibodies) who develops a clot while on warfarin?	<b>Target INR 3-4 +/- ASA 81mg daily</b>	Other
+Define Obstetric (pregnancy) APS with treatment.	<b>patients with at least 1 fetal lose ≥10 weeks gestation, x3 fetal loss <10 weeks, OR at least 1 premature birth less than 34 weeks, but no VTEs history</b><br><br>***patients must have APS antibodies positive twice, 12 weeks apart (the IgAs do not count, only IgM and IgG)<br><br>THEN—-> you use the Sapporo Pregnancy criteria<br>        -Low dose ASA + Prophylactic heparin (enoxaparin 0.5mg/kg/day SubQ QD)	Other
+What is the main immune MHC pathway for seronegative spondyloarthropathies?	<b>MHC Class I via CD8+</b>	Other
+What has the greatest sensitivity for detecting AxSpa on imaging?	<b>Bone marrow edema on STIR</b>	Other
+What does subchondral bone resorption at SI joint (with minimal cartilage surface irregularity) mean on imaging?	<b>Hyperparathyroidism......hallmark finding</b><br>-Care 2016, q38	RA
+What percentage of AxSpa patient have subclinical microscopic gut inflammation?	<b>>60%</b>	Other
+What BASDAI score indicates active disease in AxSpa?	<b>≥4</b>	Other
+What is the role of PAD4 enzymes in regards to autoimmune diseases?	<b>Citrullinates residues on proteins like histones, and vimentin</b><br>-this produces ACPAs (anti-CCP)	Other
+What is a very important link between the Innate Immune response and Adaptive immune response in regards to antigen presentation?	<b>NETs, very efficiently presents antigens</b>	Other
+In regards to complement system, at what point do the Classical System and Alternative pathway converge?	<b>C3</b>	Other
+What type of cell are huge producers of Type I IFN?	<b>Plasmacytoid dendritic cells</b><br>-especially in SLE	SLE
+What do the checkpoint inhibitors that oncologists prescribe do?	<b>They BLOCK PD-1 and CTLA-4</b><br>-Ipilimumab blocks CTLA-4<br>-Nivolumab/Pembrolizumab block PD-L1<br>-these cancer drugs INCREASE AUTOIMMUNITY	Other
+Which biologic medication can cross cell membranes?	<b>JAKi</b>	RA
+What is MOA of ustekinumab?	<b>Blocks the p40 subunit of IL-12 and IL-23</b><br>-therefore, blocks Th1 and Th17	Other
+What is MOA of risankizumab?	<b>Blocks p19 subunit of IL-23</b><br>-only blocks Th17	Other
+What is MOA of ixekizumab?	<b>humanized IgG4 monoclonal antibody that binds (IL-17A) cytokine and inhibits its interaction with the IL-17 receptor</b>	RA
+What is the underlying dysfunction in CAPS?	<b>erroneously activated NLRP3 (Gain of Function), for cryopyrin</b>	Other
+What normal, inhibitory function of the innate immune response helps regulate IL-1 and the inflammasome?	<b>A20</b><br>-disorder of this insufficiency looks like Behcets, Tx: colchicine, TNF, IL-1i	Other
+Does vision loss occur in episcleritis?	<b>No</b>	Other
+What part of the ear is spared in RP?	<b>Does not effect the soft lobule of the ear</b><br>-remember, parasternal joint (ie. chest) is most commonly affect arthritis.<br>-usually not erosive<br><br>***need to suspect VEXAS in male patients with RP***	RA
+In HSP vasculitis, what does the skin biopsy show?	<b>Vasculitis of small vessels, primarily POST CAPILLARY VENULES</b>	Vasculitis
+In patient with Sarcoid, what does immunoperoxidase staining show?	<b>+CD68, consistent with histiocytes</b>	Immunology
+What is the triad for Blau syndrome?	<b>Recurrent UVEITIS</b><br>Dermatitis<br>Symmetric arthritis<br><br>-remember, it is Granulomatous<br>-often seen with Crohn's disease<br>-early-onset Sarcoidosis!!! (look for in children)	RA
+In sarcoid, what is indicative of good prognosis?	<b>Lofgren's erythema nodosum</b>	Immunology
+Which DMARD should be avoided in sarcoidosis?	<b>Etanercept</b><br>-causes sarcoidal reaction	Immunology
+If a patient with sarcoid has pulmonary involvement, which treatment should you consider?	<b>Infliximab</b>	Immunology
+Which viral arthritis causes severe retroorbital pain?	<b>Dengue</b><br>-also, look for BLEEDING	RA
+Which viral arthritis has synovitis?	<b>CHIK</b><br>-also Parvo....	RA
+Which viral arthritis is known to have a "relative bradycardia" with respect to fever?	<b>Yellow Fever</b>	RA
+What infection is known to be a mimicker of sarcoid given HyperCalcemia and inflammatory arthritis?	<b>Poncet's Disease (inflammatory peripheral arthritis from TB)</b><br>-test sputum for AFB	RA
+What is the gene for classic type Ehler-Danlos syndrome?	<b>COL5A</b><br>= hypermobility + loose (atrophic) skin<br>defect in collagen Type 5	Other
+What is the gene for vascular type Ehler-Danlos syndrome?	<b>COL3A1</b><br>defect in collagen type 3	Other
+Which is the only GSD that has normal urine myoglobin?	<b>Cori Disease</b><br>-GSD Type 3, glycogen debranching enzyme	RA
+Patient has long standing renal disease, low alk phos, and no evidence of Hyperparathyroidism. What is this? What is treatment?	<b>Adynamic bone disease</b><br>-most important form of renal osteodystrophy<br>-adding more Vit D or Ca is WRONG, because will worsen<br>-TX: Sevelamer	RA
+What neuro drug can worsen osteoporosis?	<b>Phenytoin</b><br>-messes with Vit D absorption	Osteoporosis
+What FRAX score is used to treat osteoporosis?	<b>-if hip fracture risk is 3% or greater</b><br>    -if major osteoporotic fracture risk is 20% or greater<br><br>    adjusted for ≥7.5mg daily prednisone:<br>            -≥1% for hip fracture<br>            -≥10% for major osteoporotic fracture	Osteoporosis
+What is the MOA of bisphosphonates?	<b>Inhibits G protein prenylation</b><br>- inhibiting ***farnesyl pyrophosphate synthase***, which is important in ***promoting attachment of the osteoclast to the bone***<br>-avoid if GFR <30-35	Other
+If patient has a atypical femur fracture from bisphophonates, what is management in terms of osteoporosis?	<b>D/C any antiresorptive</b><br>-consider Teriparatide	Osteoporosis
+Aside from bisphosphonate use, what are other risk factors for osteonecrosis of jaw?	<b>IV bisphosphonate (moreso than oral)</b><br>Dental extractions<br>Dental implants<br>Poor dentition<br>Anti-cancer treatment<br>GCS<br>Smoking<br>Diabetes	RA
+What are the rec's for bisphosphonate holiday for oral vs. IV?	<b>Oral after ≥5 years</b><br>IV after ≥3 years	RA
+Which osteoporosis medication has a benefit with intermittent dosing, causing an anabolic effect on bone?	<b>Teriparatide, abaloparatide</b>	Osteoporosis
+Which osteoporosis med is contraindicated with HYPOcalcemia?	<b>Romosozumab</b><br>-also, if hx of stroke or MI in last 1 year (like raloxifene)	Osteoporosis
+What osteoporosis medication would be good for a young female who wants to avoid bisphosphonates, and mainly has vertebral osteoporosis?	<b>Raloxifene</b>	Osteoporosis
+What effect does aspirin have in terms of decreasing/increasing uric acid level?	<b>Increases tubular reabsorption of urate, increases it in serum</b><br>-greater than 5g daily can cause URICOSURIA<br>-BUT.....1-2g daily paradoxically causes URATE RETENTION	RA
+Young boy has high fevers and leg pain. Refuses to walk. Initially had cough, myalgias, and high fever. Cough and fever resolved after 5 days, but leg pain worsened. No injuries.<br>Currently afebrile, ankles are plantar flexed and hurt him when trying to passively dorsiflex BL. TTP in both calves, with no swelling or pain. What is this?	<b>Viral myositis (ie. acute childhood myositis)</b><br>-self limiting<br>-most commonly associated with Influenza A or B	RA
+What are some pathognomonic symptoms of Whipple's disease?	<b>Vit B12 deficiency</b><br>Sensory peripheral neuropathy<br>Hyperpigmentation<br>**Oculomasticatory myorhythmia (rhythmic movements of eye, tongue, masseters)**	RA
+What would a biopsy of synovitis thought to be due to silicone show?	<b>Granulomatous</b><br>-mimics Sarcoid	RA
+Most common eye disease in RA?	<b>Episcleritis</b>	RA
+Most severe eye disease in RA?	<b>PUK (peripheral ulcerative keratitis), also could be scleromalacia perforans</b>	RA
+Cavitary lesions in lungs. Cough, CP, fever, ataxia, diplopia. Tender nodules in thighs and abdomen. Decreases sensation in BLE. Crackles heard on exam.<br>Anemic, ESR 100, ANA, and ANCA both negative.<br>MRI brain shows white matter changes.<br>CXR with multiple cavitary lesions.<br>Lung biopsy shows lymphocyte infiltration around small blood vessels without vessel necrosis. No granuloma.<br>Dx?	<b>Pulmonary Lymphoid granulomatosis (PLG)</b><br>-difficult to dx clinically. Presents as multiple pulmonary nodules. Prognosis poor, may respond to RTX.<br>-Triad of polymorphic lymphoid infiltrates, transmural infiltration of arteries and veins by lymphoids cells, and possible areas of necrosis within infiltrates.<br>-***NO vessel wall necrosis (vs. GPA, so look for this***)	Medications
