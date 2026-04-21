@@ -72,8 +72,9 @@ app.get('/api/health', (req, res) => {
 });
 
 // EMERGENCY RESTORATION ROUTE
-// Emergency import — reads updatedquestion.txt (90 questions as of 2026-04-21)
+// Emergency import — reads updatedquestion.txt (batch 3)
 app.get('/api/emergency-import-anki', async (req, res) => {
+
   try {
     console.log('🔄 Starting Emergency Anki Import from server...');
     const txtPath = path.join(__dirname, '..', 'updatedquestion.txt');
