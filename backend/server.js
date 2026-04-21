@@ -72,7 +72,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // EMERGENCY RESTORATION ROUTE
-// This allows seeding the database directly from the server to bypass local DNS issues
+// Emergency import — reads updatedquestion.txt (90 questions as of 2026-04-21)
 app.get('/api/emergency-import-anki', async (req, res) => {
   try {
     console.log('🔄 Starting Emergency Anki Import from server...');
