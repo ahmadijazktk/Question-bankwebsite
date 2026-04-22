@@ -208,3 +208,5 @@ All colors MUST be HSL.
     @apply w-full text-left space-y-4;
   }
 }
+.zoomable-img { cursor: zoom-in; transition: transform 0.3s ease; max-width: 100%; border-radius: 8px; margin-top: 15px; }
+.zoomable-img.zoomed { transform: scale(1.5); cursor: zoom-out; z-index: 50; position: relative; }
