@@ -72,7 +72,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // EMERGENCY RESTORATION ROUTE
-// Emergency import — reads updatedquestion.txt (batch 22: Alkaptonuria)
+// Emergency import — reads updatedquestion.txt (batch 23: HPT Hand)
 app.get('/api/emergency-import-anki', async (req, res) => {
 
   try {
