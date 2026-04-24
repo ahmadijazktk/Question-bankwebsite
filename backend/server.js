@@ -72,7 +72,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // EMERGENCY RESTORATION ROUTE
-// Emergency import — reads updatedquestion.txt (batch 24: MRH)
+// Emergency import — reads updatedquestion.txt (batch 25: Rugger Jersey Spine)
 app.get('/api/emergency-import-anki', async (req, res) => {
 
   try {
