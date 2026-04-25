@@ -845,7 +845,7 @@ const assignCategory = (text: string, dbCategory?: string): string => {
       return cat.id;
     }
   }
-  return "Other";
+  return "";
 };
 
 const Stats = () => {
@@ -987,26 +987,6 @@ const Stats = () => {
                             </li>
                           );
                         })}
-                        {(categoryCounts["Other"] || 0) > 0 && (
-                          <li>
-                            <button
-                              className={`w-full flex items-center justify-between px-5 py-3 text-left transition-colors hover:bg-muted/50 ${selectedCategory === "Other" ? "bg-primary/5 border-l-2 border-primary" : ""
-                                }`}
-                              onClick={() => {
-                                setSelectedCategory(selectedCategory === "Other" ? null : "Other");
-                                setSearchQuery("");
-                              }}
-                            >
-                              <span className="text-sm font-medium">Other / General</span>
-                              <div className="flex items-center gap-2">
-                                <Badge variant="secondary" className="text-xs font-semibold">
-                                  {categoryCounts["Other"]}
-                                </Badge>
-                                <ChevronRight className="w-3.5 h-3.5 text-muted-foreground" />
-                              </div>
-                            </button>
-                          </li>
-                        )}
                       </ul>
                     </CardContent>
                   </Card>
