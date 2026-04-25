@@ -102,9 +102,6 @@ app.get('/api/emergency-import-anki', async (req, res) => {
       const parts = line.split('\t');
       const rawQuestion = parts[0];
       const rawAnswer = parts[1];
-      const rawTags = (parts.length > 2) ? parts[2] : 'Miscellaneous';
-      const rawImageQ = (parts.length > 3) ? parts[3] : '';
-      const rawImageA = (parts.length > 4) ? parts[4] : '';
 
       if (!rawQuestion || !rawAnswer) {
         debug.push(`Line ${i + 1}: Skipped (Missing Q or A). Parts length: ${parts.length}`);
@@ -124,7 +121,9 @@ app.get('/api/emergency-import-anki', async (req, res) => {
       const questionText = processHtml(rawQuestion);
       const answerText = processHtml(rawAnswer);
 
-      const tagArray = rawTags.split(/[,\s∷]+/).map(t => t.trim()).filter(t => t);
+      const nonEmptyParts = parts.filter(p => p.trim().length > 0);
+      const rawTags = (nonEmptyParts.length > 2) ? nonEmptyParts[nonEmptyParts.length - 1] : 'AnkiImport';
+      const tagArray = rawTags.split(' ').map(t => t.trim()).filter(t => t);
       const primaryCategory = tagArray[0] || 'Uncategorized';
 
       const isImageOcclusion = /^[a-f0-9-]{20,}/i.test(questionText);
@@ -139,8 +138,6 @@ app.get('/api/emergency-import-anki', async (req, res) => {
           isCorrect: true
         }],
         tags: tagArray,
-        image: rawImageQ || null,
-        image2: rawImageA || null,
         createdAt: new Date()
       });
       importedCount++;

@@ -1058,17 +1058,16 @@ const Stats = () => {
                         <Card
                           key={q._id}
                           className="border-border/60 shadow-sm hover:shadow-md hover:border-primary/30 transition-all cursor-pointer group"
-                          onClick={() => navigate(`/exam?categoryFilter=${q.computedCategories[0]}&startId=${q._id}`)}
+                          onClick={() => navigate(`/exam?categoryFilter=${q.computedCategory}&startId=${q._id}`)}
                         >
                           <CardContent className="p-4 flex items-start gap-4">
                             <span className="text-2xl font-bold text-muted-foreground/30 leading-none pt-0.5 w-8 shrink-0">
                               {idx + 1}
                             </span>
                             <div className="flex-1 min-w-0">
-                              <p
-                                className="text-sm font-medium text-foreground/90 leading-relaxed line-clamp-3 group-hover:text-foreground transition-colors"
-                                dangerouslySetInnerHTML={{ __html: q.text }}
-                              />
+                              <p className="text-sm font-medium text-foreground/90 leading-relaxed line-clamp-3 group-hover:text-foreground transition-colors">
+                                {q.text}
+                              </p>
                               <div className="mt-2 flex items-center gap-2 flex-wrap">
                                 {catMeta && (
                                   <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${catMeta.color}`}>

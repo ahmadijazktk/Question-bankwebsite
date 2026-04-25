@@ -1,37 +1,29 @@
 
+import fs from 'fs';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import path from 'path';
-import fs from 'fs';
-import { fileURLToPath } from 'url';
+import Question from './src/models/Question.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-dotenv.config({ path: path.join(__dirname, '.env') });
+dotenv.config();
 
-const Question = mongoose.models.Question || mongoose.model('Question', new mongoose.Schema({}, { strict: false }));
+async function check() {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("Connected");
 
-async function run() {
-    try {
-        await mongoose.connect(process.env.MONGO_URI);
-        const questions = await Question.find({
-            "_id": { $in: ["69ebcbca82f7572d9af8895a", "69ebcbca82f7572d9af8894c"] }
-        });
+    const jsonPath = "c:\\Users\\Administrator\\Music\\studyApp (2) (1)\\studyApp (2) (1)\\studyApp\\rheumzoom_mongodb_format.json";
+    const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+    const jsonTrials = jsonData.filter(q => q.isFreeTrialQuestion);
 
-        let output = '';
-        questions.forEach((q, i) => {
-            output += `--- Question ${i + 1} (ID: ${q._id}) ---\n`;
-            q.options.forEach((opt, j) => {
-                output += `Option ${j} Text: ${opt.text}\nExpl: ${opt.explanation}\n`;
-            });
-            output += '\n';
-        });
-        fs.writeFileSync('final_check.txt', output);
-        console.log("Written to final_check.txt");
-    } catch (err) {
-        console.error(err);
-    } finally {
-        await mongoose.disconnect();
+    for (const q of jsonTrials) {
+        const dbQ = await Question.findOne({ text: q.text });
+        if (dbQ) {
+            console.log(`Order ${q.freeTrialOrder}: FOUND in DB (${dbQ.category})`);
+        } else {
+            console.log(`Order ${q.freeTrialOrder}: MISSING in DB!`);
+        }
     }
+
+    await mongoose.disconnect();
 }
-run();
+
+check();
