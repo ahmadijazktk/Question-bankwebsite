@@ -825,27 +825,42 @@ const CATEGORIES = [
 
 
 // Assign a category id to a question based on DB category tag OR keyword matching
-const assignCategory = (text: string, dbCategory?: string): string => {
-  // First try: match by DB-stored category tag
+// Assign category ids to a question based on DB category tags and keyword matching
+const getQuestionCategories = (text: string, dbCategory?: string): string[] => {
+  const matchedIds = new Set<string>();
+
   if (dbCategory) {
+    // Split by comma, space, or special delimiter ∷ to handle all possible formats
+    const questionTags = dbCategory
+      .split(/[,\s∷]+/)
+      .map(t => t.trim().toLowerCase())
+      .filter(t => t.length > 0);
+
     for (const cat of CATEGORIES) {
-      if (cat.tags && cat.tags.map(t => t.toLowerCase()).includes(dbCategory.toLowerCase())) {
-        return cat.id;
+      const categoryTags = (cat.tags || []).map(t => t.toLowerCase());
+      // Check if any tag of the question matches any tag of the category
+      if (questionTags.some(qt => categoryTags.includes(qt))) {
+        matchedIds.add(cat.id);
       }
     }
+
     // If dbCategory itself matches a category id directly
-    if (CATEGORIES.find(c => c.id.toLowerCase() === dbCategory.toLowerCase())) {
-      return CATEGORIES.find(c => c.id.toLowerCase() === dbCategory.toLowerCase())!.id;
-    }
+    CATEGORIES.forEach(c => {
+      if (dbCategory.toLowerCase().includes(c.id.toLowerCase())) {
+        matchedIds.add(c.id);
+      }
+    });
   }
-  // Second try: keyword matching on question text
+
+  // Keyword matching on question text as fallback
   const lower = text.toLowerCase();
   for (const cat of CATEGORIES) {
     if (cat.keywords.some((kw) => lower.includes(kw.toLowerCase()))) {
-      return cat.id;
+      matchedIds.add(cat.id);
     }
   }
-  return "";
+
+  return Array.from(matchedIds);
 };
 
 const Stats = () => {
@@ -876,23 +891,23 @@ const Stats = () => {
     fetchQuestions();
   }, [toast]);
 
-  // Categorize questions
-  const categorized = allQuestions.map((q) => ({
-    ...q,
-    computedCategory: assignCategory(q.text, q.category),
-  }));
-
+  // Map questions to categories (one question can appear in multiple lists now)
   const categoryCounts: Record<string, number> = {};
-  for (const q of categorized) {
-    categoryCounts[q.computedCategory] = (categoryCounts[q.computedCategory] || 0) + 1;
-  }
+  const questionToCategories = allQuestions.map(q => {
+    const categories = getQuestionCategories(q.text, q.category);
+    // Count for each category
+    categories.forEach(catId => {
+      categoryCounts[catId] = (categoryCounts[catId] || 0) + 1;
+    });
+    return { ...q, computedCategories: categories };
+  });
 
   // Filter questions by search or selected category
-  const filteredQuestions = categorized.filter((q) => {
+  const filteredQuestions = questionToCategories.filter((q) => {
     const matchesSearch = searchQuery
       ? q.text.toLowerCase().includes(searchQuery.toLowerCase())
       : true;
-    const matchesCategory = selectedCategory ? q.computedCategory === selectedCategory : true;
+    const matchesCategory = selectedCategory ? q.computedCategories.includes(selectedCategory) : true;
     return matchesSearch && matchesCategory;
   });
 
@@ -960,7 +975,7 @@ const Stats = () => {
                       <CardTitle className="text-base font-semibold">Browse by Category</CardTitle>
                     </CardHeader>
                     <CardContent className="p-0">
-                      <ul className="divide-y divide-border/40">
+                      <ul className="divide-y divide-border/40 max-h-[600px] overflow-y-auto">
                         {CATEGORIES.map((cat) => {
                           const count = categoryCounts[cat.id] || 0;
                           if (count === 0) return null;
@@ -1008,7 +1023,7 @@ const Stats = () => {
                         size="sm"
                         onClick={() => {
                           setSelectedCategory(null);
-                          setSearchQuery("");
+                          setSearchQuery("")
                         }}
                       >
                         <X className="w-4 h-4 mr-1" /> Clear filter
@@ -1035,7 +1050,10 @@ const Stats = () => {
 
                   {showingFiltered && filteredQuestions.length > 0 &&
                     filteredQuestions.map((q, idx) => {
-                      const catMeta = CATEGORIES.find((c) => c.id === q.computedCategory);
+                      // Show the relevant category badge for the current view
+                      const primaryCatId = selectedCategory || q.computedCategories[0];
+                      const catMeta = CATEGORIES.find((c) => c.id === primaryCatId);
+
                       return (
                         <Card
                           key={q._id}
