@@ -1,0 +1,671 @@
+﻿69a362efe212ad97bfa96a8e | rp_ild_guidelines.jpg | According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)? 
+
+1. Methotrexate? [...] 
+2. Leflunomide? [...] 
+3. Azathioprine? [...] 
+4. TNFi? [...] 
+5. Abatacept? [...] 
+6. Tocilizumab? [...] 
+7. Nintedanib? [...] 
+8. Pirfenidone? [...] 
+9. PLEX? [...]
+69a362efe212ad97bfa96a90 | null | For patients receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+69a362efe212ad97bfa96a92 | null | What is the treatment for Lyme carditis?
+69a362efe212ad97bfa96a94 | null | For GPA/MPA, is PLEX recommended?
+69a362f0e212ad97bfa96a96 | null | Describe HIDs
+69a362f0e212ad97bfa96a98 | null | What is the treatment of lupus DAH?
+69a362f0e212ad97bfa96a9a | hcq_toxicity_gomori.jpg | What does a muscle biopsy with HCQ toxicity look like?
+69a362f1e212ad97bfa96a9c | null | In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?
+69a362f1e212ad97bfa96a9e | null | If a patient has CKD stage 3 (or 4), and needs ULT, what is the 1st line treatment?
+69a362f1e212ad97bfa96aa0 | null | A patient taking tofacitinib is about to start ketoconazole. What to do with tofacitinib?
+69a362f1e212ad97bfa96aa2 | null | What is the treatment for AxSpa (ankylosing spondylitis) for someone initially on TNFi, had initial good response, but then later had relapse of symptoms?
+69a362f1e212ad97bfa96aa4 | null | What GYN disease are SLE patients at risk of getting (females)?
+69a362f1e212ad97bfa96aa6 | ochronosis_spine.jpg | What is shown here? (Spine imaging)
+69a362f1e212ad97bfa96aa8 | null | Is Tacrolimus safe in pregnancy?
+69a362f1e212ad97bfa96aaa | null | What type of amyloidosis can occur in patients on HD (hemodialysis)?
+69a362f1e212ad97bfa96aac | null | A 28-year-old female with SLE has been stable on HCQ weight-based for many years. She has been off of prednisone for many years. She has been complaining of chest pain with exertion that is new to her. Her most recent blood work showed Hgb count of 8, but the remainder of her blood work has remained normal. A direct Coombs test is positive. What is your next best step?
+
+A) restart her prednisone but no more than 5mg daily
+B) start methotrexate
+C) start prednisone in combination with IVIG and/or rituximab
+D) start azathioprine in combination with prednisone
+E) start prednisone in combination with belimumab
+69a362f2e212ad97bfa96aae | null | A patient has newly diagnosed SLE with concomitant Class IV lupus nephritis. She was started on weight-based HCQ, then induction steroids, followed by MMF in combination with belimumab. She continued to have worsening renal disease ΓÇö her regimen was switched to MMF in combination with voclosporin. She is continuing to have moderate proteinuria and hematuria on routine labs. What are your next options for treatment, according to ACR?
+69a362f2e212ad97bfa96ab0 | null | Within the 2023 ACR ILD guidelines, which is/are the recommendations classified as 'STRONGLY'?
+69a362f2e212ad97bfa96ab2 | null | A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity. Patient has history of serious infection 10 months ago. What is the next best step?
+69a362f2e212ad97bfa96ab4 | null | What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulation in the IL-1/inflammasome mechanism?
+69a362f2e212ad97bfa96ab6 | null | What is treatment for acrodermatitis chronica atrophicans?
+69a362f2e212ad97bfa96ab8 | null | What is the shared epitope in RA?
+69a362f3e212ad97bfa96aba | null | What does positive Freiburg test maneuver mean? (forceful internal rotation of extended thigh)
+69a362f3e212ad97bfa96abc | null | What gene associated with Loeys-Dietz syndrome?
+69a362f3e212ad97bfa96abe | null | What is treatment for Lyme associated Bell's palsy?
+69a362f3e212ad97bfa96ac0 | null | Is CK normal or elevated in HypoThyroidism?
+69a362f4e212ad97bfa96ac2 | null | Young child with arthralgias, right midfoot swelling, weight loss, poor sleep, and oral ulcers. Normal CBC, UA and Cr/GFR. -iron anemia -elevated ESR
+69a362f4e212ad97bfa96ac4 | null | In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?
+69a362f4e212ad97bfa96ac6 | null | What disease has: -myalgias, bone pain -osteomalacia -LOW phosphate -HIGH Alk phas -HIGH urinary phosphate -HIGH FGF23 level -low 1,25 Dihydroxyvitamin D
+69a362f5e212ad97bfa96ac8 | null | You suspect Parvovirus infection. What test can be positive in acute phase, aside from Parvo antibodies?
+69a362f5e212ad97bfa96aca | null | A young patient has painful crises in hands/feet, blue skin rash, anhidrosis, diarrhea, and corneal dystrophy.
+69a362f5e212ad97bfa96acc | null | What are the 2 features of Relapsing Polychondritis that are associated with increased mortality?
+69a362f5e212ad97bfa96ace | null | What lab value may be used to indicate PJP infection in an immunosuppressed patient?
+69a362f6e212ad97bfa96ad0 | null | What cells are in synovial fluid vs. biopsy in patient with Rheumatoid arthritis?
+69a362f6e212ad97bfa96ad2 | null | What is difference between multiple epiphysial dysplasia and pseudochondroplasia?
+69a362f6e212ad97bfa96ad4 | null | Physical exam finding of localized tenderness several centimeters distal to the lateral epicondyle + aggravated pain with resisted MIDDLE FINGER extension means what?
+69a362f6e212ad97bfa96ad6 | null | To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of {...} over a dose goal of {...}
+69a362f6e212ad97bfa96ad8 | null | What causes elevated FGF-23 (fibroblast growth factor 23)?
+69a362f6e212ad97bfa96ada | null | A patient with SSc has bloating. What is the treatment and why?
+69a362f6e212ad97bfa96adc | null | Aside from checking Hep B antibodies, what else should be checked before starting RTX?
+69a362f6e212ad97bfa96ade | null | Which med used to treat breast cancer can cause arthralgias?
+69a362f7e212ad97bfa96ae0 | null | Describe features of FCAS (Familial Cold Autoinflammatory Syndrome)
+69a362f7e212ad97bfa96ae2 | null | -young patient <50, with arthralgias, myalgias, fatigue -features of CPPD, but also with: -LOW K -LOW Mag -LOW urine Calcium -"salt craving" -recurrent attacks of pseudogout
+69a362f7e212ad97bfa96ae4 | null | Aside from DI-SLE, what other reaction can occur from TNFi?
+69a362f7e212ad97bfa96ae6 | null | Complement activation through which pathway is important in ANCA associated vasculitis pathogenesis via C5a generation?
+69a362f7e212ad97bfa96ae8 | null | What gene associated with Sticker syndrome?
+69a362f7e212ad97bfa96aea | 1s.jpg | Deep glabellar furrowing (aka Leonine facies) is typically seen in which scleroderma mimic?
+69a362f7e212ad97bfa96aec | null | Most common organism causing septic arthritis in hemophilia?
+69a362f7e212ad97bfa96aee | null | What positive benefit do TNFi have on cardiovascular disease in patients with ankylosing spondylitis?
+69a362f7e212ad97bfa96af0 | null | What is difference between FABER and PACE sign?
+69a362f8e212ad97bfa96af2 | null | What is the most common renal involvement in ankylosing spondylitis?
+69a362f8e212ad97bfa96af4 | https://www.researchgate.net/publication/273637921/figure/fig1/AS:613922252021782@1523381879436/Histology-of-the-lacrimal-glands-HE-staining-comparing-IgG4-related-MD-Case-MD2-with.png | What would histopath of IgG4 tissue show?
+69a362f8e212ad97bfa96af6 | null | What disease has: -normal 25-OH Vit D -low 1,25-Dihydroxyvitamin D -normal/low Phosphate -elevated Alk phos -elevated PTH -history of fracture, bone pain, family history of OSTEOPOROSIS
+69a362f8e212ad97bfa96af8 | MedialPlicaMRI-300x297.jpg | middle aged man/woman with popping/clicking of knee, and with pain. ***MEDIAL knee pain*** -MRI shows thickened synovial fibrous band. -erosion of articular cartilage of patella and femoral condyle
+69a362f8e212ad97bfa96afa | null | Which is the most common glycogen storage disease?
+69a362f8e212ad97bfa96afc | null | In EPGA, what feature would be expected with +ANCA antibodies?
+69a362f8e212ad97bfa96afe | null | High calcium, diffuse non-pitting edema of hands, feet, and legs, with clubbing of fingernails. Xrays of hands show fluffy and spiculated periostitis of multiple phalangeal and carpal bones. Irregular periosteal new bone formation present in distal medial tibias.
+69a362fbe212ad97bfa96b00 | null | In patients with Hyperparathyroidism, what anatomic area expected to show more severe osteoporosis?
+69a362fbe212ad97bfa96b02 | null | What is Darier's sign and what disease does it suggest?
+69a362fce212ad97bfa96b04 | null | What muscle/tendon does the EMPTY CAN aka Jobe test?
+69a362fce212ad97bfa96b06 | null | Can you use azathioprine/cyclosporine in combination with JAKi?
+69a362fce212ad97bfa96b08 | null | Which features of AxSpa are associated with radiologic progression?
+69a362fce212ad97bfa96b0a | null | What factors place a child with JIA at highest risk for uveitis?
+69a362fce212ad97bfa96b0c | null | What factors are associated with higher risk of death in PAN?
+69a362fde212ad97bfa96b0e | null | What is the most common EKG finding in a patient with sarcoid?
+69a362fde212ad97bfa96b10 | null | What disease has: -LOW Alk phos -Elevated Vit B6 -HIGH urine phosphoethanolamine -adults will have osteomalacia, dental abnormalities, multiple fractures, osteoporosis
+69a362fde212ad97bfa96b12 | null | A patient with Rheumatoid Arthritis taking Methotrexate and HCQ is doing well, however has lost weight and developed several nonhealing ulcers. No joint swelling/morning stiffness. Lymph node bx showed polymorphic lymphoproliferative disorder. Next step?
+69a362fde212ad97bfa96b14 | null | In NCV/EMG abnormal in Multiple Sclerosis?
+69a362fde212ad97bfa96b16 | null | -infants/children with FAILURE TO THRIVE -growth and mental retardation -leads to ESRD with nephrocalcinosis 2/2 hypercalciuria
+69a362fde212ad97bfa96b18 | null | What test has patient place their arm behind back and push against resistance? What muscle?
+69a362fde212ad97bfa96b1a | null | Which Th cell is mainly responsible for EGPA?
+69a362fee212ad97bfa96b1c | null | What physical exam finding indicates history of JIA vs. RA in a seronegative patient?
+69a362fee212ad97bfa96b1e | null | Rheumatoid arthritis patient on TNFi develops unsteady gait/ataxia. Later, dysarthric speech, horizontal nystagmus, appendicular dystaxia, hyperreflexia, with progression to areflexic quadraplegia. MRI with "white matter changes, possibly normal for age". CSF for viral, bacteria, fungal all negative. He improved with IV steroids...
+69a362fee212ad97bfa96b20 | null | Patient with very destructive foot/ankle arthritis that is painful. Neuro exam normal. She does not have diabetes. What is dx?
+69a362ffe212ad97bfa96b22 | null | What is SONK? Describe the presentation.
+69a36300e212ad97bfa96b24 | null | In Complex Regional Pain Syndrome, what treatment may assist with prevention after surgery?
+69a36301e212ad97bfa96b26 | null | In a patient with SLE, which antibody is associated with development of erosive arthritis?
+69a36301e212ad97bfa96b28 | null | In studies, is Upadacitinib + MTX superior to Humira + MTX?
+69a36302e212ad97bfa96b2a | null | What is treatment for borrelial lymphocytoma?
+69a36302e212ad97bfa96b2c | null | What is the most comm on type of panniculitis?
+69a36302e212ad97bfa96b2e | null | What feature of C-ANCA vasculitis is most associated with relapse?
+69a36302e212ad97bfa96b30 | null | What is Poncet's disease?
+69a36302e212ad97bfa96b32 | null | What would muscle biopsy of suspected McArdle disease show?
+69a36302e212ad97bfa96b34 | null | What unique hematologic condition can occur in severe RA (and solid tumors, and SLE)? -not Felty's
+69a36302e212ad97bfa96b36 | null | What is the most common cause of erythema nodosum in children?
+69a36303e212ad97bfa96b38 | null | What are the amplitude, duration, and recruitment in patients with myositis?
+69a36303e212ad97bfa96b3a | null | What skin disorder can be associated with APS?
+69a36303e212ad97bfa96b3c | null | What drugs are known to cause ANCA vasculitis?
+69a36303e212ad97bfa96b3e | null | Can SLE cause hearing loss?
+69a36303e212ad97bfa96b40 | null | A female patient with rash that develops after prolonged walking/standing/hiking/long plane flights. Some eye dryness. No ulcers, Raynauds, joint pains, fevers, etc. Skin biopsy shows LCV. Negative hepatitis serologies, +RF. What is next test to check?
+69a36303e212ad97bfa96b42 | null | What cumulative dose of cyclophosphamide is associated with premature ovarian failure (POF)?
+69a36303e212ad97bfa96b44 | null | In patients with CVID, what bacterial joint infection is most likely (what organisms)?
+69a36303e212ad97bfa96b46 | null | Describe HIDs
+69a36303e212ad97bfa96b48 | null | How long does Methotrexate take to take effect?
+69a36304e212ad97bfa96b4a | null | What rare lung finding can be in the initial presentation of MPA?
+69a36304e212ad97bfa96b4c | null | What infection that causes cryoglobulinemic vasculitis can occur with people in contact with farm animals?
+69a36304e212ad97bfa96b4e | null | In a child with history of HSP, what is the most important aspect of for long-term follow up?
+69a36304e212ad97bfa96b50 | null | How to determine anemia of inflammation and chronic disease (AICD)?
+69a36304e212ad97bfa96b52 | null | Which osteoporosis med may play a role in reducing bone erosions in Rheumatoid arthritis?
+69a36304e212ad97bfa96b54 | https://www.researchgate.net/publication/276338750/figure/fig2/AS:669020059598852@1536518220158/This-figure-shows-too-many-toes-sign-in-right-side-When-looking-at-the-heel-from-the.png | Dysfunction of what causes "too many toes" sign?
+69a36304e212ad97bfa96b56 | null | Do all ARB (angiotensin receptor blockers) have a uricosuric effect?
+69a36304e212ad97bfa96b58 | null | Which antibodies support diagnosis of autoimmune hemolytic anemia?
+69a36304e212ad97bfa96b5a | null | Besides HCQ, what other medication is known to cause retinal toxicity?
+69a36305e212ad97bfa96b5c | e0938ebcfe6835766dea1e494d76e0_big_gallery.jpg | How do the PRES lesions appear on MRI (T2)?
+69a36305e212ad97bfa96b5e | null | What medication can accelerate/cause DISH?
+69a36305e212ad97bfa96b60 | null | Of the known statins, which is (are) not metabolized by cytochrome p450 system?
+69a36305e212ad97bfa96b62 | null | Patient found to have Whipple's disease (chronic diarrhea, migratory polyarthritis, weight loss) receives IV ceftriaxone, then transition to oral Bactrim. 2 weeks later develops 102F, with polyarticular effusions. What should you do?
+69a36305e212ad97bfa96b64 | null | What happens with ABCG2 protein dysfunction?
+69a36305e212ad97bfa96b66 | null | JAKi are likely more likely to cause reduced CRP levels compared to other bDMARDs, T or F?
+69a36305e212ad97bfa96b68 | lipid_crystals.jpg | What do lipid crystals look like on light microscopy?
+69a36305e212ad97bfa96b6a | null | Adult with LCV and IgA deposition in dermis. Has renal disease and hematuria. Unable to tolerate high dose steroids. Treatment?
+69a36306e212ad97bfa96b6c | null | What did PEXIVAS trial prove in regards to steroid tapering for ANCA vasculitis?
+69a36306e212ad97bfa96b6e | null | MRI shows surface fibrillation/irregularity, partial thickness defect OR full thickness defect and underlying abnormalities in bone.
+69a36306e212ad97bfa96b70 | null | What disease should you suspect in someone with swollen joints, abdominal pain, and erythema nodosum vs. panniculitis on legs?
+69a36306e212ad97bfa96b72 | null | In RA, how do fibroblasts communicate with each other?
+69a36306e212ad97bfa96b74 | null | Young child, <5 years old, refusal to walk. +fever, +conjunctival injection, +rash. The rash is worse in the groins BL.
+69a36306e212ad97bfa96b76 | null | What feature of RA is most concerning for the development of C-spine subluxation?
+69a36306e212ad97bfa96b78 | null | Most common organism causing septic arthritis in Sickle cell disease
+69a36306e212ad97bfa96b7a | null | A patient has hepatosplenomegaly, anemia, thrombocytopenia, and fatty build in in the liver, spleen and bone. AVN found on xray.
+69a36306e212ad97bfa96b7c | null | Which HLA has increased risk of Rheumatoid arthritis-ILD?
+69a36307e212ad97bfa96b7e | null | Physical exam finding of weakness of wrist and all 4 finger extensors, and brachioradialis with preserved triceps means what problem?
+69a36307e212ad97bfa96b80 | null | What does Romosozumab prevent (MOA)?
+69a36307e212ad97bfa96b82 | iaos-2-014-p006.jpg | A patient with Hip pain, and the xray shows "beaking" on lateral side of femur means what?
+69a36307e212ad97bfa96b84 | null | Name a common scenario that causes lumbosacral plexopathy
+69a36307e212ad97bfa96b86 | null | What is 1st, 2nd line treatment for chilblains?
+69a36307e212ad97bfa96b88 | null | Describe difference between pansclerotic morphea VS. diffuse cutaneous scleroderma
+69a3630ae212ad97bfa96b8a | null | Tender areas usually in a taut band of muscle or fascia?
+69a3630be212ad97bfa96b8c | null | Patient who lives along Gulf Coast, including Mississippi River, has swelling/joint pain/tenosynovitis. What infectious organism should you expect?
+69a3630ce212ad97bfa96b8e | null | In patients with SLE and bullous systemic lupus erythematosus....what unique antibody can be see? And what is 1st line treatment?
+69a3630de212ad97bfa96b90 | null | Which bDMARD has been shown to have a higher MBDA (multibiomarker disease activity) value when compared to CDAI?
+69a3630ee212ad97bfa96b92 | null | Name causes of NAAION (nonarteritic anterior ischemic optic neuropathy)
+69a3630ee212ad97bfa96b94 | null | What is PFAPA?
+69a36310e212ad97bfa96b96 | null | Physical exam finding of weakness of middle through small finger extensors with NORMAL thumb abductor...means what?
+69a36310e212ad97bfa96b98 | null | What gene mutation can lead to chondrocalcinosis and pseudogout (especially in younger patients)?
+69a36310e212ad97bfa96b9a | null | What cytokine is increased in juvenile localized scleroderma (jLS)?
+69a36310e212ad97bfa96b9c | null | What is a common GI side effect of colchicine in patients with Familial Mediterranean Fever?
+69a36310e212ad97bfa96b9e | null | What change in HLD, LDL, and Tot chol can be seen with JAKi?
+69a36310e212ad97bfa96ba0 | null | Describe SAPHO and treatment
+69a36310e212ad97bfa96ba2 | null | What is the time to maximum effect of Methotrexate in Rheumatoid Arthritis?
+69a36311e212ad97bfa96ba4 | null | What lupus (SLE) meds are associated with increased risk of lymphoma?
+69a36311e212ad97bfa96ba6 | null | For patient receiving RTX for GPA vasculitis, what is the recommendation for PJP prophylaxis?
+69a36311e212ad97bfa96ba8 | null | Is myocardial biopsy to diagnose cardiac sarcoid reliable?
+69a36311e212ad97bfa96baa | null | Which antiphospholipid antibody is associated with increased risk of pHTN?
+69a36311e212ad97bfa96bac | null | Pain reproduced at scaphoid with radial deviation while pressing on volar aspect means what?
+69a36311e212ad97bfa96bae | null | Describe Familial Mediterranean Fever and treatment
+69a36311e212ad97bfa96bb0 | null | In Rheumatoid Arthritis, what causes bone erosions?
+69a36311e212ad97bfa96bb2 | null | What is treatment for lyme associated parenchymal involvement of brain or spinal cord?
+69a36312e212ad97bfa96bb4 | null | Can whipple's disease have ocular manifestation?
+69a36312e212ad97bfa96bb6 | null | In patients with ankylosing spondylitis, which location should be used to assess osteoporosis via DEXA?
+69a36312e212ad97bfa96bb8 | null | Patient s/p hip replacement, c/o chronic hip pain since surgery. Sx for about 1 year. What is it and how to treat?
+69a36312e212ad97bfa96bba | null | What is the MOA of abatacept?
+69a36312e212ad97bfa96bbc | null | Describe PAPA and treatment
+69a36312e212ad97bfa96bbe | null | What should you expect in a patient 60-80 years old, seronegative, with sudden palmar fasciitis and polyarthritis?
+69a36313e212ad97bfa96bc0 | null | What is the critical shoulder angle (CSA) and how is it used?
+69a36313e212ad97bfa96bc2 | null | What gene associated with Marfan syndrome?
+69a36313e212ad97bfa96bc4 | null | In patients with GCA, which feature is most predictive of future aortic aneurysmal dilatation? -persistently elevated ESR, Females, previous smoking hx, or DM2 history?
+69a36313e212ad97bfa96bc6 | Hyperparathyroidism-MK-ann.jpg | What are the xray findings of Hyperparathyroidism?
+69a36313e212ad97bfa96bc8 | null | What did ALMS trial show (2008)?
+69a36313e212ad97bfa96bca | null | What does loss of velocity on NCV/EMG mean?
+69a36314e212ad97bfa96bcc | null | -Young female with inflammatory infiltrate of SubQ adipose tissue that comes and goes -Bx shows inflammation in adipose tissue, both in septal and lobular pattern, mononuclear cell infiltrate with multiple fat laden macrophages without any vasculitis.
+69a36316e212ad97bfa96bce | null | A young male who lives in Texas has left buttock pain. FABER +. Also with low fevers, chills, night sweats, and weight loss, over 2 months. He ate local foods in rural Mexico recently, but also went to brothel (no STD symptoms). Hepatomegaly. What is the probable cause of sx?
+69a3631be212ad97bfa96bd0 | ibm_pathology.jpg | What does a biopsy of s-IBM show?
+69a3631be212ad97bfa96bd2 | null | What GYN disease are SLE patients at risk of getting (females)?
+69a3631ce212ad97bfa96bd4 | null | What xray findings can be seen with chronic venous stasis?
+69a3631ce212ad97bfa96bd6 | Hyperparathyroidism-MK-ann.jpg | How does hyperparathyroidism xray of hands differ from thyroid acropachy?
+69a3631ce212ad97bfa96bd8 | null | Describe CINCA/NOMID
+69a3631ce212ad97bfa96bda | null | What diabetes medication can cause arthritis mimicking Rheumatoid arthritis (seronegative)?
+69a3631ce212ad97bfa96bdc | null | Features of HPP (hypophosphatasia) and treatment?
+69a3631ce212ad97bfa96bde | null | In Rheumatoid Arthritis, what causes damage to cartilage?
+69a3631ce212ad97bfa96be0 | null | What is treatment for lyme carditis?
+69a3631ce212ad97bfa96be2 | null | What is the most common organism to cause pyogenic sacroiliitis?
+69a3631de212ad97bfa96be4 | null | Can you use ustekinumab for both UC and Crohn's?
+69a3631de212ad97bfa96be6 | null | Do patients with MPA have granulomatous inflammation on pathology?
+69a3631de212ad97bfa96be8 | null | When should patients with Lyme disease be tested for coinfection with A. phagocytophilum or B. microti?
+69a3631de212ad97bfa96bea | null | What is the name of the radiographic view angle that best assesses the sacroiliac joints?
+69a3631de212ad97bfa96bec | null | -Young adult with knee pain. Repeated microtrauma. Sometime single traumatic injury. -MRI shows focal areas of swelling of patellar cartilage, surface irregularity, areas of thinning and loss of cartilage with subchondral bone exposure
+69a3631de212ad97bfa96bee | null | Is HCQ ok to give to patients with HIV?
+69a3631de212ad97bfa96bf0 | null | Describe DADA2 and treatment
+69a3631de212ad97bfa96bf2 | null | Do males need to stop taking methotrexate for birth/conception reasons?
+69a3631de212ad97bfa96bf4 | null | Describe MWS (Muckle-Wells Syndrome)
+69a3631ee212ad97bfa96bf6 | null | What GSD does not have the second wind phenomenom?
+69a3631ee212ad97bfa96bf8 | null | What is the hallmark cell of the innate immune system?
+69a3631ee212ad97bfa96bfa | null | Is CK normal or elevated in HyperThyrodism?
+69a3631ee212ad97bfa96bfc | null | When is calcium citrate (vs carbonate) favored for Calcium supplementation?
+69a3631ee212ad97bfa96bfe | null | What is treatment for lyme associated acute neurologic manifestations (without parenchymal involvement of brain or spinal cord)?
+69a3631ee212ad97bfa96c00 | null | A patient has history of recurrent ankle sprains....which ligament likely affected?
+69a3631ee212ad97bfa96c02 | null | What is treatment for Lyme arthritis?
+69a3631ee212ad97bfa96c04 | null | What is difference between nodular anterior scleritis and Necrotizing anterior scleritis?
+69a3631ee212ad97bfa96c06 | null | Describe TRAPS and treatment
+69a3631fe212ad97bfa96c08 | null | What drug can cause dermatomyositis?
+69a3631fe212ad97bfa96c0a | null | What diabetes med is useful for reducing risk of gout? How does it work?
+69a3631fe212ad97bfa96c0c | null | What did the SENSCIS trial actually measure with nintedanib?
+69a3631fe212ad97bfa96c0e | null | What is Cogan's syndrome typically feature (besides sensorineural hearing loss)?
+69a3631fe212ad97bfa96c10 | null | Veterinarian with exposure to variety of animals with systemic symptoms including fever, inflammatory polyarthritis, elevated CRP and WBC, and rashes. What is dx?
+69a3631fe212ad97bfa96c12 | null | What virus is associated with increased risk of BLADDER TOXICITY in patient treated with cyclophosphamide?
+69a3631fe212ad97bfa96c14 | null | Highest Risk factor for septic arthritis in hemophilia?
+69a3631fe212ad97bfa96c16 | null | What malignancy are patients with SLE at higher risk of having?
+69a3631fe212ad97bfa96c18 | null | Does lupus tumidus have panniculitis?
+69a36320e212ad97bfa96c1a | null | Patient with ankylosing spondylitis treated with TNFi for 10 years. Has new worsening back pain and paresthesias. Decreased BLE reflexes. MRI shows "outpouching/diverticula" and osteolysis of posterior lumbar spine segments. What is the cause?
+69a36320e212ad97bfa96c1c | null | Most common organism causing osteomyelitis in Sickle cell disease?
+69a36320e212ad97bfa96c1e | null | What is most common complication in someone with EDS hypermobility type?
+69a36320e212ad97bfa96c20 | null | What is 1st line treatment of Paget's disease? (with no contraindications)
+69a36320e212ad97bfa96c22 | null | Besides Arava, what other DMARD is known to cause weight loss?
+69a36321e212ad97bfa96c24 | null | What med can decrease efficacy of MMF?
+69a36321e212ad97bfa96c26 | null | What is treatment for lyme associated erythema migrans?
+69a36321e212ad97bfa96c28 | null | In someone with arthralgias, developmental delay, restrictive diets, and diffuse multifocal decreased signal on T1 and increased on T2, what would be a test to check for?
+69a36321e212ad97bfa96c2a | null | After someone has fragility fracture with surgery repair, how long to initiate osteoporosis treatment?
+69a36321e212ad97bfa96c2c | null | Injection of which location can lead to increased pain/recurrence after an initial period of improvement?
+69a36321e212ad97bfa96c30 | null | What is another word for 'trigger finger'?
+69a36321e212ad97bfa96c32 | null | A patient with inflammatory polyarthritis. Labs are positive for CCP, RF, and HCV with viremia. Treated with antivirals but still with synovitis. Next best option?
+69a36322e212ad97bfa96c34 | null | What's the difference between Eosinophilia-myalgia syndrome vs. Hypereosinophilic syndrome?
+69a36322e212ad97bfa96c36 | null | What would HCV-associated GN look like on histology?
+69a36322e212ad97bfa96c38 | null | In a patient with decreased TPMT, taking Imuran + allopurinol, which metabolite will be increased?
+69a36322e212ad97bfa96c3a | null | What is the active metabolite of azathioprine?
+69a36322e212ad97bfa96c3c | null | What to look for if patient has coinfection Lyme with another pathogen?
+69a36322e212ad97bfa96c3e | null | Pain with weight bearing, putting on socks/shoes, and TTP anteriorly below the middle of inguinal ligament and lateral to femoral artery?
+69a36322e212ad97bfa96c40 | null | What is the best test if suspecting oncogenic osteomalacia?
+69a36322e212ad97bfa96c42 | null | What is the most common manifestation of TNFi induced vasculitis?
+69a36322e212ad97bfa96c44 | null | A patient taking HCQ says she sees "halos". What is the eye toxicity?
+69a36323e212ad97bfa96c46 | null | What is the most common neuro complication of sarcoidosis?
+69a36323e212ad97bfa96c48 | 8bbaca8e62d97ef4b31ba38c3500ea_big_gallery.jpg | What does hemochromatosis arthritis look like on histology?
+69a36323e212ad97bfa96c4a | null | What mediator linked to obesity has been shown as having a key role in development of osteoarthritis?
+69a36323e212ad97bfa96c4c | null | What is the most common cause of recurrent rhabdomyolysis in adults and children?
+69a36323e212ad97bfa96c4e | null | If suspecting a metabolic myopathy, when should the muscle biopsy be done?
+69a36323e212ad97bfa96c50 | osteoid-osteoma-tibial-shaft-xray-radiograph.jpg | Young boy, heavy, night time hip pain. Has pain throughout day. Walks with a limp. All labs are normal. B27 is positive. He has family hx of AxSpa. Xray shows cortical thickening and solitary lesion of long bone of cortex.
+69a36323e212ad97bfa96c52 | null | T or F, erythema nodosum has panniculitis in the septa and lobules.
+69a36324e212ad97bfa96c54 | null | What disease is associated with Stiff Person syndrome?
+69a36325e212ad97bfa96c56 | null | What CNS vasculitis mimic can be diagnosed by multiple, random, skin biopsies?
+69a36326e212ad97bfa96c58 | null | What type of arthralgia/arthritis is most commonly seen in Relapsing Polychondritis?
+69a36328e212ad97bfa96c5a | null | What disease has alteration of osteoclastic bone resorption and thickening of cortical and lamellar bone?
+69a36329e212ad97bfa96c5c | null | How to tell difference between multiple myeloma and sarcoidosis?
+69a3632ae212ad97bfa96c5e | null | What effect does cyclosporine have on the kidneys, including histologically?
+69a3632ae212ad97bfa96c60 | null | Best imaging to check for cerebral venous thrombosis in a patient with Behcets syndrome?
+69a3632ae212ad97bfa96c62 | null | What tendon is typically injured with LATERAL ankle pain?
+69a3632be212ad97bfa96c64 | null | Aside from labs, what is the definitive way to diagnose Macrophage Activating Syndrome?
+69a3632be212ad97bfa96c66 | null | What is the mutation in osteogenesis imperfecta?
+69a3632be212ad97bfa96c68 | null | 40 year old patient with several months of right shoulder pain, and decreased ROM. Also with right shoulder and wrist swelling. Has decreased pain and temperature sensation over right wrist. Shoulder X-rays show sclerosis, subluxation and debris. Wrist xray shows destruction of carpal row with bony fragments.
+69a3632be212ad97bfa96c6a | null | What autonomic disorder can exist with in patients with Sjogren's?
+69a3632ce212ad97bfa96c6c | null | What antibody is associated with Stiff Person syndrome?
+69a3632de212ad97bfa96c6e | null | 27 year old male with rash erythematous plaques/papules over back, upper chest, and around ears. No photosensitivity. No drugs. Induration over back. ANA 1:80, dsDNA>300. C3/C4, UA normal. Pathology shows superficial and deep perivascular lymphohistiocytic infiltrates and abundant MUCIN deposition in the reticular dermis.
+69a3632fe212ad97bfa96c70 | null | Does meralgia paresthetica cause deficits in sensory, motor, or both?
+69a3632fe212ad97bfa96c72 | null | 60 year old male with diabetes has non traumatic right thigh pain for 1 month. Buckling of right knee, with numbness of right thigh. Atrophy of right thigh. No erythema or warmth.
+69a3632fe212ad97bfa96c74 | null | Which OSM (oral small molecule) has been shown to work for enthesitis in PsA (psoriatic arthritis)?
+69a36330e212ad97bfa96c76 | null | What is conditionally rec'd as first line in a diabetic patient who is treatment naive for PsA (psoriatic arthritis)?
+69a36330e212ad97bfa96c78 | null | What is first-line option for treatment naive patient with active PsA (psoriatic arthritis)?
+69a36330e212ad97bfa96c7a | null | If IgA transglutaminase is negative in a patient you strongly suspect has celiac's disease, what should you test next?
+69a36330e212ad97bfa96c7c | null | What disease has what's known as "raccoon eyes"?
+69a36330e212ad97bfa96c80 | null | SLE patient who initially had arthralgias and class 4 LN. Received IV cyclophosphamide, however renal function declined, leading to transplant. Since transplant, has been on HCQ, MMF, tacrolimus, and tapered off steroids. She has significant fatigue, and she is pale. Hgb 6.2, and very low retic count. Bone marrow bx shows pure red cell aplasia with giant proerythroblasts. What is going on?
+69a36330e212ad97bfa96c82 | null | What marker can be used as a prognostic marker in SLE-LN?
+69a36330e212ad97bfa96c84 | null | How does Bosentan work?
+69a36330e212ad97bfa96c86 | null | How does Epoprostenol work?
+69a36331e212ad97bfa96c88 | null | How does sildenafil work?
+69a36331e212ad97bfa96c8a | null | In a patient with SLE rash, ANA positive, and normal C3/C4 during flares...what does this suggest?
+69a36331e212ad97bfa96c8c | null | In a young female with AxSpa (ankylosing spondylitis), which feature typically means they will respond well to TNFi?
+69a36331e212ad97bfa96c8e | null | A patient with chest pain, acne,and nonmarginal syndesmophytes of lumbar spine has either palmoplantar pustolosis, and/or hidradenitis suppurativa. What would histology of these lesions look like?
+69a36331e212ad97bfa96c90 | null | What is treatment of lupus hemolytic anemia?
+69a36331e212ad97bfa96c92 | null | What is treatment of lupus DAH?
+69a36331e212ad97bfa96c94 | null | What gene in Black people is associated with high prevalence of ESRD from LN?
+69a36331e212ad97bfa96c96 | null | What hematologic malignancy associated with SLE?
+69a36332e212ad97bfa96c98 | null | A patient with SLE has decreased lung volumes. What bodily part is causing this?
+69a36332e212ad97bfa96c9a | null | In patients with SLE, what PFT value will lead you to suspect DAH?
+69a36333e212ad97bfa96c9c | null | What is MOA of MMF?
+69a36334e212ad97bfa96c9e | null | Describe the NIH protocol for CYC in LN.
+69a36337e212ad97bfa96ca0 | null | Describe the Euro Lupus trial
+69a36338e212ad97bfa96ca2 | null | What is diagnostic criteria for Catastrophic APS?
+69a36339e212ad97bfa96ca4 | null | What is treatment for Catastrophic APS?
+69a3633be212ad97bfa96ca6 | null | In patients with SLE and +APS labs, but no history of clot, what is the treatment recommendation?
+69a3633de212ad97bfa96ca8 | null | What is treatment recommendation for a patient with APS (has history of clot with positive APS antibodies) who develops a clot while on warfarin?
+69a3633ee212ad97bfa96caa | null | Define Obstetric (pregnancy) APS with treatment.
+69a3633fe212ad97bfa96cac | null | What is the main immune MHC pathway for seronegative spondyloarthropathies?
+69a36340e212ad97bfa96cae | null | What has the greatest sensitivity for detecting AxSpa on imaging?
+69a36342e212ad97bfa96cb0 | null | What does subchondral bone resorption at SI joint (with minimal cartilage surface irregularity) mean on imaging?
+69a36344e212ad97bfa96cb2 | null | What percentage of AxSpa patient have subclinical microscopic gut inflammation?
+69a36345e212ad97bfa96cb4 | null | What BASDAI score indicates active disease in AxSpa?
+69a36346e212ad97bfa96cb6 | null | What is the role of PAD4 enzymes in regards to autoimmune diseases?
+69a36348e212ad97bfa96cb8 | null | What is a very important link between the Innate Immune response and Adaptive immune response in regards to antigen presentation?
+69a3634ae212ad97bfa96cba | null | In regards to complement system, at what point do the Classical System and Alternative pathway converge?
+69a3634de212ad97bfa96cbc | null | What type of cell are huge producers of Type I IFN?
+69a36353e212ad97bfa96cbe | null | What do the checkpoint inhibitors that oncologists prescribe do?
+69a36355e212ad97bfa96cc0 | null | Which biologic medication can cross cell membranes?
+69a36356e212ad97bfa96cc2 | null | What is MOA of ustekinumab?
+69a36358e212ad97bfa96cc4 | null | What is MOA of risankizumab?
+69a3635be212ad97bfa96cc6 | null | What is MOA of ixekizumab?
+69a3635be212ad97bfa96cc8 | null | What is the underlying dysfunction in CAPS?
+69a3635ce212ad97bfa96cca | null | What normal, inhibitory function of the innate immune response helps regulate IL-1 and the inflammasome?
+69a3635de212ad97bfa96ccc | null | Does vision loss occur in episcleritis?
+69a3635de212ad97bfa96cce | null | What part of the ear is spared in RP?
+69a3635ee212ad97bfa96cd0 | null | In HSP vasculitis, what does the skin biopsy show?
+69a36360e212ad97bfa96cd2 | null | In patient with Sarcoid, what does immunoperoxidase staining show?
+69a36361e212ad97bfa96cd4 | null | What is the triad for Blau syndrome?
+69a36362e212ad97bfa96cd6 | null | In sarcoid, what is indicative of good prognosis?
+69a36365e212ad97bfa96cd8 | null | Which DMARD should be avoided in sarcoidosis?
+69a36365e212ad97bfa96cda | null | If a patient with sarcoid has pulmonary involvement, which treatment should you consider?
+69a36365e212ad97bfa96cdc | null | Which viral arthritis causes severe retroorbital pain?
+69a36366e212ad97bfa96cde | null | Which viral arthritis has synovitis?
+69a36366e212ad97bfa96ce0 | null | Which viral arthritis is known to have a "relative bradycardia" with respect to fever?
+69a36368e212ad97bfa96ce2 | null | What infection is known to be a mimicker of sarcoid given HyperCalcemia and inflammatory arthritis?
+69a3636ee212ad97bfa96ce4 | null | What is the gene for classic type Ehler-Danlos syndrome?
+69a36371e212ad97bfa96ce6 | null | What is the gene for vascular type Ehler-Danlos syndrome?
+69a36377e212ad97bfa96ce8 | rugger-jersey-ct.jpg | What would a spine xray look like in a patient with Hyperparathyroidism?
+69a3637ae212ad97bfa96cea | null | Which is the only GSD that has normal urine myoglobin?
+69a3637be212ad97bfa96cec | null | Patient has long standing renal disease, low alk phos, and no evidence of Hyperparathyroidism. What is this? What is treatment?
+69a3637be212ad97bfa96cee | null | What neuro drug can worsen osteoporosis?
+69a3637be212ad97bfa96cf0 | null | What FRAX score is used to treat osteoporosis?
+69a3637be212ad97bfa96cf2 | null | What is the MOA of bisphosphonates?
+69a3637be212ad97bfa96cf4 | null | If patient has a atypical femur fracture from bisphophonates, what is management in terms of osteoporosis?
+69a3637be212ad97bfa96cf6 | null | Aside from bisphosphonate use, what are other risk factors for osteonecrosis of jaw?
+69a3637be212ad97bfa96cf8 | null | What are the rec's for bisphosphonate holiday for oral vs. IV?
+69a3637ce212ad97bfa96cfa | null | Which osteoporosis medication has a benefit with intermittent dosing, causing an anabolic effect on bone?
+69a3637ce212ad97bfa96cfc | null | Which osteoporosis med is contraindicated with HYPOcalcemia?
+69a3637ce212ad97bfa96cfe | null | What osteoporosis medication would be good for a young female who wants to avoid bisphosphonates, and mainly has vertebral osteoporosis?
+69a3637ce212ad97bfa96d00 | null | What effect does aspirin have in terms of decreasing/increasing uric acid level?
+69a3637de212ad97bfa96d02 | null | Young boy has high fevers and leg pain. Refuses to walk. Initially had cough, myalgias, and high fever. Cough and fever resolved after 5 days, but leg pain worsened. No injuries. Currently afebrile, ankles are plantar flexed and hurt him when trying to passively dorsiflex BL. TTP in both calves, with no swelling or pain. What is this?
+69a3637de212ad97bfa96d04 | null | What are some pathognomonic symptoms of Whipple's disease?
+69a3637fe212ad97bfa96d06 | null | What would a biopsy of synovitis thought to be due to silicone show?
+69a36380e212ad97bfa96d08 | null | Most common eye disease in RA?
+69a36382e212ad97bfa96d0a | null | Most severe eye disease in RA?
+69a36383e212ad97bfa96d0c | null | Cavitary lesions in lungs. Cough, CP, fever, ataxia, diplopia. Tender nodules in thighs and abdomen. Decreases sensation in BLE. Crackles heard on exam. Anemic, ESR 100, ANA, and ANCA both negative. MRI brain shows white matter changes. CXR with multiple cavitary lesions. Lung biopsy shows lymphocyte infiltration around small blood vessels without vessel necrosis. No granuloma. Dx?
+69a36383e212ad97bfa96d0e | cervical rib-arr.jpg | What physical exam finding indicates Thoracic outlet syndrome?
+69a36384e212ad97bfa96d10 | null | Which complement factors are deficient in SLE?
+69a36385e212ad97bfa96d12 | null | What are the most common bacteria that can lead to Reactive arthritis?
+69a36387e212ad97bfa96d14 | null | What is initial treatment for JIA polyarthritis?
+69a36389e212ad97bfa96d16 | null | What is treatment for JIA-sacroiliitis?
+69a3638ae212ad97bfa96d18 | null | What is treatment for JIA-enthesitis?
+69a3638de212ad97bfa96d1a | null | If patient has JIA-sacroiliitis and did not tolerate TNF, what is another option?
+69a3638de212ad97bfa96d1c | null | For JIA polyarthritis, can you use a biologic monotherapy?
+69a3638de212ad97bfa96d1e | null | For JIA and active chronic anterior uveitis (CAU), what is treatment?
+69a3638de212ad97bfa96d20 | null | What is treatment regimen for oligoarthritis JIA?
+69a3638de212ad97bfa96d22 | null | What is the treatment regimen for TMJ JIA?
+69a3638de212ad97bfa96d24 | null | What is the only difference between management of TMJ JIA and oligo-JIA?
+69a3638ee212ad97bfa96d26 | null | What is treatment for sJIA (without MAS)?
+69a3638ee212ad97bfa96d28 | null | Drug of choice for GIOP or OP treatment in pregnancy?
+69a3638ee212ad97bfa96d2a | null | A patient has redness pain of eye, double vision, ocular movement impairment with elevated inflammatory markers. MRI of orbit reveals superior oblique enlargement/infiltration/edema. ANCAs are negative. Biopsy of superior oblique muscle shows granulomatous inflammation, tissue necrosis, and capillaritis.....what is this?
+69a3638ee212ad97bfa96d2c | null | In SLE, which genetic variants are responsible for dendritic cell Type I IFN production?
+69a3638ee212ad97bfa96d2e | null | Young female in her 30's, has multiple, red subcutaneous nodules on BLE and BUE that appeared 7 months ago. They do not resolve spontaneously. Asymptomatic. WBC 3400 (mildly low), neutropenia, and LDH elevated 500s. ANA, smith, dsdna, ro/la all negative. Biopsy of nodule shows infiltrate of atypical lymphocytes around fat lobules that spares the septaie, overlying dermis and epidermis. Histiocytes with vacuoles, phagocytized nuclear debris, and ingested lipids seen. Stains for fungi, bacteria, and AFB all negative. Next best step? What is this?
+69a3638ee212ad97bfa96d30 | null | Male who is 50 years old has PMR like symptoms. Prednisone 20mg daily shows minimal improvement. Has signs of nodular OA in his hands. Easily fatigued. BL shoulder pain wakes him up at night. Does not know if he has lost weight, but has decreased appetite. No temporal TTP or symptoms to suggest GCA. Hgb 9, ESR 35, MCV 72. Why is this patient not improving on prednisone?
+69a3638fe212ad97bfa96d32 | null | An overweight male experiences sudden ankle pain while playing basketball. He felt it while jumping up.
+69a3638fe212ad97bfa96d34 | null | What does anterior drawer maneuver of ankle assess?
+69a3638fe212ad97bfa96d36 | null | Which tendon of the ankle is a powerful inverter, and if not working what happens? Where is it located?
+69a3638fe212ad97bfa96d38 | null | What is MOA of denosumab?
+69a3638fe212ad97bfa96d3a | null | What happens downstream of activated JAK3?
+69a3638fe212ad97bfa96d3c | null | Ballet dancer has right ankle pain. Start around mid to lower leg along fibula, and extends to medial ankle. She cannot stand on her right toes as well 2/2 pain. She has hallux valgus (bunion). Forced plantar flexion of great toe shows good strength, but causes pain. Dx?
+69a3638fe212ad97bfa96d3e | null | Patient has weakness or absent voluntary flexion of terminal phalanx of thumb and index finger. No weakness in other muscles. No pain. Dx?
+69a3638fe212ad97bfa96d40 | null | Patient has aching pain in proximal, volar forearms with paresthesias radiating to thumb, index, middle, and radial half of 4th finger. Negative Tinel sign. No provocation of symptoms with wrist flexion. No noctural symptoms. Dx?
+69a36390e212ad97bfa96d42 | null | What are common symptoms of diabetic amyotrophy?
+69a36390e212ad97bfa96d44 | null | What is another name for IgG4 disease?
+69a36390e212ad97bfa96d46 | null | What is the MOA that explains the analgesic efficacy of pregabalin?
+69a36390e212ad97bfa96d48 | null | Is constrictive pericarditis more common in SLE or RA?
+69a36390e212ad97bfa96d4a | null | What condition causes spherocytes? What condition causes schistocytes?
+69a36390e212ad97bfa96d4c | null | How can pain be aggravated in radial tunnel syndrome?
+69a36390e212ad97bfa96d4e | null | Describe cubital tunnel syndrome, where it is located, and what muscles are involved
+69a36390e212ad97bfa96d50 | null | Which is/are the most commonly torn rotator cuff muscle/tendon? And, what does that muscle do in terms of movement?
+69a36391e212ad97bfa96d52 | null | Which is/are the only rotator cuff muscle/tendon involved in INTERNAL ROTATION of shoulder?
+69a36391e212ad97bfa96d54 | null | Which is/are the rotator cuff muscle/tendon involved with external rotation?
+69a36391e212ad97bfa96d56 | null | Treatment of prosthetic joint infection 3 months or less?
+69a36391e212ad97bfa96d58 | null | Treatment of prosthetic joint infection 3-24 months or more?
+69a36391e212ad97bfa96d5a | null | What is the difference between Bone Marrow Edema Syndrome (BMES) and osteonecrosis?
+69a36391e212ad97bfa96d5c | null | Does Posterior Interosseous neuropathy cause more pain or more weakness?
+69a36391e212ad97bfa96d5e | null | What nerve is affected in Pronator Teres syndrome?
+69a36391e212ad97bfa96d60 | null | If a patient that appears to have sarcoid is NOT improving with steroids, what other diagnoses should you consider?
+69a36392e212ad97bfa96d62 | null | What is the GC adjusted FRAX score for High risk?
+69a36392e212ad97bfa96d64 | null | What places a patient at Very High risk for OP? What T score?
+69a36392e212ad97bfa96d66 | null | What places a <40 year old adult at Moderate Risk for osteoporosis?
+69a36392e212ad97bfa96d68 | null | What places an adult ΓëÑ40 years old at Moderate Risk for osteoporosis?
+69a36392e212ad97bfa96d6a | null | Does pregnancy cause a normally thrombophilic or thrombocytopenic state?
+69a36392e212ad97bfa96d6c | null | How soon before conception (for mother) should MTX be stopped?
+69a36392e212ad97bfa96d6e | null | Is SSZ safe for pregnant women?
+69a36392e212ad97bfa96d70 | null | If a patient with RA on Humira (or any TNFi) get pregnant, what should you do?
+69a36393e212ad97bfa96d72 | null | Are women with SLE likely to flare during pregnancy?
+69a36393e212ad97bfa96d74 | null | How soon should a patient planning to get pregnant, if they are on MMF, transition to azathioprine?
+69a36393e212ad97bfa96d78 | null | Is RTX considered safe in pregnancy?
+69a36393e212ad97bfa96d7a | null | What types of PsS are risk factors for PsA?
+69a36393e212ad97bfa96d7c | null | Per the Caspar criteria, how many points are needed to make dx of PsA?
+69a36394e212ad97bfa96d7e | null | If a patient has unilateral Acute Anterior Uveitis, what should be ruled out first?
+69a36394e212ad97bfa96d80 | null | What is an important histologic feature of scleromyxedema?
+69a36394e212ad97bfa96d82 | null | What scleroderma ab is associated with higher risk of digital ulcers?
+69a36394e212ad97bfa96d84 | null | What scleroderma ab is associated with pericarditis?
+69a36394e212ad97bfa96d86 | null | What scleroderma ab is associated with severe lower GI disease?
+69a36394e212ad97bfa96d88 | null | What is Th/To ab associated with?
+69a36394e212ad97bfa96d8a | null | What autoimmune neuro disease seen in young males, with bilateral optic neuritis?
+69a36395e212ad97bfa96d8c | null | What autoimmune neuro disease presents DISTINCTLY in females around 40 years old, severe unilateral optic neuritis, and transverse myelitis? Looks like MS but is not.
+69a36395e212ad97bfa96d8e | null | What autoimmune neuro disease DOES NOT have optic neuritis, but with HAs, acute psych symptoms/behavioral changes and pleocytosis/oligoclonal bands on CSF?
+69a36395e212ad97bfa96d90 | null | What nerve involved with Tarsal Tunnel syndrome?
+69a36395e212ad97bfa96d92 | null | What innervates the flexor hallucis longus muscle?
+69a36395e212ad97bfa96d94 | null | What to do for isolated 3rd degree block in fetus in +SSA with/without +SSB ab?
+69a36395e212ad97bfa96d96 | null | What to do for abnormal fetal echocardiography if it shows 1st or 2nd degree heart block?
+69a36395e212ad97bfa96d98 | null | What to do if pregnant female has +SSA without prior infant with heart block or other NLE (neonatal lupus erythematosus)?
+69a36395e212ad97bfa96d9a | null | What to do if pregnant female has +SSA with prior infant with heart block or other NLE?
+69a36395e212ad97bfa96d9c | null | What meds should be discontinued in a male who are planning to have a kid?
+69a36395e212ad97bfa96d9e | null | For cane left knee, ankle, and hip pain requiring a cane, which hand do you use to hold the cane?
+69a36396e212ad97bfa96da0 | null | What is the most common pulmonary manifestation of Behcets?
+69a36396e212ad97bfa96da2 | null | What is/are the difference between Acute anterior uveitis (AAU) vs. chronic anterior uveitis (CAU)?
+69a36396e212ad97bfa96da4 | null | In terms of FDA approval, which TNFi is/are approved for both nr-AxSpa and AxSpa (rad)?
+69a36396e212ad97bfa96da6 | null | What enzyme (overactivity or underactivity) causes hyperuricemia and hyper uricosuria? Severe form may have ataxia, hypotonia, and sensorineural hearing loss.
+69a36396e212ad97bfa96da8 | null | If a patient is taking voclosporin and develops acute gout, what dose of colchicine should be used?
+69a36396e212ad97bfa96daa | null | If a patient has erythromelalgia and responds to aspirin, what does this suggest?
+69a36396e212ad97bfa96dac | null | What stain is used to biopsy MRH lesions?
+69a36396e212ad97bfa96dae | null | MOA of leflunomide
+69a36396e212ad97bfa96db0 | null | "Hairy kidneys" on abdominal imaging in a patient with Retroperitoneal fibrosis should clue to what diagnosis?
+69a36397e212ad97bfa96db2 | null | Which 3 OP meds only work for vertebral fractures?
+69a36397e212ad97bfa96db4 | null | A lip biopsy with >50 lymphocytes/4mm2 would have what focus score?
+69a36397e212ad97bfa96db6 | null | Which OP med does not cause ONJ?
+69a36397e212ad97bfa96db8 | null | A patient with Stiff-person syndrome and breast cancer likely to have this antibody?
+69a36397e212ad97bfa96dba | null | How does Tai chi help knee and/or hip OA?
+69a36397e212ad97bfa96dbc | null | Which joints does Tai-Chi help the most?
+69a36397e212ad97bfa96dbe | null | A patient has Tibiofemoral knee OA, what is best treatment?
+69a36397e212ad97bfa96dc0 | null | Which is strongly rec'd for 1st CMC joint OA?
+69a36397e212ad97bfa96dc2 | null | Is acupuncture rec'd for OA, and for which joints?
+69a36397e212ad97bfa96dc4 | null | Which joint are topical NSAIDs STRONGLY rec'd ?
+69a36398e212ad97bfa96dc6 | null | Is topical capsaicin cream rec'd, and if so, for which joints?
+69a36398e212ad97bfa96dc8 | null | Which joints are oral NSAIDs rec'd?
+69a36398e212ad97bfa96dca | null | Which joints are intraarticular GCs rec'd?
+69a36398e212ad97bfa96dcc | null | Should you use US for hip steroid injection?
+69a36398e212ad97bfa96dce | null | Is duloxetine rec'd for OA?
+69a36398e212ad97bfa96dd0 | null | Is tramadol rec'd for OA?
+69a36398e212ad97bfa96dd2 | null | Are non-tramadol opioids rec'd for OA?
+69a36398e212ad97bfa96dd4 | null | Is glucosamine rec'd for OA?
+69a36399e212ad97bfa96dd6 | null | Is HCQ rec'd for OA?
+69a36399e212ad97bfa96dd8 | null | Are intraarticular haluronic acid injection rec'd for OA?
+69a36399e212ad97bfa96dda | null | What is the starting steroid dose for PMR?
+69a36399e212ad97bfa96ddc | null | To what dose, and for how long, should steroids be tapered to in PMR?
+69a36399e212ad97bfa96dde | null | If a patient with PMR relapses, what dose of steroids should be used?
+69a36399e212ad97bfa96de0 | null | What is name of test to check for bicep's tendinopathy?
+69a36399e212ad97bfa96de2 | null | What lab values assist with dx of erythromelalgia?
+69a36399e212ad97bfa96de4 | null | What does lobar panniculitis without vasculitis mean?
+69a36399e212ad97bfa96de6 | null | What DMARDs can you not use in seronegative RA?
+69a3639ae212ad97bfa96de8 | null | What is the Neer and Hawkins test? What do they test for?
+69a3639ae212ad97bfa96dea | null | A patient has sJIA. He is transitioning to adult rheum. He was dx at 18 months old. He had MAS before. He was had refractory arthritis thus treated with tocilizumab, but developed an allergic reaction to it so was stopped. PFTs show severely decreased DLCO. CT scheduled..... Labs show elevated IL-1, +ANA 1:160. Which feature in his history puts at risk for developing sJIA-associated ILD?
+69a3639ae212ad97bfa96dec | paste-f80f01fc9b10ef7fe00d86f21b552abca8907dd6.jpg | What does a spiculated, periosteal reaction on a long bone (at metaphysis, near the end, but not AT the end) on xray mean in someone with knee pain?
+69a3639ae212ad97bfa96dee | null | A bone lesion at the end of bone (epiphysis) means usually what?
+69a3639ae212ad97bfa96df0 | null | Bone lesion in the middle of long bone?
+69a3639be212ad97bfa96df2 | null | What is the treatment of H. pylori if someone is taking colchicine?
+69a3639be212ad97bfa96df4 | null | A patient has 1 gout attack per year. What is the treatment?
+69a3639be212ad97bfa96df6 | null | What medications need to be tested for G6PD deficiency?
+69a3639ce212ad97bfa96df8 | null | What is the "terrible triad" of knee injury?
+69a3639ce212ad97bfa96dfa | null | A patient with seropositive Rheumatoid arthritis has metastatic melanoma. Oncologists wants to start a checkpoint inhibitor and is asking you what to do for her RA management. She is currently on MTX, Humira, and prednisone 5mg. RA is stable.
+69a3639ce212ad97bfa96dfc | null | A patient with SLE and LN currently on imuran, HCQ, and prednisone gets pregnant. Her medication regimen needs to be optimized. She has worsening renal disease. What medication can you give, and what can you NOT give?
+69a3639ce212ad97bfa96dfe | null | What can alfafa sprouts do?
+69a3639ce212ad97bfa96e00 | null | For RA and C1/C2 subluxation, describe what you would see on xray?
+69a3639ce212ad97bfa96e02 | null | What can increase colchicine concentration, especially in patients with CKD?
+69a3639ce212ad97bfa96e04 | paste-09d4c16534ea68b5e01254dcce6e9871825b3a35.jpg | What does a muscle biopsy with HCQ toxicity look like?
+69a3639ce212ad97bfa96e06 | F2.large.jpg | What does muscle biopsy of colchicine look like?
+69a3639ce212ad97bfa96e08 | 3-s2.0-B978012385157400628X-f00628-03-9780123851574.jpg | What does muscle biopsy of steroid myopathy look like?
+69a3639ce212ad97bfa96e0a | null | Typical EMG findings in myositis?
+69a3639de212ad97bfa96e0c | null | What T-cells are involved with dermatomyositis, seen on muscle biopsy?
+69a3639de212ad97bfa96e0e | null | What T-cells are involved with PM, seen on muscle biopsy?
+69a3639de212ad97bfa96e10 | null | What T-cells are involved with IBM, seen on muscle biopsy?
+69a3639de212ad97bfa96e12 | muscleantisynthetaseCai01.jpg | What does muscle biopsy of anti-synthetase syndrome show?
+69a3639de212ad97bfa96e14 | null | Which type of dermatomyositis is known to have an erythematous patch on posterior hard palate?
+69a3639de212ad97bfa96e16 | null | Aside from calcinosis, what are juvenile NXP2-dermatomyositis patients at risk of having?
+69a3639de212ad97bfa96e18 | https://www.jaad.org/cms/asset/b61c2fdd-8957-4481-a511-b930dd9d90af/gr1.jpg | Which type of myositis is associated with "angel wings" sign?
+69a3639de212ad97bfa96e1a | null | What antibody associated with IBM?
+69a3639de212ad97bfa96e1c | null | What is the name of the study that shows efficacy of nintedanib for myositis-associated ILD?
+69a3639ee212ad97bfa96e1e | null | What drugs known to be secondary causes of mitochondrial myopathies?
+69a3639ee212ad97bfa96e20 | null | According to ACR guidelines 2021, what is treatment regimen for Takayasu arteritis?
+69a3639ee212ad97bfa96e22 | null | According to ACR guidelines 2021, what is treatment regimen for GCA?
+69a3639ee212ad97bfa96e24 | https://media.springernature.com/lw685/springer-static/image/prt%3A978-3-540-35280-8%2F4/MediaObjects/978-3-540-35280-8_4_Part_Fig1-780_HTML.jpg | One way to tell difference between DISH vs. AxSpa on xray?
+69a3639ee212ad97bfa96e26 | null | What is pathophys of X-linked hypo-phosphatemia?
+69a3639ee212ad97bfa96e28 | null | What is pirfenidone approved for?
+69a3639ee212ad97bfa96e2a | null | What type of vaccine is varicella?
+69a3639ee212ad97bfa96e2c | null | What is treatment for Babesiosis (usually coinfected with Lyme)?
+69a3639ee212ad97bfa96e2e | null | If patient has Anaplasmosis co infection with Lyme, and cannot take doxycycline, what is the treatment?
+69a3639fe212ad97bfa96e30 | null | Young female who runs frequently has 1st MTP pain/swelling.
+69a3639fe212ad97bfa96e32 | null | What is the histology of LCV?
+69a3639fe212ad97bfa96e34 | null | Patient has scaphoid fracture. What is treatment?
+69a3639fe212ad97bfa96e36 | null | What is pathophys of early OA?
+69a3639fe212ad97bfa96e38 | null | What antibody associated with Scleroderma renal crisis?
+69a3639fe212ad97bfa96e3a | null | What is treatment for AxSpa (ankylosing spondylitis) for someone initially on TNFi, had initial good response, but then later had relapse of symptoms?
+69a363a0e212ad97bfa96e3c | null | What is the first line treatment for AxSpa (ankylosing spondylitis)?
+69a363a0e212ad97bfa96e3e | null | What is a contraindication to using IL-17i in patients with AxSpa (ankylosing spondylitis)?
+69a363a0e212ad97bfa96e40 | null | Based on the 2010 criteria for diagnosing Rheumatoid Arthritis, how many points do you need to make dx?
+69a363a0e212ad97bfa96e42 | null | -central area of necrosis, surrounded by palisading macrophages -and perivascular infiltration of lymphocytes
+69a363a0e212ad97bfa96e44 | null | Discontinuity of bone surface visible in 2 perpendicular planes on US...
+69a363a0e212ad97bfa96e46 | null | Abnormal hypoechoic intra-articular tissue that is nondisplaceable and poorly compressible on US...
+69a363a0e212ad97bfa96e48 | null | Hypoechoic swelling of soft tissue surrounding tendon (extensor) on US...
+69a363a0e212ad97bfa96e4a | null | What is the best imaging modality for Takayasu arteritis?
+69a363a0e212ad97bfa96e4c | https://www.researchgate.net/publication/221768715/figure/fig8/AS:667203598819341@1536085142923/Radiograph-of-a-high-riding-humerus-in-a-patient-with-chronic-rotator-cuff-tear-Image.png | What does a "high riding humeral head" on shoulder xray typically mean?
+69a363a1e212ad97bfa96e4e | null | Which finding on capillaroscopy would be most specific for scleroderma?
+69a363a1e212ad97bfa96e50 | null | On MRI of SI joints, what does subchondral bone resorption with minimal cartilage surface irregularity a hallmark of?
+69a363a1e212ad97bfa96e52 | null | On MRI of SI joints, what does triangular area of sclerosis adjacent to inferior SI joint a hallmark of?
+69a363a2e212ad97bfa96e54 | null | Young male patient with UE weakness. Also with BL sensorineural hearing loss. All MSAs are negative. CK 800. EMG shows mild myopathic changes with low amplitude, short duration and polyphasic potentials. He has winging of the left scapula....
+69a363a2e212ad97bfa96e56 | null | Young female, has sudden onset HA. Normal ESR/CRP, and CSF. CTA Head sows areas of ectasia, stenosis, and beading in multiple vessels.
+69a363a2e212ad97bfa96e58 | null | For severe, active, EGPA, what are the options for induction treatment?
+69a363a2e212ad97bfa96e5a | null | In a patient with EGPA who is unable to receive immunomodulatory therapy, what is recommended?
+69a363a2e212ad97bfa96e5c | null | For treatment of remission EGPA, what meds are recommended?
+69a363a2e212ad97bfa96e5e | null | What is treatment of EGPA if a severe relapse occurs?
+69a363a3e212ad97bfa96e60 | null | What is treatment of EGPA with non-severe relapse?
+69a363a3e212ad97bfa96e62 | null | For patients with EGPA, what testing is conditionally recommended at time of diagnosis?
+69a363a3e212ad97bfa96e64 | null | For patients with EGPA who are receiving RTX/CYC, is there any prophylaxis medication that is recommended?
+69a363a3e212ad97bfa96e66 | null | For patients with active, nonsevere EGPA, we {{c1::conditionally recommend}} initiating treatment with {{c1::MTX/AZA/MMF + GCs}} over {{c1::CYC/RTX and GCs}}.
+69a363a3e212ad97bfa96e68 | null | Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with {{c1::RTX}} over {{c1::CYC}} for remission induction.
+69a363a3e212ad97bfa96e6a | null | For GPA/MPA, is PLEX recommended?
+69a363a3e212ad97bfa96e6c | null | If a patient with GPA/MPA has a severe relapse, which med is recommended?
+69a363a3e212ad97bfa96e6e | null | For patients with GPA/MPA receiving remission maintenance therapy with rituximab who have hypogammaglobulinemia (e.g., IgG <3 gm/liter) and recurrent severe infections, we conditionally recommend......?
+69a363a3e212ad97bfa96e70 | null | What is conditionally recommended for remission induction for active, nonsevere GPA?
+69a363a3e212ad97bfa96e72 | null | For patients with suspected GCA, we conditionally recommend an initial {{c1:: unilateral temporal artery biopsy over bilateral}} biopsies?
+69a363a4e212ad97bfa96e74 | null | For patients with newly diagnosed GCA with threatened vision loss, we conditionally recommend initiating treatment with {{c1:: IV pulse GCs over high-dose oral GCs.}}
+69a363a4e212ad97bfa96e76 | null | For patients with newly diagnosed GCA, we conditionally recommend the use of {{c1:: oral GCs with tocilizumab over oral GCs alone}}.
+69a363a4e212ad97bfa96e78 | null | For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we conditionally recommend {{c1:: adding aspirin}}.
+69a363a4e212ad97bfa96e7a | null | For patients with suspected GCA and a negative temporal artery biopsy result (or results), we conditionally recommend {{c1:: noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis over clinical assessment alone.}}
+69a363a4e212ad97bfa96e7c | tmpuwhpv0ej.jpg | Identify the correct response:
+69a363a4e212ad97bfa96e7e | null | What are 3 medications used to block IL-1Beta?
+69a363a4e212ad97bfa96e80 | null | What does V.E.X.A.S. stand for?
+69a363a4e212ad97bfa96e82 | null | Name 2 important reasons why IL-6 is an important inflammatory mediator
+69a363a4e212ad97bfa96e84 | null | What is the MOA of ipilimumab?
+69a363a5e212ad97bfa96e86 | null | What is MOA of nivolumab?
+69a363a5e212ad97bfa96e88 | null | What is MOA of pembrolizumab?
+69a363a5e212ad97bfa96e8a | null | What is FDA approved for oral ulcers in Behcets?
+69a363a5e212ad97bfa96e8c | null | What is the treatment for recurrent clots in Behcets?
+69a363a5e212ad97bfa96e8e | null | What disease should you think of in a middle age male with RP + myelodysplastic syndrome?
+69a363a5e212ad97bfa96e90 | null | What is the HLA associated with increased risk of ILD in Rheumatoid arthritis patients?
+69a363a5e212ad97bfa96e92 | null | What is the mechanism that increases Rheumatoid arthritis severity in smokers?
+69a363a5e212ad97bfa96e94 | null | What did the CANTOS trial show?
+69a363a5e212ad97bfa96e96 | null | Th2 (activated by IL-4)ΓÇªΓÇª.promotes {{c1:: IL-4, IL-5}} proliferation
+69a363a6e212ad97bfa96e98 | null | Which DMARD is recommended for mild Rheumatoid arthritis disease?
+69a363a6e212ad97bfa96e9a | null | "Triple therapy" is recommended as essentially equal to MTX + bDMARD....True of False?
+69a363a6e212ad97bfa96e9c | null | What is one way to differentiate Dengue viral arthritis vs. Chikungunya arthritis?
+69a363a6e212ad97bfa96e9e | null | What virus causes a relative bradycardia with respect to fever?
+69a363a6e212ad97bfa96ea0 | null | What bacterial arthritis comes from a rat bite (or inhestion of food/water with rat feces), and leads to an inflammatory polyarthritis, with fever and rash?
+69a363a6e212ad97bfa96ea2 | ochronoticarthropathy.jpg | What is shown here?
+69a363a6e212ad97bfa96ea4 | F1.large.jpg | What is this?
+69a363a6e212ad97bfa96ea6 | null | Describe the types of cryoglobulinemic vasculitis
+69a363a6e212ad97bfa96ea8 | paste-fbf4f2c8e58187d1294a1f11acfaf6711866d4b6.jpg | Describe what you see in each of the 4 histology images (Hint: skin)
+69a363a6e212ad97bfa96eaa | null | A patient develops new left sided weakness. Has been receiving RTX for ANCA vasculitis. CSF is normal, with only mildly increased protein. MRI brain shows hypointense subcortical white matter lesions on T1. Angiography of brain is normal. What is this?
+69a363a7e212ad97bfa96eac | https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00251-018-01101-w/MediaObjects/251_2018_1101_Fig1_HTML.jpg | A 2-year-old female is admitted for a new stroke (this is her 2nd stroke). She has history of polyarthritis and rash, pictured below. What is this?
+69a363a7e212ad97bfa96eae | null | What is the effect of Tocilizumab on Th cells?
+69a363a7e212ad97bfa96eb0 | null | What do malignant tumors do to T-cell activation?
+69a363a7e212ad97bfa96eb2 | null | What is the enzyme(s) involved in the production of ACPAs?
+69a363a7e212ad97bfa96eb4 | null | What is the difference(s) between ustekinumab and risankizumab?
+69a363a7e212ad97bfa96eb6 | null | What is the unique regulatory mechanism involved with the cytokine IL-1Beta?
+69a363a7e212ad97bfa96eb8 | null | IL-1Beta and the inflammasome are inflammatory pathways involved with what 2 unique diseases?
+69a363a8e212ad97bfa96eba | null | What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulation in the IL-1/inflammasome mechanism?
+69a363a8e212ad97bfa96ebc | null | What are the 3 CAPS disease (cryopyrin-associated periodic fever syndromes)?
+69a363a8e212ad97bfa96ebe | null | Of the different CAPS syndromes, which is considered the most severe?
+69a363a8e212ad97bfa96ec0 | null | What is the triad associated with Blau Syndrome?
+69a363a9e212ad97bfa96ec2 | null | In a patient with moderate disease activity and is naive to any treatment for Rheumatoid arthritis, what is the 1st line rec'd?
+69a363a9e212ad97bfa96ec4 | null | What is the CDAI score for rheumatoid arthritis that signifies at least moderate disease activity?
+69a363a9e212ad97bfa96ec6 | null | For Rheumatoid arthritis, which DMARD is conditionally rec'd over other DMARDs for mild disease activity in treatment-naive patients?
+69a363a9e212ad97bfa96ec8 | null | In a Rheumatoid arthritis patient with moderate disease activity who is treatment-naive, the 1st line treatment is............?
+69a363a9e212ad97bfa96eca | null | If a Rheumatoid arthritis patient on adequeate dosing of Methotrexate oral therapy persists with disease activity, what is next best step?
+69a363a9e212ad97bfa96ecc | null | If a patient is on 12.5mg/week of Methotrexate and daily folic acid for Rheumatoid arthritis, aside from routine blood monitoring, what is next best step in management at their next office visit?
+69a363a9e212ad97bfa96ece | null | Once oral or subQ MTX is optimized and patient persists with disease activity, what is next best step?
+69a363a9e212ad97bfa96ed0 | null | If a patient is being treated with Humira for Rheumatoid arthritis for past 6 months and is not at target, what is next best step?
+69a363aae212ad97bfa96ed2 | null | If patient is taking HCQ + SSZ together for Rheumatoid arthritis and is doing well, and is wanting to decrease her medication, what is next best step?
+69a363aae212ad97bfa96ed4 | null | If a patient is taking Methotrexate + bDMARD and is doing well, and wants to decrease medication load, what is next best step?
+69a363aae212ad97bfa96ed6 | null | If a patient with Rheumatoid arthritis has moderate disease activity, but also with history of mild/stable lung disease, what is best treatment?
+69a363aae212ad97bfa96ed8 | null | A patient with newly diagnosed Rheumatoid arthritis has moderate disease activity. She knows she previously had Hep B infection, but cannot remember anything about her treatment for it. She also has lymphoma. What is next best step? (This is tricky, but you have all the information you need)
+69a363aae212ad97bfa96eda | null | A patient with Rheumatoid arthritis and history of heart failure is not at target with Methotrexate monotherapy. What is next best step?
+69a363aae212ad97bfa96edc | null | A patient with newly diagnosed Rheumatoid arthritis (Moderate-high disease activity) has nonalcoholic fatty liver disease. Recent LFTs are normal. No evidence for cirrhosis. What is best DMARD?
+69a363aae212ad97bfa96ede | null | Which bDMARD/tsDMARD is "conditionally rec'd" for patients with Rheumatoid arthritis who also have nontuberculous mycobacterial lung disease with moderate-high disease activity despite csDMARDs?
+69a363abe212ad97bfa96ee0 | null | A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity. Patient has history of serious infection 10 months ago. What is next best step?
+69a363abe212ad97bfa96ee2 | cure-ibm-muscle-biopsy.jpg | What would muscle histopathology show in a patient with IBM?
+69a363abe212ad97bfa96ee4 | F1.large-8cd6cdedb1c6e303966b888fb61fdbe225fd1b58.jpg | A patient shows you these hands below. She has trouble breathing and intermitent mild weakness in her thighs. What is this? (Be specific)
+69a363abe212ad97bfa96ee6 | null | A 19 year old patient with SLE tolerating HCQ and MMF says she is up to date on all vaccinations. She wants to know if she needs the shingles vaccine because her PCP told her she is too young to get it. Do you recommend it?
+69a363abe212ad97bfa96ee8 | null | A patient with well controlled Rheumatoid arthritis on Methotrexate 15mg/week and daily folic ask you if he needs the influenza vaccine. What do you say?
+69a363abe212ad97bfa96eea | null | What is the management of DMARDs in relation to non-live attenuated vaccines?
+69a363ace212ad97bfa96eec | null | What is the management of RMD who are taking prednisone Γëñ 10mg daily and administering non-live vaccine?
+69a363ace212ad97bfa96eee | null | For patients with RMD who are taking prednisone ΓëÑ 20mg daily, what is the management for vaccines?
+69a363ace212ad97bfa96ef0 | give_or_defer_vaccine_table.png | Give or Defer?
+69a363ace212ad97bfa96ef2 | how_long_vaccine_table.png | How long?
+69a363ace212ad97bfa96ef4 | null | If a neonate/infant receives Rituximab (because the mother did) during the 2nd or 3rd trimester, what is the management for rotavirus vaccination?
+69a363ace212ad97bfa96ef6 | null | What is the recommendation for pneumococcal vaccine in a 25 year old patient with Rheumatoid arthritis stable on Arava?
+69a363ade212ad97bfa96ef8 | null | What is the management of the HPV vaccine in a 35 year old patient with SLE who is stable on HCQ and imuran?
+69a363ade212ad97bfa96efa | null | What warrants continuing Rituximab during conception and/or during pregnancy?
+69a363ade212ad97bfa96efc | contraception_management.jpg | What is the management for contraception?
+69a363ade212ad97bfa96efe | null | What is recommended for contraception for patients with SLE with moderate or severe disease activity (including nephritis)?
+69a363ade212ad97bfa96f00 | null | A patient has a IgM+ anti-cardiolipin antibody. She has never had a clot. What recommendation do you have for contraception?
+69a363ade212ad97bfa96f02 | Screen Shot 2024-01-01 at 4.53.18 PM.png | This figure from the ACR guidelines is asking if it is OK to treat postmenopausal population (women with +aPLs, and not SLE) with HRT...
+69a363ade212ad97bfa96f04 | Screen Shot 2024-01-01 at 5.03.56 PM.png | This figure from the ACR guidelines is asking for management during PREGNANCY in the following situations:
+69a363ade212ad97bfa96f06 | gout_vs_pseudogout.png | What do "gout crystals" look like? What do "pseudogout crystals" look like?
+69a363aee212ad97bfa96f08 | null | A 35 year old female with a past medical history of HTN, HBV, and lymphoma is newly diagnosed with Rheumatoid arthritis. She mentions that she had HBV infection many years ago that never caused any problems, but was never vaccinated or treated because she was told by her doctor that she is "immunized" from the infection. She is only taking NSAIDs for pain. What is the next best step in her management?
+69a363aee212ad97bfa96f0a | null | For patients with suspected GCA, we conditionally recommend obtaining a temporal artery biopsy specimen within {{c1::2 weeks}} of starting oral GCs over waiting longer than {{c1::2 weeks}} for a biopsy.
+69a363aee212ad97bfa96f0c | null | For patients with Systemic Autoimmune Rheumatic Diseases (SARDs) at risk for developoing ILD, how is it recommended to screen these patients?
+69a363aee212ad97bfa96f0e | null | For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using 6mw. True or False?
+69a363aee212ad97bfa96f10 | null | For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using chest xrays. True or False?
+69a363aee212ad97bfa96f12 | null | For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using ambulatory desaturation. True or False?
+69a363aee212ad97bfa96f14 | null | For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every {{c1::3-6 months}} rather than either shorter or longer intervals, for the first year, then less frequently once stable.
+69a363afe212ad97bfa96f16 | null | For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every {{c1::3-12 months}} rather than shorter or longer intervals, for the first year, then less frequently once stable.
+69a363afe212ad97bfa96f18 | null | For people with SARDs-ILD, we suggest assessment for ambulatory desaturation every {{c1::3-12 months}} rather than at shorter or longer intervals.
+69a363afe212ad97bfa96f1a | null | A patient has SSc-ILD. What is recommended for 1st line treatment?
+69a363afe212ad97bfa96f1c | null | A patient has SSc-ILD. Prior to any DMARD options, a patient should first be treated with corticosteroids. True of False
+69a363afe212ad97bfa96f1e | null | Within the 2023 ACR ILD guidelines, which is/are the recommendations classified as "STRONGLY"?
+69a363afe212ad97bfa96f20 | null | According to the ACR 2023 ILD guidelines, which scenario are CNIs recommended?
+69a363afe212ad97bfa96f22 | null | According to the ACR 2023 ILD guidelines, which medications are recommended as a 1st option for SARD (Systemic autoimmune rheumatic disease) associated RP-ILD (rapidly progressive-ILD)?
+69a363afe212ad97bfa96f24 | rp_ild_guidelines.jpg | According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?
+
+1. Methotrexate? [...]
+2. Leflunomide? [...]
+3. Azathioprine? [...]
+4. TNFi? [...]
+5. Abatacept? [...]
+6. Tocilizumab? [...]
+7. Nintedanib? [...]
+8. Pirfenidone? [...]
+9. PLEX? [...]
+69a363afe212ad97bfa96f26 | ragged_red_fibers.jpg | What does a muscle biopsy in a patient with suspected mitochondrial myopathy look like?
+69a363afe212ad97bfa96f28 | null | If a patient with Behcet's continue to have mucocutaneous ulcers despite steroids, azathioprine, colchicine, and apremilast, what is the next best step?
+69a363b0e212ad97bfa96f2a | null | What type of ocular disease is typically seen with Behcet's?
+69a363b0e212ad97bfa96f2c | null | True or False A 34 year old female with recently diagnosed SLE (stable on HCQ monotherapy) should have proteinuria screening done at least every 3-4 months.
+69a363b0e212ad97bfa96f2e | null | True or False A 34 year old female with recently diagnosed SLE (on HCQ monotherapy) has been stable for the past 2 years. Her last follow up with you was 4 weeks ago. She is currently experiencing what you suspect to be a lupus flare with manifestations of rashes and inflammatory arthritis. Her last proteinuria screen at last checkup was completely normal. You should not check for proteinuria again today because it was recently checked and normal.
+69a363b0e212ad97bfa96f30 | null | A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. You do routine proteinuria screening which results with 0.5g. Her creatinine and GFR have remained stable compared to previous lab draws. She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today. Should you order a renal biopsy?
+69a363b0e212ad97bfa96f32 | null | A 29 year old female with SLE taking HCQ weight based and MMF 500mg BID is doing well overall. CBC, CMP, dsDNA levels, and complement levels are stable. You do routine proteinuria screening which results with 0.6g. Her creatinine and GFR have remained stable compared to previous lab draws. She has no symptoms (ie. no rashes, arthritis, etc.) or any complaints today. Should you order a renal biopsy?
+69a363b0e212ad97bfa96f34 | null | A 35 year old female with PMH of SLE presented with photosensitive rashes in addition to 1g of proteinuria on routine screening. She was currently on weight based HCQ at that time. A renal biopsy shows new lupus nephritis class III with no class V present. She undergoes induction steroid protocol with subsequent steroid tapering in addition to MMF + IV belimumab. Today on her first followup visit she says she says she is doing well with no rashes or concerning symptoms. Most recent lab check shows improvement in kidney function with reduction of proteinuria to 0.3g. What is your next step in medication management?
+69a363b0e212ad97bfa96f36 | null | In patients with ACTIVE/NEW ONSET/FLARE of Class III/IV or Class V lupus nephritis, what are the ACR recommendations regarding steroid induction/tapering?
+69a363b1e212ad97bfa96f38 | null | A 40 year old male with PMH of SLE and lupus nephritis is currently on HCQ, MMF, lisinopril and belimumab. A previous renal biopsy showed Class IV lupus nephritis. He continues to have decreased kidney dysfunction and fluctuating levels of proteinuria. His last follow up was 6 months ago and would like to keep his follow up schedule the same. What is your next best step in managing his condition, per ACR?
+69a363b1e212ad97bfa96f3a | null | In a patient with new onset Class IV (without concomittant Class V) lupus nephritis, with is/are the medication recommendation(s)?
+69a363b1e212ad97bfa96f3c | null | In a patient with NEW ONSET/ACTIVE/ FLARE of ***pure*** Class 5 lupus nephritis with at least 1g of proteinuria, what are the ACR recommendations for treatment?
+69a363b1e212ad97bfa96f3e | null | A 33 year old female with PMH of SLE and lupus nephritis Class IV has been doing well on weight based HCQ, MMF, and belimumab. Her last renal biopsy was 2 years ago, afterwhich she underwent induction followed by tapering of steroids in addition to her current medications. Her proteinuria and kidney function improved and has remained stable since then. She has no complaints today. Routine screening shows normal CBC, CMP, dsDNA and complements levels. Routine proteinuria screening however shows a noticeable increase compared to previous levels. According to ACR, should you repeat a renal biopsy?
+69a363b1e212ad97bfa96f40 | null | A patient with newly diagnosed SLE has a renal biopsy which shows Class IV lupus nephritis. You decide to start triple immunosuppressive therapy including induction steroids followed by tapering. After induction steroids, to what dose and how quickly should the steroids be tapered?
+69a363b1e212ad97bfa96f42 | null | A patient with PMH of SLE and Class IV lupus nephritis (diagnosed 1 year ago) received induction steroids followed by tapering in addition to HCQ, MMF, and belimumab. She is currently on HCQ, MMF, and belimumab and has been doing well with no complaints or signs of flares. Labwork has been stable for the past 2 years. She asks you how long she needs to be on her current medications given how stable she has been. What do you tell her?
+69a363b1e212ad97bfa96f44 | null | A patient with SLE develops Class IV lupus nephritis. You decide to use CYC. What does ACR suggest regarding CYC for LN?
+69a363b1e212ad97bfa96f46 | null | A patient with SLE and new onset Class IV lupus nephritis is now in remission after receiving induction steroids followed by tapering, in addition to low dose CYC (and HCQ). She recently moved and is establishing care with you, her new rheumatologist. Her kidney function has improved and was told by her previous rheumatologist that she had an "excellent" response. She is currently still on low dose CYC, in addition to HCQ and is prednisone 5mg daily. Aside from possibly lowering prednisone dose, what other medication changes should you make?
+69a363b1e212ad97bfa96f48 | null | A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ and MMF. She recently moved across the country and is now establishing care with you as her new rheumatologist. She was told by her previous rheumatologist regarding her lupus nephritis that "she is doing better, but still with some room for improvement." She is currently on HCQ, MMF, and prednisone 5mg daily. She asks you what else can be done. What should you do?
+69a363b2e212ad97bfa96f4a | null | A patient with SLE and newly diagnosed Class IV lupus nephritis received induction steroids plus tapering, in addition to HCQ, MMF, and belimumab. She recently moved across the country and is now establishing care with you as her new rheumatologist. She was told by her previous rheumatologist regarding her lupus nephritis that "she is still needing a better treatment regimen because her kidneys have not really responded." She is currently on HCQ, MMF, belimumab and prednisone 5mg daily. She asks you what else can be done. What should you do?
+69a363b2e212ad97bfa96f4c | null | A patient has newly diagnosed SLE with concomittant Class IV lupus nephritis. She was started on weight based HCQ, but following a renal biopsy showing LN she was started on induction (then tapering) steroids, followed by MMF in combination with belimumab. She continued to have worsening renal disease, therefore her regimen was switched to MMF in combination with voclosporin. She is continuing to have moderate proteinuria and hematuria however on her routine labs. What are your next options for treatment, according to ACR?
+69a363b2e212ad97bfa96f4e | null | In regards to lupus nephritis with development of end-stage kidney disease, what are the recommendations for the timing of dialysis?
+69a363b2e212ad97bfa96f50 | null | A patient with SLE and Class IV lupus nephritis establishes in your clinic. She has undergone multiple treatment regimens with HCQ, MMF, belimumab, CNIs, RTX, and induction/tapering steroids. She continues to have significant proteinuria and reduced kidney function. What is next best step in management?
+69a363b2e212ad97bfa96f52 | null | A patient has SLE and past Class IV and Class V lupus nephritis. He has already had a kidney transplantation and follows with his nephrologist. He is currently on HCQ. In terms of extra-renal symptoms, he has been "doing just fine" with no complaints. He asks if he still needs to follow up with you because he has been stable just on HCQ and his nephrologist is "managing his kidneys." What do you tell him?
+69a363b2e212ad97bfa96f54 | null | A 27 year old female with known SLE (+anti-Smith ab and +ANA) is being managed by her PCP. She was finally referred to a rheumatologist (you). Her main symptoms prior to being diagnosed were joint pain and rashes. Up until this point, she has been taking Tylenol for her joint pain, however her pain had not been adequately controlled so her PCP put her on oral prednisone 10mg daily which provided significant relief. You review her lab work and her CBC, CMP, UA, and inflammation markers have been normal since being on prednisone. Today she has no complaints and is happy with how she is doing currently still taking prednisone 10mg daily. You recheck her labwork and everything looks OK besides mild lymphopenia. What do you recommend to her?
+69a363b2e212ad97bfa96f56 | null | A 25 year old female with known SLE has been doing well on HCQ 200mg daily which is appropriate for her weight. She has a follow up with you today and as always says she is doing well with no complaints. She previously had joint pain and rashes that were uncontrolled however since taking HCQ you tell her she has been in remission. She has been taking HCQ for 5 years and wants to know if she should continue taking it. Her routine lab work today is normal. What do you tell her?
+69a363b2e212ad97bfa96f58 | null | To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of {{c1:: Γëñ5 mg/kg}} over a dose goal of {{c1:: >5 mg/kg}}
+69a363b2e212ad97bfa96f5a | null | A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg daily prednisone. Her symptoms are well controlled and she no longer has inflammatory joint pain or rashes. She wants to stay on her current regimen. What is your next best step?
+69a363b2e212ad97bfa96f5c | null | A 30 year old female with SLE (+anti-Smith, +ANA) has been in remission on HCQ weight based, and 5mg daily prednisone. Her symptoms are welll controlled and she no longer has inflammatory joint pain or rashes. You advised to taper off prednisone however her inflammatory joint pain will flare when she tries to reduce prednisone below 5mg daily. What is your next step?
+69a363b3e212ad97bfa96f5e | null | A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. Her most recent blood work at the previous 3 visits showed neutropenia, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any symptoms and says she is feeling fine. What is your next best step?
+69a363b3e212ad97bfa96f60 | null | A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. Her most recent blood work at the previous 3 visits showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any symptoms and says she is feeling fine. What is your next best step?
+69a363b3e212ad97bfa96f62 | null | A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. She has been complaining or frequent epistaxis that is new to her. Her most recent blood work at the previous visit showed PLT count of 25,000/mcL, but the remainder of her blood work has remained normal, including kidney function with urinalysis. She denies any other symptoms and says she is feeling fine. What is your next best step?
+69a363b3e212ad97bfa96f64 | null | A 28 year old female with SLE has been stable on HCQ weight based for many years. She has been off of prednisone for many years. She has been complaining of chest pain with exertion that is new to her. Her most recent blood work at the previous visit showed Hgb count of 8, but the remainder of her blood work has remained normal, including kidney function with urinalysis. A direct coombs test is positive. She denies any other symptoms and says she is feeling fine. What is your next best step?
+69a363b3e212ad97bfa96f66 | null | What is the treatment choice for a patient with SLE and active lupus optic neuritis OR lupus acute confusional state OR acute lupus mononeuritis multiplex?
+69a363b3e212ad97bfa96f68 | null | A 34 year old female patient is referred to you for suspicion of SLE. You do autoimmune testing which results with +ANA, +dsDNA moderate titer, and a +aCL IgM high titer. Her main symptoms are fatigue, joint pain, and rashes. You start her on weight based HCQ and low dose prednisone and her symptoms improve. She mentioned having some "urinary problems" but just writes it off as weakened pelvic floor muscle from delivering her baby 1 year ago. A urinalysis is normal. On her next follow up she says she is feeling fine however her "urinary leakage" has progressed and she is more concerned. Her PCP was concerned so he ordered a MRI of her spine which showed increased T2 signal intensity longitudinally across T6-T9 with associated cord swelling. Her PCP sent her to a neurosurgeon based on the MRI results but she is still waiting to be seen in that clinic. You repeat blood work today and will follow up with those results with her as soon as they return. What are your next steps with this patient today?
+69a363b3e212ad97bfa96f6a | null | A 33 year old female with SLE has the following autoantibody panel: +ANA +Smith +dsDNA +Ribosomal P protein +SSA She is currently taking weight based HCQ and tolerating it well. She previously had inflammatory arthritis but that has been well controlled with HCQ. Her sister came with her to clinic today and is concerned because the patient had to be taken to the ER last week due to sudden behavioral changes, irritability, and auditory hallucinations. She was yelling in the ER waiting room that her family was plotting against her. Her exam today shows a malar rash. Lab studies show low complement levels compared to previous and elevated dsDNA levels. What is your next step?
+69a363b3e212ad97bfa96f6c | null | A patient with SLE has new onset seizures. She is on HCQ alone. How do you optimize her SLE treatment?
+69a363b3e212ad97bfa96f6e | null | A 31 year old male with 4 year history of SLE presents with a 1 week history of new, non-blanching, palpable purpura on his lower extremities. He reports mild arthralgias but denies hematuria, fever, or abdominal pain. Exam shows multiple 2mm-5mm purpuric papules on both shins and ankles. Most up to date labs show low C3 C4, mild anemia, and elevated dsDNA. UA is unremarkable. Skin biopsy shows neutrophilic infiltration of small dermal vessels with fibrinoid necrosis. He has given a topical steroid cream to apply to the rash although it has not helped. What is next best step?
+69a363b4e212ad97bfa96f70 | null | A 28 year old woman with a 3 year history of SLE on HCQ presents with 4 days of sharp, pleuritic chest pain. It worsens when lying flat. She also reports mild shortness of breath and a dry cough. On exam her vitals are normal. Decreased breath sounds are noted at the right lung base and a pericardial fruction rub is heard at left sternal border. What is the most appropriate initial treatment?
+69a363b4e212ad97bfa96f76 | hyperparathyroidism_hand.jpg | What is shown here?
+69a363b4e212ad97bfa96f78 | question108_image.png | What is shown here?
+69a60a2e219cfad6ec224b71 | q_vax_q1_v3.png | What do you do?
+69a60d60dc32a9d23bb5f288 | q_vax_q2_v3.png | What do you do?
+69a6335a70149d955ec283f9 | q_hrt_rmd_1.png | What do you do?
+69a6f0d6651f92b12ee9aa4d | q_hrt_rmd_2.png | What do you do?
+69a6f5ddc1ec4092e0b2efe9 | q_hrt_rmd_3.png | What do you do?
+69a6f732666328361beb4e3a | q_hrt_rmd_4.png | What do you do?
+69a6f82c0a8d6d1ad1e3c5b2 | q_contraception_1.png | What do you do?
+69a6f98dd031ca66771afc7a | q_contraception_2.png | What do you do?
+69a6fb282e57db246290df9b | q_contraception_3.png | What do you do?
+69a6fe350fd67d27c07d7fce | q_contraception_4.png | What do you do?
+69a711a16109ba09b02aa5f7 | q_contraception_5.png | What do you do?
+69a712282e6fbd797b121cfe | q_preg_plan_1.png | What do you do?
+69a715080fb35692ccca2f06 | q_anti_ro_la_1.png | What do you do?
+69a718d5671e7986ddd1a4ae | q_pos_apl_no_aps_1.png | What do you do?
+69a71b8d2a01b01eb29d29ed | q_ob_aps_1.png | What do you do?
+69a71eff76003482beac663b | q_thrombotic_aps_1.png | What do you do?
+69a72bb183c9e00ec31827e1 | q_art_1.png | What do you do?
+69a730136ee0d1f329e86192 | q_art_2.png | What do you do?
+69a733a10672ca3fa1298ed5 | q_art_3.png | What do you do?
+69a8c6ce5dfe45eec677bfe7 | q_non_live_vax_gc.png | What do you do?

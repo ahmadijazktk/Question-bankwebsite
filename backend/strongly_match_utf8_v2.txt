@@ -1,0 +1,21 @@
+﻿Found 4 questions containing 'STRONGLY recommend'
+
+--- Match 1 ---
+ID: 69a363b0e212ad97bfa96f2c
+Question Text: True or False A 34 year old female with recently diagnosed SLE (stable on HCQ monotherapy) should ha...
+Opt 1 Expl Context: "In people with SLE without known kidney disease, we STRONGLY recommend screening for proteinuria at least every 6-12 months ... OR when experiencing extra-renal flares.
+
+--- Match 2 ---
+ID: 69a363b0e212ad97bfa96f2e
+Question Text: True or False A 34 year old female with recently diagnosed SLE (on HCQ monotherapy) has been stable ...
+Opt 1 Expl Context: "In people with SLE without known kidney disease, we STRONGLY recommend screening for proteinuria at least every 6-12 months ... OR when experiencing extra-renal flares.
+
+--- Match 3 ---
+ID: 69a363b2e212ad97bfa96f4e
+Question Text: In regards to lupus nephritis with development of end-stage kidney disease, what are the recommendat...
+Opt 1 Expl Context: "In people with LN and ESKD, we STRONGLY recommend kidney transplantation over dialysis." "In people with LN who have progressive loss of kidney function and are nearing ESKD (eGFR of 15 ml/min/1.73m2 ), we  <strong>CONDITIONALLY RECOMMEND</strong>  preemptive kidney transplant over dialysis or non-preemptive transplant."
+
+--- Match 4 ---
+ID: 69a363b2e212ad97bfa96f52
+Question Text: A patient has SLE and past Class IV and Class V lupus nephritis. He has already had a kidney transpl...
+Opt 1 Expl Context: "In people with LN on current dialysis or after kidney transplantation, we STRONGLY recommend regular follow up with rheumatology."
