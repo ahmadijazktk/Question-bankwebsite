@@ -1,0 +1,250 @@
+--- Question 1 (ID: 69ebcbca82f7572d9af8894a) ---
+Text: Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with ...
+Option 0 [CORRECT]: Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with RTX over CYC for remission induction.
+Expl: Recommendation: For patients with active, severe GPA/MPA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> treatment with RTX over CYC for remission induction.
+
+--- Question 2 (ID: 69ebcbca82f7572d9af8894b) ---
+Text: For patients with active, nonsevere EGPA, we {{.........}} initiating treatment with {{.........}} o...
+Option 0 [CORRECT]: For patients with active, nonsevere EGPA, we <b>conditionally recommend</b> initiating treatment with <b>MTX/AZA/MMF + GCs</b> over <b>CYC/RTX and GCs</b>.<br><br>*look at the ACR ANCA Vasculitis to see how they define “non-severe” vs. “severe\"<br><br>Non-severe = \"Vasculitis without life- or organ-threatening manifestations (e.g., rhinosinusitis, asthma, mild systemic symptoms, uncomplicated cutaneous disease, mild inflammatory arthritis)\"<br><br>Severe = \"Vasculitis with life- or organ-threatening manifestations (e.g., alveolar hemorrhage, glomerulonephritis, central nervous system vasculitis, mononeuritis multiplex, cardiac involvement, mesenteric ischemia, limb/digit ischemia)\"
+Expl: For patients with active, nonsevere EGPA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> initiating treatment with <b>MTX/AZA/MMF + GCs</b> over <b>CYC/RTX and GCs</b>.<br><br>*look at the ACR ANCA Vasculitis to see how they define “non-severe” vs. “severe\"<br><br>Non-severe = \"Vasculitis without life- or organ-threatening manifestations (e.g., rhinosinusitis, asthma, mild systemic symptoms, uncomplicated cutaneous disease, mild inflammatory arthritis)\"<br><br>Severe = \"Vasculitis with life- or organ-threatening manifestations (e.g., alveolar hemorrhage, glomerulonephritis, central nervous system vasculitis, mononeuritis multiplex, cardiac involvement, mesenteric ischemia, limb/digit ischemia)\"
+
+--- Question 3 (ID: 69ebcbca82f7572d9af8894c) ---
+Text: For patients with suspected GCA, we conditionally recommend an initial {{……… }} biopsies?...
+Option 0 [CORRECT]: For patients with suspected GCA, we conditionally recommend an initial <b>unilateral temporal artery biopsy</b> over <b>bilateral biopsies</b>?
+Expl: For patients with suspected GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> an initial <b>unilateral temporal artery biopsy</b> over <b>bilateral biopsies</b>?
+
+--- Question 4 (ID: 69ebcbca82f7572d9af8894d) ---
+Text: For patients with newly diagnosed GCA with threatened vision loss, we conditionally recommend initia...
+Option 0 [CORRECT]: For patients with newly diagnosed GCA with threatened vision loss, we conditionally recommend initiating treatment with <b>IV pulse GCs</b> over <b>high-dose oral GCs</b>.<br><br>The key here is \"threatened vision loss\".
+Expl: For patients with newly diagnosed GCA with threatened vision loss, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> initiating treatment with <b>IV pulse GCs</b> over <b>high-dose oral GCs</b>.<br><br>The key here is \"threatened vision loss\".
+
+--- Question 5 (ID: 69ebcbca82f7572d9af8894e) ---
+Text: For patients with newly diagnosed GCA, we conditionally recommend the use of {{............}}....
+Option 0 [CORRECT]: For patients with newly diagnosed GCA, we conditionally recommend the use of <b>oral GCs with tocilizumab</b> over <b>oral GCs alone</b>.
+Expl: For patients with newly diagnosed GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> the use of <b>oral GCs with tocilizumab</b> over <b>oral GCs alone</b>.
+
+--- Question 6 (ID: 69ebcbca82f7572d9af8894f) ---
+Text: For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid art...
+Option 0 [CORRECT]: For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we conditionally recommend <b>adding aspirin</b>.
+Expl: For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> <b>adding aspirin</b>.
+
+--- Question 7 (ID: 69ebcbca82f7572d9af88950) ---
+Text: For patients with suspected GCA and a negative temporal artery biopsy result (or results), we condit...
+Option 0 [CORRECT]: For patients with suspected GCA and a negative temporal artery biopsy result (or results), we conditionally recommend <b>noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis</b> over <b>clinical assessment alone</b>.
+Expl: For patients with suspected GCA and a negative temporal artery biopsy result (or results), we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> <b>noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis</b> over <b>clinical assessment alone</b>.
+
+--- Question 8 (ID: 69ebcbca82f7572d9af88952) ---
+Text: For patients with suspected GCA, we conditionally recommend obtaining a temporal artery biopsy speci...
+Option 0 [CORRECT]: For patients with suspected GCA, we conditionally recommend obtaining a temporal artery biopsy specimen within <b>2 weeks</b> of starting oral GCs over waiting longer than <b>2 weeks</b> for a biopsy.
+Expl: For patients with suspected GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> obtaining a temporal artery biopsy specimen within <b>2 weeks</b> of starting oral GCs over waiting longer than <b>2 weeks</b> for a biopsy.
+
+--- Question 9 (ID: 69ebcbca82f7572d9af88955) ---
+Text: To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of ...
+Option 0 [CORRECT]: To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of <b>≤5 mg/kg</b> over a dose goal of <b>>5 mg/kg</b>
+Expl: To minimize retinal toxicity, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> a long-term average daily HCQ dose goal of <b>≤5 mg/kg</b> over a dose goal of <b>>5 mg/kg</b>
+
+--- Question 10 (ID: 69ebcbca82f7572d9af88956) ---
+Text: What is treatment for acrodermatitis chronica atrophicans?...
+Option 0 [CORRECT]: Oral abx 21-28 days<br><br>WEAK Rec'd
+Expl: Oral abx 21-28 days<br><br><strong style='color: #000; font-weight: 600;'>WEAK REC'D</strong>
+
+--- Question 11 (ID: 69ebcbca82f7572d9af8895a) ---
+Text: What is treatment for Lyme associated Bell's palsy?...
+Option 0 [CORRECT]: Oral doxycycline 14-21 days<br><br>STRONG REC'D
+Expl: Oral doxycycline 14-21 days<br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+
+--- Question 12 (ID: 69ebcbca82f7572d9af8898d) ---
+Text: What is treatment for borrelial lymphocytoma?...
+Option 0 [CORRECT]: Oral abx 14 days<br><br>WEAK Rec'd, low quality evidence
+Expl: Oral abx 14 days<br><br><strong style='color: #000; font-weight: 600;'>WEAK REC'D</strong>, low quality evidence
+
+--- Question 13 (ID: 69ebcbca82f7572d9af889cd) ---
+Text: What is treatment for lyme associated parenchymal involvement of brain or spinal cord?...
+Option 0 [CORRECT]: <b>IV (not oral) antibiotics</b><br><br>STRONG REC'D
+Expl: <b>IV (not oral) antibiotics</b><br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+
+--- Question 14 (ID: 69ebcbca82f7572d9af889e1) ---
+Text: What is treatment for lyme carditis?...
+Option 0 [CORRECT]: <b>-"suggest oral antibiotics over IV"....this is for outpatient (ACR 2020 guidelines)</b><br>-if hospitalized, use IV ceftriaxone<br>-if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor<br><br>STRONG REC'D
+Expl: <b>-"suggest oral antibiotics over IV"....this is for outpatient (ACR 2020 guidelines)</b><br>-if hospitalized, use IV ceftriaxone<br>-if patient has evidence of arrhythmia, ADMIT patient and place continuous cardiac monitor<br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+
+--- Question 15 (ID: 69ebcbca82f7572d9af889f0) ---
+Text: What is treatment for lyme associated acute neurologic manifestations (without parenchymal involveme...
+Option 0 [CORRECT]: <b>IV ceftriaxone, cefotaxime, penicillin G or oral doxycycline. 14-21 days</b><br><br>STRONG REC'D<br>-------<br>...if with involvement of brain/spinal cord, STRONGLY REC'D IV over oral antibiotics
+Expl: <b>IV ceftriaxone, cefotaxime, penicillin G or oral doxycycline. 14-21 days</b><br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong><br>-------<br>...if with involvement of brain/spinal cord, <strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> IV over oral antibiotics
+
+--- Question 16 (ID: 69ebcbca82f7572d9af889f2) ---
+Text: What is treatment for Lyme arthritis?...
+Option 0 [CORRECT]: <b>Oral antibiotic for 28 days</b><br><br>(Strong Recommendation per ACR guidelines)
+Expl: <b>Oral antibiotic for 28 days</b><br><br>(<strong style='color: #000; font-weight: 600;'>STRONG RECOMMENDATION</strong> per ACR guidelines)
+
+--- Question 17 (ID: 69ebcbcb82f7572d9af88a04) ---
+Text: What is treatment for lyme associated erythema migrans?...
+Option 0 [CORRECT]: <b>Oral Doxy 10 days, or 14 days of amoxicillin/cefuroxime</b><br><br>STRONG REC'D
+Expl: <b>Oral Doxy 10 days, or 14 days of amoxicillin/cefuroxime</b><br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+
+--- Question 18 (ID: 69ebcbcb82f7572d9af88a76) ---
+Text: What is initial treatment for JIA polyarthritis?...
+Option 0 [CORRECT]: <b>MTX (subq), then TNFi</b><br>-IAGCs conditionally rec'd (Triamcinolone hexacetonide ***STRONGLY rec'd*** over triamcinolone acetonide)<br>-Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease conditionally rec'd<br>-Bridging with oral GCs (<3 months) during initiation of escalation with conditionally rec'd AGAINST in *low disease activity*
+Expl: <b>MTX (subq), then TNFi</b><br>-IAGCs <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> (Triamcinolone hexacetonide *<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>* over triamcinolone acetonide)<br>-Bridging with oral GCs (<3 months) during initiation of escalation with *high or moderate* disease <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong><br>-Bridging with oral GCs (<3 months) during initiation of escalation with <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> AGAINST in *low disease activity*
+
+--- Question 19 (ID: 69ebcbcb82f7572d9af88a77) ---
+Text: What is treatment for JIA-sacroiliitis?...
+Option 0 [CORRECT]: <b>NSAID (***STRONGLY rec'd***), then TNFi (***STRONGLY rec'd***)</b><br>-strongly rec'd AGAINST using MTX monotherapy
+Expl: <b>NSAID (*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*), then TNFi (*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*)</b><br>-<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> AGAINST using MTX monotherapy
+
+--- Question 20 (ID: 69ebcbcb82f7572d9af88a78) ---
+Text: What is treatment for JIA-enthesitis?...
+Option 0 [CORRECT]: <b>NSAID (***STRONGLY rec'd***) , then TNFi</b><br>-TNFi conditionally rec'd over MTX or SSZ<br>-bridging therapy with oral GCs <3 months during initiation or escalation is conditionally rec'd (most useful if **high disease activity**)
+Expl: <b>NSAID (*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*) , then TNFi</b><br>-TNFi <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> over MTX or SSZ<br>-bridging therapy with oral GCs <3 months during initiation or escalation is <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> (most useful if **high disease activity**)
+
+--- Question 21 (ID: 69ebcbcb82f7572d9af88a7a) ---
+Text: For JIA polyarthritis, can you use a biologic monotherapy?...
+Option 0 [CORRECT]: <b>Yes, but conditionally rec'd to use DMARD + biologics</b><br>-***and STRONGLY rec'd to use infliximab + DMARD***
+Expl: <b>Yes, but <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> to use DMARD + biologics</b><br>-***and <strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> to use infliximab + DMARD***
+
+--- Question 22 (ID: 69ebcbcb82f7572d9af88a7c) ---
+Text: What is treatment regimen for oligoarthritis JIA?...
+Option 0 [CORRECT]: <b>Trial of NSAIDs (conditional rec'd) + Injection GCs (***STRONGLY rec'd***)</b><br>   -Do NOT USE ORAL GCs<br>       -csDMARD (***STRONGLY rec'd***) (....conditionally oral vs subQ MTX) after NSAIDs and Injection GCs fail<br>        -bDMARD ***STRONGLY rec'd*** after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX)<br><br>-***OLIGO = ≤4 joints***
+Expl: <b>Trial of NSAIDs (conditional rec'd) + Injection GCs (*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*)</b><br>   -Do NOT USE ORAL GCs<br>       -csDMARD (*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*) (....conditionally oral vs subQ MTX) after NSAIDs and Injection GCs fail<br>        -bDMARD *<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>* after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX)<br><br>-***OLIGO = ≤4 joints***
+
+--- Question 23 (ID: 69ebcbcb82f7572d9af88a7d) ---
+Text: What is the treatment regimen for TMJ JIA?...
+Option 0 [CORRECT]: <b>Trial of NSAIDs (conditional rec'd) + Injection GCs (conditionally rec'd)</b><br>   -***Do NOT USE ORAL GCs***<br>       -csDMARD (STRONGLY rec'd) (....conditionally MTX ) after NSAIDs and Injection GCs fail<br>        -bDMARD (STRONGLY rec'd) after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX)<br><br>-***all this similar to oligo-JIA, aside from STRONG rec'd for IAGCs***
+Expl: <b>Trial of NSAIDs (conditional rec'd) + Injection GCs (<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>)</b><br>   -***Do NOT USE ORAL GCs***<br>       -csDMARD (<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>) (....conditionally MTX ) after NSAIDs and Injection GCs fail<br>        -bDMARD (<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>) after inadequate respond to NSAIDs, and/or IAGCs, and at least 1 csDMARD (MTX)<br><br>-***all this similar to oligo-JIA, aside from <strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong> for IAGCs***
+
+--- Question 24 (ID: 69ebcbcb82f7572d9af88a7e) ---
+Text: What is the only difference between management of TMJ JIA and oligo-JIA?...
+Option 0 [CORRECT]: <b>Everything the same, except IAGCs ***STRONGLY rec'd*** in oligo-JIA.</b><br>-in TMJ-JIA....it is conditionally rec'd
+Expl: <b>Everything the same, except IAGCs *<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>* in oligo-JIA.</b><br>-in TMJ-JIA....it is <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>
+
+--- Question 25 (ID: 69ebcbcb82f7572d9af88a7f) ---
+Text: What is treatment for sJIA (without MAS)?...
+Option 0 [CORRECT]: <b>NSAIDs conditionally rec'd as initial monotherapy</b><br>-DO NOT USE ORAL GCs<br>-DO NOT USE csDMARDs<br>-IL-6 or IL-1 conditionally rec'd as initial monotherapy<br>    -in incomplete respond to IL-1/IL-6, can use csDMARDs or bDMARDs rec'd over long term use GCs.
+Expl: <b>NSAIDs <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> as initial monotherapy</b><br>-DO NOT USE ORAL GCs<br>-DO NOT USE csDMARDs<br>-IL-6 or IL-1 <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> as initial monotherapy<br>    -in incomplete respond to IL-1/IL-6, can use csDMARDs or bDMARDs rec'd over long term use GCs.
+
+--- Question 26 (ID: 69ebcbcb82f7572d9af88a9d) ---
+Text: What is the GC adjusted FRAX score for High risk?...
+Option 0 [CORRECT]: <b>MOF ≥ 20% but , <30%</b><br>OR<br>Hip ≥ 3% but < 4.5%<br><br>TX: strongly rec'd ('over no treatment')<br>Conditionally recommend DEN or PTH/PTHrP over BP
+Expl: <b>MOF ≥ 20% but , <30%</b><br>OR<br>Hip ≥ 3% but < 4.5%<br><br>TX: <strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> ('over no treatment')<br><strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> DEN or PTH/PTHrP over BP
+
+--- Question 27 (ID: 69ebcbcb82f7572d9af88a9e) ---
+Text: What places a patient at Very High risk for OP?<br>What T score?...
+Option 0 [CORRECT]: <b>Prior OP fracture</b><br>OR<br>MOF ≥ 30%<br>OR<br>Hip ≥ 4.5%<br>OR<br>≥30mg/day prednisone for ≥30 days..... OR....... ≥ 5g/year total dose<br>OR<br>T score ≤ -3.5<br><br>TX: Conditionally rec'd PTH/PTHrP over anti-resorptive
+Expl: <b>Prior OP fracture</b><br>OR<br>MOF ≥ 30%<br>OR<br>Hip ≥ 4.5%<br>OR<br>≥30mg/day prednisone for ≥30 days..... OR....... ≥ 5g/year total dose<br>OR<br>T score ≤ -3.5<br><br>TX: <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> PTH/PTHrP over anti-resorptive
+
+--- Question 28 (ID: 69ebcbcb82f7572d9af88a9f) ---
+Text: What places a <40 year old adult at Moderate Risk for osteoporosis?...
+Option 0 [CORRECT]: <b>BMD Z-score ≤ -3*</b><br>OR<br>Significant Bone loss over 1-2 years IN ADDITION TO,  GC ≥ 7.5mg/day for ≥ 6 months<br><br>TX: Conditionally rec'd oral BP, IV BP, DEN, PTH/PTHrP<br>Conditionally rec'd AGAINST RAL, and ROM (due to potential harms except for those intolerant to other agents)
+Expl: <b>BMD Z-score ≤ -3*</b><br>OR<br>Significant Bone loss over 1-2 years IN ADDITION TO,  GC ≥ 7.5mg/day for ≥ 6 months<br><br>TX: <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> oral BP, IV BP, DEN, PTH/PTHrP<br><strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> AGAINST RAL, and ROM (due to potential harms except for those intolerant to other agents)
+
+--- Question 29 (ID: 69ebcbcb82f7572d9af88aba) ---
+Text: What meds should be discontinued in a male who are planning to have a kid?...
+Option 0 [CORRECT]: <b>CYC (stop 12 weeks prior to conception).....***STRONGLY rec'd***</b><br>-Thalidomide (stop 4 weeks prior to conception)....conditionally rec'd
+Expl: <b>CYC (stop 12 weeks prior to conception).....*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>*</b><br>-Thalidomide (stop 4 weeks prior to conception)....<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>
+
+--- Question 30 (ID: 69ebcbcb82f7572d9af88aca) ---
+Text: Which joints does Tai-Chi help the most?...
+Option 0 [CORRECT]: <b>Knee and hip</b><br>-strongly rec'd
+Expl: <b>Knee and hip</b><br>-<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>
+
+--- Question 31 (ID: 69ebcbcb82f7572d9af88acc) ---
+Text: Which is strongly rec'd for 1st CMC joint OA?...
+Option 0 [CORRECT]: <b>Hand orthosis</b><br>-conditionally rec'd for other finger joint OA
+Expl: <b>Hand orthosis</b><br>-<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> for other finger joint OA
+
+--- Question 32 (ID: 69ebcbcb82f7572d9af88ace) ---
+Text: Which joint are topical NSAIDs STRONGLY rec'd?...
+Option 0 [CORRECT]: <b>Knee OA</b><br>-conditionally rec'd for hand OA
+Expl: <b>Knee OA</b><br>-<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> for hand OA
+
+--- Question 33 (ID: 69ebcbcb82f7572d9af88acf) ---
+Text: Is topical capsaicin cream rec'd, and if so, for which joints?...
+Option 0 [CORRECT]: <b>Conditionally rec'd for knee OA</b><br>-rec'd AGAINST for hand
+Expl: <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> for knee OA</b><br>-rec'd AGAINST for hand
+
+--- Question 34 (ID: 69ebcbcb82f7572d9af88ad0) ---
+Text: Which joints are oral NSAIDs rec'd?...
+Option 0 [CORRECT]: <b>For knee, hip and hand OA</b><br>-STRONGLY rec'd
+Expl: <b>For knee, hip and hand OA</b><br>-<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>
+
+--- Question 35 (ID: 69ebcbcb82f7572d9af88ad1) ---
+Text: Which joints are intraarticular GCs rec'd?...
+Option 0 [CORRECT]: <b>Knee and hip, STRONGLY</b><br>-hand, conditionally rec'd
+Expl: <b>Knee and hip, STRONGLY</b><br>-hand, <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>
+
+--- Question 36 (ID: 69ebcbcb82f7572d9af88ad2) ---
+Text: Should you use US for hip steroid injection?...
+Option 0 [CORRECT]: <b>YES, if available</b><br>-STRONGLY REC'D, if available<br>-but, not required
+Expl: <b>YES, if available</b><br>-<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong>, if available<br>-but, not required
+
+--- Question 37 (ID: 69ebcbcb82f7572d9af88ad5) ---
+Text: Are non-tramadol opioids rec'd for OA?...
+Option 0 [CORRECT]: <b>No, conditionally rec'd AGAINST</b>
+Expl: <b>No, <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> AGAINST</b>
+
+--- Question 38 (ID: 69ebcbcb82f7572d9af88ad6) ---
+Text: Is glucosamine rec'd for OA?...
+Option 0 [CORRECT]: <b>No, STRONGLY rec'd AGAINST</b>
+Expl: <b>No, <strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> AGAINST</b>
+
+--- Question 39 (ID: 69ebcbcb82f7572d9af88ad7) ---
+Text: Is HCQ rec'd for OA?...
+Option 0 [CORRECT]: <b>No, STRONGLY rec'd AGAINST</b>
+Expl: <b>No, <strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> AGAINST</b>
+
+--- Question 40 (ID: 69ebcbcb82f7572d9af88ad8) ---
+Text: Are intraarticular haluronic acid injection rec'd for OA?...
+Option 0 [CORRECT]: <b>No, conditionally rec'd AGAINST for knee and 1st CMC</b><br><br>STRONGLY rec'd AGAINST for hip
+Expl: <b>No, <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> AGAINST for knee and 1st CMC</b><br><br><strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> AGAINST for hip
+
+--- Question 41 (ID: 69ebcbcb82f7572d9af88ad9) ---
+Text: What is the starting steroid dose for PMR?...
+Option 0 [CORRECT]: <b>12.5mg-25mg prednisone</b><br>-conditionally rec'd<br>-***STRONGLY rec'd AGAINST starting 30mg/day or more***
+Expl: <b>12.5mg-25mg prednisone</b><br>-<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong><br>-*<strong style='color: #000; font-weight: 600;'>STRONGLY REC'D</strong> AGAINST starting 30mg/day or more***
+
+--- Question 42 (ID: 69ebcbcb82f7572d9af88ae9) ---
+Text: A patient with SLE and LN currently on imuran, HCQ, and prednisone gets pregnant. Her medication reg...
+Option 0 [CORRECT]: <b>Should add tacrolimus/cyclosporin</b><br>-cannot add belimumab as ACR guidelines conditionally rec'd against at conception and during pregnancy.
+Expl: <b>Should add tacrolimus/cyclosporin</b><br>-cannot add belimumab as ACR guidelines <strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong> against at conception and during pregnancy.
+
+--- Question 43 (ID: 69ebcbcb82f7572d9af88b11) ---
+Text: In a patient with EGPA who is unable to receive immunomodulatory therapy, what is recommended?...
+Option 0 [CORRECT]: <b>IVIG</b><br><br>"conditionally recommend"
+Expl: <b>IVIG</b><br><br>"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong>"
+
+--- Question 44 (ID: 69ebcbcb82f7572d9af88b3c) ---
+Text: If a Rheumatoid arthritis patient on adequeate dosing of Methotrexate oral therapy persists with dis...
+Option 0 [CORRECT]: <b>Switching to SubQ MTX (over additional/switching to other DMARD)</b><br><br>-"Conditionally rec'd" per ACR
+Expl: <b>Switching to SubQ MTX (over additional/switching to other DMARD)</b><br><br>-"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>" per ACR
+
+--- Question 45 (ID: 69ebcbcb82f7572d9af88b3d) ---
+Text: If a patient is on 12.5mg/week of Methotrexate and daily folic acid for Rheumatoid arthritis, aside ...
+Option 0 [CORRECT]: <b>Increase MTX dose to at least 15mg/week (best to get to this dose within 4-6 weeks of initiation)</b><br><br>-"Conditionally rec'd"
+Expl: <b>Increase MTX dose to at least 15mg/week (best to get to this dose within 4-6 weeks of initiation)</b><br><br>-"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>"
+
+--- Question 46 (ID: 69ebcbcb82f7572d9af88b3e) ---
+Text: Once oral or subQ MTX is optimized and patient persists with disease activity, what is next best ste...
+Option 0 [CORRECT]: <b>Split dosing of oral/subQ (and/or) increase of folic acid is recommended OVER switching to alternative DMARD</b><br><br>-"Conditionally rec'd"
+Expl: <b>Split dosing of oral/subQ (and/or) increase of folic acid is recommended OVER switching to alternative DMARD</b><br><br>-"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>"
+
+--- Question 47 (ID: 69ebcbcb82f7572d9af88b3f) ---
+Text: If a patient is being treated with Humira for Rheumatoid arthritis for past 6 months and is not at t...
+Option 0 [CORRECT]: <b>Switch to Orencia</b><br><br>-because per ACR, switching to a bDMARD or tsDMARD of a DIFFERENT CLASS is "Conditionally rec'd" over staying in same class with patients not at target
+Expl: <b>Switch to Orencia</b><br><br>-because per ACR, switching to a bDMARD or tsDMARD of a DIFFERENT CLASS is "<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>" over staying in same class with patients not at target
+
+--- Question 48 (ID: 69ebcbcb82f7572d9af88b40) ---
+Text: If patient is taking HCQ + SSZ together for Rheumatoid arthritis and is doing well, and is wanting t...
+Option 0 [CORRECT]: <b>Gradual discontinuation of SSZ</b><br>-continue the HCQ<br><br>-"Conditionally rec'd"
+Expl: <b>Gradual discontinuation of SSZ</b><br>-continue the HCQ<br><br>-"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>"
+
+--- Question 49 (ID: 69ebcbcb82f7572d9af88b41) ---
+Text: If a patient is taking Methotrexate + bDMARD and is doing well, and wants to decrease medication loa...
+Option 0 [CORRECT]: <b>Gradual discontinuation of MTX over discontinuing the bDMARD</b><br><br>-"Conditionally rec'd"
+Expl: <b>Gradual discontinuation of MTX over discontinuing the bDMARD</b><br><br>-"<strong style='color: #000; font-weight: 600;'>CONDITIONALLY REC'D</strong>"
+
+--- Question 50 (ID: 69ebcbcb82f7572d9af88b42) ---
+Text: If a patient with Rheumatoid arthritis has moderate disease activity, but also with history of mild/...
+Option 0 [CORRECT]: <b>MTX</b><br>Methotrexate is "conditionally recommended" over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed MILD and STABLE airway or parenchymal lung disease, or incidental disease detected on imaging, who have MODERATE-TO-HIGH disease activity
+Expl: <b>MTX</b><br>Methotrexate is "<strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong>ed" over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed MILD and STABLE airway or parenchymal lung disease, or incidental disease detected on imaging, who have MODERATE-TO-HIGH disease activity
+

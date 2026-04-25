@@ -15,19 +15,21 @@ async function run() {
     try {
         await mongoose.connect(process.env.MONGO_URI);
         const questions = await Question.find({
-            "_id": { $in: ["69ebcbca82f7572d9af8895a", "69ebcbca82f7572d9af8894c"] }
-        });
+            "options.explanation": /color: #000; font-weight: 600;/
+        }).limit(3);
 
         let output = '';
         questions.forEach((q, i) => {
             output += `--- Question ${i + 1} (ID: ${q._id}) ---\n`;
+            if (q.summary) output += `Summary: ${q.summary}\n`;
             q.options.forEach((opt, j) => {
-                output += `Option ${j} Text: ${opt.text}\nExpl: ${opt.explanation}\n`;
+                if (opt.explanation && opt.explanation.includes('color: #000; font-weight: 600;')) {
+                    output += `Option ${j} Explanation:\n${opt.explanation}\n---\n`;
+                }
             });
-            output += '\n';
         });
-        fs.writeFileSync('final_check.txt', output);
-        console.log("Written to final_check.txt");
+        fs.writeFileSync('dupe_check.txt', output);
+        console.log("Written to dupe_check.txt");
     } catch (err) {
         console.error(err);
     } finally {

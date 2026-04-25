@@ -1,0 +1,8 @@
+--- Question 1 (ID: 69ebcbca82f7572d9af8894c) ---
+Option 0 Text: For patients with suspected GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> an initial <b>unilateral temporal artery biopsy</b> over <b>bilateral biopsies</b>?
+Expl: For patients with suspected GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> an initial <b>unilateral temporal artery biopsy</b> over <b>bilateral biopsies</b>?
+
+--- Question 2 (ID: 69ebcbca82f7572d9af8895a) ---
+Option 0 Text: Oral doxycycline 14-21 days<br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+Expl: Oral doxycycline 14-21 days<br><br><strong style='color: #000; font-weight: 600;'>STRONG REC'D</strong>
+

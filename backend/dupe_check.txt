@@ -1,0 +1,12 @@
+--- Question 1 (ID: 69ebcbca82f7572d9af8894a) ---
+Option 0 Explanation:
+Recommendation: For patients with active, severe GPA/MPA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> treatment with RTX over CYC for remission induction.
+---
+--- Question 2 (ID: 69ebcbca82f7572d9af8894b) ---
+Option 0 Explanation:
+For patients with active, nonsevere EGPA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> initiating treatment with <b>MTX/AZA/MMF + GCs</b> over <b>CYC/RTX and GCs</b>.<br><br>*look at the ACR ANCA Vasculitis to see how they define “non-severe” vs. “severe\"<br><br>Non-severe = \"Vasculitis without life- or organ-threatening manifestations (e.g., rhinosinusitis, asthma, mild systemic symptoms, uncomplicated cutaneous disease, mild inflammatory arthritis)\"<br><br>Severe = \"Vasculitis with life- or organ-threatening manifestations (e.g., alveolar hemorrhage, glomerulonephritis, central nervous system vasculitis, mononeuritis multiplex, cardiac involvement, mesenteric ischemia, limb/digit ischemia)\"
+---
+--- Question 3 (ID: 69ebcbca82f7572d9af8894c) ---
+Option 0 Explanation:
+For patients with suspected GCA, we <strong style='color: #000; font-weight: 600;'>CONDITIONALLY RECOMMEND</strong> an initial <b>unilateral temporal artery biopsy</b> over <b>bilateral biopsies</b>?
+---
