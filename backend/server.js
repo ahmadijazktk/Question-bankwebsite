@@ -72,7 +72,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // EMERGENCY RESTORATION ROUTE
-// Emergency import — reads updatedquestion.txt (batch 32: OCI)
+// Emergency import — reads updatedquestion.txt (batch 33: Categories Refactor & Big Resent)
 app.get('/api/emergency-import-anki', async (req, res) => {
 
   try {
