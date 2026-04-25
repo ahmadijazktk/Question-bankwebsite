@@ -41,28 +41,31 @@ for i, line in enumerate(lines):
         new_lines.append(line)
         continue
     
-    answer = parts[1]
-    
-    # Clean up previous attempts to prevent nesting
-    answer = re.sub(r'<b style="font-weight: [^"]+">', '', answer)
-    # Also clean standard <b> tags around these phrases to avoid double bolds
-    for p in phrases:
-        pattern = r'<b>\s*(' + re.escape(p) + r')\s*</b>'
-        answer = re.sub(pattern, r'\1', answer, flags=re.IGNORECASE)
-    
-    # Apply new formatting
-    sorted_phrases = sorted(phrases, key=len, reverse=True)
-    regex_pattern = r'(' + '|'.join([re.escape(p) for p in sorted_phrases]) + r')'
-    answer = re.sub(regex_pattern, format_match, answer, flags=re.IGNORECASE)
-    
-    # Fix potential duplicate </b> if we stripped <b> but not </b> correctly
-    # Use a simpler way: just clean up double </b> tags
-    answer = answer.replace('</b></b>', '</b>')
+    for idx in [0, 1]:
+        text = parts[idx]
+        
+        # 1. Clean existing styles specifically added by previous script runs
+        text = re.sub(r'<b style="font-weight: [^"]+">', '', text)
+        
+        # 2. Re-apply formatting to target phrases
+        sorted_phrases = sorted(phrases, key=len, reverse=True)
+        regex_pattern = r'(' + '|'.join([re.escape(p) for p in sorted_phrases]) + r')'
+        
+        # We need to make sure we don't end up with <b><b>WORD</b></b>
+        # So we clean those phrases from standard <b> tags first
+        for p in phrases:
+            text = re.sub(r'<b>\s*(' + re.escape(p) + r')\s*</b>', r'\1', text, flags=re.IGNORECASE)
+            
+        text = re.sub(regex_pattern, format_match, text, flags=re.IGNORECASE)
+        
+        # Clean up any residual double </b>
+        text = text.replace('</b></b>', '</b>')
+        
+        parts[idx] = text
 
-    parts[1] = answer
     new_lines.append('\t'.join(parts))
 
 with open(path, 'w', encoding='utf-8') as f:
     f.writelines(new_lines)
 
-print(f'Done. Applied WEIGHT 600 and BLACK !important to {len(new_lines)} answers.')
+print(f'Final Polish Done. Questions and Answers updated.')
