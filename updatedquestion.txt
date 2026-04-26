@@ -577,3 +577,5 @@ Dysfunction of what causes "too many toes" sign?	Tibialis posterior tendon<br>-u
 How do the PRES lesions appear on MRI (T2)?	Hyperintense in posterior white matter (typically)<br><br>-clinical presentation can look similar to CNS lupus (as well as PML), but location of lesions and clinical context very important for PRES (CNS SLE lesions typically in frontal lobes/near lateral ventricles)<br><br>TX: anti-HTN, anti-seizure, supportive<br>CARE 2020, q48	neurology radiology	pres_mri.jpg
 What do lipid crystals look like on light microscopy?	Maltese cross<br>-look for history of fracture	crystal	maltese_cross_lipid.jpg
 Image2: maltese_cross_2.png	maltese_cross_2.png
+What are the xray findings of Hyperparathyroidism?	Osteitis fibrosa cystica<br>-can cause bone pain<br>-subperisosteal bone resorption on RADIAL aspect of middle phalanges, tapering of distal clavicles, a "salt and pepper" appearance of the skull, bone cysts, and.....BROWN TUMORS of long bones	hyperparathyroidism radiology	hpt_skull.jpg
+Image2: hpt_phalanges.jpg	hpt_phalanges.jpg
