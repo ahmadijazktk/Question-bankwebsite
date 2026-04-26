@@ -72,23 +72,20 @@ const imageBasenameToUrl: Record<string, string> = Object.entries(imageModules).
 // Replace <img src="filename.png"> in HTML with the correct Vite URL using our map
 const resolveAnkiHtml = (html: string): string => {
   if (!html) return "";
-  // rule 6: All images must load from /collection.media/
-  // rule 1: Do not escape or modify except for the src path as required by rule 6
+  // Get base path for images
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
+
   return html.replace(/<img\b([^>]*?)\bsrc=(?:["']{1,2})([^"']+)["']{1,2}([^>]*)>/gi, (match, pre, src, post) => {
     const s = (src || "").trim();
-    // If it's already an absolute URL or data URI, we keep it as is, 
-    // but the rule says "All images must load from /collection.media/" 
-    // In Anki context, this usually means local media files.
     if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s) || s.startsWith('/')) {
-      // However, if it starts with /images/ (from old imports), we fix it
       if (s.startsWith('/images/')) {
         const base = s.split('/').pop() || s;
-        return `<img${pre}src="/collection.media/${base}"${post}>`;
+        return `<img${pre}src="${baseUrl}collection.media/${base}"${post}>`;
       }
       return match;
     }
     const base = s.split('/').pop() || s;
-    return `<img${pre}src="/collection.media/${base}"${post}>`;
+    return `<img${pre}src="${baseUrl}collection.media/${base}"${post}>`;
   });
 };
 
@@ -184,12 +181,14 @@ const Exam = () => {
           let imageSrc = undefined;
           let image2Src = undefined;
 
+          const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
+
           if (q.image) {
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
             } else {
               const base = q.image.split('/').pop() || q.image;
-              imageSrc = `collection.media/${base}`;
+              imageSrc = `${baseUrl}collection.media/${base}`;
             }
           }
 
@@ -198,7 +197,7 @@ const Exam = () => {
               image2Src = q.image2;
             } else {
               const base2 = q.image2.split('/').pop() || q.image2;
-              image2Src = `collection.media/${base2}`;
+              image2Src = `${baseUrl}collection.media/${base2}`;
             }
           }
 
