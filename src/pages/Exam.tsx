@@ -72,20 +72,21 @@ const imageBasenameToUrl: Record<string, string> = Object.entries(imageModules).
 // Replace <img src="filename.png"> in HTML with the correct Vite URL using our map
 const resolveAnkiHtml = (html: string): string => {
   if (!html) return "";
-  // Get base path for images
-  const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
+
+  const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.includes('github.io');
+  const mediaPrefix = isGitHubPages ? '/Question-bankwebsite/collection.media/' : '/collection.media/';
 
   return html.replace(/<img\b([^>]*?)\bsrc=(?:["']{1,2})([^"']+)["']{1,2}([^>]*)>/gi, (match, pre, src, post) => {
     const s = (src || "").trim();
     if (/^(https?:)?\/\//i.test(s) || /^data:/i.test(s) || s.startsWith('/')) {
       if (s.startsWith('/images/')) {
         const base = s.split('/').pop() || s;
-        return `<img${pre}src="${baseUrl}collection.media/${base}"${post}>`;
+        return `<img${pre}src="${mediaPrefix}${base}"${post}>`;
       }
       return match;
     }
     const base = s.split('/').pop() || s;
-    return `<img${pre}src="${baseUrl}collection.media/${base}"${post}>`;
+    return `<img${pre}src="${mediaPrefix}${base}"${post}>`;
   });
 };
 
@@ -180,15 +181,15 @@ const Exam = () => {
         const transformed = questionsList.map((q: any): Question => {
           let imageSrc = undefined;
           let image2Src = undefined;
-
-          const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
+          const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.includes('github.io');
+          const mediaPrefix = isGitHubPages ? '/Question-bankwebsite/collection.media/' : '/collection.media/';
 
           if (q.image) {
             if (/^(https?:)?\/\//i.test(q.image) || /^data:/i.test(q.image)) {
               imageSrc = q.image;
             } else {
               const base = q.image.split('/').pop() || q.image;
-              imageSrc = `${baseUrl}collection.media/${base}`;
+              imageSrc = `${mediaPrefix}${base}`;
             }
           }
 
@@ -197,7 +198,7 @@ const Exam = () => {
               image2Src = q.image2;
             } else {
               const base2 = q.image2.split('/').pop() || q.image2;
-              image2Src = `${baseUrl}collection.media/${base2}`;
+              image2Src = `${mediaPrefix}${base2}`;
             }
           }
 
