@@ -189,7 +189,7 @@ const Exam = () => {
               imageSrc = q.image;
             } else {
               const base = q.image.split('/').pop() || q.image;
-              imageSrc = `/collection.media/${base}`;
+              imageSrc = `collection.media/${base}`;
             }
           }
 
@@ -198,7 +198,7 @@ const Exam = () => {
               image2Src = q.image2;
             } else {
               const base2 = q.image2.split('/').pop() || q.image2;
-              image2Src = `/collection.media/${base2}`;
+              image2Src = `collection.media/${base2}`;
             }
           }
 
