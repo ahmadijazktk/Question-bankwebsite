@@ -1,0 +1,11 @@
+Question:
+A patient with Hip pain, and the xray shows "beaking" on lateral side of femur means what?
+
+Ans:
+Femoral stress fracture
+
+Image: femoral_beaking.jpg
+Tags:
+MSK
+orthopedic
+radiology

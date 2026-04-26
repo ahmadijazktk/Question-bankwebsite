@@ -1,0 +1,1350 @@
+Question:
+Typical EMG findings in myositis?
+Ans:
+Irritability of myofibrils at REST and needle insertion
+
+Fibrillation potential, positive sharp waves
+
+Short-duration, low-amplitude, complex (polyphasic) potentials on CONTRACTION
+Tags:
+EMG
+myopathy
+myositis
+
+
+Question:
+What T-cells are involved with dermatomyositis, seen on muscle biopsy?
+Ans:
+CD4+
+B-cells too
+
+-Perivascular and perimysial area predominate
+Tags:
+histology
+immunology
+myopathy
+myositis
+
+
+Question:
+What T-cells are involved with PM, seen on muscle biopsy?
+Ans:
+CD8+, cytotoxic
+-similar to IBM, except:
+-invasion in endomysial region
+-relative sparing of vasculature
+Tags:
+histology
+immunology
+myopathy
+myositis
+
+
+Question:
+What T-cells are involved with IBM, seen on muscle biopsy?
+Ans:
+CD8+, cytotoxic
+-similar to PM
+-rimmed/lined vacuoles (red-rimmed on TRICHROME stain) with inclusion bodies
+Tags:
+histology
+immunology
+myopathy
+myositis
+
+
+Question:
+Which type of dermatomyositis is known to have an erythematous patch on posterior hard palate?
+Ans:
+TIF-1 gamma
+'red on white patches'
+
+-high association with malignancy
+Tags:
+myopathy
+myositis
+
+
+Question:
+Aside from calcinosis, what are juvenile NXP2-dermatomyositis patients at risk of having?
+Ans:
+Gut perforation
+-calcinosis
+-BUT, NO risk of malignancy (vs. adult NXP2)
+Tags:
+myopathy
+myositis
+
+Question:
+What antibody associated with IBM?
+Ans:
+Anti-cytosolic 5'-nucleotidase 1A
+Tags:
+myopathy
+myositis
+
+
+Question:
+What is the name of the study that shows efficacy of nintedanib for myositis-associated ILD?
+Ans:
+INBUILD trial
+Tags:
+journal
+Medication
+myopathy
+myositis
+
+
+Question:
+What drugs known to be secondary causes of mitochondrial myopathies?
+Ans:
+Zidovudine
+Clofibrate
+Tags:
+Medication
+metabolic
+myopathy
+
+
+Question:
+According to ACR guidelines 2021, what is treatment regimen for Takayasu arteritis?
+Ans:
+HIGH dose GCs, then MTX/AZA
+
+-if not in remission, ADD TNFi
+-if still not, then switch to another DMARD (MTX/AZA/TNFi/TCZ)
+Tags:
+ACR
+biologic
+Medication
+Methotrexate
+vasculitis
+
+
+Question:
+According to ACR guidelines 2021, what is treatment regimen for GCA?
+Ans:
+If visual sx, then use IV pulse GC
+If without visual sx, can use oral GC
++
+TCZ (in some instances, OK to use MTX)
+
+if still not in remission, "consider adding or changing DMARD(MTX or Abatacept in place of TCZ)"
+Tags:
+ACR
+biologic
+GCA
+Medication
+vasculitis
+Question:
+What is pathophys of X-linked hypo-phosphatemia?
+Ans:
+Mutant PHEX gene
+-mimics Vit D deficiency and seronegative spondy with sacroiliitis
+
+-diminished Vit-D 1hydroxylase activity--> reduced degradation of FGF23--> phosphate wasting
+
+-TX: Burosumab (anti-FGF23), FDA approved 2018
+Tags:
+gene
+miscellaneous
+osteomalacia
+
+
+Question:
+What is pirfenidone approved for?
+Ans:
+ILD, specifically from Rheumatoid arthritis 
+Tags:
+ILD
+Medication
+Rheumatoid∷arthritis
+
+
+Question:
+What type of vaccine is varicella?
+Ans:
+Live
+-other Live vaccines: MMR, Yellow fever
+Tags:
+miscellaneous
+vaccine
+
+
+Question:
+What is treatment for Babesiosis (usually coinfected with Lyme)?
+Ans:
+Azithromycin + atovaquone
+OR
+IV clindamycin + oral quinine 7-10 days
+Tags:
+ACR
+infection
+Lyme
+
+
+Question:
+If patient has Anaplasmosis co infection with Lyme, and cannot take doxycycline, what is the treatment?
+Ans:
+Rifampin 300mg BID 7-10 days
+Tags:
+ACR
+infection
+Lyme
+Medication
+
+
+Question:
+Young female who runs frequently has 1st MTP pain/swelling.
+Ans:
+Basic calcium phosphate arthropathy
+-"Hydroxyapatite pseudopodagra"
+
+TX: PT and NSAIDs
+Tags:
+crystal
+gout
+miscellaneous
+
+
+Question:
+What is the histology of LCV?
+Ans:
+-vessel wall destruction by the infiltration of inflammatory cells within and around the vessel wall can be seen
+- Extravasation of red blood cells can be present in the dermis
+-fibrinoid necrosis
+Tags:
+histology
+LCV
+vasculitis
+
+
+Question:
+Patient has scaphoid fracture. What is treatment?
+Ans:
+Splint vs referral to hand surgeon
+-depends if fracture is non-displaced vs. displaced.
+Tags:
+orthopedic
+
+
+Question:
+ What is pathophys of early OA?
+Ans:
+Swelling of articular cartilage
+Loosening of collagen
+Increased cartilage water content
+
+LATER:
+Degradative enzymes break down proteoglycan
+Articular cartilage things/softens
+Fissuring/cracking of cartilage
+Remodeling/hypertrophy of subchondral bone = "bone spurs"
+Tags:
+osteoarthritis
+
+
+Question:
+What antibody associated with Scleroderma renal crisis?
+Ans:
+RNA polymerase III
+Tags:
+scleroderma
+
+
+Question:
+What is treatment for AxSpa (ankylosing spondylitis) for someone initially on TNFi, had initial good response, but then later had relapse of symptoms?
+Ans:
+Can try another TNFi, because this is "secondary failure"
+-Primary failure = no response at all, therefore in that scenario, switch to IL-17i.
+Tags:
+ACR
+Ankylosing∷spondylitis
+biologic
+Medication
+TNFi
+
+
+Question:
+What is the first line treatment for AxSpa (ankylosing spondylitis)?
+Ans:
+NSAIDs. Need to try 2 different NSAIDs, 2 weeks each. Then you go to TNFi.
+Tags:
+ACR
+Ankylosing∷spondylitis
+biologic
+Medication
+
+
+Question:
+What is a contraindication to using IL-17i in patients with AxSpa (ankylosing spondylitis)?
+Ans:
+If they have IBD (UC or Crohn's).
+Tags:
+ACR
+Ankylosing∷spondylitis
+biologic
+IBD
+Medication
+
+
+Question:
+Based on the 2010 criteria for diagnosing Rheumatoid Arthritis, how many points do you need to make dx?
+Ans:
+At least 6
+Tags:
+ACR
+Rheumatoid∷arthritis
+
+
+Question:
+-central area of necrosis, surrounded by palisading macrophages
+-and perivascular infiltration of lymphocytes
+Ans:
+RA nodule
+Tags:
+histology
+miscellaneous
+Rheumatoid∷arthritis
+
+
+Question:
+Discontinuity of bone surface visible in 2 perpendicular planes on US...
+Ans:
+Erosion on US
+-does not differentiate PsA vs. RA
+Tags:
+radiology
+
+
+Question:
+Abnormal hypoechoic intra-articular tissue that is nondisplaceable and poorly compressible on US...
+Ans:
+Synovitis on US
+-does not differentiate PsA vs. RA
+Tags:
+radiology
+
+
+Question:
+Hypoechoic swelling of soft tissue surrounding tendon (extensor) on US...
+Ans:
+Peritendon inflammation (PTI)
+-PTI is VERY SPECIFIC to early PsA, ~97%
+-absence of PTI does not rule out PsA
+Tags:
+radiology
+
+
+Question:
+What is the best imaging modality for Takayasu arteritis?
+Ans:
+MRA
+Tags:
+
+
+Question:
+Which finding on capillaroscopy would be most specific for scleroderma?
+Ans:
+Capillary diameter greater than 50um
+-seen in early and active scleroderma
+-normal is up to 50um
+-late stages, density will drop below 3 capillaries per linear mm
+-care 2021, q58
+Tags:
+scleroderma
+
+
+Question:
+On MRI of SI joints, what does subchondral bone resorption with minimal cartilage surface irregularity a hallmark of?
+Ans:
+Hyperparathyroidism 
+Tags:
+hyperparathyroidism
+radiology
+
+
+Question:
+On MRI of SI joints, what does triangular area of sclerosis adjacent to inferior SI joint a hallmark of?
+Ans:
+OCI, osteitis condensans ilii
+Tags:
+radiology
+
+
+Question:
+Young male patient with UE weakness. Also with BL sensorineural hearing loss. All MSAs are negative. CK 800. EMG shows mild myopathic changes with low amplitude, short duration and polyphasic potentials.
+He has winging of the left scapula....
+Ans:
+Facioscapulohumeral dystrophy
+-3rd most common form of muscular dystrophy
+-inappropriate expression of DUX4 gene
+-scapular winging***
+-sparing of deltoid is unique
+-***Beevor sign, upward displacement of umbilicus with neck flexion (weakness of abd muscles)
+Tags:
+gene
+miscellaneous
+myopathy
+myositis
+
+
+Question:
+Young female, has sudden onset HA. Normal ESR/CRP, and CSF.
+CTA Head sows areas of ectasia, stenosis, and beading in multiple vessels.
+Ans:
+Reversible cerebral vasoconstriction syndrome (RCVS)
+
+-"thunder clap headache"
+-CRP/ESR should be normal. If they are positive, consider angiitis (vasculitis)
+
+TX: high dose CCBs, supportive care
+Tags:
+miscellaneous
+neurology
+radiology
+
+
+Question:
+For severe, active, EGPA, what are the options for induction treatment?
+Ans:
+High dose IV or oral steroids
+RTX
+CYC
+Tags:
+ACR
+ANCA
+cyclophosphamide
+EGPA
+Rituximab
+
+
+Question:
+In a patient with EGPA who is unable to receive immunomodulatory therapy, what is recommended?
+Ans:
+IVIG
+
+"conditionally recommend"
+Tags:
+ACR
+ANCA
+EGPA
+Medication
+
+
+Question:
+For treatment of remission EGPA, what meds are recommended?
+Ans:
+With patients with SEVERE EGPA now in remission, can use MTX, AZA, or MMF
+Tags:
+ACR
+ANCA
+EGPA
+Medication
+Methotrexate
+MMF
+vasculitis
+
+
+Question:
+What is treatment of EGPA if a severe relapse occurs?
+Ans:
+RTX
+Tags:
+ACR
+ANCA
+EGPA
+Medication
+Rituximab
+vasculitis
+
+
+Question:
+What is treatment of EGPA with non-severe relapse?
+Ans:
+Adding mepolizumab (to their MTX/AZA/MMF maintenance med)
+
+*look at ACR Guidelines for how they define "non-severe vs. severe" symptoms. 
+
+Non-severe = "Vasculitis without life- or organ-threatening manifestations (e.g., rhinosinusitis, asthma, mild systemic symptoms, uncomplicated cutaneous disease, mild inflammatory arthritis)"
+
+Severe = "Vasculitis with life- or organ-threatening manifestations (e.g., alveolar hemorrhage, glomerulonephritis, central nervous system vasculitis, mononeuritis multiplex, cardiac involvement, mesenteric ischemia, limb/digit ischemia)"
+Tags:
+ACR
+ANCA
+biologic
+EGPA
+Medication
+vasculitis
+
+
+Question:
+For patients with EGPA, what testing is conditionally recommended at time of diagnosis?
+Ans:
+Cardiac TTE
+Tags:
+ACR
+ANCA
+EGPA
+vasculitis
+
+
+Question:
+For patients with EGPA who are receiving RTX/CYC, is there any prophylaxis medication that is recommended?
+Ans:
+Yes, 
+Bactrim for PJP prophylaxis.
+
+Provide Bactrim up to 6 months after last RTX dose. 
+Tags:
+ACR
+ANCA
+cyclophosphamide
+EGPA
+Medication
+Rituximab
+vasculitis
+
+
+Question:
+For GPA/MPA, is PLEX recommended?
+Ans:
+No it is not. 
+For active glomerulonephritis/alveolar hemorrhage, it is recommended AGAINST
+
+-from PEXIVAS trial
+-also from ACR
+Tags:
+ACR
+ANCA
+GPA/MPA
+journal
+
+
+
+Question:
+If a patient with GPA/MPA has a severe relapse, which med is recommended?
+Ans:
+RTX (over CYC)
+Tags:
+ACR
+ANCA
+cyclophosphamide
+GPA/MPA
+Medication
+Rituximab
+vasculitis
+
+
+Question:
+For patients with GPA/MPA receiving remission maintenance therapy with rituximab who have hypogammaglobulinemia (e.g., IgG <3 gm/liter) and recurrent severe infections, we conditionally recommend......?
+Ans:
+IVIG
+Tags:
+ACR
+ANCA
+GPA/MPA
+Rituximab
+
+
+Question:
+What is conditionally recommended for remission induction for active, nonsevere GPA?
+Ans:
+MTX + GCs
+Tags:
+ACR
+ANCA
+GPA/MPA
+Medication
+Methotrexate
+vasculitis
+
+Question:
+What are 3 medications used to block IL-1Beta?
+Ans:
+Anakinra (IL-1Ra, exogenous form of naturally made IL-1Ra), short-lived
+Canakinumab - classic MAB against IL-1B, LONG half-life
+Rilonacept - extracellular portion of IL-1R that is fused to Fc
+Tags:
+Medication
+
+
+Question:
+What does V.E.X.A.S. stand for?
+Ans:
+VEXAS syndrome (Vacuoles, E1 enzyme, X-linked, Autoinflammatory Syndrome)
+-mutation in UBA1 gene on X chromosome
+            -present ONLY in MONOCYTES   
+                -means there is NO family history (aka. De novo mutation)
+Tags:
+autoinflammatory
+gene
+
+               
+
+Question:
+Name 2 important reasons why IL-6 is an important inflammatory mediator
+Ans:
+-makes Th-cells  to become Th17 cells which produce IL-17 (and others)
+    -AND it BLOCKS Th-cells from becoming T-reg cells (which is IMMUNE regulation/SUPPRESSION)
+        -***therefore Tocilizumab INCREASES T-reg cells and blocks Th17 cells
+Tags:
+immunology
+inflammation
+
+
+Question:
+What is the MOA of ipilimumab?
+Ans:
+blocks CTLA-4
+Tags:
+immunology
+Medication
+
+
+Question:
+What is MOA of nivolumab?
+Ans:
+block PD-L1
+Tags:
+immunology
+Medication
+
+
+Question:
+What is MOA of pembrolizumab?
+Ans:
+block PD-L1
+Tags:
+immunology
+Medication
+
+
+Question:
+What is FDA approved for oral ulcers in Behcets?
+Ans:
+Apremilast
+Tags:
+Behcets
+Medication
+
+
+Question:
+What is the treatment for recurrent clots in Behcets?
+Ans:
+patient needs IMMUNOSUPPRESSION
+-Steroids +/- AZA or CYC
+-anticoagulation is controversial
+Tags:
+Behcets
+Medication
+
+
+Question:
+What disease should you think of in a middle age male with RP + myelodysplastic syndrome?
+Ans:
+VEXAS
+Tags:
+autoinflammatory
+
+
+Question:
+What is the HLA associated with increased risk of ILD in Rheumatoid arthritis patients?
+Ans:
+HLA-DRB1-1502
+Tags:
+gene
+ILD
+miscellaneous
+Rheumatoid∷arthritis
+
+
+Question:
+What is the mechanism that increases Rheumatoid arthritis severity in smokers?
+Ans:
+smoking accelerates deamination of arginine to citrulline by up regulation of PAD4 enzyme
+Tags:
+immunology
+miscellaneous
+Rheumatoid∷arthritis
+
+
+Question:
+What did the CANTOS trial show?
+Ans:
+IL-1 blockade (canakinumab) + traditional blockage prevented CVD events in recent MI population
+Tags:
+biologic
+journal
+Medication
+miscellaneous
+
+
+Question:
+Which DMARD is recommended for mild Rheumatoid arthritis disease? 
+Ans:
+HCQ or SSZ
+
+Not MTX for mild disease. Only for moderate to severe. 
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+
+
+Question:
+"Triple therapy" is recommended as essentially equal to MTX + bDMARD....True of False?
+Ans:
+False
+
+MTX + bDMARD shows better outcomed with ACR50, with better tolerability. 
+Tags:
+ACR
+biologic
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+What is one way to differentiate Dengue viral arthritis vs. Chikungunya arthritis?
+Ans:
+Dengue will NOT have synovitis
+CHIK will have synovitis 
+
+*Dengue will also have BLEEDING and RETROORBITAL PAIN
+Tags:
+arthritis
+ophthalmology
+virus
+
+
+Question:
+What virus causes a relative bradycardia with respect to fever?
+Ans:
+Yellow Fever
+Tags:
+virus
+
+
+Question:
+What bacterial arthritis comes from a rat bite (or inhestion of food/water with rat feces), and leads to an inflammatory polyarthritis, with fever and rash?
+Ans:
+Streptobascillus monoliformis (Spirillum minus)
+Tags:
+infection
+
+
+Question:
+Describe the types of cryoglobulinemic vasculitis
+Ans:
+Type 1: isolated monocloncal immunoglobulin
+
+Type 2: IgG and IgM RF of monoclonal origin
+
+Type 3: IgG and polyclonal IgM-RF
+Tags:
+cryoglobulinemia
+vasculitis
+
+Question:
+What is the effect of Tocilizumab on Th cells?
+Ans:
+Increases T-reg cells
+Blocks Th17 cells
+Tags:
+immunology
+
+
+Question:
+What do malignant tumors do to T-cell activation?
+Ans:
+Tumor cells make T-cells UPREGULATE PD-1 and CTLA-4 (these are the molecules that naturally block the co-stimulatory signal....therefore, this allows the tumor to keep growing)
+
+-Checkpoint inhibitors (CIs) allow binding of the co-stimulatory molecules, therefore they "wake up" the T-cell to attack the tumor and shrink them (aka, they are PRO-immune, and can lead to autoimmune adverse reactions) 
+Tags:
+immunology
+
+
+Question:
+What is the enzyme(s) involved in the production of ACPAs?
+Ans:
+PAD4 enzymes
+-which citrullinates residues on proteins (Histones and Vimentin)
+-produces anti-CCP (ACPA)
+Tags:
+immunology
+
+
+Question:
+What is the difference(s) between ustekinumab and risankizumab?
+Ans:
+Ustekinumab block p40 subunit of IL-12 AND IL-23
+Risankizumab blocks only IL-23 (the p19 subunit)
+
+-therefore, risankizumab blocks only Th17 proliferation, while ustekinumab blocks Th1 AND Th17 proliferation
+Tags:
+immunology
+Medication
+
+
+Question:
+What is the unique regulatory mechanism involved with the cytokine IL-1Beta? 
+Ans:
+The Inflammasome
+Tags:
+immunology
+
+
+Question:
+IL-1Beta and the inflammasome are inflammatory pathways involved with what 2 unique diseases? 
+Ans:
+Gout and CAPS (cryopyrin-associated periodic fever syndromes)
+Tags:
+CAPS
+gout
+immunology
+
+
+Question:
+What is the gene involved with Haplo-insufficiency A20, which is a disease involved with dysregulation in the IL-1/inflammasome mechanism?
+Ans:
+TNFAIP3
+Tags:
+gene
+immunology
+
+
+Question:
+What are the 3 CAPS disease (cryopyrin-associated periodic fever syndromes)?
+Ans:
+FCAS (Familial Cold autoinflammatory syndrome)
+MWS (Muckle-Wells Syndrome)
+CINA/NOMID (Chronic Infantile Neurologic Cutaneous and Arthritis Syndrome)
+
+-all involved with Autosomal Dominant, Gain of Function mutation in NLRP3....which codes for the protein Cryopyrin
+Tags:
+CAPS
+immunology
+
+
+Question:
+Of the different CAPS syndromes, which is considered the most severe?
+Ans:
+CINCA/NOMID (Chronic Infantile Neurologic Cutaneous and Arthritis Syndrome)
+-a unique symptom for this syndrome is epiphysial bony overgrowths
+Tags:
+CAPS
+immunology
+
+
+Question:
+What is the triad associated with Blau Syndrome?
+Ans:
+Granulomatous rash
+Uveitis
+Arthritis
+
+-A.D. mutation in NOD2
+-look for many family members with same symptoms
+-this is NOT a periodic fever syndrome
+Tags:
+autoinflammatory
+immunology
+
+
+Question:
+In a patient with moderate disease activity and is naive to any treatment for Rheumatoid arthritis, what is the 1st line rec'd?
+Ans:
+MTX monotherapy
+
+-not MTX + bDMARD
+Tags:
+ACR
+biologic
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+What is the CDAI score for rheumatoid arthritis that signifies at least moderate disease activity?
+Ans:
+>10 and ≤22
+
+-this means that a score of 11 in a DMARD naive patient needs to receive MTX monotherapy per ACR guidelines
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+For Rheumatoid arthritis, which DMARD is conditionally rec'd over other DMARDs for mild disease activity in treatment-naive patients?
+Ans:
+HCQ
+
+-MTX only for moderate-severe
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+
+Question:
+In a Rheumatoid arthritis patient with moderate disease activity who is treatment-naive, the 1st line treatment is............?
+Ans:
+ORAL Methotrexate (not SubQ)
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+If a Rheumatoid arthritis patient on adequeate dosing of Methotrexate oral therapy persists with disease activity, what is next best step?
+Ans:
+Switching to SubQ MTX (over additional/switching to other DMARD)
+
+-"Conditionally rec'd" per ACR
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+If a patient is on 12.5mg/week of Methotrexate and daily folic acid for Rheumatoid arthritis, aside from routine blood monitoring, what is next best step in management at their next office visit?
+Ans:
+Increase MTX dose to at least 15mg/week (best to get to this dose within 4-6 weeks of initiation)
+
+-"Conditionally rec'd"
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+Once oral or subQ MTX is optimized and patient persists with disease activity, what is next best step?
+Ans:
+Split dosing of oral/subQ (and/or) increase of folic acid is recommended OVER switching to alternative DMARD 
+
+-"Conditionally rec'd"
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+Question:
+If a patient is being treated with Humira for Rheumatoid arthritis for past 6 months and is not at target, what is next best step?
+
+A) Continue with Humira for another 6 months
+B) Switch to Enbrel
+C) Switch to Orencia
+D) Add prednisone
+
+Ans:
+Switch to Orencia
+
+-because per ACR, switching to a bDMARD or tsDMARD of a DIFFERENT CLASS is "Conditionally rec'd" over staying in same class with patients not at target
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+
+
+Question:
+If patient is taking HCQ + SSZ together for Rheumatoid arthritis and is doing well, and is wanting to decrease her medication, what is next best step?
+Ans:
+Gradual discontinuation of SSZ
+-continue the HCQ
+
+-"Conditionally rec'd"
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+
+
+Question:
+If a patient is taking Methotrexate + bDMARD and is doing well, and wants to decrease medication load, what is next best step?
+Ans:
+Gradual discontinuation of MTX over discontinuing the bDMARD
+
+-"Conditionally rec'd"
+Tags:
+ACR
+biologic
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+If a patient with Rheumatoid arthritis has moderate disease activity, but also with history of mild/stable lung disease, what is best treatment?
+Ans:
+MTX
+Methotrexate is "conditionally recommended" over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed MILD and STABLE airway or parenchymal lung disease, or incidental disease detected on imaging, who have MODERATE-TO-HIGH disease activity 
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+A patient with newly diagnosed Rheumatoid arthritis has moderate disease activity. She knows she previously had Hep B infection, but cannot remember anything about her treatment for it. She also has lymphoma.
+What is next best step? (This is tricky, but you have all the information you need)
+Ans:
+Prophylactic antiviral therapy (for Hep B)
+-because, 1st line choice for RA treatment in this patient is RTX (per guidelines, given history of lymphoma), and you were told she had previous Hep B infection (meaning she will definitely have at least the Hep B CORE antibody be positive)
+-THUS, patients who are going to receive RTX, AND who are Hep B Core antibody positive ALL must receive ANTIVIRAL treatment prior to starting RTX
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+Rituximab
+
+
+Question:
+A patient with Rheumatoid arthritis and history of heart failure is not at target with Methotrexate monotherapy. What is next best step?
+Ans:
+Addition of non-TNFi bDMARD or a tsDMARD
+
+-technically, any patient with NYHA Class III or IV heart failure should not receive TNFi
+-"Conditionally rec'd"
+Tags:
+ACR
+biologic
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+A patient with newly diagnosed Rheumatoid arthritis (Moderate-high disease activity) has nonalcoholic fatty liver disease. Recent LFTs are normal. No evidence for cirrhosis. 
+What is best DMARD?
+Ans:
+Methotrexate
+-it is safe as long as LFTs are normal, and no evidence of liver fibrosis
+-"Conditionally rec'd"
+Tags:
+ACR
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+Which bDMARD/tsDMARD is "conditionally rec'd" for patients with Rheumatoid arthritis who also have nontuberculous mycobacterial lung disease with moderate-high disease activity despite csDMARDs?
+Ans:
+Abatacept
+Tags:
+ACR
+biologic
+Medication
+Rheumatoid∷arthritis
+tuberculosis
+
+
+Question:
+A patient on Methotrexate monotherapy for Rheumatoid arthritis is not at target and has moderate disease activity. Patient has history of serious infection 10 months ago. What is next best step?
+Ans:
+Addition of csDMARDs
+Addition of csDMARDs is "conditionally recommended" over addition of a bDMARD or tsDMARD for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity despite csDMARD monotherapy 
+Tags:
+ACR
+immunocompromised
+infection
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+Question:
+A 19 year old patient with SLE tolerating HCQ and MMF says she is up to date on all vaccinations. She wants to know if she needs the shingles vaccine because her PCP told her she is too young to get it. Do you recommend it?
+Ans:
+Yes,
+ACR Vaccination Guidelines 2022 say shingles vaccine is recommended for all RMD patients >18 years of age taking immunosuppressive medication. 
+Tags:
+ACR
+immunocompromised
+MMF
+SLE
+vaccine
+
+
+Question:
+A patient with well controlled Rheumatoid arthritis on Methotrexate 15mg/week and daily folic ask you if he needs the influenza vaccine. What do you say?
+Ans:
+Yes,
+and that MTX needs to be held for 2 weeks after influenza vaccination (if disease activity allows), per ACR Vaccination Guidelines 2022
+Tags:
+ACR
+Methotrexate
+Rheumatoid∷arthritis
+vaccine
+
+
+Question:
+What is the management of DMARDs in relation to non-live attenuated vaccines?
+Ans:
+Continue all immunosuppressive medication aside from RTX. 
+-Time vaccination for when the next rituximab dose is due, and then hold rituximab for at least 2 weeks after vaccination
+Tags:
+ACR
+vaccine
+
+
+Question:
+What is the management of RMD who are taking prednisone ≤ 10mg daily and administering non-live vaccine?
+Ans:
+Strongly Rec'd to administer vaccine
+Tags:
+ACR
+vaccine
+
+
+Question:
+For patients with RMD who are taking prednisone ≥ 20mg daily, what is the management for vaccines?
+Ans:
+Deferring non-live vaccinations (other than influenza), until dose tapering dose down to < 20mg daily
+-"Conditionally rec'd"
+Tags:
+ACR
+vaccine
+
+
+Question:
+If a neonate/infant receives Rituximab (because the mother did) during the 2nd or 3rd trimester, what is the management for rotavirus vaccination?
+Ans:
+Delaying live attenuated rotavirus until >6 months of age
+-"Conditionally rec'd"
+Tags:
+ACR
+Medication
+Rituximab
+vaccine
+
+
+Question:
+What is the recommendation for pneumococcal vaccine in a 25 year old patient with Rheumatoid arthritis stable on Arava?
+Ans:
+For patients with RMD age <65 years who are taking immunosuppressive medication, pneumococcal vaccination is strongly recommended. 
+Tags:
+ACR
+Rheumatoid∷arthritis
+vaccine
+
+
+Question:
+What is the management of the HPV vaccine in a 35 year old patient with SLE who is stable on HCQ and imuran?
+Ans:
+For patients with RMD age >26 and <45 years who are taking immunosuppressive medication and are not previously vaccinated, vaccination against HPV is "Conditionally recommended." 
+Tags:
+ACR
+SLE
+vaccine
+
+
+Question:
+What warrants continuing Rituximab during conception and/or during pregnancy?
+Ans:
+If SEVERE LIFE or ORGAN threatening maternal disease
+-"Condtionally rec'd"
+Tags:
+ACR
+reproductive
+Rituximab
+
+
+Question:
+What is recommended for contraception for patients with SLE with moderate or severe disease activity (including nephritis)?
+Ans:
+STRONGLY RECOMMEND progestin-only or IUD contraceptive
+-over combined estrogen-progestin contraception
+Tags:
+ACR
+LN
+pregnancy
+reproductive
+SLE
+
+Question:
+A patient has a IgM+ anti-cardiolipin antibody. She has never had a clot. What recommendation do you have for contraception?
+Ans:
+STRONGLY RECOMMENDED AGAINST combined estrogen-progestin contraceptives in women with any positive aPLs because of risk of thromboembolism.
+-STRONGLY RECOMMEND IUDs (levonorgestrel or copper) or the progestin-only pill in women with positive aPLs. 
+Tags:
+ACR
+APS
+pregnancy
+reproductive
+
+
+Question:
+A 35 year old female with a past medical history of HTN, HBV, and lymphoma is newly diagnosed with Rheumatoid arthritis. She mentions that she had HBV infection many years ago that never caused any problems, but was never vaccinated or treated because she was told by her doctor that she is "immunized" from the infection. She is only taking NSAIDs for pain. What is the next best step in her management?
+A) Start oral Methotrexate
+B) Start Rituximab
+C) Treat HBV
+D) Start HCQ
+E) Check HBV surface antigen
+
+Ans:
+Answer is C)
+Why?
+Because the medical history of lymphoma automatically means Rituximab is the recommended treatment for her RA, per ACR. 
+But you are told she has history of HBV without vaccination or treatment. So what would her hepatitis panel show?
+She will be HBV core antibody positive (the most important point.)
+She will also be likely be HBV surface antigen negative, and HBV surface antibody positive. Therefore, prior to receiving the recommended Rituximab, she needs to be prophylatically treated for HBV. 
+
+This is STRONG REC'D
+
+"Prophylactic antiviral therapy is strongly recommended over frequent monitoring
+alone for patients initiating rituximab who are hepatitis B core antibody positive
+(regardless of hepatitis B surface antigen status)."
+Tags:
+ACR
+Medication
+Rheumatoid∷arthritis
+Rituximab
+
+
+
+Question:
+For patients with Systemic Autoimmune Rheumatic Diseases (SARDs) at risk for developoing ILD, how is it recommended to screen these patients?
+Ans:
+For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with HRCT chest and PFTs over PFTs alone.
+Tags:
+ACR
+ILD
+
+
+Question:
+For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using 6mw. True or False?
+Ans:
+False
+"For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with 6MWD."
+Tags:
+ACR
+ILD
+
+
+Question:
+For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using chest xrays. True or False?
+Ans:
+False
+
+"For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with chest radiography."
+Tags:
+ACR
+ILD
+
+Question:
+For people with Systemic Autoimmune Rheumatic Diseases (SARDs) at increased risk of developing ILD, it is recommended to screen using ambulatory desaturation. True or False?
+Ans:
+False
+
+"For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with ambulatory desaturation testing."
+Tags:
+ACR
+ILD
+
+
+Question:
+A patient has SSc-ILD. What is recommended for 1st line treatment?
+Ans:
+Tocilizumab OR nintedanib
+
+"For people with SSc-ILD and MCTD-ILD, we conditionally recommend tocilizumab as a first-line ILD treatment option."
+
+"For people with SSc-ILD, we conditionally recommend nintedanib as a first-line ILD treatment option."
+Tags:
+ACR
+ILD
+MCTD
+scleroderma
+
+
+Question:
+A patient has SSc-ILD. Prior to any DMARD options, a patient should first be treated with corticosteroids. True of False
+Ans:
+False, this is STRONGLY REC'D AGAINST
+
+"For people with SSc-ILD, we strongly recommend against glucocorticoids as a first-line ILD treatment."
+
+Tags:
+ACR
+ILD
+scleroderma
+
+
+Question:
+Within the 2023 ACR ILD guidelines, which is/are the recommendations classified as "STRONGLY"?
+Ans:
+There is only 1 "STRONG" recommendation, and it is "Strongly recommend AGAINST."
+
+"For people with SSc-ILD, we strongly recommend against glucocorticoids as a first-line ILD treatment."
+Tags:
+ACR
+ILD
+scleroderma
+
+
+Question:
+According to the ACR 2023 ILD guidelines, which scenario are CNIs recommended?
+Ans:
+Conditionally recommended for:
+
+-patients with IIM-ILD (idiopathic inflammatory myositis-ILD) as a 1st line treatment
+
+-patients with SARD (Systemic Autoimmune Rheumatic Diseases) associated RP-ILD
+Tags:
+ACR
+ILD
+
+
+
+Question:
+According to the ACR 2023 ILD guidelines, which medications are recommended as a 1st option for SARD (Systemic autoimmune rheumatic disease) associated RP-ILD (rapidly progressive-ILD)?
+Ans:
+IV pulse methylprednisolone
+Rituximab
+Cyclophosphamide
+IVIG
+MMF
+CNI
+JAKi
+
+"For people with SARD and RP-ILD, we conditionally recommend pulse intravenous methylprednisolone as a first-line RP-ILD treatment."
+
+"For people with SARD and RP-ILD, we conditionally recommend rituximab, cyclophosphamide, IVIG, mycophenolate, CNI, and JAK inhibitors as first-line RP-ILD treatment options."
+
+Think of MDA5-associated RP-ILD
+Tags:
+ACR
+ILD
+
+Question:
+If a patient with Behcet's continue to have mucocutaneous ulcers despite steroids, azathioprine, colchicine, and apremilast, what is the next best step?
+Ans:
+TNFi monoclonal antibodies (ie. infliximab, adalimumab)
+Tags:
+Behcets
+biologic
+
+
+Question:
+What type of ocular disease is typically seen with Behcet's?
+Ans:
+Panuveitis
+
+-all 3 chambers are affected (anterior, intermediate, and posterior)
+Tags:
+Behcets
+biologic
+ophthalmology

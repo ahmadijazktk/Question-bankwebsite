@@ -1,0 +1,835 @@
+Question:
+Most common organism causing septic arthritis in hemophilia?
+
+Ans:
+staph aureus and strep
+Tag:
+infection
+
+
+Question:
+What positive benefit do TNFi have on cardiovascular disease in patients with ankylosing spondylitis?
+
+Ans:
+Reduce risk of acute CV events (NOT venous thromboembolism)
+-AxSpa patients at increased risk of accelerated atherosclerosis from inflammation
+Tags:
+Ankylosing∷spondylitis
+biologic
+Medication
+TNFi
+
+
+Question:
+What is difference between FABER and PACE sign?
+
+Ans:
+FABER is flexion, abduction, external rotation of hip while SUPINE (sacroiliac disease)
+
+PACE is resisted hip abduction and external rotation while SEATED (piriformis syndrome)
+-FAIR is also for piriformis syndrome
+Tags:
+maneuvers
+MSK
+piriformis
+
+
+Question:
+What is the most common renal involvement in ankylosing spondylitis?
+
+Ans:
+Renal amyloidosis
+Tags:
+Ankylosing∷spondylitis
+
+Question:
+What disease has:
+-normal 25-OH Vit D
+-low 1,25-Dihydroxyvitamin D
+-normal/low Phosphate
+-elevated Alk phos
+-elevated PTH
+-history of fracture, bone pain, family history of OSTEOPOROSIS
+
+Ans:
+1-alpha Hydroxylase Deficiency
+
+-labs can look similar to oncogenic (tumor induced) osteomalacia, so make sure to know difference
+-Oncogenic tumor induced will have elevated FGF23
+Tags:
+osteomalacia
+
+Question:
+Which is the most common glycogen storage disease?
+
+Ans:
+McArdle disease, GSD Type V (5)
+-second wind phenomenom, elevated CK at baseline,
+Tags:
+glycogen∷storage∷disease
+
+
+Question:
+In EPGA, what feature would be expected with +ANCA antibodies?
+
+Ans:
+Renal disease and mononeuritis
+-NOT high eosinophils, myocarditis, or alveolar hemorrhage.
+Tags:
+ANCA
+EGPA
+
+
+Question:
+High calcium, diffuse non-pitting edema of hands, feet, and legs, with clubbing of fingernails. Xrays of hands show fluffy and spiculated periostitis of multiple phalangeal and carpal bones. Irregular periosteal new bone formation present in distal medial tibias.
+Ans:
+Consider Thyroid Acropachy
+-patient will have hx of Graves/thyroid disease, and signs of myxedema/thyroid dermopathy.
+Tags:
+Thyroid
+
+
+Question:
+In patients with Hyperparathyroidism, what anatomic area expected to show more severe osteoporosis?
+
+Ans:
+Distal radius
+-BMD of distal radius by DEXA should be done serially.
+Tags:
+hyperparathyroidism
+hyperparathyroidism∷osteoporosis
+osteoporosis
+
+
+Question:
+ What is Darier's sign and what disease does it suggest?
+
+Ans:
+Hyperpigmented skin lesions that when rubbed cause pruritis
+-highly suggestive of MAST CELLS, think of Systemic Mastocytosis
+-check tryptase and bone marrow biopsy
+Tags:
+hematology
+skin
+
+
+Question:
+What muscle/tendon does the EMPTY CAN aka Jobe test?
+
+Ans:
+Supraspinatus
+-most commonly involved tendon in rotator cuff tendinitis
+-shoulder abduction to 30 degrees
+Tags:
+MSK
+rotator∷cuff
+tendinopathy
+
+
+Question:
+Can you use azathioprine/cyclosporine in combination with JAKi?
+Ans:
+no
+-also cannot use Probenecid with JAKi
+Tags:
+azathioprine
+biologic
+JAKi
+Medication
+
+
+Question:
+Which features of AxSpa are associated with radiologic progression?
+
+Ans:
+-male sex
+-older age
+-smoking history***3rd
+-elevated inflammatory markers***2nd
+-syndesmophytes ***1st strongest
+Tags:
+Ankylosing∷spondylitis
+
+
+Question:
+What factors place a child with JIA at highest risk for uveitis?
+
+Ans:
+ANA+
+Developing arthritis before age 7
+Short disease duration (less than 4 years). In other words, recent onset of disease is EXTREMELY IMPORTANT to rule out uveitis.
+-***also, if photo of eye, look for irregular pupil which results from SYNECHIAE formation.....BIG RISK FACTOR for uveitic glacuoma***
+-CARE 2020 q24!!!!!!!!
+
+
+***+RF does NOT increase risk of uveitis in JIA
+Tags:
+ACR
+JIA
+ophthalmology
+pediatric
+
+
+Question:
+What factors are associated with higher risk of death in PAN?
+
+Ans:
+proteinuria >1g daily, renal disease, cardiomyopathy, severe GI disease, and CNS disease
+-presence/absence of hepatitis not shown to indicate worse prognosis
+Tags:
+PAN
+vasculitis
+
+
+Question:
+What is the most common EKG finding in a patient with sarcoid?
+
+Ans:
+3rd degree AV block
+-2nd most common is V. Tach
+Tags:
+sarcoidosis
+
+
+Question:
+What disease has:
+-LOW Alk phos
+-Elevated Vit B6
+-HIGH urine phosphoethanolamine
+-adults will have osteomalacia, dental abnormalities, multiple fractures, osteoporosis
+
+Ans:
+Hypophosphatasia (HPP)
+
+TX: asfotase alpha
+DX: confirm with genetic testing
+
+-inactivating mutation of gene that encodes ALPL (nonspecific alkaline phosphatase)
+Tags:
+gene
+Hypophosphatasia
+miscellaneous
+osteomalacia
+osteoporosis
+
+
+Question:
+A patient with Rheumatoid Arthritis taking Methotrexate and HCQ is doing well, however has lost weight and developed several nonhealing ulcers. No joint swelling/morning stiffness. Lymph node bx showed polymorphic lymphoproliferative disorder. Next step?
+
+Ans:
+Withdrawal of MTX
+-not use RTX at this time
+-MTX-associated LPDs is well described (Epstein Barr virus thought to play important role)
+Tags:
+Medication
+Methotrexate
+Rheumatoid∷arthritis
+
+
+Question:
+In NCV/EMG abnormal in Multiple Sclerosis?
+
+Ans:
+No, NCV/EMG is typically normal, because lesions are central
+Tags:
+NCV/EMG∷mulitple∷sclerosis
+neurology
+
+
+Question:
+-infants/children with FAILURE TO THRIVE
+-growth and mental retardation
+-leads to ESRD with nephrocalcinosis 2/2 hypercalciuria
+
+Ans:
+Bartter syndrome
+-Autosomal recessive
+-Metabolic ALKALOSIS
+-***Mag is normal (vs Gitelman)***
+-Urine calcium normal or increased (vs. Gitelman which has low urine Ca)
+Tags:
+miscellaneous
+RTA
+
+
+Question:
+What test has patient place their arm behind back and push against resistance? What muscle?
+
+Ans:
+Gerber's test aka Lift-off test
+Subscapularis
+-the ONLY muscle for INTERNAL ROTATION (rotator cuff)
+Tags:
+MSK
+rotator∷cuff
+tendinopathy
+tendinopathy∷rotator∷cuff
+
+
+Question:
+Which Th cell is mainly responsible for EGPA?
+
+Ans:
+Th2
+-leading to elevated IL-5
+Tags:
+immunology
+
+
+Question:
+What physical exam finding indicates history of JIA vs. RA in a seronegative patient?
+
+Ans:
+Micrognathia
+-sign of long standing TMJ arthritis during childhood
+Tags:
+JIA
+miscellaneous
+pediatric
+Rheumatoid∷arthritis
+
+
+Question:
+Rheumatoid arthritis patient on TNFi develops unsteady gait/ataxia. Later, dysarthric speech, horizontal nystagmus, appendicular dystaxia, hyperreflexia, with progression to areflexic quadraplegia. 
+MRI with "white matter changes, possibly normal for age". 
+CSF for viral, bacteria, fungal all negative. He improved with IV steroids...
+
+Ans:
+Guillain-Barre syndrome VARIANT
+-TNFi can cause demyelination in CNS and PNS
+-most common GBS variant is Acute Inflammatory Demyelinating Polyradiculopathy (AIDP)
+
+***CARE 2016, q46
+
+***Contrast to CARE 2016 q22. 
+I would look at both of these CARE questions and their explanations to differentiate the types of rare neurological side effects from TNFi. 
+Tags:
+biologic
+TNFi∷neurology
+
+
+Question:
+Patient with very destructive foot/ankle arthritis that is painful. Neuro exam normal. She does not have diabetes. What is dx?
+
+Ans:
+Pseudo-neuroarthropathy of CPPD
+-most important finding on physical exam is NORMAL neuro exam.
+-***Diabetic neuroarthropathy/Charcot's joint is painless
+Tags:
+CPPD
+crystal
+miscellaneous
+
+
+Question:
+What is SONK? Describe the presentation. 
+
+Ans:
+Spontaneous osteonecrosis of the knee
+-medial knee pain, TTP over medial femoral condyle
+TX: depends on size of lesion
+-if less than 3.5cm, usually regress
+-if more than 3.5cm, surgery
+Tags:
+SONK∷knee∷pain
+
+
+Question:
+In Complex Regional Pain Syndrome, what treatment may assist with prevention after surgery?
+
+Ans: 
+Vitamin C 500mg QD for 50 days post-op
+Tags:
+CRPS
+miscellaneous
+
+
+Question:
+In a patient with SLE, which antibody is associated with development of erosive arthritis?
+
+Ans:
+Anti-CarP
+-not RF
+-not dsDNA
+Tags:
+arthritis
+SLE
+
+
+Question:
+In studies, is Upadacitinib + MTX superior to Humira + MTX?
+
+Ans:
+Yes, SUPERIOR and NON-INFERIOR
+Tags:
+biologic
+JAKi
+Medication
+
+
+Question:
+What is treatment for borrelial lymphocytoma?
+
+Ans:
+Oral abx 14 days
+
+WEAK Rec'd, low quality evidence
+Tags:
+ACR
+Lyme
+
+
+Question:
+What is the most comm on type of panniculitis?
+
+Ans:
+Erythema nodosum
+-inflammatory infiltrate of fibrous septa between fat lobules (ie. septal panniculitis)
+Tags:
+panniculitis
+
+
+Question:
+What feature of C-ANCA vasculitis is most associated with relapse?
+
+Ans:
+PR3 positivity
+Tags:
+ANCA
+GPA/MPA
+
+
+Question:
+What is Poncet's disease?
+
+Ans:
+Inflammatory peripheral arthritis in active TB.
+Tags:
+arthritis
+miscellaneous
+tuberculosis
+
+
+Question:
+What would muscle biopsy of suspected McArdle disease show?
+
+Ans:
+Absence of myophosphorylase
+Tags:
+glycogen∷storage∷disease
+
+
+Question:
+What unique hematologic condition can occur in severe RA (and solid tumors, and SLE)?
+-not Felty's
+
+Ans:
+Acquired Factor 8 INHIBITOR
+-classic presentation is ***deep soft tissue bleeding*** in response to a challenge such as SURGERY, or an INVASIVE PROCEDURE (including IM injection)
+-prolonged PTT, normal PT
+Tags:
+hematology
+Rheumatoid∷arthritis
+SLE
+
+
+Question:
+What is the most common cause of erythema nodosum in children?
+
+Ans:
+Streptococcal infection
+Tags:
+erythema∷nodosum
+
+Question:
+What are the amplitude, duration, and recruitment in patients with myositis?
+
+Ans:
+Small amplitude
+Short duration
+Early recruitment
+Tags:
+EMG
+
+
+Question:
+What skin disorder can be associated with APS?
+
+Ans:
+Anetoderma
+-can be the presenting sign in some patients
+-also, livedo reticularis 
+Tags:
+APS
+
+
+Question:
+What drugs are known to cause ANCA vasculitis?
+
+Ans:
+Hydralazine, PTU, methimazole
+-also mirabegron-sofosbuvir, nintedanib***(in 2022)
+Tags:
+ANCA
+vasculitis
+
+
+Question:
+Can SLE cause hearing loss?
+
+Ans:
+Yes
+-suspect autoimmune hearing loss from SLE in BL sensorineural hearing loss. 
+
+-of note, Cogan's syndrome will have interstitial keratitis + hearing loss.****
+Tags:
+SLE
+
+
+Question:
+A female patient with rash that develops after prolonged walking/standing/hiking/long plane flights. Some eye dryness. No ulcers, Raynauds, joint pains, fevers, etc. Skin biopsy shows LCV. Negative hepatitis serologies, +RF. What is next test to check?
+
+Ans:
+Immunoglobulins
+
+-this is Benign Hypergammaglobulinemic purpura of Waldenstrom (BHPW)
+-elevated IgG
+-associated with Sjogrens and +RF is universal
+-***Cryos not always presents, as this is not Cryoglobulinemic vasculitis. But rather immune complex deposition in DERMAL VESSELS due to HYDROSTATIC PRESSURE (prolonged standing)
+-No TXs, so can keep occurring.
+
+CARE 2014, q20
+Tags:
+immunology
+LCV
+Sjogren's
+vasculitis
+
+
+Question:
+What cumulative dose of cyclophosphamide is associated with premature ovarian failure (POF)?
+
+Ans:
+5.9g or more
+Tags:
+cyclophosphamide
+Medication
+
+
+Question:
+In patients with CVID, what bacterial joint infection is most likely (what organisms)?
+
+Ans:
+-Ureaplasma, Mycoplasma, Staph, Strep, Haemophilus
+-in sexually active, think N. gonorrhea
+-also consider this in PREGNANT PATIENTS, because they are also immunocompromised
+Tags:
+arthritis
+infection
+septic∷arthritis
+
+
+Question:
+Describe HIDs
+
+Ans:
+-Hyper IgD syndrome
+-form of HEREDITARY periodic fever syndrome
+-Autosomal Recessive
+-will occur in BABIES....in FRANCE, NETHERLANDS
+-triggered by VACCINES***
+
+-obviously elevated IgD
+-lasts 3-7 days***
+-TX: NSAIDs, Anakinra/Canakinumab
+Tags:
+autoinflammatory
+HPFS
+pediatric
+
+
+Question:
+How long does Methotrexate take to take effect?
+
+Ans:
+4 weeks, because of POLYGLUTAMATION
+Tags:
+Medication
+Methotrexate
+
+
+Question:
+What rare lung finding can be in the initial presentation of MPA?
+
+Ans:
+Interstitial (pulmonary) fibrosis
+-most common pattern is UIP
+Tags:
+ANCA
+
+
+Question:
+What infection that causes cryoglobulinemic vasculitis can occur with people in contact with farm animals?
+
+Ans:
+Coxiella burnetii (Q fever)
+-can also cause Mixed Cryoglobulinemia syndrome (Type 2)....+RF, LCV, low C4, etc.
+-think of this in a patient with flu like sx, hepatitis, infective endocarditis, - BCx, and MCS, ANA - , and HCV -.
+-Care 2021, q50
+Tags:
+cryoglobulinemia
+infection
+LCV
+vasculitis
+
+
+Question:
+In a child with history of HSP, what is the most important aspect of for long-term follow up?
+
+Ans:
+Serial UA and BP screening
+-HSP related nephritis could occur.
+-no need for GI referral unless intussusception sx persist
+Tags:
+HSP
+
+
+Question:
+How to determine anemia of inflammation and chronic disease (AICD)?
+
+Ans:
+Mediated by hepcidin
+-Hepcidin inhibits DIET iron absorption in duodenum
+-decreased iron recycling via downregulation of iron exporter ferroportin
+-increased internalization of ferroportin, preventing release of iron stores
+-bone marrow iron adequate
+-ferritin elevated
+Tags:
+anemia
+inflammation
+
+
+Question:
+Which osteoporosis med may play a role in reducing bone erosions in Rheumatoid arthritis?
+
+Ans:
+Denosumab
+Tags:
+Medication
+osteoporosis
+Rheumatoid∷arthritis
+
+Question:
+Do all ARB (angiotensin receptor blockers) have a uricosuric effect?
+
+Ans:
+NO
+-only losartan does. Not a class effect.
+Tags:
+crystal
+gout
+Medication
+
+
+Question:
+Which antibodies support diagnosis of autoimmune hemolytic anemia?
+
+Ans:
++DAT for IgG and C3
+Tags:
+anemia
+SLE
+
+
+Question:
+Besides HCQ, what other medication is known to cause retinal toxicity?
+
+Ans:
+Tamoxifen (especially when given with HCQ)
+Tags:
+Medication
+
+Question:
+What medication can accelerate/cause DISH?
+
+Ans:
+Isotretinoin
+Tags:
+Medication
+
+
+Question:
+Of the known statins, which is (are) not metabolized by cytochrome p450 system?
+
+Ans:
+Rosuvastatin and pravastatin
+-so if someone develops statin myopathy while also taking for example fluconazole, can change to one of these
+Tags:
+Medication
+myopathy
+
+
+Question:
+Patient found to have Whipple's disease (chronic diarrhea, migratory polyarthritis, weight loss) receives IV ceftriaxone, then transition to oral Bactrim. 2 weeks later develops 102F, with polyarticular effusions. What should you do?
+
+Ans:
+Provide prednisone
+-this is IRIS, immune reconstitution inflammatory syndrome, that starts after antibiotics
+-can start after HIV, leprosy, TB, Whipple's disease, and opportunistic infections in transplant patients.
+-***relapse of disease would take a little longer to occur***
+Tags:
+immunology
+
+
+Question:
+What happens with ABCG2 protein dysfunction?
+
+Ans:
+DECREASED extrarenal (aka. in the gut) urate excretion
+Tags:
+crystal
+gout
+
+
+Question:
+JAKi are likely more likely to cause reduced CRP levels compared to other bDMARDs, T or F?
+
+Ans:
+True
+-but JAKis can increase chance of Zoster, LFTs, and total cholesterol
+Tags:
+biologic
+JAKi
+Medication
+
+Question:
+Adult with LCV and IgA deposition in dermis. Has renal disease and hematuria. Unable to tolerate high dose steroids. Treatment?
+
+Ans:
+RTX (for IgA vasculitis)
+-if patient only had skin IgA vasculitis (not renal), could consider dapsone.
+Tags:
+
+LCV
+LCV∷IgA
+vasculitis
+
+
+Question:
+What did PEXIVAS trial prove in regards to steroid tapering for ANCA vasculitis?
+Ans:
+Pulse steroids followed by 1mg/kg tapered to 5mg daily by 4 months was just as effective as more prolonged taper.
+-this also decreased risk of infections, and noninferior
+Tags:
+ANCA
+journal
+
+
+Question:
+MRI shows surface fibrillation/irregularity,  partial thickness defect OR full thickness defect and underlying abnormalities in bone.
+
+Ans:
+Osteoarthritis
+Tags:
+osteoarthritis
+radiology
+
+
+Question:
+What disease should you suspect in someone with swollen joints, abdominal pain, and erythema nodosum vs. panniculitis on legs?
+
+Ans:
+PPP syndrome
+Pancreatitis panniculitis polyarthritis syndrome
+-CARE 2021, q45.
+-order CT abdomen to check pancreas. Aspiration does not help.
+-steroids DO NOT HELP
+Tags:
+miscellaneous
+
+
+Question:
+In RA, how do fibroblasts communicate with each other?
+
+Ans:
+Cadherin-11
+Tags:
+immunology
+
+
+Question:
+Young child, <5 years old, refusal to walk.
++fever, +conjunctival injection, +rash.
+The rash is worse in the groins BL.
+
+Ans:
+Kawasaki Disease
+-refusal to walk <5 years old is ***KEY***
+-fever is usually constant/unremitting (vs. sJIA fevers typically return to normal***)
+-LDH can be elevated, 20%
+-***TTE and cards consult EXTREMELY IMPORTANT***
+TX: IVIG, ASA, Infliximab
+If refractory fevers after 2 rounds IVIG, use infliximab
+Tags:
+pediatric
+
+
+Question:
+What feature of RA is most concerning for the development of C-spine subluxation?
+
+Ans:
+Presence of peripheral joint erosions
+Tags:
+Rheumatoid∷arthritis
+
+
+Question:
+Most common organism causing septic arthritis in Sickle cell disease
+
+Ans:
+Staph aureus
+Tags:
+infection
+
+
+Question:
+A patient has hepatosplenomegaly, anemia, thrombocytopenia, and fatty build in in the liver, spleen and bone. AVN found on xray.
+
+Ans:
+Gaucher's disease
+-reduced function of GLUCOCEREBROSIDASE, aka glucosyleramidase, or acid beta-glucosidase
+-Xray legs show "Erlenmeyer flask deformity"
+-CARE 2018, q53
+Tags:
+metabolic
+
+
+Question:
+Which HLA has increased risk of Rheumatoid arthritis-ILD?
+
+Ans:
+HLA-DRB1-1502
+Tags:
+gene
+Rheumatoid∷arthritis
+
+
+Question:
+Physical exam finding of weakness of wrist and all 4 finger extensors, and brachioradialis with preserved triceps means what problem?
+
+Ans:
+Radial nerve palsy (not posterior interosseous neuropathy)
+-aka "Saturday Night Palsy", from compression against the humerus
+Tags:
+MSK∷neuropathy
+
+
+Question:
+What does Romosozumab prevent (MOA)?
+
+Ans:
+Prevents sclerostin from binding to LRP5/6 and blocking Wnt signaling
+-results in bone formation
+Tags:
+Medication
+osteoporosis

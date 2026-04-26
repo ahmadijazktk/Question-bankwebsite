@@ -1,0 +1,36 @@
+Question:
+According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?
+
+Methotrexate? {{………….}}
+Leflunomide? {{………….}}
+Azathioprine? {{………….}}
+TNFi? {{………….}}
+Abatacept? {{………….}}
+Tocilizumab? {{………….}}
+Nintedanib? {{………….}}
+Pirfenidone? {{………….}}
+PLEX? {{………….}}
+
+Ans:
+According to the 2023 ACR guidelines for ILD, are the following recommended FOR or AGAINST as 1st line treatment for RP-ILD (from Systemic autoimmune rheumatic diseases)?
+
+Methotrexate? AGAINST 
+Leflunomide? AGAINST
+Azathioprine? AGAINST
+TNFi? AGAINST
+Abatacept? AGAINST
+Tocilizumab? AGAINST
+Nintedanib? AGAINST
+Pirfenidone? AGAINST
+PLEX? AGAINST
+
+Essentially, the treatment options for RP-ILD are:
+
+IV steroids, Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi
+
+***if patient has MDA5 RP-ILD, there is a conditional recommendation for "triple therapy", which is:
+
+IV steroids + 2 of the above options (Rituximab, Cyclophosphamide, IVIG, MMF, CNIs, or JAKi)
+
+Image: rp_ild_algorithm.jpg
+Tags: ACR, ILD

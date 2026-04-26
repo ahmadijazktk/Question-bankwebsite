@@ -1,0 +1,14 @@
+Question:
+What does a biopsy of s-IBM show?
+
+Ans:
+Triad of inflammation, invasion of CD8+ lymphocytes of muscle fibers (with MHC I), cytoplasmic and intranuclear inclusions containing amyloid beta and other Alzheimer-type proteins, and segmental loss of cytochrome C oxidase activity in muscle fibers.
+
+-can present with facial muscle involvement. CKs normal or mildly elevated
+-***weakness of finger flexion and knee extension***
+
+Image: ibm_pathology.jpg
+Tags:
+histology
+myopathy
+myositis

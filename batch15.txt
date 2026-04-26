@@ -1,0 +1,13 @@
+Question:
+What are the xray findings of Hyperparathyroidism?
+
+Ans:
+Osteitis fibrosa cystica
+-can cause bone pain
+-subperisosteal bone resorption on RADIAL aspect of middle phalanges, tapering of distal clavicles, a "salt and pepper" appearance of the skull, bone cysts, and.....BROWN TUMORS of long bones
+
+Image: hpt_skull.jpg
+Image2: hpt_phalanges.jpg
+Tags:
+hyperparathyroidism
+radiology

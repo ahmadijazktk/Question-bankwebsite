@@ -1,0 +1,42 @@
+Question:
+middle aged man/woman with popping/clicking of knee, and with pain. ***MEDIAL knee pain***
+-MRI shows thickened synovial fibrous band.
+-erosion of articular cartilage of patella and femoral condyle
+
+Ans:
+Plica Syndrome
+
+-thickened, taut, cord like band (normally it should be thin)
+
+Image: plica_syndrome.jpg
+Tags:
+knee∷pain
+orthopedic
+
+Question:
+Dysfunction of what causes "too many toes" sign?
+
+Ans:
+Tibialis posterior tendon
+-unable to invert foot, therefore "too many toes" seen from posterior view
+-medial
+
+Image: too_many_toes.png
+Tags:
+orthopedic
+
+Question:
+How do the PRES lesions appear on MRI (T2)?
+
+Ans:
+Hyperintense in posterior white matter (typically)
+
+-clinical presentation can look similar to CNS lupus (as well as PML), but location of lesions and clinical context very important for PRES (CNS SLE lesions typically in frontal lobes/near lateral ventricles)
+
+TX: anti-HTN, anti-seizure, supportive
+CARE 2020, q48
+
+Image: pres_mri.jpg
+Tags:
+neurology
+radiology

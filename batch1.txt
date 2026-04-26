@@ -1,0 +1,118 @@
+Question:
+For patients with active, nonsevere EGPA, we {{…….. }} initiating treatment with {{……..}} over {{………}}.
+
+Ans:
+For patients with active, nonsevere EGPA, we conditionally recommend initiating treatment with MTX/AZA/MMF + GCs over CYC/RTX and GCs.
+*look at the ACR ANCA Vasculitis to see how they define “non-severe” vs. “severe"
+
+Non-severe = "Vasculitis without life- or organ-threatening manifestations (e.g., rhinosinusitis, asthma, mild systemic symptoms, uncomplicated cutaneous disease, mild inflammatory arthritis)"
+
+Severe = "Vasculitis with life- or organ-threatening manifestations (e.g., alveolar hemorrhage, glomerulonephritis, central nervous system vasculitis, mononeuritis multiplex, cardiac involvement, mesenteric ischemia, limb/digit ischemia)" 
+
+
+Tags: ACR, ANCA, Cyclophosphamide, EGPA, Methotrexate, MMF, Rituximab, vasculitis
+
+Question:
+Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with {{…….}} over {{…….}} for remission induction.
+
+Ans:
+Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with RTX over CYC for remission induction.
+
+Tags: ACR, ANCA, cyclophosphamide, GPA/MPA, Rituximab
+Question:
+For patients with suspected GCA, we conditionally recommend an initial {{c1:: unilateral temporal artery biopsy over bilateral}} biopsies?
+
+Ans:
+For patients with suspected GCA, we conditionally recommend an initial unilateral temporal artery biopsy over bilateral biopsies?
+
+Tags:
+ACR
+GCA
+histology
+vasculitis
+
+
+Question:
+For patients with newly diagnosed GCA with threatened vision loss, we conditionally recommend initiating treatment with {{……...}} 
+
+Ans:
+For patients with newly diagnosed GCA with threatened vision loss, we conditionally recommend initiating treatment with IV pulse GCs over high-dose oral GCs. 
+The key here is "threatened vision loss". 
+
+Tags: ACR, GCA, histology, vasculitis
+Question:
+For patients with newly diagnosed GCA, we conditionally recommend the use of {{………. }}.
+
+Ans:
+For patients with newly diagnosed GCA, we conditionally recommend the use of oral GCs with tocilizumab over oral GCs alone.
+
+Tags: ACR, GCA, Medication, Ophthalmology, vasculitis
+
+Question:
+For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we conditionally recommend {{………}}.
+
+Ans:
+For patients with GCA who have critical or flow-limiting involvement of the vertebral or carotid arteries, we conditionally recommend adding aspirin.
+
+Tags: 
+ACR
+GCA
+Medication
+vasculitis
+
+
+Question:
+For patients with suspected GCA and a negative temporal artery biopsy result (or results), we conditionally recommend {{……...}} 
+
+Ans:
+For patients with suspected GCA and a negative temporal artery biopsy result (or results), we conditionally recommend  noninvasive vascular imaging of the large vessels with clinical assessment to aid in diagnosis over clinical assessment alone. 
+
+Tags:
+ACR
+GCA
+histology
+radiology
+vasculitis
+
+
+Question:
+Th2 {{……….}}…….promotes {{……..}} proliferation
+
+Ans:
+Th2 activated by IL-4…….promotes  IL-4, IL-5 proliferation
+
+Tags:
+immunology
+
+
+Question:
+For patients with suspected GCA, we conditionally recommend obtaining a temporal artery biopsy specimen within {{……..}} of starting oral GCs over waiting longer than {{……..}}
+ for a biopsy. 
+
+Ans:
+
+For patients with suspected GCA, we conditionally recommend obtaining a temporal artery biopsy specimen within 2 weeks of starting oral GCs over waiting longer than 2 weeks
+ for a biopsy. 
+
+Tags: 
+ACR
+GCA
+histology
+
+
+Question:
+For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every {{c1::3-6 months}} rather than either shorter or longer intervals, for the first year, then less frequently once stable.
+
+Ans:
+
+This is from Table 2. Summary of Recommendations for Monitoring for ILD Progression (2023)
+
+-does not mention "conditionally" or "strongly"This is from Table 2. Summary of Recommendations for Monitoring for ILD Progression (2023)
+
+-does not mention "conditionally" or "strongly"
+
+Tags:
+ACR
+ILD
+myositis
+scleroderma

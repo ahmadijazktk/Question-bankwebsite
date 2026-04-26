@@ -1,0 +1,379 @@
+Question:
+For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every {{……..}} rather than shorter or longer intervals, for the first year, then less frequently once stable.
+Ans:
+For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every 3-12 months rather than shorter or longer intervals, for the first year, then less frequently once stable.
+Tags:
+ACR
+ILD
+MCTD
+Rheumatoid∷arthritis
+Sjogren's
+
+
+
+Question:
+For people with SARDs-ILD, we suggest assessment for ambulatory desaturation every {{………..}} rather than at shorter or longer intervals.
+
+Ans:
+For people with SARDs-ILD, we suggest assessment for ambulatory desaturation every 3-12 months rather than at shorter or longer intervals.
+Tags:
+ACR
+ILD
+
+Question:
+To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of {{……….}} over a dose goal of {{……..}}
+
+Ans:
+To minimize retinal toxicity, we conditionally recommend a long-term average daily HCQ dose goal of  ≤5 mg/kg over a dose goal of  >5 mg/kg
+
+Tags:
+ACR
+Medication
+SLE
+
+
+Question:
+What is treatment for acrodermatitis chronica atrophicans?
+Ans:
+Oral abx 21-28 days
+
+WEAK Rec'd
+
+Tags:
+ACR
+Lyme
+skin
+
+
+Question:
+What is the shared epitope in RA?
+
+Ans:
+HLA-DRB1-0401 Vimentin
+
+Tags:
+immunology
+Rheumatoid∷arthritis
+
+
+Question:
+What does positive Freiburg test maneuver mean? (forceful internal rotation of extended thigh)
+
+Ans:
+Piriformis syndrome
+
+Tags:
+MSK
+piriformis
+
+
+Question:
+What gene associated with Loeys-Dietz syndrome?
+
+Ans:
+TGFBR2
+
+Tags:
+gene
+miscellaneous
+
+
+Question:
+What is treatment for Lyme associated Bell's palsy?
+
+Ans:
+Oral doxycycline 14-21 days
+
+STRONG REC'D
+
+Tag:
+ACR
+Lyme
+neurology
+
+
+Question:
+Is CK normal or elevated in HypoThyroidism?
+
+Ans:
+Elevated (if 2/2 myopathy)
+
+Tags:
+myopathy
+Thyroid
+
+
+Question:
+Young child with arthralgias, right midfoot swelling, weight loss, poor sleep, and oral ulcers. Normal CBC, UA and Cr/GFR.
+-iron anemia
+-elevated ESR
+
+Ans:
+Juvenile spondyloarthritis (likely related to Crohn's)
+-midfoot tarsitis is BUZZPHRASE
+-children may NOT have diarrhea
+-normal CBC and LDH rules out leukemia
+
+Tags:
+JIA
+spondyloarthropathy
+
+
+Question:
+In a patient with Behcets and hemoptysis, which imaging modality is best to assess for pulmonary artery aneurysms?
+
+Ans:
+Spiral CTA of chest.
+-not MRA of chest, because it lacks sensitivity to detect medium and small vessels, and venulitis. Also cannot comment on lung parenchyma.
+
+Tags:
+Behcets
+radiology
+
+
+Question:
+What disease has:
+-myalgias, bone pain
+-osteomalacia
+-LOW phosphate
+-HIGH Alk phas
+-HIGH urinary phosphate
+-HIGH FGF23 level
+-low 1,25 Dihydroxyvitamin D
+
+Ans:
+Oncogenic (tumor induced) osteomalacia
+-rare cause of osteomalaica in adults/children
+-***if LOW Alk phos...think HPP
+
+TX: surgical removal of tumor
+
+Tags:
+osteomalacia
+
+
+Question:
+You suspect Parvovirus infection. What test can be positive in acute phase, aside from Parvo antibodies?
+
+Ans:
+Rheumatoid Factor (RF)
+-ESR rarely elevated
+-WBC typically normal
+-synovial fluid is non-inflammatory
+
+Tags:
+Parvovirus
+
+
+Question:
+A young patient has painful crises in hands/feet, blue skin rash, anhidrosis, diarrhea, and corneal dystrophy.
+
+Ans:
+Fabry Disease
+-deficiency in alpha-galactosidase A, causing glycolipid buildup
+-this can cause "zebra bodies" in the kidney
+      -side note***: HCQ can also cause "zebra bodies" in kidney
+
+Tags:
+Fabry
+miscellaneous
+
+
+Question:
+What are the 2 features of Relapsing Polychondritis that are associated with increased mortality?
+
+Ans:
+Concomitant myelodysplastic syndrome
+Tracheobronchial (laryngotracheal) involvement
+
+***need to suspect VEXAS in male patients with RP***
+
+Tags:
+Relapsing∷polychondritis
+
+
+Question:
+What lab value may be used to indicate PJP infection in an immunosuppressed patient?
+
+Ans:
+Elevated LDH
+-can use Bactrim, dapsone, atovaquone or inhaled pentamidine for prophylaxis 
+
+Tags:
+Immunocompromised∷infection
+
+
+Question:
+What cells are in synovial fluid vs. biopsy in patient with Rheumatoid arthritis?
+
+Ans:
+Synovial fluid has NEUTROPHILS
+Synovial biopsy has LYMPHOCYTES
+
+Tags:
+immunology
+Rheumatoid∷arthritis
+
+
+Question:
+What is difference between multiple epiphysial dysplasia and pseudochondroplasia?
+Ans:
+Both have similar genetic mutation. Pseudoachondroplasia tends to show more SEVERE phenotype including VERTEBRAL involvement (rounding of vertebral bodies).
+Tags:
+gene
+
+
+Question:
+Physical exam finding of localized tenderness several centimeters distal to the lateral epicondyle + aggravated pain with resisted MIDDLE FINGER extension means what?
+
+Ans:
+Posterior Interosseous Neuropathy
+
+-this is not PIN Syndrome......which is more weakness than pain
+-this is more "progressive" than just PIN syndrome. Because you develop pain later, along with weakness.
+
+Tags:
+maneuvers
+miscellaneous
+neurology
+Neuropathy
+tendinopathy
+
+
+Question:
+Name risk factors for atypical femur fracture from bisphosphonates
+
+Ans:
+Asian
+Longer than: 3 years for oral, 5 years for IV
+Age between 65 and 85
+Increased weight
+Shorter height
+Tags:
+Bisphosphonates∷osteoporosis
+
+
+Question:
+What causes elevated FGF-23 (fibroblast growth factor 23)?
+
+Ans:
+can be from:
+1) osteomalacia 2/2 renal phosphate wasting
+2) X-linked hypophosphatemic rickets
+3) acquired Tumor-induced osteomalacia
+-serum PHOSPHATE will be LOW
+-remember that FGF-23 decreases reabsorption of phosphate, and decreased production of 1,25-OH Vit D
+
+Tags:
+osteomalacia
+
+
+Question:
+A patient with SSc has bloating. What is the treatment and why?
+
+Ans:
+Rifaximin or macrolide (erythromycin)
+-patient has small intestinal bacterial overgrowth (SIBO)
+-can cause low Vit D and B12
+-look for neuropathy symptoms
+Tags:
+scleroderma
+
+
+Question: 
+Aside from checking Hep B antibodies, what else should be checked before starting RTX?
+
+Ans:
+IgG levels
+-because low levels MUCH MORE predictive of serious infections (moreso than low IgM or IgA)
+Tags:
+immunology
+Medication
+Rituximab
+
+
+Question:
+Which med used to treat breast cancer can cause arthralgias?
+
+Ans:
+Anastrozole 
+Tags:
+Medication
+miscellaneous
+
+
+Question:
+Describe features of FCAS (Familial Cold Autoinflammatory Syndrome) 
+Ans:
+-remember "C" for Cryopyrin...belongs to NLRP3
+-triggered by Cold, for “C”
+-low fevers, polyarthralgia
+-HIVES
+-form of CAPS (Cryopyrin-associated Periodic Syndrome), Autosomal Dominant....GOF in NLRP3
+Tags:
+CAPS
+gene
+pediatric
+
+
+Question:
+-young patient <50, with arthralgias, myalgias, fatigue
+-features of CPPD, but also with:
+-LOW K
+-LOW Mag
+-LOW urine Calcium
+-"salt craving"
+-recurrent attacks of pseudogout
+
+Ans:
+Gitelman Syndrome
+-most frequently inherited renal tubular disorders
+-Autosomal Recessive
+-causes metabolic ALKALOSIS
+Tags:
+CPPD
+crystal
+gout
+miscellaneous
+RTA
+
+
+Question:
+Aside from DI-SLE, what other reaction can occur from TNFi?
+
+Ans:
+Sarcoidosis
+-most patients present with LUNG and SKIN manifestations (hilar adenopathy, pernio)
+-especially Etanercept
+Tags:
+biologic
+Drug-induced∷SLE
+sarcoidosis
+TNFi
+
+
+Question:
+Complement activation through which pathway is important in ANCA associated vasculitis pathogenesis via C5a generation?
+
+Ans:
+Alternative complement pathway
+
+-lectin pathway activated by pathogen surface components (MBL)
+-classic pathway initiated by immune complexes (creates link between adaptive and innate response, starts with C1q)
+Tags:
+ANCA
+immunology
+
+
+Question:
+What gene associated with Sticker syndrome?
+
+Ans:
+COL2A1
+-early onset OA
+-Autosomal Dominant
+-flat mid face, short nose, micrognathia
+-SUBSTANTIAL risk of retinal detachment
+Tag:
+gene
+miscellaneous
