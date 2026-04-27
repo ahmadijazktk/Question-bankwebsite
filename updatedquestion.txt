@@ -591,3 +591,7 @@ What does muscle biopsy of steroid myopathy look like?	Type II fiber atrophy<br>
 What does muscle biopsy of anti-synthetase syndrome show?	Perimysial inflammation<br>"Perifascicular necrosis"	histology myopathy myositis	anti_synthetase_perifascicular.jpg
 Which type of myositis is associated with "angel wings" sign?	Anti- SAE	myopathy myositis	anti_sae_angel_wings.jpg
 One way to tell difference between DISH vs. AxSpa on xray?	Look for RADIOLUCENCIES that suggest DISH (black spaces between ossification).<br><br><br><br>This can be very tricky.	Ankylosing∷spondylitis radiology	dish_vs_axspa.jpg
+What does a "high riding humeral head" on shoulder xray typically mean?	Rotator cuff tear<br>-more likely with a large supraspinatus tear	MSK radiology tendinopathy	high_riding_humeral_head.png
+What is shown here?<br><img src="ochronosis_spine.jpg">	Onchronosis/alkaptonuria, in the spine<br><br><br><br>*Normal spine will NOT have white opacification in the intervertebral spaces.	radiology
+What is shown here?<br><img src="hyperparathyroidism_hands.jpg">	Hyperparathyroidism<br><br><br><br>*Look at the radial aspect of the phalanges, which show subperiosteal resorption. There is also terminal acro-osteolysis.	hyperparathyroidism radiology
+What is this?<br><img src="mrh_hands.jpg">	Multicentric reticulohistiocytosis (MRH)<br><br><br><br>*look for a destructive arthritis that will affect the MCPs, PIPs, and DIPs. Can be seronegative. An important clue will be the periungal papules described in the question stem.	MRH radiology

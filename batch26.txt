@@ -1,0 +1,39 @@
+Question:
+What does a "high riding humeral head" on shoulder xray typically mean?
+Ans:
+Rotator cuff tear
+-more likely with a large supraspinatus tear
+Image: high_riding_humeral_head.png
+Tags:
+MSK
+radiology
+tendinopathy
+
+Question:
+What is shown here?<br><img src="ochronosis_spine.jpg">
+Ans:
+Onchronosis/alkaptonuria, in the spine
+<br><br>
+*Normal spine will NOT have white opacification in the intervertebral spaces. 
+Tags:
+radiology
+
+Question:
+What is shown here?<br><img src="hyperparathyroidism_hands.jpg">
+Ans:
+Hyperparathyroidism
+<br><br>
+*Look at the radial aspect of the phalanges, which show subperiosteal resorption. There is also terminal acro-osteolysis. 
+Tags:
+hyperparathyroidism
+radiology
+
+Question:
+What is this?<br><img src="mrh_hands.jpg">
+Ans:
+Multicentric reticulohistiocytosis (MRH)
+<br><br>
+*look for a destructive arthritis that will affect the MCPs, PIPs, and DIPs. Can be seronegative. An important clue will be the periungal papules described in the question stem. 
+Tags:
+MRH
+radiology
