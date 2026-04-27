@@ -1,0 +1,13 @@
+Question:
+What would a spine xray look like in a patient with Hyperparathyroidism?
+
+Ans:
+Rugger Jersey spine
+<br><br>
+-prominent endplate densities at multiple contiguous vertebral levels to produce an alternating sclerotic-lucent-sclerotic appearance
+
+Image: rugger_jersey_spine.jpg
+Tags:
+hyperparathyroidism
+miscellaneous
+radiology
