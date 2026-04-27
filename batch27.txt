@@ -1,0 +1,8 @@
+Question:
+What is shown here?<br><img src="rugger_jersey_spine_q.jpg"><br>
+Ans:
+<img src="rugger_jersey_spine_a.jpg"><br><br>
+Rugger Jersey Spine, from Hyperparathyroidism
+Tags:
+hyperparathyroidism
+radiology
