@@ -1,0 +1,56 @@
+Question:
+Describe what you see in each of the 4 histology images (Hint: skin)<br><img src="cutaneous_lupus_histo.jpg">
+Ans:
+***Top left: vacuolar changes at basal layer (the white circles)
+<br>Top right: blue is mucin deposition
+<br>Bottom left: basement membrane thickening with lymphocytic infiltrate
+<br>Bottom right: lymphocytes around adnexal structures (sweat glands)
+<br><br>***all these typical of Cutaneous lupus*****
+Tags:
+histology
+skin
+
+Question:
+What is shown here?<br><img src="lupus_pernio.jpg">
+Ans:
+Lupus pernio
+<br><br>
+-this is cutaneous sarcoidosis
+-unrelated to SLE or other cutaneous lupus syndromes
+-violaceous, indurated lesions of face, cheeks, and nose
+<br>TX: steroids, colchicine, dapsone
+Tags:
+histology
+sarcoidosis
+skin
+
+Question:
+A 2-year-old female is admitted for a new stroke (this is her 2nd stroke). She has history of polyarthritis and rash, pictured below. What is this?<br><img src="dada2_rash.jpg">
+Ans:
+DADA2 (Deficiency of Adenosine DeAminase 2)
+<br><br>
+-pediatric patient with recurrent strokes, vasculitis-like rash (livedo reticularis). 
+<br>TX: TNFi
+Tags:
+autoinflammatory
+pediatric
+
+Question:
+What would muscle histopathology show in a patient with IBM?
+Ans:
+<img src="ibm_histopathology.jpg">
+Tags:
+histology
+myositis
+
+Question:
+A patient shows you these hands below. She has trouble breathing and intermitent mild weakness in her thighs. 
+What is this? (Be specific)<br><img src="anti_mda5_hands.jpg">
+Ans:
+Anti-MDA5 dermatomyositis
+<br><br>
+-associated with ulcerated Gottron's papules and rapidily progressive ILD (RP-ILD).
+-considered to be a type of amyopathic (hypomyopathic) myositis....hence the mild weakness in thighs. 
+Tags:
+ILD
+myositis
