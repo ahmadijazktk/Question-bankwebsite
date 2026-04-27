@@ -1,0 +1,15 @@
+Question:
+what you do ?<br><img src="vaccine_guidelines2_q.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Ans:
+<img src="vaccine_guidelines2_a.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Tags:
+vaccine
+guidelines
+
+Question:
+what you do ?<br><img src="vaccine_guidelines3_q.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Ans:
+<img src="vaccine_guidelines3_a.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Tags:
+vaccine
+guidelines
