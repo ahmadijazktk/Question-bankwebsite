@@ -1,0 +1,52 @@
+Question:
+What does muscle biopsy of colchicine look like?
+Ans:
+Vacuolar myopathy
+WHORLED membranous bodies (looks like SPIRALS)
+Image: colchicine_myopathy.jpg
+Tags:
+histology
+myopathy
+myositis
+
+Question:
+What does muscle biopsy of steroid myopathy look like?
+Ans:
+Type II fiber atrophy
+-stained black, the type 2 fibers look smaller/atrophied
+Image: steroid_myopathy_type2.jpg
+Tags:
+histology
+myopathy
+myositis
+
+Question:
+What does muscle biopsy of anti-synthetase syndrome show?
+Ans:
+Perimysial inflammation
+"Perifascicular necrosis"
+Image: anti_synthetase_perifascicular.jpg
+Tags:
+histology
+myopathy
+myositis
+
+Question:
+Which type of myositis is associated with "angel wings" sign?
+Ans:
+Anti- SAE
+Image: anti_sae_angel_wings.jpg
+Tags:
+myopathy
+myositis
+
+Question:
+One way to tell difference between DISH vs. AxSpa on xray?
+Ans:
+Look for RADIOLUCENCIES that suggest DISH (black spaces between ossification).
+<br><br>
+This can be very tricky.
+Image: dish_vs_axspa.jpg
+Tags:
+Ankylosing∷spondylitis
+radiology
