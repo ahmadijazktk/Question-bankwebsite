@@ -1,0 +1,16 @@
+Question:
+What does a muscle biopsy with HCQ toxicity look like?
+
+Ans:
+Cytoplasmic vacuoles (Gomori trichrome stain)
+<br>
+Curvilinear bodies and myeloid bodies (EM)
+<br><br>
+*they may ask a question stem involving a patient taking HCQ who develops CHF symptoms....remember HCQ cardiotoxicity would also show the above histology*
+
+Image: hcq_toxicity_v.jpg
+Image2: hcq_toxicity_em.jpg
+Tags:
+histology
+myopathy
+myositis
