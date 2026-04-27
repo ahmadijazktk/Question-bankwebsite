@@ -1,0 +1,13 @@
+Question:
+What physical exam finding indicates Thoracic outlet syndrome?
+
+Ans:
+Adson test
+<br><br>
+-usually from accessory 1st rib in neck (look at any chest xray they give you carefully)
+-test: abduct, then supinate affect arm. Turn head towards affected arm while taking a deep breath and holding. Diminished or absent RADIAL pulse and reproduction of sx is positive***
+
+Image: thoracic_outlet_rib.jpg
+Tags:
+miscellaneous
+MSK
