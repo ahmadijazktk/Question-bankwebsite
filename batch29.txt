@@ -1,0 +1,40 @@
+Question:
+What is this?<br><img src="lipid_crystals_maltese.jpg">
+Ans:
+Lipid crystals
+-Maltese cross
+Tags:
+crystal
+
+Question:
+What do "gout crystals" look like?<br>What do "pseudogout crystals" look like?
+Ans:
+<img src="gout_cpdd_crystals.png">
+Tags:
+ACR
+CPPD
+crystal
+gout
+
+Question:
+What does a muscle biopsy in a patient with suspected mitochondrial myopathy look like?
+Ans:
+"Ragged red fibers" on Gomori trichrome stain<br><img src="ragged_red_fibers.jpg">
+Tags:
+miscellaneous
+myopathy
+
+Question:
+What is this?<br><img src="osteitis_condensans_ilii.png">
+Ans:
+Osteiitis condensans ilii
+<br><br>
+-typically from mulitparous women, athletes. From mechanical stress across the joint. 
+<br><br>
+This is hard. 
+X-ray shows sclerosis at the ILIAC border of the SI joint. 
+***A typical radiographic finding to distinguish OCI from other causes (AxSpa) is the TRIANGULAR SHAPE of sclerosis at the ILIAC border with preserved joint space. 
+Tags:
+Ankylosing∷spondylitis
+osteoarthritis
+radiology
