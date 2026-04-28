@@ -1,0 +1,8 @@
+Question:
+what you do ?<br><img src="contraceptive_guideline5_q.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Ans:
+<img src="contraceptive_guideline5_a1.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')"><br>
+<img src="contraceptive_guideline5_a2.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Tags:
+guidelines
+contraception
