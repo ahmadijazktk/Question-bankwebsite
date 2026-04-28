@@ -1,0 +1,8 @@
+Question:
+what you do ?<br><img src="pregnancy_guideline2_q.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Ans:
+<img src="pregnancy_guideline2_a1.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')"><br>
+<img src="pregnancy_guideline2_a2.png" class="zoomable-img" onclick="this.classList.toggle('zoomed')">
+Tags:
+guidelines
+pregnancy
